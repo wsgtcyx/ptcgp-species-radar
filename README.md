@@ -26,3 +26,23 @@ Time window strictly 72h, both Reddit and X attempted, physical TCG excluded, pe
 ## License
 
 Research material and site design produced for this deployment. Pokémon and Pokémon TCG Pocket are third-party trademarks. This independent research dashboard is not affiliated with their owners.
+
+## Daily research and publishing contract
+
+A ChatGPT task named **PTCG Pocket 新物种选题雷达** is scheduled for **10:00 Asia/Shanghai every day**.
+
+Its end-to-end target:
+
+1. Search the latest **72 hours** of actual Pokémon TCG Pocket deck-building discussions on **Reddit and X**, with verified author, direct source URL, timestamp, card form and explicit deck intent. Deduplicate per species per author; exclude physical TCG, duplicate content and species already appearing in all pages of the site's species directory.
+2. Produce **five distinct missing-species deck-page build candidates** when evidence supports them. At least one directly verifiable relevant discussion in the 72-hour window is required for the confirmed build-candidate list. Mark single-author interest as limited evidence, not confirmed growth. Never claim five qualified items if fewer meet those tests. Put weaker leads separately in `watchlist`; record `qualified_count`, `target_count: 5` and the shortfall.
+3. Publish the completed research to `latest.json`, `latest.md` and a dated `history/` snapshot using authenticated GitHub writes. The static `index.html` reads `latest.json` dynamically.
+4. Read back the committed JSON, check the GitHub Pages deployment result for the **new commit**, and when possible fetch the public `latest.json` over HTTP to verify the published timestamp. Distinguish commit success from repository readback, Pages deployment, and public HTTP verification. Do not report public publishing as successful without evidence for each stage.
+5. On failed research or publication, report the precise blocker and **do not replace a previously good latest snapshot with an empty or fabricated result**.
+
+The target public endpoints are:
+
+- Web: https://wsgtcyx.github.io/ptcgp-species-radar/
+- JSON: https://wsgtcyx.github.io/ptcgp-species-radar/latest.json
+
+**Operational caveat:** The task prompt configures the desired GitHub-publishing steps, but an end-to-end **scheduled** run has not yet demonstrated that the automation execution environment can use the GitHub connection and verify the latest Pages deployment. Check its first scheduled run before treating daily updates as reliable.
+

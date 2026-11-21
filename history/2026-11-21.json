@@ -1,0 +1,165 @@
+{
+  "schema_version": "1.0",
+  "project": "PTCG Pocket Missing Species Deck Radar",
+  "generated_at": "2026-11-21T17:32:57+08:00",
+  "report_date": "2026-11-21",
+  "timezone": "Asia/Shanghai",
+  "window": {
+    "hours": 72,
+    "start": "2026-11-18T17:32:57+08:00",
+    "end": "2026-11-21T17:32:57+08:00"
+  },
+  "status": "partial_verified",
+  "summary": "Found one species worth validating for a new species-level overview page. Reddit provides two independently identifiable deck-building contributors; X original-post access was inconclusive. No comparable historical baseline to confirm accelerating discussion.",
+  "selection_rules": {
+    "max_candidates": 5,
+    "exclude_if_species_page_exists": true,
+    "exclude_physical_tcg": true,
+    "require_pocket": true,
+    "min_independent_authors_for_recent_multi_author_activity": 2
+  },
+  "site_audit": {
+    "species_directory_url": "https://www.pokemontcgpocket.app/en/deck/pokemon?sort=name",
+    "observed_species_count": 40,
+    "list_pages_read": 1,
+    "pagination_observed": false,
+    "pagination_note": "Name-sort All directory displayed 40 species on one rendered page, without a visible Next/pagination link. Cannot independently assert that hidden API or client-side pages do not exist.",
+    "candidate_species_present_in_directory": false,
+    "existing_archetype_deck_url": "https://www.pokemontcgpocket.app/en/deck/paldean-clodsire-c1",
+    "existing_archetype_deck_present": true,
+    "audit_scope": "Rendered publicly accessible All directory. This is not a full backend or sitemap inventory."
+  },
+  "source_coverage": {
+    "reddit": {
+      "original_posts_directly_verified": 1,
+      "comments_directly_verified": 1,
+      "known_verified_distinct_authors": 2,
+      "status": "partial"
+    },
+    "x": {
+      "original_posts_directly_verified": 0,
+      "known_verified_distinct_authors": null,
+      "status": "unable_to_verify",
+      "notes": "X original search/post access not confirmed; search engine and third-party mirrors excluded from author totals."
+    },
+    "multi_platform_unique_authors": null,
+    "trend_baseline_available": false,
+    "languages": {
+      "en": "attempted",
+      "ja": "attempted",
+      "es": "limited_attempt",
+      "pt": "limited_attempt",
+      "ko": "not_confirmed",
+      "de": "not_confirmed",
+      "fr": "not_confirmed",
+      "zh": "not_confirmed"
+    },
+    "sample_queries": [
+      "site:x.com \"Paldean Clodsire\" \"Whiscash\" \"deck\" 2026",
+      "site:x.com ポケポケ パルデアドオー デッキ 2026年11月",
+      "site:reddit.com/r/PTCGP/comments/1y07kop/ \"Deck to clean\""
+    ],
+    "limits": [
+      "Some Reddit originals could not be directly reopened.",
+      "Exact post times were not available in the accessible Reddit view; day dates supported by indexed result.",
+      "No verified X post IDs or original authors for this window.",
+      "No same-method prior 72-hour baseline for a growth claim."
+    ]
+  },
+  "candidates": [
+    {
+      "rank": 1,
+      "species": "Paldean Clodsire",
+      "species_zh": "帕底亚土王",
+      "species_slug_suggestion": "paldean-clodsire",
+      "form": "regular (not ex)",
+      "card_ids": [
+        "C1-074"
+      ],
+      "partner_species": [
+        "Whiscash"
+      ],
+      "status": "verify_before_build",
+      "reddit_unique_authors_verified": 2,
+      "reddit_original_posts_direct_verified": 1,
+      "reddit_substantive_replies_direct_verified": 1,
+      "x_unique_authors_verified": null,
+      "cross_platform_unique_people": null,
+      "intent": [
+        "partner_discussion",
+        "deck_optimization",
+        "battle_report"
+      ],
+      "recent_activity": "multiple_independent_authors",
+      "growth_trend": null,
+      "page_gap": "Species-directory page not observed; an archetype deck detail page already exists.",
+      "recommended_page": "Species-level build comparison featuring Paldean Clodsire C1-074 + Whiscash, event legality, Rika energy acceleration, Red Card vs Stadium choices, alternative partners and when to use the archetype.",
+      "seo_keywords": [
+        "Paldean Clodsire deck Pokémon TCG Pocket",
+        "Paldean Clodsire Whiscash deck",
+        "Paldean Clodsire C1-074 deck",
+        "Paldean Clodsire limited battle deck"
+      ],
+      "value_checks": {
+        "specific_user_need": "verified",
+        "multiple_build_variants": "partial",
+        "viable_deck_axis": "verified_in_user_post",
+        "form_identified": "verified_site_card",
+        "avoids_deck_page_duplication": "requires_distinct_comparison_content"
+      },
+      "evidence": [
+        {
+          "platform": "reddit",
+          "kind": "original_post",
+          "url": "https://www.reddit.com/r/PokemonPocket/comments/1xzve1f/if_youre_struggling_with_the_limited_battles_this/",
+          "post_id": "1xzve1f",
+          "author": "rat_infestation",
+          "published_date": "2026-11-19",
+          "published_at": null,
+          "published_at_precision": "date_only",
+          "time_zone_verified": false,
+          "intent": [
+            "partner_discussion",
+            "battle_report"
+          ],
+          "originality": "direct_original",
+          "directly_opened": true,
+          "summary": "Author shares a Limited Battles list and describes using Rika to support Clodsire and Whiscash; reports personal game results."
+        },
+        {
+          "platform": "reddit",
+          "kind": "substantive_comment",
+          "url": "https://www.reddit.com/r/PokemonPocket/comments/1xzve1f/comment/19sum3tih3k76/",
+          "post_id": "1xzve1f",
+          "comment_id": "19sum3tih3k76",
+          "author": "e_ndoubleu",
+          "published_date": "2026-11-19",
+          "published_at": null,
+          "published_at_precision": "date_only",
+          "time_zone_verified": false,
+          "intent": [
+            "deck_optimization"
+          ],
+          "originality": "direct_comment",
+          "directly_opened": true,
+          "summary": "Independent player says they run the deck with 2 Red Card rather than Stadium; gives rationale."
+        }
+      ],
+      "secondary_unverified_sources": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/PTCGP/comments/1y07kop/deck_to_clean_the_new_pvp_event/",
+          "reason": "Index suggested similar build, but full original could not be reopened and independent author not verified. Excluded from counts."
+        }
+      ]
+    }
+  ],
+  "excluded_examples": [
+    {
+      "species": "Bewear",
+      "reason": "Already appears in directory in Archived state; do not recommend despite current Reddit chatter."
+    }
+  ],
+  "recommended_next_action": "Verify additional X original posts and assess whether a species hub offers substantive comparison value beyond the existing /en/deck/paldean-clodsire-c1 page.",
+  "publication_note": "Static trial export. A scheduled ChatGPT automation has not been verified to update this GitHub Pages copy automatically."
+}

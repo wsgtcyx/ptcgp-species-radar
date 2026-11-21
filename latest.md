@@ -1,37 +1,47 @@
-# PTCG Pocket 缺页物种 Deck 雷达 — 2026-11-21 试运行
+# PTCG Pocket 缺页物种 Deck 雷达 — 2026-11-21 扩展试运行
 
-时间窗口：2026-11-18 17:32:57 至 2026-11-21 17:32:57（北京时间）。
+研究窗口：2026-11-18 17:59:54 至 2026-11-21 17:59:54（北京时间）。目标是 5 个可研究物种，**不是承诺有 5 个满足严格条件的已核证升温物种**。
 
-**结论：1 个候选（需进一步核验），无证据确认“热度上涨”。**
+**结果：1 个较强候选 + 4 个待核观察对象。** 当前 X 没有可直接核验的原创帖子，不能宣称 X 热度为零。没有前一轮同口径基线，不能声称任何物种的讨论量已经上涨。
 
-## 候选 1｜帕底亚土王 Paldean Clodsire（普通版 C1-074）
+## 已有较强证据
 
-- 搭档：Whiscash；构筑思路：Rika 能量加速、限定赛实战、Red Card vs Stadium 卡位替换。
-- Reddit：**2 名可核实的独立讨论作者**（1 条原帖 + 1 条有实质构筑信息的评论）。
-- X：原始帖子未能核实，**作者数未知**，不等于 0。
-- 趋势：过去 72 小时有多作者讨论；缺少可比较的历史基线，不能宣称正在上涨。
-- 新建建议：建设 species-level 方案对比页（牌组变体、搭档、卡位选择、限定赛合法性）。站内已经存在 [Paldean Clodsire Deck 详情页](https://www.pokemontcgpocket.app/en/deck/paldean-clodsire-c1)，应避免重复其内容。
+### 1. Paldean Clodsire（帕底亚土王）· C1-074
+- Reddit：2 名独立用户构筑讨论（1 原帖+1 实质评论）；其他帖子仅搜索索引可见，未加入作者数。
+- 11 月 19 日原帖：https://www.reddit.com/r/PokemonPocket/comments/1xzve1f/if_youre_struggling_with_the_limited_battles_this/
+- 11 月 19 日评论：https://www.reddit.com/r/PokemonPocket/comments/1xzve1f/comment/19sum3tih3k76/
+- 玩法：Rika 能量加速、Whiscash 搭档、Red Card 与 Stadium 替换。
+- 风险：站内已有该物种的单一 Deck 详情页，新增物种页必须提供多个构筑版本对比。
 
-### 可核验证据
+## 观察对象：证据不足，不能当作已验证升温榜
 
-1. [u/rat_infestation 原帖](https://www.reddit.com/r/PokemonPocket/comments/1xzve1f/if_youre_struggling_with_the_limited_battles_this/)（2026-11-19，原始发布时间的时分/时区未核验）— 分享 Paldean Clodsire + Whiscash 限定赛构筑和实战。
-2. [u/e_ndoubleu 评论](https://www.reddit.com/r/PokemonPocket/comments/1xzve1f/comment/19sum3tih3k76/)（2026-11-19，时分/时区未核验）— 使用相同组合，建议用两张 Red Card 替代 Stadium。
+### 2. Lopunny（长耳兔）· C1-116
+- Rabbit Jump 与 Raboot C1-023 / Azumarill C1-059 的独立构筑需求较明确。
+- 11 月 20 日可读 Reddit：https://www.reddit.com/r/PTCGP/comments/1y0rm9r/unpopular_opinion_i_like_the_limited_battles/
+- 11 月 18 日边界帖：https://www.reddit.com/r/PTCGP/comments/1xzaukm/dual_fusion_c1_limited_battles_c1_promo_only/
+- 尚缺：严格 72h 的第二位可核作者和精确时间。
 
-### 其他未纳入计数的线索
+### 3. Dedenne ex（咚咚鼠）
+- Dedenne ex / Indeedee ex 的 Energy 区域、Eviolite、治疗支持有具体用户问题。
+- 原帖与评论：https://www.reddit.com/r/PTCGP/comments/1xzaukm/dual_fusion_c1_limited_battles_c1_promo_only/
+- 尚缺：评论的精确时分与另一条独立近 72h 原帖。
 
-[第二篇 Reddit 构筑帖](https://www.reddit.com/r/PTCGP/comments/1y07kop/deck_to_clean_the_new_pvp_event/)未能完整重开核验作者，**不计入独立作者统计**。
+### 4. Lapras（拉普拉斯）
+- 11 月 20 日玩家提出 Lorelei + Lapras + Blastoise + Blue's Provocation 反制 Rabbit。
+- 原帖及评论：https://www.reddit.com/r/PTCGP/comments/1y0rm9r/unpopular_opinion_i_like_the_limited_battles/
+- 11 月 18 日另有 Mega Greninja ex + Lapras，属于时间窗边界。
+- 尚缺：第二位时间符合要求的独立构筑者、确定卡形态。
 
-## 站内核对
+### 5. Ribombee（蝶结萌虻）
+- 检索线索：Mega Sceptile / Pinsir 阵容用 Ribombee 的 Sweet Honey 维持续航；还有求牌组改良帖讨论其卡位。
+- 11 月 18 日边界帖：https://www.reddit.com/r/PTCGP/comments/1xzkkhp/lets_see_your_spicy_deck_cooks_for_the_new_event/
+- 11 月 18 日边界帖：https://www.reddit.com/r/PokemonPocket/comments/1xzr4nb/any_way_to_improve_this_deck/
+- 尚缺：源帖直读、独立作者与明确的 Ribombee 主轴需求。不能直接推荐建页。
 
-在 [物种目录 All / Name 排序](https://www.pokemontcgpocket.app/en/deck/pokemon?sort=name) 看到 **40 个物种**，未出现帕底亚土王；网页未展示下一页入口。此结论仅针对可见目录，不能代表后端所有隐藏数据或站点全部路径。Bewear 已以 Archived 形态在目录中，故排除。
+## 站内排除核对
+本轮访问 https://www.pokemontcgpocket.app/en/deck/pokemon?sort=name ，可见 40 个物种，无可见下一页链接。以上 5 种均不在可见名单；但目录可见范围不能等同完整站点后台。已知单一 Deck 页面并不等于对应物种目录页。
 
-## 局限与失败
-
-- X 本轮没有可直接核验的帖子、作者和原始发布时间；**不能说 X 没人讨论**。
-- Reddit 页面仅显示相对日期；具体北京时刻未知。上述两条同源帖的日期为 2026-11-19，已落入 72 小时窗口。
-- 缺少此前相同检索口径的 72 小时基线，无法计算热度增长率。
-- 本报告为试运行导出，不代表已有自动 GitHub Pages 发布或每天自动更新。
-
-## Agent 数据
-
-机器读取：[`latest.json`](./latest.json)；历史快照：[`history/2026-11-21.json`](./history/2026-11-21.json)。无数据的指标使用 `null`，而不是用 `0` 冒充已核验的零讨论。
+## 数据接口
+- `latest.json`：提供 qualified `candidates` 和低可信 `watchlist` 两组数据；Agent 不能将 watchlist 当成 verified。
+- `history/2026-11-21.json`：原始首轮历史快照。
+- GitHub Pages 尚需在仓库 Settings → Pages 开启分支部署；自动日更仍须单独验证。

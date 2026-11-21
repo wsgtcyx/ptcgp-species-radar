@@ -1,22 +1,24 @@
 {
   "schema_version": "1.0",
   "project": "PTCG Pocket Missing Species Deck Radar",
-  "generated_at": "2026-11-21T17:32:57+08:00",
+  "generated_at": "2026-11-21T17:59:54+08:00",
   "report_date": "2026-11-21",
   "timezone": "Asia/Shanghai",
   "window": {
     "hours": 72,
-    "start": "2026-11-18T17:32:57+08:00",
-    "end": "2026-11-21T17:32:57+08:00"
+    "start": "2026-11-18T17:59:54+08:00",
+    "end": "2026-11-21T17:59:54+08:00"
   },
-  "status": "partial_verified",
-  "summary": "Found one species worth validating for a new species-level overview page. Reddit provides two independently identifiable deck-building contributors; X original-post access was inconclusive. No comparable historical baseline to confirm accelerating discussion.",
+  "status": "partial_verified_with_watchlist",
+  "summary": "Five research targets have been identified; only Paldean Clodsire currently meets the stronger direct-evidence bar. The other four are clearly marked as watchlist leads rather than confirmed rising species. X original author/date evidence remains unverified.",
   "selection_rules": {
     "max_candidates": 5,
     "exclude_if_species_page_exists": true,
     "exclude_physical_tcg": true,
     "require_pocket": true,
-    "min_independent_authors_for_recent_multi_author_activity": 2
+    "min_independent_authors_for_recent_multi_author_activity": 2,
+    "allow_lower_confidence_watchlist": true,
+    "watchlist_separate_from_qualified": true
   },
   "site_audit": {
     "species_directory_url": "https://www.pokemontcgpocket.app/en/deck/pokemon?sort=name",
@@ -34,13 +36,13 @@
       "original_posts_directly_verified": 1,
       "comments_directly_verified": 1,
       "known_verified_distinct_authors": 2,
-      "status": "partial"
+      "status": "partial; additional direct-read 2026-11-20 discussion and search-only 2026-11-18 posts; counts for watchlist kept separate"
     },
     "x": {
       "original_posts_directly_verified": 0,
       "known_verified_distinct_authors": null,
       "status": "unable_to_verify",
-      "notes": "X original search/post access not confirmed; search engine and third-party mirrors excluded from author totals."
+      "notes": "No independently opened original x.com status with verifiable author and 72-hour publication time; X was searched but cannot establish zero activity."
     },
     "multi_platform_unique_authors": null,
     "trend_baseline_available": false,
@@ -160,6 +162,172 @@
       "reason": "Already appears in directory in Archived state; do not recommend despite current Reddit chatter."
     }
   ],
-  "recommended_next_action": "Verify additional X original posts and assess whether a species hub offers substantive comparison value beyond the existing /en/deck/paldean-clodsire-c1 page.",
-  "publication_note": "Static trial export. A scheduled ChatGPT automation has not been verified to update this GitHub Pages copy automatically."
+  "recommended_next_action": "Prioritize Lopunny and Dedenne ex follow-up, verify precise timestamp and X posts, and avoid adding weak partner-only species as confirmed SEO-page targets.",
+  "publication_note": "Public GitHub repository content is committed. GitHub Pages activation and recurring automation publishing are not yet verified.",
+  "reporting": {
+    "requested_targets": 5,
+    "total_research_targets": 5,
+    "qualified_candidate_count": 1,
+    "watchlist_count": 4,
+    "qualification_rule": "watchlist is not a verified rising species; do not interpret it as a publication-ready target",
+    "verified_x_accounts": null
+  },
+  "watchlist": [
+    {
+      "rank": 2,
+      "species": "Lopunny",
+      "species_zh": "长耳兔",
+      "form": "Lopunny C1-116 (non-ex); Rabbit Jump with Raboot C1-023 and Azumarill C1-059",
+      "status": "watchlist_needs_exact_window_and_independent_author_validation",
+      "reddit_unique_authors_verified": null,
+      "x_unique_authors_verified": null,
+      "core_vs_tech": "co-attacker/core",
+      "intent": [
+        "partner_discussion",
+        "battle_report",
+        "deck_optimization"
+      ],
+      "page_gap": "Lopunny not visible among 40 species-directory entries; Lopunny Raboot deck detail exists",
+      "recommended_page": "Lopunny Rabbit Jump variants and Limited Battle optimized lists; regular Lopunny vs Mega Lopunny ex; partner choices including Raboot/Azumarill",
+      "evidence": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/PTCGP/comments/1y0rm9r/unpopular_opinion_i_like_the_limited_battles/",
+          "author": "Saxolotle",
+          "published_date": "2026-11-20",
+          "directly_opened": true,
+          "summary": "Describes Stage 1 consistency weaknesses of rabbit decks under limited-card rules; not a Lopunny-only deck list."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/PTCGP/comments/1xzaukm/dual_fusion_c1_limited_battles_c1_promo_only/",
+          "author": "Myxas_",
+          "published_date": "2026-11-18",
+          "directly_opened": true,
+          "window_status": "boundary_time_unknown",
+          "summary": "Azumarill/Lopunny deck described as a Rabbit Jump variant; may fall outside strict 72-hour cutoff."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/PTCGP/comments/1xzfwid/limited_format_is_more_like_a_limited_doormat/",
+          "author": null,
+          "published_date": "2026-11-18",
+          "directly_opened": false,
+          "window_status": "boundary_time_unknown",
+          "summary": "Search result discusses rabbit deck only, not enough on its own for an independent Lopunny-specific claim."
+        }
+      ],
+      "missing": "Confirm exact post timestamps, actual Lopunny card version and independently attributable player-specific build evidence; verify no separate species page."
+    },
+    {
+      "rank": 3,
+      "species": "Dedenne",
+      "species_zh": "咚咚鼠",
+      "form": "Dedenne ex B3b-024 + Indeedee ex (card number unverified in this trial)",
+      "status": "watchlist_needs_exact_dates",
+      "reddit_unique_authors_verified": null,
+      "x_unique_authors_verified": null,
+      "core_vs_tech": "main attacker in documented archetype",
+      "intent": [
+        "deck_optimization",
+        "energy_choice"
+      ],
+      "page_gap": "Dedenne not observed in species directory; existing full deck/archetype may be listed elsewhere",
+      "recommended_page": "Dedenne ex/Indeedee ex energy-type strategy, healing support, Eviolite, auto-battle and ranked build differences",
+      "evidence": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/PTCGP/comments/1xzaukm/dual_fusion_c1_limited_battles_c1_promo_only/",
+          "author": "Myxas_",
+          "published_date": "2026-11-18",
+          "directly_opened": true,
+          "window_status": "author_commented_later_timestamp_unknown",
+          "summary": "Suggests modified Dedenne/Indeedee with Eviolite and clarifies that a Lightning-only Energy zone is intentional."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/PTCGP/comments/1xzaukm/dual_fusion_c1_limited_battles_c1_promo_only/",
+          "author": "MindlessSponge",
+          "published_date": null,
+          "directly_opened": true,
+          "window_status": "comment_exact_time_unknown",
+          "summary": "Player asks whether imported Dedenne/Indeedee deck should use Lightning-only or add Psychic."
+        }
+      ],
+      "missing": "Verify precise UTC of comments and a second distinct recent original/post, plus X signal."
+    },
+    {
+      "rank": 4,
+      "species": "Lapras",
+      "species_zh": "拉普拉斯",
+      "form": "Lapras in Lorelei + Blastoise strategy; other source mentions Mega Greninja ex + Lapras",
+      "status": "watchlist_single_recent_build_author",
+      "reddit_unique_authors_verified": 1,
+      "x_unique_authors_verified": null,
+      "core_vs_tech": "partner/co-attacker, not yet proven independent main axis",
+      "intent": [
+        "partner_discussion",
+        "battle_report"
+      ],
+      "page_gap": "Lapras absent from visible species directory",
+      "recommended_page": "Lapras with Lorelei/Blastoise versus Mega Greninja ex: Limited Battles matchup and deck construction",
+      "evidence": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/PTCGP/comments/1y0rm9r/unpopular_opinion_i_like_the_limited_battles/",
+          "author": "seribuan",
+          "published_date": "2026-11-20",
+          "directly_opened": true,
+          "summary": "Suggests Lorelei, Lapras, Blastoise and Blue's Provocation as a deck beating rabbit variants."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/PTCGP/comments/1xzaukm/dual_fusion_c1_limited_battles_c1_promo_only/",
+          "author": "Myxas_",
+          "published_date": "2026-11-18",
+          "directly_opened": true,
+          "window_status": "boundary_time_unknown",
+          "summary": "Lists Mega Greninja ex + Lapras among limited-event builds."
+        }
+      ],
+      "missing": "Second independently identifiable 72h deck author, exact Lapras C1 version, X corroboration."
+    },
+    {
+      "rank": 5,
+      "species": "Ribombee",
+      "species_zh": "蝶结萌虻",
+      "form": "Ribombee (C1 variant, card number not yet verified), with Mega Sceptile or Vespiquen",
+      "status": "watchlist_boundary_and_secondary_card",
+      "reddit_unique_authors_verified": null,
+      "x_unique_authors_verified": null,
+      "core_vs_tech": "support/healing; standalone deck intent not demonstrated",
+      "intent": [
+        "partner_discussion",
+        "deck_optimization"
+      ],
+      "page_gap": "Ribombee absent from visible 40-entry species list; multiple related archetype deck pages already exist",
+      "recommended_page": "Ribombee as healing engine: compatible partners, Sweet Honey usage, Vespiquen versus Mega Sceptile routes",
+      "evidence": [
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/PTCGP/comments/1xzkkhp/lets_see_your_spicy_deck_cooks_for_the_new_event/",
+          "author": null,
+          "published_date": "2026-11-18",
+          "directly_opened": false,
+          "window_status": "boundary_time_unknown",
+          "summary": "Search-result preview describes Ribombee farming Sweet Honey for Mega Sceptile + Pinsir; original cannot be reopened."
+        },
+        {
+          "platform": "reddit",
+          "url": "https://www.reddit.com/r/PokemonPocket/comments/1xzr4nb/any_way_to_improve_this_deck/",
+          "author": null,
+          "published_date": "2026-11-18",
+          "directly_opened": false,
+          "window_status": "boundary_time_unknown",
+          "summary": "Search-result comments from Nov 19 discuss why a build runs Ribombee; precise form and author's build cannot be verified."
+        }
+      ],
+      "missing": "Evidence of Ribombee-centered deck demand, valid full timestamp, independent author, direct source access."
+    }
+  ]
 }

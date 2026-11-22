@@ -148,7 +148,10 @@
           "reddit_new_feed_tests": 3,
           "reddit_http_403": 3,
           "youtube_original_videos_viewed": 0,
-          "x_original_posts_viewed": 0
+          "x_original_posts_viewed": 0,
+          "total_feed_calls": 45,
+          "successful_distinct_authors": 41,
+          "failed_distinct_authors": 3
         }
       },
       "pocketmads": {
@@ -375,9 +378,11 @@
     ],
     "cross_platform_distinct_persons": null,
     "reviewed_original_records": 72,
-    "new_validated_bluesky_authors": 1,
-    "new_validated_bluesky_source_count": 3,
-    "growth_rate": null
+    "growth_rate": null,
+    "current_verified_bluesky_authors": 1,
+    "current_verified_bluesky_source_count": 3,
+    "additional_unique_authors_vs_iteration2": 0,
+    "additional_verified_source_ids_vs_iteration2": 1
   },
   "audit": {
     "strict_eligible_count": 4,

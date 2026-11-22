@@ -690,17 +690,26 @@
   ],
   "recommended_next_action": "Build Aegislash Cursed Metal overview first with multiple requested core partners, Pidgeot next, Blastoise after, then Dialga ex and Zoroark with substantial non-duplicative content. Verify more independent sources and X for growth claims.",
   "publication": {
-    "status": "new_revision_commit_pending",
-    "commit_written": false,
-    "repository_readback_verified": false,
-    "pages_deploy_verified": false,
+    "status": "pages_deployment_success_public_http_not_directly_verified",
+    "commit_written": true,
+    "repository_readback_verified": true,
+    "pages_deploy_verified": true,
     "public_json_verified": false,
+    "data_commit_sha": "79fc1d9117d0aa43b5ef83eabb4a2b31142e9e94",
     "repository": "wsgtcyx/ptcgp-species-radar",
     "branch": "main",
     "pages_url": "https://wsgtcyx.github.io/ptcgp-species-radar/",
     "json_url": "https://wsgtcyx.github.io/ptcgp-species-radar/latest.json",
     "raw_url": "https://raw.githubusercontent.com/wsgtcyx/ptcgp-species-radar/main/latest.json",
-    "previous_successful_pages_run_id": 44974569500,
-    "notes": "Publishing checks must be repeated for revised five-candidate dataset."
+    "pages_workflow_observed": {
+      "run_id": 44974860828,
+      "head_sha": "79fc1d9117d0aa43b5ef83eabb4a2b31142e9e94",
+      "status": "completed",
+      "conclusion": "success",
+      "verified_build_job": true,
+      "verified_deploy_job": true,
+      "completed_at": "2026-11-22T02:11:17Z"
+    },
+    "notes": "The five-qualified-species dataset was published and GitHub Pages workflow succeeded for its data commit. Direct HTTP retrieval of the github.io URL failed in the research environment, so public_json_verified remains false. The additional metadata-only commit records the successful build; its own workflow must be checked separately."
   }
 }

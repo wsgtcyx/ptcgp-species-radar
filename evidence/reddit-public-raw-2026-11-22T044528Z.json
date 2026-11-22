@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "cutoff_at": "2026-11-22T04:45:28.464826+00:00",
+  "window_start": "2026-11-19T04:45:28.464826+00:00",
+  "source": "Reddit public JSON (not a human-validated deck-intent assessment)",
+  "quality_gate": "not_assessed",
+  "candidate_prefilter_count": 0,
+  "fetched_post_count": 0,
+  "fetched_comment_count": 0,
+  "unique_prefilter_parent_threads": 0,
+  "unique_prefilter_authors": 0,
+  "eligible_100_verified": null,
+  "queries": [
+    "https://www.reddit.com/r/PTCGP/new.json?limit=100&raw_json=1",
+    "https://www.reddit.com/r/PokemonPocket/new.json?limit=100&raw_json=1",
+    "https://www.reddit.com/r/PokemonTCGP/new.json?limit=100&raw_json=1"
+  ],
+  "failures": [
+    {
+      "url": "https://www.reddit.com/r/PTCGP/new.json?limit=100&raw_json=1",
+      "status": 403,
+      "error": "HTTP Error 403: Blocked"
+    },
+    {
+      "url": "https://www.reddit.com/r/PokemonPocket/new.json?limit=100&raw_json=1",
+      "status": 403,
+      "error": "HTTP Error 403: Blocked"
+    },
+    {
+      "url": "https://www.reddit.com/r/PokemonTCGP/new.json?limit=100&raw_json=1",
+      "status": 403,
+      "error": "HTTP Error 403: Blocked"
+    }
+  ],
+  "prefilter_sources": [],
+  "raw_source_count": 0
+}

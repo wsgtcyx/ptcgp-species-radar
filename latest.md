@@ -1,34 +1,35 @@
-# PTCGP Pocket 缺页物种 Deck 雷达｜2026-11-22 15:17 跨平台运行
+# PTCG Pocket 新物种 Deck SEO 雷达｜Iteration 1｜2026-11-22 15:30 北京时间
 
-**run_id：** `2026-11-22-151703-BJT-multiplatform`。北京时间 **cutoff=2026-11-22T15:17:03+08:00**；严格窗口 **2026-11-19T15:17:03+08:00 — 2026-11-22T15:17:03+08:00**。报告生成于 **2026-11-22T15:21:56+08:00**。
+**run_id**：`2026-11-22-153002-iteration1`  
+**固定窗口**：2026-11-19T15:30:02+08:00 — 2026-11-22T15:30:02+08:00  
+**严格合格原文：1/100**，实际直接读取有作者、时间和正文的独立原创记录：**14**（Bluesky 13、PocketMads 1）。**合格父帖 1、作者 1；合格候选 0/5，差 5；观察名单 1。**
+**quality_gate=failed, coverage_met=false, shortfall=99, source_diversity_insufficient=true**。
 
-## 核心结论：11/100，未达标
+## 本轮新核实的原创构筑：Malamar（乌贼王 / カラマネロ）
 
-- **严格合格原文 11/100，缺 89**，质量门 `failed`、`coverage_met=false`；**已打开并列入逐 URL 审计的原帖/评论 16 条**，实际严核跨平台原创资料为 Reddit 帖子1、独立评论10。
-- **有效顶层讨论簇 2，可核独立作者 11**。一条是 Chandelure 具体组牌帖，另一条是主帖以活动吐槽为主但包含 8 条有实质构筑内容的独立评论；**讨论簇集中，source_diversity_insufficient=true**。
-- 分平台严格合格数：Reddit **11**；X **0**，YouTube **0**，Bluesky **0**。其余平台为无法核验原始元数据，不代表没有讨论。只有 Reddit 原文直读链路局部可用；另外三平台本轮未获得可用于计数的原文。
-- **合格可建页候选 0/5，差 5；待核观察物种 5**。100 源没过门禁，本轮 `candidates=[]`，不能向下游 Agent 触发建页。
-- 时间精度：Reddit 仅见 `11h/10h/9h/1d ago` 与原页面本日爬取标签。逐条保留保守的发帖时间上下界，全部两端都落在固定窗口；**没有伪造 created_utc、卡号或精确发布时间**。1d 记录不能强行划入唯一 24h 段；原时间窗分布记录在证据 JSON。
-- 独立证据资产：[evidence/2026-11-22-151703-multiplatform.json](./evidence/2026-11-22-151703-multiplatform.json)，历史快照：[history/2026-11-22-151703-multiplatform.json](./history/2026-11-22-151703-multiplatform.json)。
+- 平台 PocketMads，作者 **badgerbreath**，独立原始发布页：[CatSquid Confusion](https://app.pocketmads.com/feed/c0575dfc-71e3-41bb-89f4-14eefdc0bc7e)（原帖ID c0575dfc-71e3-41bb-89f4-14eefdc0bc7e）。
+- 原始 HTML `datetime`：**2026-11-20T21:41:23.978794+00:00**，换算北京时间 **2026-11-21T05:41:23.978794+08:00**，处于 24–48 小时切片。
+- GitHub Actions 实时 HTTP **200**，直接取得作者、卡牌清单和具体操作解释（不是搜索摘要）。牌组：Malamar / Mega Mewtwo X ex；使用 Meowstic 的混乱能力，Inkay 对位、Malamar 一能量高效输出；辅以 Peculiar Plaza、Copycat、May、Sightseer。
+- **站内 All+Name 两页均实时成功 HTTP 200**，第一页面 40 种、第二页 2 种，合计 **42** 种；默认顺序再次遍历两页，集合相同，Malamar 不在已有物种入口。Rayquaza 额外排除。站内 Deck 详情的内容重复仍需检查。
+- 这是真实原创可核证的**单名作者、单讨论簇**，不是成熟主轴热度证据。具体 Malamar 卡号未核实，因此仅列观察，不作为正式可新建页面。
+- 潜在用户问题：Malamar + Meowstic 如何触发混乱及单能量输出？搭配 Mega Mewtwo X ex 和 Peculiar Plaza 是否更好？SEO 假设词 *Malamar deck Pokémon TCG Pocket*, *Malamar Meowstic deck*。需要更多独立作者和形态验证。
 
-## 待核观察名单（不能当成五个通过百源门的候选）
+## 未计入的真实原文与失败
+- 官方 Bluesky `getAuthorFeed`：两个公开作者 feed 均 HTTP 200，直接获得窗口内 13 条原文及各自 author DID / record.createdAt。仅一条 `rat3ded.bsky.social` 的 [Colorless deck 帖]() 涉及 Pocket Deck，但只有笼统感想，未查验附件中的完整牌表，不是实质构筑；另外 12 条也不满足。**Bluesky 合格 0**。
+- PocketMads `GymLeader` 构筑发布于 **2026-11-19 09:16:37 北京时间**，早于窗口起点，淘汰。
+- Reddit 直接打开 2 帖 + 2 独立评论，全部缓存未命中。之前运行的 11 条信源**没有复制成这轮数据**。X、YouTube 无法获得可独立核验原文。
+- 可审计样本总计：14 条实际原文；4 条 Reddit 独立 URL 访问失败。严格合格分布：PocketMads 1，Reddit 0，X 0，YouTube 0，Bluesky 0。该分布是本轮可核样本，不代表平台实际发帖量。
 
-1. **Chandelure（水晶灯火灵/シャンデラ）**：3 条严格有效、3 作者、1 讨论簇。Oricorio 弃牌增伤、Meloetta 变体、Copycat/Hiking Trail、Cape/Leaf vs X Speed。主轴潜力清晰，但缺少第二个独立讨论簇和其他平台可核作者。原帖 https://www.reddit.com/r/PTCGP/comments/1y22t44/new_chandelure_deck/ （本页显示 11h ago；官方绝对原发时间未获取）；评论 https://www.reddit.com/r/PTCGP/comments/1y22t44/comment/19szfoqorwqhx/ 与 https://www.reddit.com/r/PTCGP/comments/1y22t44/comment/19szgu601axi8/ 。
-2. **Pidgeot（大比鸟/ピジョット）**：2 条有效、2 作者、1 讨论簇。与 Zoroark、Umbreon 配 Blue's Provocation 的切换/复制攻击路线。评论 https://www.reddit.com/r/PTCGP/comments/1y1dwkw/comment/19sxtl6ij8g0x/ 和 https://www.reddit.com/r/PTCGP/comments/1y1dwkw/comment/19sxtx3fltb1e/ 。已有不同搭档，但仍集中单帖、卡号未核。
-3. **Blastoise（水箭龟/カメックス）**：2 条有效、2 作者、1 讨论簇。Squirtle 麻痹的进化时机、Blue's Provocation / Lapras 的牌组协作。 https://www.reddit.com/r/PTCGP/comments/1y1dwkw/comment/19sxtn25u8o4g/ 和 https://www.reddit.com/r/PTCGP/comments/1y1dwkw/comment/19sxwei7qrm04/ 。
-4. **Zoroark（索罗亚克/ゾロアーク）**：1 条有效、1 作者、1 讨论簇。与 Pidgeot 同源共轴，Foul Play 复制对手攻击用途，有页间重叠风险。 https://www.reddit.com/r/PTCGP/comments/1y1dwkw/comment/19sxtl6ij8g0x/ 。
-5. **Aegislash（坚盾剑怪/ギルガルド）**：当前严格有效 0；旧讨论原帖与6条独立评论在本轮打开，显示 `2d ago`，无法将每条记录的保守时间范围完整限制在本窗口，**严守时效不能计数**。原帖 https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/amy_good_builds_that_combo_with_this_card/ 。作为下一轮重新获取可靠时间的观察线索。
+## 检索边界与下次迭代
+- 当次检索 Reddit 多社区原帖、X/YouTube 搜索、Bluesky 作者聚合线索和 PocketMads 玩家牌表。Bluesky 用户 `rat3ded.bsky.social`、`sigure0809.bsky.social` 从官方公开 `getAuthorFeed` 分别取得 100 条最近记录后按固定72h截取。来源原始页面 URL 和本轮访问状态详见原始探针。
+- 未获取全面 Reddit 搜索分页；未进行任何禁止的授权绕过。只有 1 个原创构筑讨论簇；没有同口径历史基线，故**不得声称热度上涨**。
+- 继续扩大**不同玩家、不同父帖、不同基础物种**的公开作者 Feed；优先从近期独立玩家构筑贴发现作者，再补充评论/牌表，不以索引缓存计源。不要将旧帖日期刷新。
 
-上述 5 个基础物种都不在本轮完整遍历的目录 41 种之列；但仍应在开发前检查现有单 Deck 详情/内容重叠。**不能宣称“正在升温”**，因为缺同口径可比历史基线。
+## 可审计产物与发布
+- [完整逐源审计](./evidence/2026-11-22-153002-iteration1.json)
+- [正式公开网页实时采集探针](./evidence/2026-11-22-153002-iteration1-live-probe.json)
+- [带版本独立历史快照](./history/2026-11-22-153002-iteration1.json)
+- [GitHub Pages](https://wsgtcyx.github.io/ptcgp-species-radar/)
+- [Agent JSON](https://wsgtcyx.github.io/ptcgp-species-radar/latest.json)
 
-## 站内排除与采集边界
-
-网站 https://pokemontcgpocket.app/en/deck/pokemon 的 **All + Name** 直接检查 Page 1 of 2（40 个）和 Page 2 of 2（Vespiquen 1 个），共 **41 个基础物种**；其他排序检查过列表顺序但未做全量重新遍历。Mega/ex/普通形态归为基础物种；Rayquaza 额外排除。已有目录物种（包括 Venusaur、Vespiquen、Fuecoco、Charizard、Umbreon、Pikachu、Dragonite、Mew 等）全部不能列入新建主榜。
-
-发现流程查询涵盖英语、日语、西语、葡语，范围为 Reddit r/PTCGP / r/PokemonPocket / r/PokemonTCGP 及附属社区、X、YouTube、Bluesky 公开搜索。先不带历史物种名进行新发现，再反查 Chandelure / Pidgeot / Zoroark 等。访问障碍：Reddit `/new` 与公开 JSON 缓存不稳定；X 原帖无法独立核作者与时间；YouTube 2 条视频无法查看内容/字幕；Bluesky 公共作者 feed 未成功直读。索引和简介不计源，不制造增长率。
-
-**可核验原始来源清单及逐条排除/时间区间：** [evidence/2026-11-22-151703-multiplatform.json](./evidence/2026-11-22-151703-multiplatform.json)，含每条真实原始 Reddit permalink、作者、内容要点、时间界限、父帖及平台分布。已确认有效评论涉及 1 条一般活动讨论父帖；不将该父帖冒充一篇原创牌表主帖。
-
-## GitHub 发布状态
-
-提交文件时 `publication.status=pending`，不在文件内自证最终部署状态。GitHub 源码回读、Pages 目标提交部署与 Pages JSON/首页实时 HTTP 可达性将在提交之后独立核查。仓库 https://github.com/wsgtcyx/ptcgp-species-radar ，网页 https://wsgtcyx.github.io/ptcgp-species-radar/ ，JSON https://wsgtcyx.github.io/ptcgp-species-radar/latest.json ，Raw https://raw.githubusercontent.com/wsgtcyx/ptcgp-species-radar/main/latest.json 。
+提交、仓库回读、匹配部署和公开 HTTP 回读必须以本次提交后的独立核查为准。

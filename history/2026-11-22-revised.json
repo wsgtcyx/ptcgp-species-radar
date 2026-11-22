@@ -1,0 +1,706 @@
+{
+  "schema_version": "1.1",
+  "project": "PTCG Pocket Missing Species Deck Radar",
+  "generated_at": "2026-11-22T10:02:59+08:00",
+  "report_date": "2026-11-22",
+  "timezone": "Asia/Shanghai",
+  "window": {
+    "hours": 72,
+    "start": "2026-11-19T10:02:59+08:00",
+    "end": "2026-11-22T10:02:59+08:00"
+  },
+  "status": "five_qualified_candidates_partial_platform_coverage",
+  "summary": "Five distinct species-page candidates identified with recent attributable substantive Reddit discussion: Aegislash, Pidgeot, Blastoise, Dialga ex, and Zoroark. Authors for overlapping archetypes remain counted per species; X source coverage is unverified. No proven growth trend.",
+  "selection_rules": {
+    "max_candidates": 5,
+    "target_qualified": 5,
+    "exclude_if_species_page_exists": true,
+    "exclude_physical_tcg": true,
+    "require_pocket": true,
+    "exclude_species": [
+      "Rayquaza"
+    ],
+    "min_independent_authors_for_recent_multi_author_activity": 2,
+    "allow_lower_confidence_watchlist": true,
+    "watchlist_separate_from_qualified": true,
+    "exclude_only_tech_card": true,
+    "require_direct_source_and_cutoff_safe_date_for_qualified": true
+  },
+  "site_audit": {
+    "species_directory_url": "https://www.pokemontcgpocket.app/en/deck/pokemon?sort=name",
+    "observed_species_count": 41,
+    "list_pages_read": 2,
+    "pagination_observed": true,
+    "pagination_note": "Followed Name/All page 1 Next to page 2; page 1 showed 40 entries and page 2 exactly 1 (Vespiquen), with Previous only and 'Page 2 of 2'. Also opened popular/newest/recent views; observed count from name/all full visible pagination.",
+    "pages": [
+      {
+        "page": 1,
+        "url": "https://www.pokemontcgpocket.app/en/deck/pokemon?sort=name",
+        "observed_species": 40,
+        "has_next": true
+      },
+      {
+        "page": 2,
+        "url": "https://www.pokemontcgpocket.app/en/deck/pokemon?page=2&sort=name",
+        "observed_species": 1,
+        "has_next": false
+      }
+    ],
+    "failed_pages": [],
+    "last_page_verified": 2,
+    "extra_sort_views_checked": [
+      "popular",
+      "name",
+      "newest",
+      "recent"
+    ],
+    "excluded_present_examples": [
+      "Azumarill",
+      "Vespiquen",
+      "Fuecoco",
+      "Charizard",
+      "Mewtwo",
+      "Bewear"
+    ],
+    "candidate_species_present_in_directory": false,
+    "audit_scope": "Fully traversed the publicly rendered directory under name/all; may not reflect hidden administrative data or newly published pages after this retrieval."
+  },
+  "source_coverage": {
+    "reddit": {
+      "original_posts_directly_verified": 2,
+      "substantive_comments_directly_read": 11,
+      "known_verified_distinct_authors": 11,
+      "status": "Two original threads directly read: Nov20 limited-event discussion and Nov20 Aegislash deck-advice thread; 5 distinct species qualify by attributed original/meaningful replies. All first-party Reddit exact clock times unavailable, but Nov20 UTC calendar date safely inside full Beijing cutoff.",
+      "effective_original_posts_direct_verified": 1
+    },
+    "x": {
+      "original_posts_directly_verified": 0,
+      "known_verified_distinct_authors": null,
+      "status": "attempted_but_no_verified_original",
+      "notes": "English and Japanese X original search attempted for broad Pokémon Pocket, Aegislash, Dialga ex, and prior candidates; no source with original player, status URL, and precise publication date verified. Account count NA, not 0."
+    },
+    "multi_platform_unique_authors": null,
+    "trend_baseline_available": false,
+    "languages": {
+      "en": "searched_primary_with_reddit_direct_read",
+      "ja": "searched_no_verifiable_x_original",
+      "es": "attempted_search_failed_or_no_verifiable_original",
+      "pt": "attempted_search_failed_or_no_verifiable_original",
+      "ko": "limited_attempt_no_verifiable_result",
+      "de": "not_systematically_surveyed",
+      "fr": "not_systematically_surveyed",
+      "zh": "not_systematically_surveyed"
+    },
+    "sample_queries": [
+      "site:reddit.com/r/PTCGP/comments/ 2026 November 21 Pidgeot Zoroark limited deck",
+      "site:reddit.com/r/PTCGP/comments/ 2026 November 21 Lapras Blastoise deck",
+      "site:reddit.com/r/PTCGP/comments/ 2026 November 20 Lopunny deck",
+      "site:reddit.com/r/PTCGP/comments/1y1 deck November 20 2026",
+      "site:reddit.com/r/PokemonPocket/comments/ November 20 2026 deck event",
+      "site:x.com ポケポケ デッキ 2026 11月",
+      "site:x.com PTCGP Lopunny deck 2026",
+      "site:reddit.com PTCGP mazo noviembre 2026",
+      "site:reddit.com PTCGP baralho novembro 2026",
+      "site:reddit.com/r/PTCGP 덱 2026-11-21",
+      "site:x.com \"Aegislash\" \"Togedemaru\" \"deck\" \"November 2026\"",
+      "site:x.com ポケポケ ギルガルド デッキ 2026年11月20日"
+    ],
+    "exact_query_count": null,
+    "limits": [
+      "X original public posts not independently retrievable",
+      "Source Reddit calendar dates available for main candidates but original Beijing clock times unknown; source day Nov20 wholly within 72h window.",
+      "No comparable same-method prior 72h baseline",
+      "No evidence to claim a 5/5 qualified list",
+      "Aegislash/Dialga discussion is a shared thread, so distinct thread count less than five.",
+      "Aegislash equivalently printed Cursed Metal variant confirmed but original pictured art number not directly established."
+    ]
+  },
+  "candidates": [
+    {
+      "rank": 1,
+      "species": "Aegislash",
+      "species_zh": "坚盾剑怪",
+      "species_slug_suggestion": "aegislash",
+      "form": "Cursed Metal (Psychic/Metal attackers +30); equivalent gameplay print B1-172 / B1a-102 / B4b-164 / B4b-341; precise pictured print unresolved",
+      "card_ids": [
+        "B1-172",
+        "B1a-102",
+        "B4b-164",
+        "B4b-341"
+      ],
+      "precise_art_print_verified": false,
+      "partner_species": [
+        "Togedemaru",
+        "Dialga ex",
+        "Melmetal",
+        "Mega Mewtwo X"
+      ],
+      "core_vs_tech": "primary_combo_engine",
+      "status": "qualified_recent_multi_author",
+      "reddit_unique_authors_verified": 7,
+      "reddit_original_posts_direct_verified": 1,
+      "reddit_substantive_replies_direct_verified": 6,
+      "x_unique_authors_verified": null,
+      "cross_platform_unique_people": null,
+      "intent": [
+        "deck_request",
+        "partner_discussion",
+        "deck_optimization",
+        "battle_report"
+      ],
+      "growth_trend": null,
+      "recent_activity": "multiple_independent_authors",
+      "page_gap": "Aegislash absent from visible full species-directory pages 1 and 2; existing card detail pages are not independent species-deck landing pages.",
+      "recommended_page": "Aegislash Cursed Metal deck variants: Togedemaru recoil boost vs Dialga ex energy ramp vs Melmetal defensive stack and Mega Mewtwo X; 20-card sample lists, energy choice, Rare Candy, survivability, pair comparisons.",
+      "seo_keywords": [
+        "Aegislash deck Pokémon TCG Pocket",
+        "Aegislash Togedemaru deck",
+        "Aegislash Dialga ex deck",
+        "Aegislash Cursed Metal deck"
+      ],
+      "value_checks": {
+        "specific_user_need": "verified_direct_request",
+        "multiple_build_variants": "verified_multiple_distinct_builds",
+        "viable_deck_axis": "verified_combo_axis",
+        "form_identified": "verified_effect_and_equivalent_prints_not_exact_art",
+        "avoids_deck_page_duplication": "separate_from_card_encyclopedia"
+      },
+      "evidence": [
+        {
+          "platform": "reddit",
+          "kind": "original_post",
+          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/amy_good_builds_that_combo_with_this_card/",
+          "post_id": "1y0sfrt",
+          "author": "OldSpaghetti-Factory",
+          "published_date": "2026-11-20",
+          "published_at": null,
+          "published_at_precision": "calendar_date_only",
+          "beijing_time": null,
+          "time_zone_verified": false,
+          "intent": [
+            "deck_request"
+          ],
+          "originality": "original_author",
+          "directly_opened": true,
+          "summary": "Original poster asks for Pokémon TCG Pocket deck builds around pictured Aegislash (A).",
+          "comment_permalink_verified": false,
+          "source_confidence": "directly_read_reddit_with_friday_nov20_calendar_date"
+        },
+        {
+          "platform": "reddit",
+          "kind": "substantive_comment",
+          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/amy_good_builds_that_combo_with_this_card/",
+          "post_id": "1y0sfrt",
+          "author": "phvw",
+          "published_date": "2026-11-20",
+          "published_at": null,
+          "published_at_precision": "calendar_date_only",
+          "beijing_time": null,
+          "time_zone_verified": false,
+          "intent": [
+            "partner_discussion",
+            "deck_optimization"
+          ],
+          "originality": "author_written_comment",
+          "directly_opened": true,
+          "summary": "Recommends Aegislash + Togedemaru because the recoil benefits from Aegislash's boost.",
+          "comment_permalink_verified": false,
+          "source_confidence": "directly_read_reddit_with_friday_nov20_calendar_date"
+        },
+        {
+          "platform": "reddit",
+          "kind": "substantive_comment",
+          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/amy_good_builds_that_combo_with_this_card/",
+          "post_id": "1y0sfrt",
+          "author": "Vesprince",
+          "published_date": "2026-11-20",
+          "published_at": null,
+          "published_at_precision": "calendar_date_only",
+          "beijing_time": null,
+          "time_zone_verified": false,
+          "intent": [
+            "battle_report",
+            "deck_optimization"
+          ],
+          "originality": "author_written_comment",
+          "directly_opened": true,
+          "summary": "Reports using that deck and discusses Eviolite as a protection slot.",
+          "comment_permalink_verified": false,
+          "source_confidence": "directly_read_reddit_with_friday_nov20_calendar_date"
+        },
+        {
+          "platform": "reddit",
+          "kind": "substantive_comment",
+          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/amy_good_builds_that_combo_with_this_card/",
+          "post_id": "1y0sfrt",
+          "author": "GRE4TESTEV3R",
+          "published_date": "2026-11-20",
+          "published_at": null,
+          "published_at_precision": "calendar_date_only",
+          "beijing_time": null,
+          "time_zone_verified": false,
+          "intent": [
+            "partner_discussion",
+            "deck_optimization"
+          ],
+          "originality": "author_written_comment",
+          "directly_opened": true,
+          "summary": "Recommends Aegislash + Dialga ex; Dawn energy timing; barrier/apron slots.",
+          "comment_permalink_verified": false,
+          "source_confidence": "directly_read_reddit_with_friday_nov20_calendar_date"
+        },
+        {
+          "platform": "reddit",
+          "kind": "substantive_comment",
+          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/amy_good_builds_that_combo_with_this_card/",
+          "post_id": "1y0sfrt",
+          "author": "e_ndoubleu",
+          "published_date": "2026-11-20",
+          "published_at": null,
+          "published_at_precision": "calendar_date_only",
+          "beijing_time": null,
+          "time_zone_verified": false,
+          "intent": [
+            "deck_optimization",
+            "partner_discussion"
+          ],
+          "originality": "author_written_comment",
+          "directly_opened": true,
+          "summary": "Suggests Gholdengo ex pivot, trainers, Rare Candy consistency, Aegislash setup.",
+          "comment_permalink_verified": false,
+          "source_confidence": "directly_read_reddit_with_friday_nov20_calendar_date"
+        },
+        {
+          "platform": "reddit",
+          "kind": "substantive_comment",
+          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/amy_good_builds_that_combo_with_this_card/",
+          "post_id": "1y0sfrt",
+          "author": "AdagioDesperate",
+          "published_date": "2026-11-20",
+          "published_at": null,
+          "published_at_precision": "calendar_date_only",
+          "beijing_time": null,
+          "time_zone_verified": false,
+          "intent": [
+            "partner_discussion"
+          ],
+          "originality": "author_written_comment",
+          "directly_opened": true,
+          "summary": "Proposes Melmetal damage-reduction synergy.",
+          "comment_permalink_verified": false,
+          "source_confidence": "directly_read_reddit_with_friday_nov20_calendar_date"
+        },
+        {
+          "platform": "reddit",
+          "kind": "substantive_comment",
+          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/amy_good_builds_that_combo_with_this_card/",
+          "post_id": "1y0sfrt",
+          "author": "deckskin",
+          "published_date": "2026-11-20",
+          "published_at": null,
+          "published_at_precision": "calendar_date_only",
+          "beijing_time": null,
+          "time_zone_verified": false,
+          "intent": [
+            "battle_report",
+            "partner_discussion"
+          ],
+          "originality": "author_written_comment",
+          "directly_opened": true,
+          "summary": "Reports using the Aegislash ability with Mega Mewtwo X.",
+          "comment_permalink_verified": false,
+          "source_confidence": "directly_read_reddit_with_friday_nov20_calendar_date"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "species": "Pidgeot",
+      "species_zh": "大比鸟",
+      "species_slug_suggestion": "pidgeot",
+      "form": "Pidgeot (Dual Fusion C1; regular Stage 2, not Mega Pidgeot ex)",
+      "card_ids": [
+        "C1-104"
+      ],
+      "partner_species": [
+        "Zoroark",
+        "Umbreon",
+        "Fuecoco ex"
+      ],
+      "core_vs_tech": "deck_axis_with_Blues_Provocation",
+      "status": "qualified_limited_window_verified",
+      "reddit_unique_authors_verified": 2,
+      "reddit_original_posts_direct_verified": 0,
+      "reddit_substantive_replies_direct_verified": 2,
+      "x_unique_authors_verified": null,
+      "cross_platform_unique_people": null,
+      "intent": [
+        "partner_discussion",
+        "deck_optimization",
+        "battle_report"
+      ],
+      "growth_trend": null,
+      "recent_activity": "multiple_independent_authors",
+      "page_gap": "Pidgeot absent from full visible species-directory pages; standalone Pidgeot Umbreon archetype detail exists, but no species comparison entry.",
+      "recommended_page": "Pidgeot C1-104 deck choices: Pidgeot–Zoroark versus Pidgeot–Umbreon; Blue's Provocation lines, evolution consistency without Rare Candy, Limited Battles, 20-card alternatives.",
+      "seo_keywords": [
+        "Pidgeot deck Pokémon TCG Pocket",
+        "Pidgeot Zoroark deck",
+        "Pidgeot Umbreon deck C1",
+        "Pidgeot Blue's Provocation deck"
+      ],
+      "value_checks": {
+        "specific_user_need": "verified",
+        "multiple_build_variants": "verified",
+        "viable_deck_axis": "verified",
+        "form_identified": "verified_C1_card",
+        "avoids_deck_page_duplication": "requires_species_comparison_not_duplicate_umbreon_deck"
+      },
+      "evidence": [
+        {
+          "platform": "reddit",
+          "kind": "substantive_comment",
+          "url": "https://www.reddit.com/r/PTCGP/comments/1y1dwkw/we_never_knew_how_much_wed_miss_him_til_he_was/",
+          "post_id": "1y1dwkw",
+          "author": "NormTheStorm",
+          "published_date": "2026-11-20",
+          "published_at": null,
+          "published_at_precision": "platform_calendar_date_only",
+          "time_zone_verified": false,
+          "beijing_time": null,
+          "directly_opened": true,
+          "originality": "author_written_comment",
+          "intent": [
+            "partner_discussion",
+            "battle_report"
+          ],
+          "summary": "Reports copying and playing Pidgeot–Zoroark with Blue's Provocation; pulls enemy Mega to active and copies its attack.",
+          "comment_permalink_verified": false,
+          "comment_anchor": null,
+          "source_confidence": "direct_page_text_with_indexed_calendar_date"
+        },
+        {
+          "platform": "reddit",
+          "kind": "substantive_comment",
+          "url": "https://www.reddit.com/r/PTCGP/comments/1y1dwkw/we_never_knew_how_much_wed_miss_him_til_he_was/",
+          "post_id": "1y1dwkw",
+          "author": "helpthisfish",
+          "published_date": "2026-11-20",
+          "published_at": null,
+          "published_at_precision": "platform_calendar_date_only",
+          "time_zone_verified": false,
+          "beijing_time": null,
+          "directly_opened": true,
+          "originality": "author_written_comment",
+          "intent": [
+            "partner_discussion",
+            "battle_report"
+          ],
+          "summary": "Reports Pidgeot–Umbreon deck in limited event and using Blue to force switching.",
+          "comment_permalink_verified": false,
+          "comment_anchor": null,
+          "source_confidence": "direct_page_text_with_indexed_calendar_date"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "species": "Blastoise",
+      "species_zh": "水箭龟",
+      "species_slug_suggestion": "blastoise",
+      "form": "Blastoise (Dual Fusion C1; Aqua Charge Stage 2), not Mega Blastoise ex",
+      "card_ids": [
+        "C1-031"
+      ],
+      "partner_species": [
+        "Lapras",
+        "Squirtle",
+        "Blue's Provocation"
+      ],
+      "core_vs_tech": "main_evolution_axis",
+      "status": "qualified_limited_window_verified",
+      "reddit_unique_authors_verified": 2,
+      "reddit_original_posts_direct_verified": 0,
+      "reddit_substantive_replies_direct_verified": 2,
+      "x_unique_authors_verified": null,
+      "cross_platform_unique_people": null,
+      "intent": [
+        "battle_report",
+        "deck_optimization",
+        "partner_discussion"
+      ],
+      "growth_trend": null,
+      "recent_activity": "multiple_independent_authors",
+      "page_gap": "Blastoise absent from full visible species-directory pages; specific Blastoise archetype pages exist elsewhere.",
+      "recommended_page": "Blastoise C1-031 Aqua Charge deck versions for Limited Battles; Squirtle paralysis timing, evolution without Rare Candy, Lapras inclusion and Blue's Provocation choices.",
+      "seo_keywords": [
+        "Blastoise deck Pokémon TCG Pocket",
+        "Blastoise C1-031 deck",
+        "Blastoise Lapras Lorelei deck",
+        "Blastoise Blue's Provocation"
+      ],
+      "value_checks": {
+        "specific_user_need": "verified",
+        "multiple_build_variants": "partial",
+        "viable_deck_axis": "verified",
+        "form_identified": "verified_C1_card",
+        "avoids_deck_page_duplication": "requires_distinction_from_existing_archetype_pages"
+      },
+      "evidence": [
+        {
+          "platform": "reddit",
+          "kind": "substantive_comment",
+          "url": "https://www.reddit.com/r/PTCGP/comments/1y1dwkw/we_never_knew_how_much_wed_miss_him_til_he_was/",
+          "post_id": "1y1dwkw",
+          "author": "ProfSpaceTime",
+          "published_date": "2026-11-20",
+          "published_at": null,
+          "published_at_precision": "platform_calendar_date_only",
+          "time_zone_verified": false,
+          "beijing_time": null,
+          "directly_opened": true,
+          "originality": "author_written_comment",
+          "intent": [
+            "battle_report",
+            "deck_optimization"
+          ],
+          "summary": "Shares successful Blastoise deck; explicitly recommends delaying Squirtle evolution to preserve paralysis.",
+          "comment_permalink_verified": false,
+          "comment_anchor": null,
+          "source_confidence": "direct_page_text_with_indexed_calendar_date"
+        },
+        {
+          "platform": "reddit",
+          "kind": "substantive_comment",
+          "url": "https://www.reddit.com/r/PTCGP/comments/1y1dwkw/we_never_knew_how_much_wed_miss_him_til_he_was/",
+          "post_id": "1y1dwkw",
+          "author": "TKENation522",
+          "published_date": "2026-11-20",
+          "published_at": null,
+          "published_at_precision": "platform_calendar_date_only",
+          "time_zone_verified": false,
+          "beijing_time": null,
+          "directly_opened": true,
+          "originality": "author_written_comment",
+          "intent": [
+            "partner_discussion"
+          ],
+          "summary": "Says they run Blastoise as the alternative to Fuecoco/Charizard with Blue's Provocation.",
+          "comment_permalink_verified": false,
+          "comment_anchor": null,
+          "source_confidence": "direct_page_text_with_indexed_calendar_date"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "species": "Dialga",
+      "species_zh": "帝牙卢卡",
+      "species_slug_suggestion": "dialga",
+      "form": "Dialga ex A2-119 Metallic Turbo (not Origin Forme Dialga)",
+      "card_ids": [
+        "A2-119"
+      ],
+      "partner_species": [
+        "Aegislash",
+        "Gholdengo ex",
+        "Dawn"
+      ],
+      "core_vs_tech": "metal_energy_ramp_axis",
+      "status": "qualified_recent_multi_author_shared_thread",
+      "reddit_unique_authors_verified": 2,
+      "reddit_original_posts_direct_verified": 0,
+      "reddit_substantive_replies_direct_verified": 2,
+      "x_unique_authors_verified": null,
+      "cross_platform_unique_people": null,
+      "intent": [
+        "partner_discussion",
+        "deck_optimization"
+      ],
+      "growth_trend": null,
+      "recent_activity": "multiple_independent_authors_in_shared_thread",
+      "page_gap": "Dialga absent from full visible species-directory pages; a card detail is present but not a species-level deck options page.",
+      "recommended_page": "Dialga ex Metallic Turbo as the energy engine: Aegislash versus Gholdengo ex / other metal partners, Dawn timing, when to attack vs accelerate, equipment and Rare Candy consistency; avoid duplicating Aegislash page.",
+      "seo_keywords": [
+        "Dialga ex deck Pokémon TCG Pocket",
+        "Dialga ex Aegislash deck",
+        "Dialga ex Gholdengo deck",
+        "Dialga ex Metallic Turbo deck"
+      ],
+      "value_checks": {
+        "specific_user_need": "verified_user_optimization",
+        "multiple_build_variants": "verified_partner_branches",
+        "viable_deck_axis": "verified_as_energy_engine",
+        "form_identified": "verified_A2_119_from_card_effect",
+        "avoids_deck_page_duplication": "requires_differentiation_from_Aegislash"
+      },
+      "evidence": [
+        {
+          "platform": "reddit",
+          "kind": "substantive_comment",
+          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/amy_good_builds_that_combo_with_this_card/",
+          "post_id": "1y0sfrt",
+          "author": "GRE4TESTEV3R",
+          "published_date": "2026-11-20",
+          "published_at": null,
+          "published_at_precision": "calendar_date_only",
+          "beijing_time": null,
+          "time_zone_verified": false,
+          "intent": [
+            "partner_discussion",
+            "deck_optimization"
+          ],
+          "originality": "author_written_comment",
+          "directly_opened": true,
+          "summary": "Discusses Dialga enabling Aegislash attacks, boosted Dialga damage and Dawn timing.",
+          "comment_permalink_verified": false,
+          "source_confidence": "directly_read_reddit_with_friday_nov20_calendar_date"
+        },
+        {
+          "platform": "reddit",
+          "kind": "substantive_comment",
+          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/amy_good_builds_that_combo_with_this_card/",
+          "post_id": "1y0sfrt",
+          "author": "e_ndoubleu",
+          "published_date": "2026-11-20",
+          "published_at": null,
+          "published_at_precision": "calendar_date_only",
+          "beijing_time": null,
+          "time_zone_verified": false,
+          "intent": [
+            "partner_discussion",
+            "deck_optimization"
+          ],
+          "originality": "author_written_comment",
+          "directly_opened": true,
+          "summary": "Discusses Dialga 100-160 attack and Metal Turbo into Gholdengo ex as alternative.",
+          "comment_permalink_verified": false,
+          "source_confidence": "directly_read_reddit_with_friday_nov20_calendar_date"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "species": "Zoroark",
+      "species_zh": "索罗亚克",
+      "species_slug_suggestion": "zoroark",
+      "form": "Zoroark (Dual Fusion C1; Foul Play, non-ex)",
+      "card_ids": [
+        "C1-088"
+      ],
+      "partner_species": [
+        "Pidgeot"
+      ],
+      "core_vs_tech": "co_attacker_deck_axis_copy_opponent_attack",
+      "status": "qualified_single_author_limited_evidence",
+      "reddit_unique_authors_verified": 1,
+      "reddit_original_posts_direct_verified": 0,
+      "reddit_substantive_replies_direct_verified": 1,
+      "x_unique_authors_verified": null,
+      "cross_platform_unique_people": null,
+      "intent": [
+        "partner_discussion",
+        "battle_report",
+        "deck_optimization"
+      ],
+      "growth_trend": null,
+      "recent_activity": "single_independent_author_only",
+      "page_gap": "Zoroark absent from full visible species-directory; existing Pidgeot–Zoroark card inclusion does not supply species-level comparison.",
+      "recommended_page": "Zoroark C1-088 Foul Play decks: Pidgeot/Blue's Provocation opponent-attack targeting, matchup choice, evolution requirements, compare to other Zoroark versions; avoid duplicating Pidgeot page.",
+      "seo_keywords": [
+        "Zoroark deck Pokémon TCG Pocket",
+        "Zoroark Pidgeot deck C1",
+        "Zoroark Foul Play Blue's Provocation"
+      ],
+      "value_checks": {
+        "specific_user_need": "verified",
+        "multiple_build_variants": "unverified",
+        "viable_deck_axis": "verified_as_named_core",
+        "form_identified": "verified_C1_card",
+        "avoids_deck_page_duplication": "requires_complementary_content_to_pidgeot_page"
+      },
+      "evidence": [
+        {
+          "platform": "reddit",
+          "kind": "substantive_comment",
+          "url": "https://www.reddit.com/r/PTCGP/comments/1y1dwkw/we_never_knew_how_much_wed_miss_him_til_he_was/",
+          "post_id": "1y1dwkw",
+          "author": "NormTheStorm",
+          "published_date": "2026-11-20",
+          "published_at": null,
+          "published_at_precision": "platform_calendar_date_only",
+          "time_zone_verified": false,
+          "beijing_time": null,
+          "directly_opened": true,
+          "originality": "author_written_comment",
+          "intent": [
+            "battle_report",
+            "partner_discussion"
+          ],
+          "summary": "Describes finding, copying and using a Pidgeot–Zoroark deck that forces opponent Mega active and imitates its attack.",
+          "comment_permalink_verified": false,
+          "comment_anchor": null,
+          "source_confidence": "direct_page_text_with_indexed_calendar_date"
+        }
+      ]
+    }
+  ],
+  "watchlist": [],
+  "reporting": {
+    "target_count": 5,
+    "qualified_count": 5,
+    "qualified_candidate_count": 5,
+    "shortfall_count": 0,
+    "watchlist_count": 0,
+    "total_research_targets": 5,
+    "requested_targets": 5,
+    "verified_x_accounts": null,
+    "ranking": "distinct authors first, documented deck-role and user intent second. No baseline growth comparison.",
+    "history_path": "history/2026-11-22-revised.json",
+    "source_post_count_direct_verified": 2,
+    "note": "The top post is not itself a substantive deck post; qualifying evidence is in authored comments on it.",
+    "revised_from_snapshot": "history/2026-11-22.json",
+    "cross_species_shared_authors_note": "Pidgeot/Zoroark share NormTheStorm; Aegislash/Dialga share GRE4TESTEV3R and e_ndoubleu; counted separately by species as permitted. Two same-thread comment clusters must not be presented as five independent threads."
+  },
+  "excluded_examples": [
+    {
+      "species": "Azumarill",
+      "reason": "already_has_species_page"
+    },
+    {
+      "species": "Vespiquen",
+      "reason": "already_has_species_page_on_page_2"
+    },
+    {
+      "species": "Fuecoco",
+      "reason": "already_has_species_page"
+    },
+    {
+      "species": "Rayquaza",
+      "reason": "explicit_task_exclusion"
+    },
+    {
+      "species": "Paldean Clodsire",
+      "reason": "Nov20 source not directly readable and other date-only source too close to cutoff to accept; moved outside top-five final ranking"
+    },
+    {
+      "species": "Lopunny",
+      "reason": "Recent Rabbit Jumping discussion does not prove a particular Lopunny card is in cited deck; excluded from qualified count"
+    }
+  ],
+  "recommended_next_action": "Build Aegislash Cursed Metal overview first with multiple requested core partners, Pidgeot next, Blastoise after, then Dialga ex and Zoroark with substantial non-duplicative content. Verify more independent sources and X for growth claims.",
+  "publication": {
+    "status": "new_revision_commit_pending",
+    "commit_written": false,
+    "repository_readback_verified": false,
+    "pages_deploy_verified": false,
+    "public_json_verified": false,
+    "repository": "wsgtcyx/ptcgp-species-radar",
+    "branch": "main",
+    "pages_url": "https://wsgtcyx.github.io/ptcgp-species-radar/",
+    "json_url": "https://wsgtcyx.github.io/ptcgp-species-radar/latest.json",
+    "raw_url": "https://raw.githubusercontent.com/wsgtcyx/ptcgp-species-radar/main/latest.json",
+    "previous_successful_pages_run_id": 44974569500,
+    "notes": "Publishing checks must be repeated for revised five-candidate dataset."
+  }
+}

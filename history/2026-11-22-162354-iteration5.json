@@ -1,0 +1,287 @@
+{
+  "schema_version": "1.1",
+  "run_id": "2026-11-22-162354-iteration5",
+  "generated_at": "2026-11-22T16:27:56.143+08:00",
+  "report_date": "2026-11-22",
+  "window": {
+    "start": "2026-11-19T16:23:54.147241+08:00",
+    "end": "2026-11-22T16:23:54.147241+08:00",
+    "hours": 72,
+    "timezone": "Asia/Shanghai"
+  },
+  "summary": "Iteration5: 5 strictly eligible first-party originals reread across Bluesky/YouTube/PocketMads; zero newly validated independent authors versus iteration4; source gate failed 5/100, candidates 0/5.",
+  "site_audit": {
+    "checked_in_current_task": true,
+    "live_web_pagination_observed": "Popular and Name, pages 1–2 / 2",
+    "web_popular_page1_items": 40,
+    "web_popular_page2_items": 2,
+    "web_name_page1_items": 40,
+    "web_name_page2_items": 2,
+    "web_observed_base_species_total": 42,
+    "web_direct_url_name_page2": "https://www.pokemontcgpocket.app/en/deck/pokemon?page=2&sort=name",
+    "github_actions_original_html_page_fetches": 4,
+    "github_actions_success_http_200": 4,
+    "github_actions_parsed_species_count": null,
+    "source_disagreement_or_cache_warning": "An earlier web-click returned 1 for name page2, a direct fresh URL returned Venusaur and Vespiquen; independently confirm origin before asserting complete exclusion",
+    "complete_all_sort_verification": false,
+    "confirmed_hub_absence": false,
+    "extra_excluded": [
+      "Rayquaza"
+    ],
+    "individual_deck_strategy_examples": [
+      {
+        "species": "Paldean Clodsire",
+        "url": "https://www.pokemontcgpocket.app/en/deck/paldean-clodsire-c1"
+      },
+      {
+        "species": "Malamar",
+        "url": "https://www.pokemontcgpocket.app/en/deck/malamar-b3-mega-sableye-ex-b3b"
+      },
+      {
+        "species": "Alolan Exeggutor",
+        "url": "https://www.pokemontcgpocket.app/en/deck/alolan-exeggutor-ex-c1"
+      },
+      {
+        "species": "Blastoise",
+        "url": "https://www.pokemontcgpocket.app/en/deck/blastoise-c1-araquanid-b4"
+      }
+    ]
+  },
+  "source_coverage": {
+    "platform_eligible_counts": {
+      "bluesky": 3,
+      "pocketmads": 1,
+      "youtube": 1,
+      "reddit": 0,
+      "x": 0
+    },
+    "first_party_observed_record_counts": {
+      "bluesky": 60,
+      "pocketmads": 15,
+      "youtube_rss": 13
+    },
+    "http_attempts": 75,
+    "http_status_counts": {
+      "200": 72,
+      "403": 3
+    },
+    "time_slice_counts": {
+      "0-24h": 4,
+      "24-48h": 1,
+      "48-72h": 0
+    },
+    "discovery": [
+      {
+        "url": "https://www.bluenews.app/hashtag/ptcgp?tab=latest",
+        "found_handles": 7,
+        "not_qualified_source": true
+      },
+      {
+        "url": "https://www.bluenews.app/hashtag/%E3%83%9D%E3%82%B1%E3%83%9D%E3%82%B1?tab=latest",
+        "found_handles": 11,
+        "not_qualified_source": true
+      },
+      {
+        "url": "https://www.bluenews.app/hashtag/pokemontcgpocket?tab=latest",
+        "found_handles": 8,
+        "not_qualified_source": true
+      }
+    ],
+    "reddit": {
+      "public_new_feed_attempts": 3,
+      "failed_403": 3,
+      "eligible": 0
+    },
+    "x": {
+      "eligible": 0,
+      "originals_directly_read": 0
+    },
+    "youtube": {
+      "eligible": 1,
+      "author_description_first_party_rss_count": 13,
+      "video_body_seen": false
+    },
+    "bluesky": {
+      "eligible": 3,
+      "unique_observed_original_accounts": 31
+    },
+    "pocketmads": {
+      "eligible": 1,
+      "original_pages_opened": 15
+    }
+  },
+  "candidates": [],
+  "watchlist": [
+    {
+      "species": "Paldean Clodsire",
+      "name_zh": "帕底亚土王",
+      "name_ja": "ドオー",
+      "level": "C",
+      "verified_author_accounts": 2,
+      "distinct_parents": 2,
+      "eligible_sources": 2,
+      "role": "secondary partner, not proven primary anchor",
+      "source_ids": [
+        "at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tsrz7jms2f",
+        "youtube:uqeRbvS0qdo"
+      ],
+      "why": "Lycanroc and Mega Mewtwo X ex uses are different partnerships, but an independent Clodsire-centered game plan has not been demonstrated",
+      "next_needed": "Independent original 20-card list built around Clodsire with exact printing; separately compare existing Clodsire C1 deck page",
+      "existing_strategy_url": "https://www.pokemontcgpocket.app/en/deck/paldean-clodsire-c1",
+      "hub_missing_verified": false
+    },
+    {
+      "species": "Malamar",
+      "name_zh": "乌贼王",
+      "name_ja": "カラマネロ",
+      "level": "C",
+      "verified_author_accounts": 1,
+      "distinct_parents": 1,
+      "eligible_sources": 1,
+      "role": "potential main",
+      "source_ids": [
+        "pocketmads:c0575dfc-71e3-41bb-89f4-14eefdc0bc7e"
+      ],
+      "why": "One original twenty-card confusion engine, with a different partnership than site's old archive",
+      "next_needed": "A second independent author and exact card version; demonstrate unique query versus current old archive",
+      "existing_strategy_url": "https://www.pokemontcgpocket.app/en/deck/malamar-b3-mega-sableye-ex-b3b",
+      "hub_missing_verified": false
+    },
+    {
+      "species": "Alolan Exeggutor",
+      "name_zh": "阿罗拉椰蛋树",
+      "name_ja": "アローラナッシー",
+      "level": "C",
+      "verified_author_accounts": 1,
+      "distinct_parents": 1,
+      "eligible_sources": 1,
+      "role": "Mega Venusaur partner",
+      "source_ids": [
+        "at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tt2z6glc2f"
+      ],
+      "why": "42-game modified deck analysis, but no second author or verified primary Exeggutor deck",
+      "next_needed": "Original card ID, 20-card contents and independent Exeggutor-centered variation",
+      "existing_strategy_url": "https://www.pokemontcgpocket.app/en/deck/alolan-exeggutor-ex-c1",
+      "hub_missing_verified": false
+    },
+    {
+      "species": "Blastoise",
+      "name_zh": "水箭龟",
+      "name_ja": "カメックス",
+      "level": "C",
+      "verified_author_accounts": 1,
+      "distinct_parents": 1,
+      "eligible_sources": 1,
+      "role": "Blastoise + Jellicent",
+      "source_ids": [
+        "at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tt3bdmy22f"
+      ],
+      "why": "39-game personal improvement discussing energy acceleration, Parasol slots and damage",
+      "next_needed": "Second original author from independent thread and precise printing; distinguish existing Blastoise/Araquanid page",
+      "existing_strategy_url": "https://www.pokemontcgpocket.app/en/deck/blastoise-c1-araquanid-b4",
+      "hub_missing_verified": false
+    }
+  ],
+  "reporting": {
+    "iteration": 5,
+    "strict_eligible_count": 5,
+    "source_goal": 100,
+    "coverage_met": false,
+    "quality_gate": "failed",
+    "shortfall": 95,
+    "reviewed_unique_urls": 88,
+    "first_party_individual_thread_or_page_direct_reads": 25,
+    "verified_parent_thread_count": 4,
+    "verified_unique_authors": 3,
+    "qualified_count": 0,
+    "target_count": 5,
+    "shortfall_count": 5,
+    "watchlist_count": 4,
+    "source_diversity_insufficient": true,
+    "source_diversity_goal": 10,
+    "per_platform_eligible": {
+      "bluesky": 3,
+      "pocketmads": 1,
+      "youtube": 1,
+      "reddit": 0,
+      "x": 0
+    },
+    "verified_source_ids": [
+      "at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tsrz7jms2f",
+      "at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tt3bdmy22f",
+      "at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tt2z6glc2f",
+      "pocketmads:c0575dfc-71e3-41bb-89f4-14eefdc0bc7e",
+      "youtube:uqeRbvS0qdo"
+    ],
+    "slices": {
+      "0-24h": 4,
+      "24-48h": 1,
+      "48-72h": 0
+    },
+    "evidence_path": "evidence/2026-11-22-162354-iteration5.json",
+    "history_path": "history/2026-11-22-162354-iteration5.json",
+    "raw_probe_paths": [
+      "evidence/2026-11-22-162354-iteration5-probe.json"
+    ],
+    "growth_rate": null
+  },
+  "audit": {
+    "iteration": 5,
+    "strict_eligible_count": 5,
+    "source_goal": 100,
+    "coverage_met": false,
+    "quality_gate": "failed",
+    "shortfall": 95,
+    "reviewed_unique_urls": 88,
+    "first_party_individual_thread_or_page_direct_reads": 25,
+    "verified_parent_thread_count": 4,
+    "verified_unique_authors": 3,
+    "qualified_count": 0,
+    "target_count": 5,
+    "shortfall_count": 5,
+    "watchlist_count": 4,
+    "source_diversity_insufficient": true,
+    "source_diversity_goal": 10,
+    "per_platform_eligible": {
+      "bluesky": 3,
+      "pocketmads": 1,
+      "youtube": 1,
+      "reddit": 0,
+      "x": 0
+    },
+    "verified_source_ids": [
+      "at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tsrz7jms2f",
+      "at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tt3bdmy22f",
+      "at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tt2z6glc2f",
+      "pocketmads:c0575dfc-71e3-41bb-89f4-14eefdc0bc7e",
+      "youtube:uqeRbvS0qdo"
+    ],
+    "slices": {
+      "0-24h": 4,
+      "24-48h": 1,
+      "48-72h": 0
+    },
+    "evidence_path": "evidence/2026-11-22-162354-iteration5.json",
+    "history_path": "history/2026-11-22-162354-iteration5.json",
+    "raw_probe_paths": [
+      "evidence/2026-11-22-162354-iteration5-probe.json"
+    ],
+    "growth_rate": null,
+    "eligible_sources": 5,
+    "coverage_goal": 100,
+    "source_coverage_warning": "Most retrieved originals are unrelated or only open-pack/wishes; first-party RSS title alone is excluded"
+  },
+  "publication": {
+    "status": "pending_deploy_verification",
+    "commit_written": false,
+    "repository_readback_verified": false,
+    "pages_deploy_verified": false,
+    "public_json_verified": false,
+    "repository": "wsgtcyx/ptcgp-species-radar",
+    "branch": "main",
+    "homepage": "https://wsgtcyx.github.io/ptcgp-species-radar/",
+    "json_url": "https://wsgtcyx.github.io/ptcgp-species-radar/latest.json",
+    "raw_json_url": "https://raw.githubusercontent.com/wsgtcyx/ptcgp-species-radar/main/latest.json",
+    "note": "historical iteration5 snapshot preserved; latest assigned only after iteration6 final report"
+  }
+}

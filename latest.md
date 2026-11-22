@@ -1,30 +1,24 @@
-# PTCG Pocket 缺页物种 Deck 雷达｜试跑迭代6/6
+# PTCG Pocket 新物种 Deck 雷达｜2026-11-22
 
-窗口：2026-11-19T16:24:28.250311+08:00 至 2026-11-22T16:24:28.250311+08:00。run_id：`2026-11-22-162428-iteration6`。生成时间 2026-11-22T16:29:50.513+08:00。
+**合格信源 5/100（缺 95）、实际直读 6、独立讨论 5、合格候选 0/5（缺5）。** 百源门槛未通过，不能作为全面选题结论，不可自动建页。
 
-**合格信源5/100（缺95），本轮原始记录89，独立讨论簇4，平台账号3，正式新建候选0/5（缺5）。** `quality_gate=failed`、`source_diversity_insufficient=true`；观察名单4个。**禁止自动建页**，没有可比窗口增长证据（`growth_rate=null`）。
+**72小时窗口**：2026-11-19T16:30:46+08:00 至 2026-11-22T16:30:46+08:00。run_id `2026-11-22-163046-iteration5`；作者去重 4；平台分布 note 5，Reddit/Bluesky/YouTube/X/PocketMads 0；时间切片 0–24/24–48/48–72 小时为 0/1/4。仅单平台五帖，独立讨论不足10（source_diversity_insufficient），没有可比增长率。
 
-平台：Bluesky 3，PocketMads 1，YouTube（作者官方原发RSS中自述三局原创建组实战）1，Reddit 0（公开new三次403），X 0（本轮没有原创直读）。原始时间切片0–24/24–48/48–72小时：4/1/0。作者3个并非5人；Bluesky同一作者评论与顶帖共用一个父簇。
+## 可核第一方玩家原文（各自独立正文/作者/原发时间）
+- [形無れい｜2026-11-19T18:50+08:00｜Pikachu](https://note.com/katanashi_r/n/nb88ac0035ae7)：仅抽皮卡丘卡包的限定战20张Pikachu ex+Pawmot配方，两种训练家卡替换及起手思路；48-72h。
+- [Griffin｜2026-11-19T21:36+08:00｜Pikachu](https://note.com/griffin_game82/n/na18049be6a84)：实用Pikachu ex单体和Pawmot双方案，16场9胜7负，解释前期铺场/胜负手；48-72h。
+- [ゆーまっくす｜2026-11-19T23:52+08:00｜Rabbit Jump](https://note.com/bambee_san/n/nea156c53782f)：原创实战把Hope Trainer放入Rabbit Jump配方，节省能量及减少手牌事故，未实战的Mewtwo设想不计；48-72h。
+- [金のあざらし｜2026-11-20T07:11+08:00｜Alolan Exeggutor](https://note.com/azarashoshi/n/nc4a781011bfd)：个人构筑以普通阿罗拉椰蛋树主攻，配Skyla换位、草系加速及Leaf Cape，分析对局与自订卡位；准确卡号未确证；48-72h。
+- [ゆーまっくす｜2026-11-20T23:51+08:00｜Jolteon](https://note.com/bambee_san/n/n6e5b19644fb8)：实测讨论Jolteon+Manectric妨碍与机动、输出不足及被突破，提出与Pikachu配合的构思；Alolan Raichu ex只是设想不算；24-48h。
 
-## 严格有效原帖（五条均从本轮新窗口重新核验作者、正文与原发时间）
-- [bluesky · fictionlife06.bsky.social · 2026-11-22T03:15:44.231000+08:00](https://bsky.app/profile/fictionlife06.bsky.social/post/3n2tsrz7jms2f)：【 #ポケポケ 】デュアルフュージョン環境限定バトルイベント。17戦。使用デッキ「ルガルガンドオー」。YouTube「kinkakuj」さんのデッキ紹介より完コピでお借りしました。9勝8敗。勝ち越し。○ゲコラプラス、ラビットジャンプx4、ホゲータエンニュート、ピカチュウx2、不戦勝。×ラビットジャンプx3、ミュウツーx2、ゲッコウガ、ブラッキー、ピカチュウ。ラビットジャンプ以外ではこのデッキが強いと思います。。
-- [bluesky · fictionlife06.bsky.social · 2026-11-22T03:20:46.185000+08:00](https://bsky.app/profile/fictionlife06.bsky.social/post/3n2tt3bdmy22f)：【 #ポケポケ 】デュアルフュージョン環境ランダムマッチ。39戦。「ゲルカメ」。YouTube「つるおかかものはし」さんのリストより少し変更しました。15勝、24敗。エネ加速のブルンゲルと組み合わせた型です。カメックスは結局散らして落ち着くことになりました。パラソル1で調整していましたが、ダメージを無かったことにできるのは強いと思い2積み。ベンチ狙撃のカメックスとグリーンの2種がリーサル手段になっている。とは言え火力不足は否めない、中打点デッキ。2進化と1。
-- [bluesky · fictionlife06.bsky.social · 2026-11-22T03:20:46.184000+08:00](https://bsky.app/profile/fictionlife06.bsky.social/post/3n2tt2z6glc2f)：【 #ポケポケ 】デュアルフュージョン環境ランダムマッチ。42戦。「バナッシー」。YouTube「つるおかかものはし」さんのリストより少し変更しました。18勝、24敗。新弾のアローラナッシーと組み合わせた型です。パワーはありますが、ブラッキーに極端に弱いです。タマタマはリーフマント込みでも耐えません。なぜパワーが高いか。それは進化前にエネ加速の技があるからです。結局メガフシギバナを入れることになりました。非ルールだけではパワーが足りません。2進化と1進化の。
-- [pocketmads · badgerbreath · 2026-11-21T05:41:23.978+08:00](https://app.pocketmads.com/feed/c0575dfc-71e3-41bb-89f4-14eefdc0bc7e)：Player's 20-card CatSquid Confusion list: Meowstic creates confusion; Malamar early 100 damage with one Energy, Peculiar Plaza free retreat, Mega Mewtwo X ex powered for late-game offense; May and Sightseer improve consistency。
-- [youtube · のりくんの休憩所 · 2026-11-21T17:00:09+08:00](https://www.youtube.com/watch?v=uqeRbvS0qdo)：ポケポケ「デュアルフュージョン」のピカチュウexとメガミュウツーXex、デッキを組んで戦ったらどっちが強い？今回はわっびーさんと初コラボで3本勝負！のりくんはピカチュウexにパーモット、わっびーさんはメガミュウツーXexにパルデア ドオーとチリを組み合わせます。2試合を終えたところでお互いにデッキを組み直し、ピカチュウ側はハラバリー、メガミュウツー側はププリンとダークライを加えて最終戦へ。  あなたならピカチュウexとメガミュウツーXex、どっちを使います。
+## 0个正式候选；3个待核观察
+- **阿罗拉椰蛋树 / Alolan Exeggutor / アローラナッシー**：B limited evidence，本轮严格证据 1，独立作者 1、父帖 1。Firsthand distinct non-ex Skyla build, but site's existing Alolan Exeggutor ex C1-005 archive is not the same card; one author and no verified species hub status。既有策略：[Deck archive](https://www.pokemontcgpocket.app/en/deck/alolan-exeggutor-ex-c1)。补证：Second independently authored original build in another root thread, exact card ID, confirm species hub via canonical/HTTP and check leaf partners。
+- **雷伊布 / Jolteon / サンダース**：C preliminary，本轮严格证据 1，独立作者 1、父帖 1。Player's original post-mortem of a tested Jolteon/Manectric build, but neither a fresh 20-card list nor a viable Jolteon main strategy confirmed。既有策略：[Deck archive](https://www.pokemontcgpocket.app/en/deck/)。补证：Two independent actual Jolteon-centered deck lists, printed card numbers and current deck archive cross-check。
+- **乌贼王 / Malamar / カラマネロ**：C time-unverified，本轮严格证据 0，独立作者 0、父帖 0。First-party 20-card list and author read, but exact first-publication time not proven this run; cannot count as qualified evidence。既有策略：[Deck archive](https://www.pokemontcgpocket.app/en/deck/malamar-b3-mega-sableye-ex-b3b)。补证：First-party time datetime with timezone, then second unrelated author and check existing B3-112/Sableye archive difference。
 
-## 观察物种（均非合格候选）
-- **帕底亚土王 / Paldean Clodsire / ドオー**：2条，2平台作者，2讨论簇。Lycanroc and Mega Mewtwo X ex uses are different partnerships, but an independent Clodsire-centered game plan has not been demonstrated。旧独立Deck页：https://www.pokemontcgpocket.app/en/deck/paldean-clodsire-c1；欠缺：Independent original 20-card list built around Clodsire with exact printing; separately compare existing Clodsire C1 deck page。
-- **乌贼王 / Malamar / カラマネロ**：1条，1平台作者，1讨论簇。One original twenty-card confusion engine, with a different partnership than site's old archive。旧独立Deck页：https://www.pokemontcgpocket.app/en/deck/malamar-b3-mega-sableye-ex-b3b；欠缺：A second independent author and exact card version; demonstrate unique query versus current old archive。
-- **阿罗拉椰蛋树 / Alolan Exeggutor / アローラナッシー**：1条，1平台作者，1讨论簇。42-game modified deck analysis, but no second author or verified primary Exeggutor deck。旧独立Deck页：https://www.pokemontcgpocket.app/en/deck/alolan-exeggutor-ex-c1；欠缺：Original card ID, 20-card contents and independent Exeggutor-centered variation。
-- **水箭龟 / Blastoise / カメックス**：1条，1平台作者，1讨论簇。39-game personal improvement discussing energy acceleration, Parasol slots and damage。旧独立Deck页：https://www.pokemontcgpocket.app/en/deck/blastoise-c1-araquanid-b4；欠缺：Second original author from independent thread and precise printing; distinguish existing Blastoise/Araquanid page。
+## 审计/渠道限制
+原文链接尝试 8，成功直读6，原文时间证成5，Pocket及Deck内容直读6，去重合格5。PocketMads [CatSquid](https://app.pocketmads.com/feed/c0575dfc-71e3-41bb-89f4-14eefdc0bc7e) 原作者/20卡可读，但只有11月20日日期、时区和精确原发时间无法保守界定为72小时；不计。Reddit new 缓存约两周、Bluesky原帖不可读、YouTube watch本轮无法访问、X未直读，全部为0。旧轮任何5条来源没有沿用计数。
 
-## 本轮改善与仍然失败的环节
-- 30余名第一方Bluesky作者、61条原始相关帖、15条玩家牌表原页、13条YouTube官方原发说明，合计89条逐项原始记录；75次第一方HTTP探测。扩大了作者与直接评论核验，但新增严格有效来源仍为0。
-- Reddit r/PTCGP、r/PokemonPocket、r/PokemonTCGP各正常公开访问一次，HTTP403。X本轮没有直读样本，绝不冒充采集成功。仅关键词或游戏名相同的非Pocket/开包/想组牌无实际问题者不计。
-- 物种Hub的Popular、Name各Page1、Page2：网页直读表明分别40+2，但本轮自动抓取HTML虽然HTTP200，实际未解析出完整物种卡片、站点sitemap未穷尽：`complete_all_sort_verification=false`。Rayquaza排除。
-- 观察项已有单张Deck详情或归档内容，不等于Species Hub缺失得到完整证明，独立SEO内容价值仍待核。
-- [本轮全部原始证据与排除原因](https://github.com/wsgtcyx/ptcgp-species-radar/blob/main/evidence/2026-11-22-162428-iteration6.json)；[本轮独立一手抓取](https://github.com/wsgtcyx/ptcgp-species-radar/blob/main/evidence/2026-11-22-162428-iteration6-probe.json)；[本轮历史JSON](https://github.com/wsgtcyx/ptcgp-species-radar/blob/main/history/2026-11-22-162428-iteration6.json)。
-- [第5轮历史](https://github.com/wsgtcyx/ptcgp-species-radar/blob/main/history/2026-11-22-162354-iteration5.json)；[第4轮历史](https://github.com/wsgtcyx/ptcgp-species-radar/blob/main/history/2026-11-22-161536-iteration4.json)。
+站内 [Browse by Pokémon](https://www.pokemontcgpocket.app/en/deck/pokemon) 已读 all/popular及name各2页(40+2)，可见42基础物种；Pikachu/Pawmot/Azumarill已有物种入口，排除；Rayquaza额外排除。Sitemap及猜测的hub URL在本轮读取失败，因此其他未列物种**不得判定已确认缺页**。旧策略 Alolan Exeggutor ex、Malamar等的牌表详情并非Species hub；参照历史页对比，防止重复内容。全部候选仅观察，不能发出建页建议。
 
-发布：main提交、仓库回读、对应Pages构建、公开HTTP均须分别核验，未验证前JSON字段`publication.status=pending_deploy_verification`。
+证据：[`evidence/2026-11-22-163046-iteration5.json`](https://github.com/wsgtcyx/ptcgp-species-radar/blob/main/evidence/2026-11-22-163046-iteration5.json)；历史：[`history/2026-11-22-163046-iteration5.json`](https://github.com/wsgtcyx/ptcgp-species-radar/blob/main/history/2026-11-22-163046-iteration5.json)；机器结果：[`latest.json`](https://github.com/wsgtcyx/ptcgp-species-radar/blob/main/latest.json)。公网Pages见本轮执行后实测反馈；本版本publication初始保持pending，GitHub SHA与页面HTTP单独验证。

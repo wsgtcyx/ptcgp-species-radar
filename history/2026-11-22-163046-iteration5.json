@@ -1,0 +1,256 @@
+{
+  "schema_version": "1.1",
+  "run_id": "2026-11-22-163046-iteration5",
+  "generated_at": "2026-11-22T08:35:49.474Z",
+  "report_date": "2026-11-22",
+  "window": {
+    "start": "2026-11-19T16:30:46+08:00",
+    "end": "2026-11-22T16:30:46+08:00",
+    "hours": 72,
+    "timezone": "Asia/Shanghai"
+  },
+  "summary": "Fresh first-party note articles 5/100, 4 authors, 5 roots; no qualified new species due mandatory 100-source and independent parent/author criteria. All evidence rebuilt; old prior run not inherited.",
+  "site_audit": {
+    "checked_in_current_task": true,
+    "name_sort": {
+      "pages_visited": 2,
+      "page1_items": 40,
+      "page2_items": 2,
+      "last_page": 2,
+      "observed_species_count": 42,
+      "urls": [
+        "https://www.pokemontcgpocket.app/en/deck/pokemon?sort=name",
+        "https://www.pokemontcgpocket.app/en/deck/pokemon?page=2&sort=name"
+      ]
+    },
+    "all_popular_sort": {
+      "pages_visited": 2,
+      "page1_items": 40,
+      "page2_items": 2,
+      "last_page": 2,
+      "observed_species_count": 42,
+      "urls": [
+        "https://www.pokemontcgpocket.app/en/deck/pokemon",
+        "https://www.pokemontcgpocket.app/en/deck/pokemon?page=2"
+      ]
+    },
+    "name_list_complete": true,
+    "popular_list_complete": true,
+    "sitemap_read_success": false,
+    "sitemap_error": "public web reader returned internal error; no full sitemap cross check",
+    "candidate_hub_exact_path_checks": "direct speculative paths returned inaccessible/internal-error; cannot assert HTTP 404 or verified hub absence",
+    "complete_all_sort_verification": true,
+    "confirmed_hub_absence": false,
+    "excluded_existing_species": [
+      "Pikachu",
+      "Pawmot",
+      "Azumarill"
+    ],
+    "extra_excluded": [
+      "Rayquaza"
+    ],
+    "existing_strategy_examples": [
+      "https://www.pokemontcgpocket.app/en/deck/alolan-exeggutor-ex-c1",
+      "https://www.pokemontcgpocket.app/en/deck/malamar-b3-mega-sableye-ex-b3b",
+      "https://www.pokemontcgpocket.app/en/deck/paldean-clodsire-c1",
+      "https://www.pokemontcgpocket.app/en/deck/blastoise-c1-araquanid-b4"
+    ],
+    "note": "42 full paged name/popular browse entries observed, not equivalent to proving unlisted species hub 404. Older deck archive exists for several species but not necessarily a species hub."
+  },
+  "source_coverage": {
+    "platform_eligible_counts": {
+      "note": 5,
+      "pocketmads": 0,
+      "bluesky": 0,
+      "youtube": 0,
+      "reddit": 0,
+      "x": 0
+    },
+    "time_slice_counts": {
+      "0-24h": 0,
+      "24-48h": 1,
+      "48-72h": 4
+    },
+    "discovery": [
+      "https://note.com/tag/%E3%83%9D%E3%82%B1%E3%83%9D%E3%82%B1?mode=new",
+      "https://note.com/tag/%E3%83%9D%E3%82%B1%E3%83%9D%E3%82%B1%E3%83%87%E3%83%83%E3%82%AD?mode=new",
+      "https://www.reddit.com/r/PTCGP/new/",
+      "https://app.pocketmads.com/feed"
+    ],
+    "funnel": {
+      "discovered_unique_original_urls": null,
+      "unique_source_urls_attempted_directly": 8,
+      "unique_source_urls_successfully_directly_opened": 6,
+      "source_date_verified": 5,
+      "pocket_relevant_direct_originals": 6,
+      "deck_intent_direct_originals": 6,
+      "player_original_verified": 5,
+      "cross_platform_deduplicated_strict_eligible": 5
+    },
+    "channel_notes": {
+      "note": "5 eligible, 4 authors, 5 original article roots; recent tags not themselves counted",
+      "pocketmads": "1 first-party deck page read but original publish timezone/date not sufficiently bounded",
+      "reddit": "New feed publicly readable but cached 2 weeks old; no window-valid individual original verified",
+      "bluesky": "One first-party post link failed; no old verification carried forward",
+      "youtube": "Watch page disabled; RSS description from previous run not reused",
+      "x": "No first-party content opened"
+    },
+    "evidence_window_start_rule": "freeze at 2026-11-22T16:30:46+08:00; older article rewritten or crawled within window not counted"
+  },
+  "candidates": [],
+  "watchlist": [
+    {
+      "species": "Alolan Exeggutor",
+      "name_zh": "阿罗拉椰蛋树",
+      "name_ja": "アローラナッシー",
+      "level": "B limited evidence",
+      "verified_author_accounts": 1,
+      "distinct_parents": 1,
+      "eligible_sources": 1,
+      "form": "normal (non-ex), HP180, 100 active/50 bench; exact printed card number unknown",
+      "source_ids": [
+        "note:nc4a781011bfd"
+      ],
+      "hub_missing_verified": false,
+      "site_directory_absent": true,
+      "existing_strategy_url": "https://www.pokemontcgpocket.app/en/deck/alolan-exeggutor-ex-c1",
+      "why": "Firsthand distinct non-ex Skyla build, but site's existing Alolan Exeggutor ex C1-005 archive is not the same card; one author and no verified species hub status",
+      "next_needed": "Second independently authored original build in another root thread, exact card ID, confirm species hub via canonical/HTTP and check leaf partners"
+    },
+    {
+      "species": "Jolteon",
+      "name_zh": "雷伊布",
+      "name_ja": "サンダース",
+      "level": "C preliminary",
+      "verified_author_accounts": 1,
+      "distinct_parents": 1,
+      "eligible_sources": 1,
+      "form": "Jolteon + Manectric (printing unknown)",
+      "source_ids": [
+        "note:n6e5b19644fb8"
+      ],
+      "hub_missing_verified": false,
+      "site_directory_absent": true,
+      "existing_strategy_url": null,
+      "why": "Player's original post-mortem of a tested Jolteon/Manectric build, but neither a fresh 20-card list nor a viable Jolteon main strategy confirmed",
+      "next_needed": "Two independent actual Jolteon-centered deck lists, printed card numbers and current deck archive cross-check"
+    },
+    {
+      "species": "Malamar",
+      "name_zh": "乌贼王",
+      "name_ja": "カラマネロ",
+      "level": "C time-unverified",
+      "verified_author_accounts": 0,
+      "distinct_parents": 0,
+      "eligible_sources": 0,
+      "form": "Malamar / Meowstic / Mega Mewtwo X ex",
+      "source_ids": [],
+      "unverified_source_url": "https://app.pocketmads.com/feed/c0575dfc-71e3-41bb-89f4-14eefdc0bc7e",
+      "hub_missing_verified": false,
+      "site_directory_absent": true,
+      "existing_strategy_url": "https://www.pokemontcgpocket.app/en/deck/malamar-b3-mega-sableye-ex-b3b",
+      "why": "First-party 20-card list and author read, but exact first-publication time not proven this run; cannot count as qualified evidence",
+      "next_needed": "First-party time datetime with timezone, then second unrelated author and check existing B3-112/Sableye archive difference"
+    }
+  ],
+  "reporting": {
+    "iteration": 5,
+    "strict_eligible_count": 5,
+    "source_goal": 100,
+    "coverage_met": false,
+    "quality_gate": "failed",
+    "shortfall": 95,
+    "reviewed_unique_urls": 8,
+    "first_party_individual_thread_or_page_direct_reads": 6,
+    "verified_parent_thread_count": 5,
+    "verified_unique_authors": 4,
+    "qualified_count": 0,
+    "target_count": 5,
+    "shortfall_count": 5,
+    "watchlist_count": 3,
+    "source_diversity_insufficient": true,
+    "source_diversity_goal": 10,
+    "per_platform_eligible": {
+      "note": 5,
+      "pocketmads": 0,
+      "bluesky": 0,
+      "youtube": 0,
+      "reddit": 0,
+      "x": 0
+    },
+    "verified_source_ids": [
+      "note:nb88ac0035ae7",
+      "note:na18049be6a84",
+      "note:nea156c53782f",
+      "note:nc4a781011bfd",
+      "note:n6e5b19644fb8"
+    ],
+    "slices": {
+      "0-24h": 0,
+      "24-48h": 1,
+      "48-72h": 4
+    },
+    "source_diversity_warning": "note contains two original articles by the same player; 5 URLs, 5 discussion articles, 4 public authors, 1 eligible platform",
+    "growth_rate": null,
+    "evidence_path": "evidence/2026-11-22-163046-iteration5.json",
+    "history_path": "history/2026-11-22-163046-iteration5.json"
+  },
+  "audit": {
+    "iteration": 5,
+    "strict_eligible_count": 5,
+    "source_goal": 100,
+    "coverage_met": false,
+    "quality_gate": "failed",
+    "shortfall": 95,
+    "reviewed_unique_urls": 8,
+    "first_party_individual_thread_or_page_direct_reads": 6,
+    "verified_parent_thread_count": 5,
+    "verified_unique_authors": 4,
+    "qualified_count": 0,
+    "target_count": 5,
+    "shortfall_count": 5,
+    "watchlist_count": 3,
+    "source_diversity_insufficient": true,
+    "source_diversity_goal": 10,
+    "per_platform_eligible": {
+      "note": 5,
+      "pocketmads": 0,
+      "bluesky": 0,
+      "youtube": 0,
+      "reddit": 0,
+      "x": 0
+    },
+    "verified_source_ids": [
+      "note:nb88ac0035ae7",
+      "note:na18049be6a84",
+      "note:nea156c53782f",
+      "note:nc4a781011bfd",
+      "note:n6e5b19644fb8"
+    ],
+    "slices": {
+      "0-24h": 0,
+      "24-48h": 1,
+      "48-72h": 4
+    },
+    "source_diversity_warning": "note contains two original articles by the same player; 5 URLs, 5 discussion articles, 4 public authors, 1 eligible platform",
+    "growth_rate": null,
+    "evidence_path": "evidence/2026-11-22-163046-iteration5.json",
+    "history_path": "history/2026-11-22-163046-iteration5.json",
+    "eligible_sources": 5,
+    "coverage_goal": 100,
+    "source_coverage_warning": "Observed URLs, author accounts and keywords are not strict deck-content sources. All 5 qualified sources are from note."
+  },
+  "publication": {
+    "status": "pending_deploy_verification",
+    "commit_written": false,
+    "repository_readback_verified": false,
+    "pages_deploy_verified": false,
+    "public_json_verified": false,
+    "repository": "wsgtcyx/ptcgp-species-radar",
+    "branch": "main",
+    "homepage": "https://wsgtcyx.github.io/ptcgp-species-radar/",
+    "json_url": "https://wsgtcyx.github.io/ptcgp-species-radar/latest.json",
+    "raw_json_url": "https://raw.githubusercontent.com/wsgtcyx/ptcgp-species-radar/main/latest.json",
+    "note": "Publication and public HTTP verification performed after commit; flags intentionally pending inside immutable release."
+  }
+}

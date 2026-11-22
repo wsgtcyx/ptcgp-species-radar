@@ -1,0 +1,725 @@
+{
+  "schema_version": "1.1",
+  "project": "PTCG Pocket Missing Species Deck Radar",
+  "generated_at": "2026-11-22T10:21:07+08:00",
+  "report_date": "2026-11-22",
+  "timezone": "Asia/Shanghai",
+  "window": {
+    "start": "2026-11-19T10:21:07+08:00",
+    "end": "2026-11-22T10:21:07+08:00",
+    "hours": 72
+  },
+  "status": "exploratory_incomplete_under_100_verifiable_sources",
+  "summary": "Deep verification rerun: 31 directly opened distinct Reddit source/comment URLs from 3 parent threads; 0 X originals verified; strict source coverage target 100 NOT met. Five species are PROVISIONAL research leads, not five independently trending verified species.",
+  "selection_rules": {
+    "max_candidates": 5,
+    "target_qualified": 5,
+    "exclude_if_species_page_exists": true,
+    "exclude_physical_tcg": true,
+    "require_pocket": true,
+    "exclude_species": [
+      "Rayquaza"
+    ],
+    "min_independent_authors_for_recent_multi_author_activity": 2,
+    "allow_lower_confidence_watchlist": true,
+    "watchlist_separate_from_qualified": true,
+    "exclude_only_tech_card": true,
+    "require_direct_source_and_cutoff_safe_date_for_qualified": true
+  },
+  "site_audit": {
+    "species_directory_url": "https://www.pokemontcgpocket.app/en/deck/pokemon?sort=name",
+    "observed_species_count": 41,
+    "list_pages_read": 2,
+    "pagination_observed": true,
+    "pagination_note": "Followed Name/All page 1 Next to page 2; page 1 showed 40 entries and page 2 exactly 1 (Vespiquen), with Previous only and 'Page 2 of 2'. Also opened popular/newest/recent views; observed count from name/all full visible pagination.",
+    "pages": [
+      {
+        "page": 1,
+        "url": "https://www.pokemontcgpocket.app/en/deck/pokemon?sort=name",
+        "observed_species": 40,
+        "has_next": true
+      },
+      {
+        "page": 2,
+        "url": "https://www.pokemontcgpocket.app/en/deck/pokemon?page=2&sort=name",
+        "observed_species": 1,
+        "has_next": false
+      }
+    ],
+    "failed_pages": [],
+    "last_page_verified": 2,
+    "extra_sort_views_checked": [
+      "popular",
+      "name",
+      "newest",
+      "recent"
+    ],
+    "excluded_present_examples": [
+      "Azumarill",
+      "Vespiquen",
+      "Fuecoco",
+      "Charizard",
+      "Mewtwo",
+      "Bewear"
+    ],
+    "candidate_species_present_in_directory": false,
+    "audit_scope": "Fully traversed the publicly rendered directory under name/all; may not reflect hidden administrative data or newly published pages after this retrieval."
+  },
+  "source_coverage": {
+    "reddit": {
+      "original_posts_directly_verified": 2,
+      "substantive_comments_directly_read": 11,
+      "known_verified_distinct_authors": 11,
+      "status": "incomplete_deep_audit_3_parent_threads_only",
+      "effective_original_posts_direct_verified": 1,
+      "directly_opened_source_urls": 31,
+      "unique_parent_threads": 3,
+      "verified_exact_date_time_for_comments": 0
+    },
+    "x": {
+      "original_posts_directly_verified": 0,
+      "known_verified_distinct_authors": null,
+      "status": "unable_to_verify_original_tweet",
+      "notes": "Zero accessible verifiable original X posts, not zero actual discussion",
+      "verified_originals": 0
+    },
+    "multi_platform_unique_authors": null,
+    "trend_baseline_available": false,
+    "languages": {
+      "en": "searched_primary_with_reddit_direct_read",
+      "ja": "searched_no_verifiable_x_original",
+      "es": "attempted_search_failed_or_no_verifiable_original",
+      "pt": "attempted_search_failed_or_no_verifiable_original",
+      "ko": "limited_attempt_no_verifiable_result",
+      "de": "not_systematically_surveyed",
+      "fr": "not_systematically_surveyed",
+      "zh": "not_systematically_surveyed"
+    },
+    "sample_queries": [
+      "site:reddit.com/r/PTCGP/comments/ 2026 November 21 Pidgeot Zoroark limited deck",
+      "site:reddit.com/r/PTCGP/comments/ 2026 November 21 Lapras Blastoise deck",
+      "site:reddit.com/r/PTCGP/comments/ 2026 November 20 Lopunny deck",
+      "site:reddit.com/r/PTCGP/comments/1y1 deck November 20 2026",
+      "site:reddit.com/r/PokemonPocket/comments/ November 20 2026 deck event",
+      "site:x.com ポケポケ デッキ 2026 11月",
+      "site:x.com PTCGP Lopunny deck 2026",
+      "site:reddit.com PTCGP mazo noviembre 2026",
+      "site:reddit.com PTCGP baralho novembro 2026",
+      "site:reddit.com/r/PTCGP 덱 2026-11-21",
+      "site:x.com \"Aegislash\" \"Togedemaru\" \"deck\" \"November 2026\"",
+      "site:x.com ポケポケ ギルガルド デッキ 2026年11月20日"
+    ],
+    "exact_query_count": null,
+    "limits": [
+      "X original public posts not independently retrievable",
+      "Source Reddit calendar dates available for main candidates but original Beijing clock times unknown; source day Nov20 wholly within 72h window.",
+      "No comparable same-method prior 72h baseline",
+      "No evidence to claim a 5/5 qualified list",
+      "Aegislash/Dialga discussion is a shared thread, so distinct thread count less than five.",
+      "Aegislash equivalently printed Cursed Metal variant confirmed but original pictured art number not directly established.",
+      "Corrected conservative source-date treatment: limited-event thread comments expose only relative 5-6h age in directly read page; previously reported Nov20 day is not considered corroborated."
+    ]
+  },
+  "candidates": [
+    {
+      "rank": 1,
+      "species": "Aegislash",
+      "species_zh": "坚盾剑怪",
+      "species_slug_suggestion": "aegislash",
+      "form": "Cursed Metal (Psychic/Metal attackers +30); equivalent gameplay print B1-172 / B1a-102 / B4b-164 / B4b-341; precise pictured print unresolved",
+      "card_ids": [
+        "B1-172",
+        "B1a-102",
+        "B4b-164",
+        "B4b-341"
+      ],
+      "precise_art_print_verified": false,
+      "partner_species": [
+        "Togedemaru",
+        "Dialga ex",
+        "Melmetal",
+        "Mega Mewtwo X"
+      ],
+      "core_vs_tech": "primary_combo_engine",
+      "status": "provisional_research_only_not_confirmed_trending",
+      "reddit_unique_authors_verified": 10,
+      "reddit_original_posts_direct_verified": 1,
+      "reddit_substantive_replies_direct_verified": 6,
+      "x_unique_authors_verified": null,
+      "cross_platform_unique_people": null,
+      "intent": [
+        "deck_request",
+        "partner_discussion",
+        "deck_optimization",
+        "battle_report"
+      ],
+      "growth_trend": null,
+      "recent_activity": "multiple_independent_authors",
+      "page_gap": "Aegislash absent from visible full species-directory pages 1 and 2; existing card detail pages are not independent species-deck landing pages.",
+      "recommended_page": "Aegislash Cursed Metal deck variants: Togedemaru recoil boost vs Dialga ex energy ramp vs Melmetal defensive stack and Mega Mewtwo X; 20-card sample lists, energy choice, Rare Candy, survivability, pair comparisons.",
+      "seo_keywords": [
+        "Aegislash deck Pokémon TCG Pocket",
+        "Aegislash Togedemaru deck",
+        "Aegislash Dialga ex deck",
+        "Aegislash Cursed Metal deck"
+      ],
+      "value_checks": {
+        "specific_user_need": "verified_direct_request",
+        "multiple_build_variants": "verified_multiple_distinct_builds",
+        "viable_deck_axis": "verified_combo_axis",
+        "form_identified": "verified_effect_and_equivalent_prints_not_exact_art",
+        "avoids_deck_page_duplication": "separate_from_card_encyclopedia"
+      },
+      "evidence": [
+        {
+          "platform": "reddit",
+          "author": "OldSpaghetti-Factory",
+          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/amy_good_builds_that_combo_with_this_card/",
+          "post_id": "1y0sfrt",
+          "parent_thread_id": "1y0sfrt",
+          "published_date": "2026-11-20",
+          "published_at": null,
+          "exact_timestamp_verified": false,
+          "directly_opened": true,
+          "summary": "build_advice",
+          "intent": "build_advice"
+        },
+        {
+          "platform": "reddit",
+          "author": "phvw",
+          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/comment/19swgf541jupx/",
+          "post_id": "19swgf541jupx",
+          "parent_thread_id": "1y0sfrt",
+          "published_date": null,
+          "published_at": null,
+          "exact_timestamp_verified": false,
+          "directly_opened": true,
+          "summary": "partner_recoil_combo",
+          "intent": "partner_recoil_combo"
+        },
+        {
+          "platform": "reddit",
+          "author": "Vesprince",
+          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/comment/19swifudi05s4/",
+          "post_id": "19swifudi05s4",
+          "parent_thread_id": "1y0sfrt",
+          "published_date": null,
+          "published_at": null,
+          "exact_timestamp_verified": false,
+          "directly_opened": true,
+          "summary": "deck_optimization_eviolite",
+          "intent": "deck_optimization_eviolite"
+        },
+        {
+          "platform": "reddit",
+          "author": "SheerHippo",
+          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/comment/19swjjqltr51c/",
+          "post_id": "19swjjqltr51c",
+          "parent_thread_id": "1y0sfrt",
+          "published_date": null,
+          "published_at": null,
+          "exact_timestamp_verified": false,
+          "directly_opened": true,
+          "summary": "deck_experience",
+          "intent": "deck_experience"
+        },
+        {
+          "platform": "reddit",
+          "author": "GRE4TESTEV3R",
+          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/comment/19swkbrhemtz4/",
+          "post_id": "19swkbrhemtz4",
+          "parent_thread_id": "1y0sfrt",
+          "published_date": null,
+          "published_at": null,
+          "exact_timestamp_verified": false,
+          "directly_opened": true,
+          "summary": "partner_energy_ramp",
+          "intent": "partner_energy_ramp"
+        },
+        {
+          "platform": "reddit",
+          "author": "e_ndoubleu",
+          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/comment/19swnp702g2m9/",
+          "post_id": "19swnp702g2m9",
+          "parent_thread_id": "1y0sfrt",
+          "published_date": null,
+          "published_at": null,
+          "exact_timestamp_verified": false,
+          "directly_opened": true,
+          "summary": "deck_optimization",
+          "intent": "deck_optimization"
+        },
+        {
+          "platform": "reddit",
+          "author": "AdagioDesperate",
+          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/comment/19swhqlkioi0w/",
+          "post_id": "19swhqlkioi0w",
+          "parent_thread_id": "1y0sfrt",
+          "published_date": null,
+          "published_at": null,
+          "exact_timestamp_verified": false,
+          "directly_opened": true,
+          "summary": "partner_defense",
+          "intent": "partner_defense"
+        },
+        {
+          "platform": "reddit",
+          "author": "deckskin",
+          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/comment/19swt7imazarp/",
+          "post_id": "19swt7imazarp",
+          "parent_thread_id": "1y0sfrt",
+          "published_date": null,
+          "published_at": null,
+          "exact_timestamp_verified": false,
+          "directly_opened": true,
+          "summary": "partner_combo",
+          "intent": "partner_combo"
+        },
+        {
+          "platform": "reddit",
+          "author": "ViewExplorer",
+          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/comment/19sxg1lm4se9u/",
+          "post_id": "19sxg1lm4se9u",
+          "parent_thread_id": "1y0sfrt",
+          "published_date": null,
+          "published_at": null,
+          "exact_timestamp_verified": false,
+          "directly_opened": true,
+          "summary": "ability_power_viability",
+          "intent": "ability_power_viability"
+        },
+        {
+          "platform": "reddit",
+          "author": "Ambitious_Chicken123",
+          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/comment/19swkwq5jrjnp/",
+          "post_id": "19swkwq5jrjnp",
+          "parent_thread_id": "1y0sfrt",
+          "published_date": null,
+          "published_at": null,
+          "exact_timestamp_verified": false,
+          "directly_opened": true,
+          "summary": "deck_viability",
+          "intent": "deck_viability"
+        }
+      ],
+      "audit_confidence": "low_to_medium_single_parent_cluster_only",
+      "trending_evidence_verified": false,
+      "rising_trend_baseline_available": false,
+      "reddit_distinct_parent_discussion_threads": 1,
+      "under_100_coverage_warning": true,
+      "individual_comment_timestamps_verified": false
+    },
+    {
+      "rank": 2,
+      "species": "Pidgeot",
+      "species_zh": "大比鸟",
+      "species_slug_suggestion": "pidgeot",
+      "form": "Pidgeot (Dual Fusion C1; regular Stage 2, not Mega Pidgeot ex)",
+      "card_ids": [
+        "C1-104"
+      ],
+      "partner_species": [
+        "Zoroark",
+        "Umbreon",
+        "Fuecoco ex"
+      ],
+      "core_vs_tech": "deck_axis_with_Blues_Provocation",
+      "status": "provisional_research_only_not_confirmed_trending",
+      "reddit_unique_authors_verified": 2,
+      "reddit_original_posts_direct_verified": 0,
+      "reddit_substantive_replies_direct_verified": 2,
+      "x_unique_authors_verified": null,
+      "cross_platform_unique_people": null,
+      "intent": [
+        "partner_discussion",
+        "deck_optimization",
+        "battle_report"
+      ],
+      "growth_trend": null,
+      "recent_activity": "multiple_independent_authors",
+      "page_gap": "Pidgeot absent from full visible species-directory pages; standalone Pidgeot Umbreon archetype detail exists, but no species comparison entry.",
+      "recommended_page": "Pidgeot C1-104 deck choices: Pidgeot–Zoroark versus Pidgeot–Umbreon; Blue's Provocation lines, evolution consistency without Rare Candy, Limited Battles, 20-card alternatives.",
+      "seo_keywords": [
+        "Pidgeot deck Pokémon TCG Pocket",
+        "Pidgeot Zoroark deck",
+        "Pidgeot Umbreon deck C1",
+        "Pidgeot Blue's Provocation deck"
+      ],
+      "value_checks": {
+        "specific_user_need": "verified",
+        "multiple_build_variants": "verified",
+        "viable_deck_axis": "verified",
+        "form_identified": "verified_C1_card",
+        "avoids_deck_page_duplication": "requires_species_comparison_not_duplicate_umbreon_deck"
+      },
+      "evidence": [
+        {
+          "platform": "reddit",
+          "author": "NormTheStorm",
+          "url": "https://www.reddit.com/r/PTCGP/comments/1y1dwkw/comment/19sxtl6ij8g0x/",
+          "post_id": "19sxtl6ij8g0x",
+          "parent_thread_id": "1y1dwkw",
+          "published_date": null,
+          "published_at": null,
+          "exact_timestamp_verified": false,
+          "directly_opened": true,
+          "summary": "battle_build",
+          "intent": "battle_build"
+        },
+        {
+          "platform": "reddit",
+          "author": "helpthisfish",
+          "url": "https://www.reddit.com/r/PTCGP/comments/1y1dwkw/comment/19sxtx3fltb1e/",
+          "post_id": "19sxtx3fltb1e",
+          "parent_thread_id": "1y1dwkw",
+          "published_date": null,
+          "published_at": null,
+          "exact_timestamp_verified": false,
+          "directly_opened": true,
+          "summary": "battle_build",
+          "intent": "battle_build"
+        }
+      ],
+      "date_verification_note": "The directly read 2026-11-22 morning Reddit view showed comments approximately 5-6h old, safely within the research window; absolute platform-local date/time cannot be asserted.",
+      "audit_confidence": "low_to_medium_single_parent_cluster_only",
+      "trending_evidence_verified": false,
+      "rising_trend_baseline_available": false,
+      "reddit_distinct_parent_discussion_threads": 1,
+      "under_100_coverage_warning": true,
+      "individual_comment_timestamps_verified": false
+    },
+    {
+      "rank": 3,
+      "species": "Blastoise",
+      "species_zh": "水箭龟",
+      "species_slug_suggestion": "blastoise",
+      "form": "Blastoise (Dual Fusion C1; Aqua Charge Stage 2), not Mega Blastoise ex",
+      "card_ids": [
+        "C1-031"
+      ],
+      "partner_species": [
+        "Lapras",
+        "Squirtle",
+        "Blue's Provocation"
+      ],
+      "core_vs_tech": "main_evolution_axis",
+      "status": "provisional_research_only_not_confirmed_trending",
+      "reddit_unique_authors_verified": 3,
+      "reddit_original_posts_direct_verified": 0,
+      "reddit_substantive_replies_direct_verified": 2,
+      "x_unique_authors_verified": null,
+      "cross_platform_unique_people": null,
+      "intent": [
+        "battle_report",
+        "deck_optimization",
+        "partner_discussion"
+      ],
+      "growth_trend": null,
+      "recent_activity": "multiple_independent_authors",
+      "page_gap": "Blastoise absent from full visible species-directory pages; specific Blastoise archetype pages exist elsewhere.",
+      "recommended_page": "Blastoise C1-031 Aqua Charge deck versions for Limited Battles; Squirtle paralysis timing, evolution without Rare Candy, Lapras inclusion and Blue's Provocation choices.",
+      "seo_keywords": [
+        "Blastoise deck Pokémon TCG Pocket",
+        "Blastoise C1-031 deck",
+        "Blastoise Lapras Lorelei deck",
+        "Blastoise Blue's Provocation"
+      ],
+      "value_checks": {
+        "specific_user_need": "verified",
+        "multiple_build_variants": "partial",
+        "viable_deck_axis": "verified",
+        "form_identified": "verified_C1_card",
+        "avoids_deck_page_duplication": "requires_distinction_from_existing_archetype_pages"
+      },
+      "evidence": [
+        {
+          "platform": "reddit",
+          "author": "ProfSpaceTime",
+          "url": "https://www.reddit.com/r/PTCGP/comments/1y1dwkw/comment/19sxtn25u8o4g/",
+          "post_id": "19sxtn25u8o4g",
+          "parent_thread_id": "1y1dwkw",
+          "published_date": null,
+          "published_at": null,
+          "exact_timestamp_verified": false,
+          "directly_opened": true,
+          "summary": "battle_deck_evolution_timing",
+          "intent": "battle_deck_evolution_timing"
+        },
+        {
+          "platform": "reddit",
+          "author": "eddiemoney69",
+          "url": "https://www.reddit.com/r/PTCGP/comments/1y1dwkw/comment/19sxwei7qrm04/",
+          "post_id": "19sxwei7qrm04",
+          "parent_thread_id": "1y1dwkw",
+          "published_date": null,
+          "published_at": null,
+          "exact_timestamp_verified": false,
+          "directly_opened": true,
+          "summary": "battle_partner",
+          "intent": "battle_partner"
+        },
+        {
+          "platform": "reddit",
+          "author": "TKENation522",
+          "url": "https://www.reddit.com/r/PTCGP/comments/1y1dwkw/comment/19sxvsed2neao/",
+          "post_id": "19sxvsed2neao",
+          "parent_thread_id": "1y1dwkw",
+          "published_date": null,
+          "published_at": null,
+          "exact_timestamp_verified": false,
+          "directly_opened": true,
+          "summary": "deck_choice",
+          "intent": "deck_choice"
+        }
+      ],
+      "date_verification_note": "The directly read 2026-11-22 morning Reddit view showed comments approximately 5-6h old, safely within the research window; absolute platform-local date/time cannot be asserted.",
+      "audit_confidence": "low_to_medium_single_parent_cluster_only",
+      "trending_evidence_verified": false,
+      "rising_trend_baseline_available": false,
+      "reddit_distinct_parent_discussion_threads": 1,
+      "under_100_coverage_warning": true,
+      "individual_comment_timestamps_verified": false
+    },
+    {
+      "rank": 4,
+      "species": "Dialga",
+      "species_zh": "帝牙卢卡",
+      "species_slug_suggestion": "dialga",
+      "form": "Dialga ex A2-119 Metallic Turbo (not Origin Forme Dialga)",
+      "card_ids": [
+        "A2-119"
+      ],
+      "partner_species": [
+        "Aegislash",
+        "Gholdengo ex",
+        "Dawn"
+      ],
+      "core_vs_tech": "metal_energy_ramp_axis",
+      "status": "provisional_research_only_not_confirmed_trending",
+      "reddit_unique_authors_verified": 2,
+      "reddit_original_posts_direct_verified": 0,
+      "reddit_substantive_replies_direct_verified": 2,
+      "x_unique_authors_verified": null,
+      "cross_platform_unique_people": null,
+      "intent": [
+        "partner_discussion",
+        "deck_optimization"
+      ],
+      "growth_trend": null,
+      "recent_activity": "multiple_independent_authors_in_shared_thread",
+      "page_gap": "Dialga absent from full visible species-directory pages; a card detail is present but not a species-level deck options page.",
+      "recommended_page": "Dialga ex Metallic Turbo as the energy engine: Aegislash versus Gholdengo ex / other metal partners, Dawn timing, when to attack vs accelerate, equipment and Rare Candy consistency; avoid duplicating Aegislash page.",
+      "seo_keywords": [
+        "Dialga ex deck Pokémon TCG Pocket",
+        "Dialga ex Aegislash deck",
+        "Dialga ex Gholdengo deck",
+        "Dialga ex Metallic Turbo deck"
+      ],
+      "value_checks": {
+        "specific_user_need": "verified_user_optimization",
+        "multiple_build_variants": "verified_partner_branches",
+        "viable_deck_axis": "verified_as_energy_engine",
+        "form_identified": "verified_A2_119_from_card_effect",
+        "avoids_deck_page_duplication": "requires_differentiation_from_Aegislash"
+      },
+      "evidence": [
+        {
+          "platform": "reddit",
+          "author": "GRE4TESTEV3R",
+          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/comment/19swkbrhemtz4/",
+          "post_id": "19swkbrhemtz4",
+          "parent_thread_id": "1y0sfrt",
+          "published_date": null,
+          "published_at": null,
+          "exact_timestamp_verified": false,
+          "directly_opened": true,
+          "summary": "partner_energy_ramp",
+          "intent": "partner_energy_ramp"
+        },
+        {
+          "platform": "reddit",
+          "author": "e_ndoubleu",
+          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/comment/19swnp702g2m9/",
+          "post_id": "19swnp702g2m9",
+          "parent_thread_id": "1y0sfrt",
+          "published_date": null,
+          "published_at": null,
+          "exact_timestamp_verified": false,
+          "directly_opened": true,
+          "summary": "deck_optimization",
+          "intent": "deck_optimization"
+        }
+      ],
+      "audit_confidence": "low_to_medium_single_parent_cluster_only",
+      "trending_evidence_verified": false,
+      "rising_trend_baseline_available": false,
+      "reddit_distinct_parent_discussion_threads": 1,
+      "under_100_coverage_warning": true,
+      "individual_comment_timestamps_verified": false
+    },
+    {
+      "rank": 5,
+      "species": "Zoroark",
+      "species_zh": "索罗亚克",
+      "species_slug_suggestion": "zoroark",
+      "form": "Zoroark (Dual Fusion C1; Foul Play, non-ex)",
+      "card_ids": [
+        "C1-088"
+      ],
+      "partner_species": [
+        "Pidgeot"
+      ],
+      "core_vs_tech": "co_attacker_deck_axis_copy_opponent_attack",
+      "status": "provisional_research_only_not_confirmed_trending",
+      "reddit_unique_authors_verified": 1,
+      "reddit_original_posts_direct_verified": 0,
+      "reddit_substantive_replies_direct_verified": 1,
+      "x_unique_authors_verified": null,
+      "cross_platform_unique_people": null,
+      "intent": [
+        "partner_discussion",
+        "battle_report",
+        "deck_optimization"
+      ],
+      "growth_trend": null,
+      "recent_activity": "single_independent_author_only",
+      "page_gap": "Zoroark absent from full visible species-directory; existing Pidgeot–Zoroark card inclusion does not supply species-level comparison.",
+      "recommended_page": "Zoroark C1-088 Foul Play decks: Pidgeot/Blue's Provocation opponent-attack targeting, matchup choice, evolution requirements, compare to other Zoroark versions; avoid duplicating Pidgeot page.",
+      "seo_keywords": [
+        "Zoroark deck Pokémon TCG Pocket",
+        "Zoroark Pidgeot deck C1",
+        "Zoroark Foul Play Blue's Provocation"
+      ],
+      "value_checks": {
+        "specific_user_need": "verified",
+        "multiple_build_variants": "unverified",
+        "viable_deck_axis": "verified_as_named_core",
+        "form_identified": "verified_C1_card",
+        "avoids_deck_page_duplication": "requires_complementary_content_to_pidgeot_page"
+      },
+      "evidence": [
+        {
+          "platform": "reddit",
+          "author": "NormTheStorm",
+          "url": "https://www.reddit.com/r/PTCGP/comments/1y1dwkw/comment/19sxtl6ij8g0x/",
+          "post_id": "19sxtl6ij8g0x",
+          "parent_thread_id": "1y1dwkw",
+          "published_date": null,
+          "published_at": null,
+          "exact_timestamp_verified": false,
+          "directly_opened": true,
+          "summary": "battle_build",
+          "intent": "battle_build"
+        }
+      ],
+      "date_verification_note": "The directly read 2026-11-22 morning Reddit view showed comments approximately 5-6h old, safely within the research window; absolute platform-local date/time cannot be asserted.",
+      "audit_confidence": "low_to_medium_single_parent_cluster_only",
+      "trending_evidence_verified": false,
+      "rising_trend_baseline_available": false,
+      "reddit_distinct_parent_discussion_threads": 1,
+      "under_100_coverage_warning": true,
+      "individual_comment_timestamps_verified": false
+    }
+  ],
+  "watchlist": [],
+  "reporting": {
+    "target_count": 5,
+    "qualified_count": 0,
+    "qualified_candidate_count": 0,
+    "shortfall_count": 5,
+    "watchlist_count": 0,
+    "total_research_targets": 5,
+    "requested_targets": 5,
+    "verified_x_accounts": null,
+    "ranking": "distinct authors first, documented deck-role and user intent second. No baseline growth comparison.",
+    "history_path": "history/2026-11-22-deep-audit.json",
+    "source_post_count_direct_verified": 2,
+    "note": "The top post is not itself a substantive deck post; qualifying evidence is in authored comments on it.",
+    "revised_from_snapshot": "history/2026-11-22-revised.json",
+    "cross_species_shared_authors_note": "Pidgeot/Zoroark share NormTheStorm; Aegislash/Dialga share GRE4TESTEV3R and e_ndoubleu; counted separately by species as permitted. Two same-thread comment clusters must not be presented as five independent threads.",
+    "coverage_goal": 100,
+    "coverage_met": false,
+    "verified_original_source_url_count": 2,
+    "distinct_discussion_thread_count": 2,
+    "high_confidence_rising_species_count": 0,
+    "qualification_provisional": true,
+    "source_audit_path": "evidence/2026-11-22-deep-audit.json",
+    "provisional_candidate_count": 5,
+    "audited_distinct_source_urls": 31,
+    "unique_parent_threads": 3,
+    "verified_x_original_urls": 0,
+    "research_status": "insufficient_evidence_diversity; candidate list provisional"
+  },
+  "excluded_examples": [
+    {
+      "species": "Azumarill",
+      "reason": "already_has_species_page"
+    },
+    {
+      "species": "Vespiquen",
+      "reason": "already_has_species_page_on_page_2"
+    },
+    {
+      "species": "Fuecoco",
+      "reason": "already_has_species_page"
+    },
+    {
+      "species": "Rayquaza",
+      "reason": "explicit_task_exclusion"
+    },
+    {
+      "species": "Paldean Clodsire",
+      "reason": "Nov20 source not directly readable and other date-only source too close to cutoff to accept; moved outside top-five final ranking"
+    },
+    {
+      "species": "Lopunny",
+      "reason": "Recent Rabbit Jumping discussion does not prove a particular Lopunny card is in cited deck; excluded from qualified count"
+    }
+  ],
+  "recommended_next_action": "Build Aegislash Cursed Metal overview first with multiple requested core partners, Pidgeot next, Blastoise after, then Dialga ex and Zoroark with substantial non-duplicative content. Verify more independent sources and X for growth claims.",
+  "publication": {
+    "status": "repository_commit_pending",
+    "commit_written": false,
+    "repository_readback_verified": false,
+    "pages_deploy_verified": false,
+    "public_json_verified": false,
+    "repository": "wsgtcyx/ptcgp-species-radar",
+    "branch": "main",
+    "pages_url": "https://wsgtcyx.github.io/ptcgp-species-radar/",
+    "json_url": "https://wsgtcyx.github.io/ptcgp-species-radar/latest.json",
+    "alternate_json_url": "https://raw.githubusercontent.com/wsgtcyx/ptcgp-species-radar/main/latest.json",
+    "notes": "Publication status is best verified from GitHub readback and workflow (metadata in this JSON is a pre-commit snapshot). This data cannot self-certify its own deployment."
+  },
+  "audit": {
+    "coverage_goal": 100,
+    "coverage_met": false,
+    "coverage_confidence": "inadequate_nonrepresentative",
+    "reviewed_unique_original_and_comment_urls": 31,
+    "independently_verified_exact_time_72h_urls": 0,
+    "parent_posts_calendar_day_within_72h": 3,
+    "unique_parent_thread_count": 3,
+    "directly_opened_reply_permalink_count": 28,
+    "deck_intent_records": 26,
+    "verified_x_original_urls": 0,
+    "gap_to_100_at_reviewed_url_level": 69,
+    "quality_gate_reasons": [
+      "100-source coverage goal not achieved: direct unique Reddit posts and comment permalinks much fewer than 100",
+      "All studied evidence is clustered in 3 parent threads, rather than independent 72h subreddit/X discovery breadth",
+      "No verified X original post, major platform coverage gap",
+      "Comment creation clock-times not independently verified; dates must not be invented",
+      "No same-method growth baseline"
+    ],
+    "source_funnel": {
+      "search_queries_executed": null,
+      "search_results_seen_urls": null,
+      "unique_directly_opened_url_count": 31,
+      "opened_parent_thread_count": 3,
+      "opened_comment_permalink_count": 28,
+      "unique_reddit_deck_authors": 26,
+      "individual_replies_with_exact_publication_datetime": 0,
+      "x_verified_posts": 0
+    },
+    "evidence_artifact": "evidence/2026-11-22-deep-audit.json",
+    "generated_at": "2026-11-22T10:21:07+08:00"
+  }
+}

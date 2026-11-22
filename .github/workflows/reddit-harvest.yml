@@ -1,4 +1,4 @@
-name: One-shot Reddit 72h evidence collection
+name: Public social evidence channel probe
 on:
   push:
     paths:
@@ -11,22 +11,23 @@ permissions:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 18
+    timeout-minutes: 8
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Fetch public Reddit posts and comments (no auth bypass)
-        run: python scripts/reddit_harvest.py
-      - name: Commit raw audit (do not certify as verified)
+      - name: Read public Bluesky author feeds, PocketMads HTML and species pages
+        run: python scripts/social_public_probe.py
+      - name: Commit probe evidence without certifying eligibility
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add evidence/reddit-public-raw-*.json
+          git add evidence/*-live-probe.json
           if git diff --staged --quiet; then
-            echo "No evidence produced."
+            echo "No new probe evidence."
           else
-            git commit -m "Add raw Reddit evidence collection (not independently validated)"
+            git commit -m "Record first-party public channel probe for 15:30 BJT iteration"
+            git pull --rebase origin main
             git push origin HEAD:main
           fi

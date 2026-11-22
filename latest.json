@@ -494,15 +494,23 @@
   ],
   "recommended_next_action": "Prepare Pidgeot species page first; next Blastoise then Zoroark. Validate late-night Clodsire and explicit Lopunny list if attempting 5 qualified candidates.",
   "publication": {
-    "status": "git_commit_pending_or_unverified",
-    "commit_written": false,
-    "repository_readback_verified": false,
+    "status": "repository_readback_verified_pages_deploy_pending_or_unverified",
+    "commit_written": true,
+    "repository_readback_verified": true,
     "pages_deploy_verified": false,
     "public_json_verified": false,
+    "data_commit_sha": "217d576c08b4d7ef636a8992d0fd1315339bd413",
     "repository": "wsgtcyx/ptcgp-species-radar",
     "branch": "main",
     "pages_url": "https://wsgtcyx.github.io/ptcgp-species-radar/",
     "json_url": "https://wsgtcyx.github.io/ptcgp-species-radar/latest.json",
-    "notes": "Publishing and deployment must be verified separately; public HTTP endpoint could not be reached via web browser before publishing."
+    "alternate_json_url": "https://raw.githubusercontent.com/wsgtcyx/ptcgp-species-radar/main/latest.json",
+    "pages_workflow_observed": {
+      "run_id": 44974544349,
+      "head_sha": "217d576c08b4d7ef636a8992d0fd1315339bd413",
+      "status": "pending",
+      "conclusion": null
+    },
+    "notes": "Fresh daily GitHub contents were committed and reread successfully, but latest Pages deployment had not completed when checked; publicly hosted HTTP JSON validation unavailable from this runtime. These booleans are conservative proof states, not guesses."
   }
 }

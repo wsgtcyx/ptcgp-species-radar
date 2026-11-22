@@ -61,17 +61,19 @@ urls=[
  ("pocketmads_feed","https://app.pocketmads.com/feed"),
  ("pocketmads_original_deck","https://app.pocketmads.com/feed/c0575dfc-71e3-41bb-89f4-14eefdc0bc7e"),
  ("species_directory_page1","https://pokemontcgpocket.app/en/deck/pokemon"),
- ("species_directory_page2","https://www.pokemontcgpocket.app/en/deck/pokemon?page=2")
+ ("species_directory_page2","https://www.pokemontcgpocket.app/en/deck/pokemon?page=2"),
+ ("species_directory_name_page1","https://www.pokemontcgpocket.app/en/deck/pokemon?sort=name"),
+ ("species_directory_name_page2","https://www.pokemontcgpocket.app/en/deck/pokemon?sort=name&page=2")
 ]
 for label,url in urls:
  raw,meta=get(url,label)
  if raw:
   p=Plain()
-  try:p.feed(raw);meta["visible_text_sample"]=" ".join(p.text)[:13500]
+  try:p.feed(raw);meta["visible_text_sample"]=(" ".join(p.text)[-12500:] if label.startswith("species") else " ".join(p.text)[-10500:])
   except Exception as e:meta["parser_error"]=str(e)[:140]
   meta["html_time_tags"]=[html.unescape(x)[:350] for x in re.findall(r"<time\\b[^>]*>.*?</time>",raw,re.I|re.S)[:35]]
   meta["datetime_attributes"]=re.findall(r'datetime=["\\\']([^"\\\']+)',raw,re.I)[:35]
-  meta["linked_paths"]=list(dict.fromkeys(re.findall(r'href=["\\\'](/(?:en/deck/pokemon|feed/)[^"\\\']*)',raw,re.I)))[:40]
+  meta["linked_paths"]=list(dict.fromkeys(re.findall(r'href=["\\\'](/(?:en/deck/pokemon|feed/)[^"\\\']*)',raw,re.I)))[:125]
  requests.append(meta);time.sleep(0.6)
 result={"run_id":RUN_ID,"fixed_window":{"start":START.isoformat(),"end":END.isoformat()},"generated_at_utc":dt.datetime.now(UTC).isoformat(),"quality_gate":"unassessed_automatic_probe","http_requests":requests,"bluesky_window_posts":records,"automatically_qualified_sources":0,"note":"Requires original content and human review, official getAuthorFeed record timestamps are usable only when source is user-authored substantive Pocket deck content. HTML itself may not expose publication timestamp; reject incomplete rows."}
 path=pathlib.Path("evidence")/(RUN_ID+"-live-probe.json")

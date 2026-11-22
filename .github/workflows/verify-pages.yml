@@ -1,4 +1,4 @@
-name: Verify deployed Pages JSON
+name: Independently verify deployed iteration 2 JSON, history and evidence
 on:
   push:
     paths:
@@ -28,12 +28,14 @@ jobs:
           run_id=expected["run_id"]
           history=expected["reporting"]["history_path"]
           with open(history,"rb") as f: history_bytes=f.read()
+          evidence_path=expected["reporting"]["evidence_path"]
+          with open(evidence_path,"rb") as f: evidence_bytes=f.read()
           prefix="https://wsgtcyx.github.io/ptcgp-species-radar/"
-          endpoints={"latest":prefix+"latest.json","home":prefix,"history":prefix+history}
+          endpoints={"latest":prefix+"latest.json","home":prefix,"history":prefix+history,"evidence":prefix+evidence_path}
           status={"commit_sha":sha,"run_id":run_id,"latest_hash":expected_sha256,
                   "pages_deployed_sha":None,"latest_http_status":None,
                   "latest_match":False,"home_http_status":None,
-                  "history_http_status":None,"history_match":False}
+                  "history_http_status":None,"history_match":False,"evidence_http_status":None,"evidence_match":False}
           headers={"User-Agent":"ptcgp-pages-verify/1.0","Cache-Control":"no-cache"}
           api="https://api.github.com/repos/"+repo+"/actions/runs?per_page=15"
           for trial in range(24):
@@ -56,8 +58,10 @@ jobs:
                status["latest_match"]=hashlib.sha256(body).hexdigest()==expected_sha256 and json.loads(body).get("run_id")==run_id
               if name=="history":
                status["history_match"]=body==history_bytes
+              if name=="evidence":
+               status["evidence_match"]=body==evidence_bytes
              except Exception as exc:status[name+"_error"]=str(exc)[:150]
-            if status["latest_match"] and status["history_match"] and status["home_http_status"]==200:
+            if status["latest_match"] and status["history_match"] and status["evidence_match"] and status["home_http_status"]==200:
              status["verified"]=True
              break
            except Exception as exc:status["api_error"]=str(exc)[:180]

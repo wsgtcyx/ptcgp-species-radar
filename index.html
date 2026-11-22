@@ -14,22 +14,22 @@ a{color:var(--lime)}a:hover{text-decoration-thickness:2px}.wrap{max-width:1060px
 <main class="wrap">
 <header class="nav"><div class="logo"><span>◈</span> PTCGP / SPECIES RADAR</div><nav class="nav-links"><a href="#candidate">选题</a><a href="#audit">审计</a><a href="#agent">Agent JSON</a></nav></header>
 <div class="eyebrow"><span class="dot"></span>Independent SEO research / Trial run</div>
-<section class="hero"><h1>找到下一个值得<br/>创建的 Pokémon Deck 物种页。</h1><p>基于 Pokémon TCG Pocket 玩家近 72 小时的真实牌组讨论，检查独立作者、构筑意图和站内现有物种入口。展示 1 个证据较强的候选和 4 个待核观察目标，便于持续研究；不会把观察目标伪装成确认热度。</p><div class="meta"><span class="tag">扩展试运行 · 2026-11-21</span><span class="tag">北京时间 11/18 17:59 – 11/21 17:59</span><span class="tag">Reddit + X 双平台检索</span></div></section>
+<section class="hero"><h1>找到下一个值得<br/>创建的 Pokémon Deck 物种页。</h1><p>基于 Pokémon TCG Pocket 玩家近 72 小时的真实牌组讨论，检查独立作者、构筑意图和站内现有物种入口。候选结果直接从 latest.json 加载；若未达到百源覆盖要求，即使列出 5 个物种也只能视为初筛机会，不能当成已验证升温排行榜。</p><div class="meta"><span class="tag">报告日期 <span id="report-date">读取中</span></span><span class="tag"><span id="window-label">近72小时 · 北京时间</span></span><span class="tag">Reddit + X 双平台检索</span></div></section>
 
 <section class="stats" aria-label="研究统计">
 <div class="stat"><div class="num" id="count-total" style="color:var(--lime)">05</div><small>本轮研究目标（含待核）</small></div>
-<div class="stat"><div class="num" id="count-confirmed">01</div><small>较强证据候选</small></div>
+<div class="stat"><div class="num" id="count-confirmed">01</div><small>初筛候选</small></div>
 <div class="stat"><div class="num" id="count-watchlist">04</div><small>待补证观察</small></div>
 <div class="stat"><div class="num" id="count-catalogue">40</div><small>物种目录可见入口</small></div>
 </section>
 <section id="candidate">
-<div class="section-title"><h2>本轮 5 个研究目标</h2><p>明确区分较强证据 / 待验证；观察目标不等于升温已经证实</p></div>
-<div id="dynamic-cards"><p class="muted">正在读取最新 JSON 数据。<a href="./latest.md">若无法加载，请阅读 Markdown 报告</a>。</p></div>
+<div class="section-title"><h2>本轮物种候选</h2><p>必须先通过信源覆盖和独立作者核验</p></div>
+<div id="quality-banner" class="callout" role="status">正在读取信源审计……</div><div id="dynamic-cards"><p class="muted">正在读取最新 JSON 数据。<a href="./latest.md">若无法加载，请阅读 Markdown 报告</a>。</p></div>
 <noscript>此页面需要 JavaScript 来展示最新研究目标。可直接阅读 <a href="./latest.md">Markdown 报告</a> 或 <a href="./latest.json">JSON 数据</a>。</noscript>
 </section>
 <section id="audit"><div class="section-title"><h2>证据质量与审计</h2><p>明确区分“没找到”与“无法访问”</p></div><div class="sidecards"><div class="pane"><h3>站内覆盖</h3><p>访问了英文 <a href="https://www.pokemontcgpocket.app/en/deck/pokemon?sort=name" target="_blank" rel="noopener">All / Name 物种目录</a>。可见 40 个物种，无下一页入口；未发现 Paldean Clodsire。未知是否存在不可见的客户端分页或私有数据。Bewear 虽已归档，仍从候选中排除。</p></div><div class="pane"><h3>平台访问限制</h3><p>部分 Reddit 原帖可直接打开；部分只能通过搜索索引获取摘要，未用于可靠的独立作者统计。X 原生搜索未能核实原帖 ID、作者和完整时间；因此 X 真实讨论量<strong>未知而不是零</strong>。</p></div><div class="pane"><h3>趋势判断</h3><p>已确认的是近 72 小时出现了多个独立账号参与同一构筑讨论。由于没有前一阶段同口径检索结果，不能推断“正在升温”或编造百分比。</p></div><div class="pane"><h3>后续应验证</h3><ul><li>更多 X 原帖及日语构筑证据</li><li>是否存在另一条独立主轴构筑路线</li><li>新建物种页是否真正补齐用户的比较需求</li><li>网站是否存在尚未显示的分页</li></ul></div></div></section>
 <section id="agent" class="data"><h3>供其他 Agent 使用的数据</h3><p>无需解析网页。通过静态 JSON 获取候选、作者数、证据 URL、未核验字段和审计信息。`null` 表示未知，不是零。</p><div class="links"><a href="./latest.json">读取 latest.json ↗</a><a href="./history/2026-11-21.json">历史快照 ↗</a><a href="./latest.md">Markdown 报告 ↗</a><a href="./README.md">部署说明 ↗</a></div></section>
-<footer class="footer"><p>研究快照：2026-11-21 17:59 CST（北京时间）；网站候选动态读取 latest.json。GitHub Pages 部署与后续定时写入仍需独立验证。</p><p>独立粉丝研究项目，不隶属于 The Pokémon Company、Nintendo 或 DeNA。品牌名称属于其各自所有者。</p></footer>
+<footer class="footer"><p>研究数据和质量标记动态读取 latest.json；最新部署需按提交 SHA 核验。</p><p>独立粉丝研究项目，不隶属于 The Pokémon Company、Nintendo 或 DeNA。品牌名称属于其各自所有者。</p></footer>
 </main>
 <script>
 (() => {
@@ -45,17 +45,17 @@ function addText(parent, tag, cls, txt){const node=el(tag,cls,txt);parent.append
 function safeLink(url) {
   try {const u=new URL(url,location.href);return u.protocol==='https:' ? u.href : null;}catch(e){return null;}
 }
-function renderEntry(item, category, i) {
+function renderEntry(item, category, i, gateMet) {
  const article=el('article','card');
  article.style.marginBottom='18px';
  const top=el('div','card-top');
  const left=el('div');
- addText(left,'div','index',category==='confirmed' ? 'QUALIFIED CANDIDATE' : 'WATCHLIST · NEEDS VERIFICATION');
+ addText(left,'div','index',category==='confirmed' ? (gateMet ? 'EVIDENCE-VERIFIED CANDIDATE' : 'PROVISIONAL · SOURCE GATE FAILED') : 'WATCHLIST · NEEDS VERIFICATION');
  addText(left,'h3','',item.species+(item.species_zh ? ' · '+item.species_zh : ''));
  addText(left,'p','sub',item.form || '具体形态待验证');
  top.appendChild(left);
- const status=el('span','status',category==='confirmed'?'证据较强':'观察 / 未核实');
- if(category!=='confirmed'){status.style.background='#44362a';status.style.color='#f5d2a0';}
+ const status=el('span','status',category==='confirmed'?(gateMet?'证据较强':'初筛 / 样本不足'):'观察 / 未核实');
+ if(category!=='confirmed'||!gateMet){status.style.background='#44362a';status.style.color='#f5d2a0';}
  top.appendChild(status);article.appendChild(top);
  const body=el('div','body');
  if(category==='confirmed'){
@@ -85,6 +85,15 @@ function renderEntry(item, category, i) {
 fetch('./latest.json', {cache:'no-store'})
  .then(r => {if(!r.ok)throw new Error('HTTP '+r.status);return r.json();})
  .then(d => {
+  const gateMet=d.audit?.coverage_met===true;
+  document.getElementById('report-date').textContent=d.report_date||'未知';
+  const w=d.window||{};
+  document.getElementById('window-label').textContent=((w.start||'').slice(0,16))+' — '+((w.end||'').slice(0,16))+' 北京时间';
+  const n=d.audit?.verified_canonical_72h_original_source_urls;
+  const goal=d.audit?.coverage_goal??100;
+  document.getElementById('quality-banner').textContent=gateMet
+    ? '独立原始信源核验已达到覆盖目标；仍需逐条检查候选物种证据。'
+    : '研究覆盖不足：已核原始信源URL '+(n??'未统计')+' / '+goal+'。不同帖子下的评论不等于多条独立原创来源。当前候选仅供进一步核验，不能推断正在升温。';
   const confirmed=Array.isArray(d.candidates)?d.candidates:[];
   const watchlist=Array.isArray(d.watchlist)?d.watchlist:[];
   document.getElementById('count-total').textContent=String(confirmed.length+watchlist.length).padStart(2,'0');
@@ -92,8 +101,8 @@ fetch('./latest.json', {cache:'no-store'})
   document.getElementById('count-watchlist').textContent=String(watchlist.length).padStart(2,'0');
   document.getElementById('count-catalogue').textContent=d.site_audit?.observed_species_count ?? 'NA';
   container.replaceChildren();
-  for(const c of confirmed) container.appendChild(renderEntry(c,'confirmed'));
-  for(const c of watchlist) container.appendChild(renderEntry(c,'watchlist'));
+  for(const c of confirmed) container.appendChild(renderEntry(c,'confirmed',0,gateMet));
+  for(const c of watchlist) container.appendChild(renderEntry(c,'watchlist',0,gateMet));
   if(!confirmed.length&&!watchlist.length) container.appendChild(el('p','muted','本轮没有可公开的研究目标。'));
  })
  .catch(e=>{container.textContent='研究数据暂时不可读取，请使用下方 latest.json 或 latest.md。'});

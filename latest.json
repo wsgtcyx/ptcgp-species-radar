@@ -9,8 +9,8 @@
     "start": "2026-11-19T10:02:59+08:00",
     "end": "2026-11-22T10:02:59+08:00"
   },
-  "status": "partial_verified_with_watchlist",
-  "summary": "3 qualified distinct species-page candidates (Pidgeot, Blastoise, Zoroark) and 2 named watchlist species (Paldean Clodsire, Lopunny). Goal 5 qualified; shortfall 2. X original posts not verified and growth cannot be calculated.",
+  "status": "five_qualified_candidates_partial_platform_coverage",
+  "summary": "Five distinct species-page candidates identified with recent attributable substantive Reddit discussion: Aegislash, Pidgeot, Blastoise, Dialga ex, and Zoroark. Authors for overlapping archetypes remain counted per species; X source coverage is unverified. No proven growth trend.",
   "selection_rules": {
     "max_candidates": 5,
     "target_qualified": 5,
@@ -67,16 +67,17 @@
   },
   "source_coverage": {
     "reddit": {
-      "original_posts_directly_verified": 0,
-      "substantive_comments_directly_read": 5,
-      "known_verified_distinct_authors": 4,
-      "status": "One directly opened Nov20 community thread supplied multiple attributed substantive deck comments; other original sources inaccessible, some search-index-only. Date precision is source calendar day; exact Beijing timestamps unavailable."
+      "original_posts_directly_verified": 2,
+      "substantive_comments_directly_read": 11,
+      "known_verified_distinct_authors": 11,
+      "status": "Two original threads directly read: Nov20 limited-event discussion and Nov20 Aegislash deck-advice thread; 5 distinct species qualify by attributed original/meaningful replies. All first-party Reddit exact clock times unavailable, but Nov20 UTC calendar date safely inside full Beijing cutoff.",
+      "effective_original_posts_direct_verified": 1
     },
     "x": {
       "original_posts_directly_verified": 0,
       "known_verified_distinct_authors": null,
-      "status": "unable_to_verify",
-      "notes": "Attempted X original English/Japanese searches; no source with original text, author and exact within-window date directly verified. NA is not zero activity."
+      "status": "attempted_but_no_verified_original",
+      "notes": "English and Japanese X original search attempted for broad Pokémon Pocket, Aegislash, Dialga ex, and prior candidates; no source with original player, status URL, and precise publication date verified. Account count NA, not 0."
     },
     "multi_platform_unique_authors": null,
     "trend_baseline_available": false,
@@ -100,19 +101,220 @@
       "site:x.com PTCGP Lopunny deck 2026",
       "site:reddit.com PTCGP mazo noviembre 2026",
       "site:reddit.com PTCGP baralho novembro 2026",
-      "site:reddit.com/r/PTCGP 덱 2026-11-21"
+      "site:reddit.com/r/PTCGP 덱 2026-11-21",
+      "site:x.com \"Aegislash\" \"Togedemaru\" \"deck\" \"November 2026\"",
+      "site:x.com ポケポケ ギルガルド デッキ 2026年11月20日"
     ],
     "exact_query_count": null,
     "limits": [
       "X original public posts not independently retrievable",
       "Source Reddit calendar dates available for main candidates but original Beijing clock times unknown; source day Nov20 wholly within 72h window.",
       "No comparable same-method prior 72h baseline",
-      "No evidence to claim a 5/5 qualified list"
+      "No evidence to claim a 5/5 qualified list",
+      "Aegislash/Dialga discussion is a shared thread, so distinct thread count less than five.",
+      "Aegislash equivalently printed Cursed Metal variant confirmed but original pictured art number not directly established."
     ]
   },
   "candidates": [
     {
       "rank": 1,
+      "species": "Aegislash",
+      "species_zh": "坚盾剑怪",
+      "species_slug_suggestion": "aegislash",
+      "form": "Cursed Metal (Psychic/Metal attackers +30); equivalent gameplay print B1-172 / B1a-102 / B4b-164 / B4b-341; precise pictured print unresolved",
+      "card_ids": [
+        "B1-172",
+        "B1a-102",
+        "B4b-164",
+        "B4b-341"
+      ],
+      "precise_art_print_verified": false,
+      "partner_species": [
+        "Togedemaru",
+        "Dialga ex",
+        "Melmetal",
+        "Mega Mewtwo X"
+      ],
+      "core_vs_tech": "primary_combo_engine",
+      "status": "qualified_recent_multi_author",
+      "reddit_unique_authors_verified": 7,
+      "reddit_original_posts_direct_verified": 1,
+      "reddit_substantive_replies_direct_verified": 6,
+      "x_unique_authors_verified": null,
+      "cross_platform_unique_people": null,
+      "intent": [
+        "deck_request",
+        "partner_discussion",
+        "deck_optimization",
+        "battle_report"
+      ],
+      "growth_trend": null,
+      "recent_activity": "multiple_independent_authors",
+      "page_gap": "Aegislash absent from visible full species-directory pages 1 and 2; existing card detail pages are not independent species-deck landing pages.",
+      "recommended_page": "Aegislash Cursed Metal deck variants: Togedemaru recoil boost vs Dialga ex energy ramp vs Melmetal defensive stack and Mega Mewtwo X; 20-card sample lists, energy choice, Rare Candy, survivability, pair comparisons.",
+      "seo_keywords": [
+        "Aegislash deck Pokémon TCG Pocket",
+        "Aegislash Togedemaru deck",
+        "Aegislash Dialga ex deck",
+        "Aegislash Cursed Metal deck"
+      ],
+      "value_checks": {
+        "specific_user_need": "verified_direct_request",
+        "multiple_build_variants": "verified_multiple_distinct_builds",
+        "viable_deck_axis": "verified_combo_axis",
+        "form_identified": "verified_effect_and_equivalent_prints_not_exact_art",
+        "avoids_deck_page_duplication": "separate_from_card_encyclopedia"
+      },
+      "evidence": [
+        {
+          "platform": "reddit",
+          "kind": "original_post",
+          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/amy_good_builds_that_combo_with_this_card/",
+          "post_id": "1y0sfrt",
+          "author": "OldSpaghetti-Factory",
+          "published_date": "2026-11-20",
+          "published_at": null,
+          "published_at_precision": "calendar_date_only",
+          "beijing_time": null,
+          "time_zone_verified": false,
+          "intent": [
+            "deck_request"
+          ],
+          "originality": "original_author",
+          "directly_opened": true,
+          "summary": "Original poster asks for Pokémon TCG Pocket deck builds around pictured Aegislash (A).",
+          "comment_permalink_verified": false,
+          "source_confidence": "directly_read_reddit_with_friday_nov20_calendar_date"
+        },
+        {
+          "platform": "reddit",
+          "kind": "substantive_comment",
+          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/amy_good_builds_that_combo_with_this_card/",
+          "post_id": "1y0sfrt",
+          "author": "phvw",
+          "published_date": "2026-11-20",
+          "published_at": null,
+          "published_at_precision": "calendar_date_only",
+          "beijing_time": null,
+          "time_zone_verified": false,
+          "intent": [
+            "partner_discussion",
+            "deck_optimization"
+          ],
+          "originality": "author_written_comment",
+          "directly_opened": true,
+          "summary": "Recommends Aegislash + Togedemaru because the recoil benefits from Aegislash's boost.",
+          "comment_permalink_verified": false,
+          "source_confidence": "directly_read_reddit_with_friday_nov20_calendar_date"
+        },
+        {
+          "platform": "reddit",
+          "kind": "substantive_comment",
+          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/amy_good_builds_that_combo_with_this_card/",
+          "post_id": "1y0sfrt",
+          "author": "Vesprince",
+          "published_date": "2026-11-20",
+          "published_at": null,
+          "published_at_precision": "calendar_date_only",
+          "beijing_time": null,
+          "time_zone_verified": false,
+          "intent": [
+            "battle_report",
+            "deck_optimization"
+          ],
+          "originality": "author_written_comment",
+          "directly_opened": true,
+          "summary": "Reports using that deck and discusses Eviolite as a protection slot.",
+          "comment_permalink_verified": false,
+          "source_confidence": "directly_read_reddit_with_friday_nov20_calendar_date"
+        },
+        {
+          "platform": "reddit",
+          "kind": "substantive_comment",
+          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/amy_good_builds_that_combo_with_this_card/",
+          "post_id": "1y0sfrt",
+          "author": "GRE4TESTEV3R",
+          "published_date": "2026-11-20",
+          "published_at": null,
+          "published_at_precision": "calendar_date_only",
+          "beijing_time": null,
+          "time_zone_verified": false,
+          "intent": [
+            "partner_discussion",
+            "deck_optimization"
+          ],
+          "originality": "author_written_comment",
+          "directly_opened": true,
+          "summary": "Recommends Aegislash + Dialga ex; Dawn energy timing; barrier/apron slots.",
+          "comment_permalink_verified": false,
+          "source_confidence": "directly_read_reddit_with_friday_nov20_calendar_date"
+        },
+        {
+          "platform": "reddit",
+          "kind": "substantive_comment",
+          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/amy_good_builds_that_combo_with_this_card/",
+          "post_id": "1y0sfrt",
+          "author": "e_ndoubleu",
+          "published_date": "2026-11-20",
+          "published_at": null,
+          "published_at_precision": "calendar_date_only",
+          "beijing_time": null,
+          "time_zone_verified": false,
+          "intent": [
+            "deck_optimization",
+            "partner_discussion"
+          ],
+          "originality": "author_written_comment",
+          "directly_opened": true,
+          "summary": "Suggests Gholdengo ex pivot, trainers, Rare Candy consistency, Aegislash setup.",
+          "comment_permalink_verified": false,
+          "source_confidence": "directly_read_reddit_with_friday_nov20_calendar_date"
+        },
+        {
+          "platform": "reddit",
+          "kind": "substantive_comment",
+          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/amy_good_builds_that_combo_with_this_card/",
+          "post_id": "1y0sfrt",
+          "author": "AdagioDesperate",
+          "published_date": "2026-11-20",
+          "published_at": null,
+          "published_at_precision": "calendar_date_only",
+          "beijing_time": null,
+          "time_zone_verified": false,
+          "intent": [
+            "partner_discussion"
+          ],
+          "originality": "author_written_comment",
+          "directly_opened": true,
+          "summary": "Proposes Melmetal damage-reduction synergy.",
+          "comment_permalink_verified": false,
+          "source_confidence": "directly_read_reddit_with_friday_nov20_calendar_date"
+        },
+        {
+          "platform": "reddit",
+          "kind": "substantive_comment",
+          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/amy_good_builds_that_combo_with_this_card/",
+          "post_id": "1y0sfrt",
+          "author": "deckskin",
+          "published_date": "2026-11-20",
+          "published_at": null,
+          "published_at_precision": "calendar_date_only",
+          "beijing_time": null,
+          "time_zone_verified": false,
+          "intent": [
+            "battle_report",
+            "partner_discussion"
+          ],
+          "originality": "author_written_comment",
+          "directly_opened": true,
+          "summary": "Reports using the Aegislash ability with Mega Mewtwo X.",
+          "comment_permalink_verified": false,
+          "source_confidence": "directly_read_reddit_with_friday_nov20_calendar_date"
+        }
+      ]
+    },
+    {
+      "rank": 2,
       "species": "Pidgeot",
       "species_zh": "大比鸟",
       "species_slug_suggestion": "pidgeot",
@@ -202,7 +404,7 @@
       ]
     },
     {
-      "rank": 2,
+      "rank": 3,
       "species": "Blastoise",
       "species_zh": "水箭龟",
       "species_slug_suggestion": "blastoise",
@@ -291,7 +493,94 @@
       ]
     },
     {
-      "rank": 3,
+      "rank": 4,
+      "species": "Dialga",
+      "species_zh": "帝牙卢卡",
+      "species_slug_suggestion": "dialga",
+      "form": "Dialga ex A2-119 Metallic Turbo (not Origin Forme Dialga)",
+      "card_ids": [
+        "A2-119"
+      ],
+      "partner_species": [
+        "Aegislash",
+        "Gholdengo ex",
+        "Dawn"
+      ],
+      "core_vs_tech": "metal_energy_ramp_axis",
+      "status": "qualified_recent_multi_author_shared_thread",
+      "reddit_unique_authors_verified": 2,
+      "reddit_original_posts_direct_verified": 0,
+      "reddit_substantive_replies_direct_verified": 2,
+      "x_unique_authors_verified": null,
+      "cross_platform_unique_people": null,
+      "intent": [
+        "partner_discussion",
+        "deck_optimization"
+      ],
+      "growth_trend": null,
+      "recent_activity": "multiple_independent_authors_in_shared_thread",
+      "page_gap": "Dialga absent from full visible species-directory pages; a card detail is present but not a species-level deck options page.",
+      "recommended_page": "Dialga ex Metallic Turbo as the energy engine: Aegislash versus Gholdengo ex / other metal partners, Dawn timing, when to attack vs accelerate, equipment and Rare Candy consistency; avoid duplicating Aegislash page.",
+      "seo_keywords": [
+        "Dialga ex deck Pokémon TCG Pocket",
+        "Dialga ex Aegislash deck",
+        "Dialga ex Gholdengo deck",
+        "Dialga ex Metallic Turbo deck"
+      ],
+      "value_checks": {
+        "specific_user_need": "verified_user_optimization",
+        "multiple_build_variants": "verified_partner_branches",
+        "viable_deck_axis": "verified_as_energy_engine",
+        "form_identified": "verified_A2_119_from_card_effect",
+        "avoids_deck_page_duplication": "requires_differentiation_from_Aegislash"
+      },
+      "evidence": [
+        {
+          "platform": "reddit",
+          "kind": "substantive_comment",
+          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/amy_good_builds_that_combo_with_this_card/",
+          "post_id": "1y0sfrt",
+          "author": "GRE4TESTEV3R",
+          "published_date": "2026-11-20",
+          "published_at": null,
+          "published_at_precision": "calendar_date_only",
+          "beijing_time": null,
+          "time_zone_verified": false,
+          "intent": [
+            "partner_discussion",
+            "deck_optimization"
+          ],
+          "originality": "author_written_comment",
+          "directly_opened": true,
+          "summary": "Discusses Dialga enabling Aegislash attacks, boosted Dialga damage and Dawn timing.",
+          "comment_permalink_verified": false,
+          "source_confidence": "directly_read_reddit_with_friday_nov20_calendar_date"
+        },
+        {
+          "platform": "reddit",
+          "kind": "substantive_comment",
+          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/amy_good_builds_that_combo_with_this_card/",
+          "post_id": "1y0sfrt",
+          "author": "e_ndoubleu",
+          "published_date": "2026-11-20",
+          "published_at": null,
+          "published_at_precision": "calendar_date_only",
+          "beijing_time": null,
+          "time_zone_verified": false,
+          "intent": [
+            "partner_discussion",
+            "deck_optimization"
+          ],
+          "originality": "author_written_comment",
+          "directly_opened": true,
+          "summary": "Discusses Dialga 100-160 attack and Metal Turbo into Gholdengo ex as alternative.",
+          "comment_permalink_verified": false,
+          "source_confidence": "directly_read_reddit_with_friday_nov20_calendar_date"
+        }
+      ]
+    },
+    {
+      "rank": 5,
       "species": "Zoroark",
       "species_zh": "索罗亚克",
       "species_slug_suggestion": "zoroark",
@@ -356,123 +645,22 @@
       ]
     }
   ],
-  "watchlist": [
-    {
-      "rank": 4,
-      "species": "Paldean Clodsire",
-      "species_zh": "帕底亚土王",
-      "species_slug_suggestion": "paldean-clodsire",
-      "form": "Paldean Clodsire regular C1-074, Whiscash or Fuecoco partner",
-      "card_ids": [
-        "C1-074"
-      ],
-      "status": "watchlist_unverified_original_author_or_window",
-      "reddit_unique_authors_verified": null,
-      "x_unique_authors_verified": null,
-      "core_vs_tech": "likely_primary_attacker",
-      "intent": [
-        "partner_discussion",
-        "battle_report"
-      ],
-      "page_gap": "Not in 41 visible species; generic Paldean Clodsire deck details already exist.",
-      "recommended_page": "Rika + Whiscash versus Fuecoco + Clodsire limited-format builds; page must add species-level comparisons beyond existing deck-detail.",
-      "missing": "2026-11-20 source was visible in indexed Reddit result, but direct source failed; author identity unverified. The independent Nov19 source lacks exact cutoff-safe timestamp; neither can be counted as a directly verified current main-candidate author.",
-      "evidence": [
-        {
-          "platform": "reddit",
-          "kind": "comment",
-          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0wce6/you_can_see_how_many_heads_your_opponent_will_get/",
-          "post_id": "1y0wce6",
-          "author": null,
-          "published_date": "2026-11-20",
-          "published_at_precision": "date_only",
-          "directly_opened": false,
-          "intent": [
-            "partner_discussion"
-          ],
-          "summary": "User explains a Fuecoco + Clodsire experimental combo in event; search result showed content but source did not reopen."
-        },
-        {
-          "platform": "reddit",
-          "kind": "original_post",
-          "url": "https://www.reddit.com/r/PTCGP/comments/1y07kop/deck_to_clean_the_new_pvp_event/",
-          "post_id": "1y07kop",
-          "author": null,
-          "published_date": "2026-11-19",
-          "published_at_precision": "date_only",
-          "directly_opened": false,
-          "intent": [
-            "battle_report"
-          ],
-          "summary": "Claims 70% small-sample result with Clodsire–Whiscash; date within UTC calendar day may straddle Beijing 72h cutoff."
-        }
-      ]
-    },
-    {
-      "rank": 5,
-      "species": "Lopunny",
-      "species_zh": "长耳兔",
-      "species_slug_suggestion": "lopunny",
-      "form": "Lopunny C1-116 normal version with Raboot C1-023; Rabbit Jump",
-      "card_ids": [
-        "C1-116"
-      ],
-      "status": "watchlist_current_threads_ambiguous_lopunny_inclusion",
-      "reddit_unique_authors_verified": null,
-      "x_unique_authors_verified": null,
-      "core_vs_tech": "established_Rabbit_Jump_attacker_but_specific_current_list_not_confirmed",
-      "intent": [
-        "battle_report",
-        "deck_optimization"
-      ],
-      "page_gap": "Not in 41 visible species; standalone Lopunny–Raboot deck list already exists; avoid copying it.",
-      "recommended_page": "Lopunny C1-116 versus Mega Lopunny ex variants, card substitutions, restricted-format Rabbit Jump reliability and counters.",
-      "missing": "Nov20–21 direct thread describes 'rabbit jumping' but not its specific 20-card list. Because some Rabbit Jump decks omit Lopunny, not count as explicitly verified Lopunny-use this window; need a current dated original with exact card included.",
-      "evidence": [
-        {
-          "platform": "reddit",
-          "kind": "comment",
-          "url": "https://www.reddit.com/r/PTCGP/comments/1y1dwkw/we_never_knew_how_much_wed_miss_him_til_he_was/",
-          "post_id": "1y1dwkw",
-          "author": "MaskOfIce42",
-          "published_date": "2026-11-20",
-          "directly_opened": true,
-          "published_at_precision": "platform_calendar_date_only",
-          "intent": [
-            "battle_report"
-          ],
-          "summary": "Reports nine limited wins using Rabbit Jumping but does not individually name Lopunny; strict species attribution unconfirmed."
-        },
-        {
-          "platform": "reddit",
-          "kind": "comment",
-          "url": "https://www.reddit.com/r/PTCGP/comments/1y0rm9r/unpopular_opinion_i_like_the_limited_battles/",
-          "post_id": "1y0rm9r",
-          "author": "Saxolotle",
-          "published_date": "2026-11-20",
-          "directly_opened": false,
-          "published_at_precision": "indexed_calendar_date_only",
-          "intent": [
-            "deck_optimization"
-          ],
-          "summary": "Discussion describes rabbit deck as meta and notes Stage-1 setup issues; individual Lopunny card is not proven."
-        }
-      ]
-    }
-  ],
+  "watchlist": [],
   "reporting": {
     "target_count": 5,
-    "qualified_count": 3,
-    "qualified_candidate_count": 3,
-    "shortfall_count": 2,
-    "watchlist_count": 2,
+    "qualified_count": 5,
+    "qualified_candidate_count": 5,
+    "shortfall_count": 0,
+    "watchlist_count": 0,
     "total_research_targets": 5,
     "requested_targets": 5,
     "verified_x_accounts": null,
-    "ranking": "independent author activity then actionable distinct page intent; no growth claim",
-    "history_path": "history/2026-11-22.json",
-    "source_post_count_direct_verified": 1,
-    "note": "The top post is not itself a substantive deck post; qualifying evidence is in authored comments on it."
+    "ranking": "distinct authors first, documented deck-role and user intent second. No baseline growth comparison.",
+    "history_path": "history/2026-11-22-revised.json",
+    "source_post_count_direct_verified": 2,
+    "note": "The top post is not itself a substantive deck post; qualifying evidence is in authored comments on it.",
+    "revised_from_snapshot": "history/2026-11-22.json",
+    "cross_species_shared_authors_note": "Pidgeot/Zoroark share NormTheStorm; Aegislash/Dialga share GRE4TESTEV3R and e_ndoubleu; counted separately by species as permitted. Two same-thread comment clusters must not be presented as five independent threads."
   },
   "excluded_examples": [
     {
@@ -490,30 +678,29 @@
     {
       "species": "Rayquaza",
       "reason": "explicit_task_exclusion"
+    },
+    {
+      "species": "Paldean Clodsire",
+      "reason": "Nov20 source not directly readable and other date-only source too close to cutoff to accept; moved outside top-five final ranking"
+    },
+    {
+      "species": "Lopunny",
+      "reason": "Recent Rabbit Jumping discussion does not prove a particular Lopunny card is in cited deck; excluded from qualified count"
     }
   ],
-  "recommended_next_action": "Prepare Pidgeot species page first; next Blastoise then Zoroark. Validate late-night Clodsire and explicit Lopunny list if attempting 5 qualified candidates.",
+  "recommended_next_action": "Build Aegislash Cursed Metal overview first with multiple requested core partners, Pidgeot next, Blastoise after, then Dialga ex and Zoroark with substantial non-duplicative content. Verify more independent sources and X for growth claims.",
   "publication": {
-    "status": "pages_build_deploy_verified_public_http_unverified",
-    "commit_written": true,
-    "repository_readback_verified": true,
-    "pages_deploy_verified": true,
+    "status": "new_revision_commit_pending",
+    "commit_written": false,
+    "repository_readback_verified": false,
+    "pages_deploy_verified": false,
     "public_json_verified": false,
-    "data_commit_sha": "217d576c08b4d7ef636a8992d0fd1315339bd413",
     "repository": "wsgtcyx/ptcgp-species-radar",
     "branch": "main",
     "pages_url": "https://wsgtcyx.github.io/ptcgp-species-radar/",
     "json_url": "https://wsgtcyx.github.io/ptcgp-species-radar/latest.json",
-    "alternate_json_url": "https://raw.githubusercontent.com/wsgtcyx/ptcgp-species-radar/main/latest.json",
-    "pages_workflow_observed": {
-      "run_id": 44974569500,
-      "head_sha": "d08c527ac650b8f3dbee0bf47059baeafdf1d077",
-      "status": "completed",
-      "conclusion": "success",
-      "verified_build_job": true,
-      "verified_deploy_job": true,
-      "completed_at": "2026-11-22T02:07:35Z"
-    },
-    "notes": "The daily report data was verified in the repository and successfully deployed by GitHub Pages workflow #44974569500. The live github.io HTTP route remains inaccessible from the tool and has NOT been independently confirmed to return today's JSON. This metadata update itself causes a subsequent deployment; verify its workflow before treating its commit as final."
+    "raw_url": "https://raw.githubusercontent.com/wsgtcyx/ptcgp-species-radar/main/latest.json",
+    "previous_successful_pages_run_id": 44974569500,
+    "notes": "Publishing checks must be repeated for revised five-candidate dataset."
   }
 }

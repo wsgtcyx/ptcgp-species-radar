@@ -1,0 +1,28 @@
+name: Three rounds Pocket first-party source research (probes only)
+on:
+  push:
+    paths:
+      - .github/workflows/research-three-rounds.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: ptcgp-three-round-probes
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: First-party original posts, official RSS, site pagination, 3 independent windows
+        run: python3 scripts/ptcgp_three_rounds_research.py
+      - name: Commit immutable primary-source probe snapshots only (not report or latest)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add evidence/*-iteration4-probe.json evidence/*-iteration5-probe.json evidence/*-iteration6-probe.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Store three independent iteration 4-6 first-party provenance probes"
+          git pull --rebase origin main
+          git push origin HEAD:main

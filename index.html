@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1" />
 <meta name="description" content="Pokémon TCG Pocket 新物种 Deck SEO 机会雷达：72小时 Reddit 与 X 构筑讨论、作者去重及站内缺页核对。" />
-<title>PTCG Pocket · Species Radar</title>
+<title>PTCG Pocket · Species Radar (Incomplete Source Coverage)</title>
 <style>
 :root{color-scheme:dark;--bg:#0a1116;--surf:#131e24;--surf2:#18262d;--line:#2b3941;--text:#eff7f4;--muted:#a1b7b5;--lime:#b6e589;--orange:#e3b77d;--red:#dc9d98;--blue:#94d3dc;--radius:18px}
 *{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 80% -20%,#233f35 0%,#0a1116 42%);font-family:-apple-system,BlinkMacSystemFont,Inter,"Noto Sans SC","Microsoft YaHei",sans-serif;color:var(--text);line-height:1.65}
@@ -17,7 +17,7 @@ a{color:var(--lime)}a:hover{text-decoration-thickness:2px}.wrap{max-width:1060px
 <section class="hero"><h1>找到下一个值得<br/>创建的 Pokémon Deck 物种页。</h1><p>基于 Pokémon TCG Pocket 玩家近 72 小时的真实牌组讨论，检查独立作者、构筑意图和站内现有物种入口。候选结果直接从 latest.json 加载；若未达到百源覆盖要求，即使列出 5 个物种也只能视为初筛机会，不能当成已验证升温排行榜。</p><div class="meta"><span class="tag">报告日期 <span id="report-date">读取中</span></span><span class="tag"><span id="window-label">近72小时 · 北京时间</span></span><span class="tag">Reddit + X 双平台检索</span></div></section>
 
 <section class="stats" aria-label="研究统计">
-<div class="stat"><div class="num" id="count-total" style="color:var(--lime)">05</div><small>本轮研究目标（含待核）</small></div>
+<div class="stat"><div class="num" id="count-total" style="color:var(--lime)">05</div><small>本轮研究线索（非升温榜）</small></div>
 <div class="stat"><div class="num" id="count-confirmed">01</div><small>初筛候选</small></div>
 <div class="stat"><div class="num" id="count-watchlist">04</div><small>待补证观察</small></div>
 <div class="stat"><div class="num" id="count-catalogue">40</div><small>物种目录可见入口</small></div>
@@ -54,7 +54,7 @@ function renderEntry(item, category, i, gateMet) {
  addText(left,'h3','',item.species+(item.species_zh ? ' · '+item.species_zh : ''));
  addText(left,'p','sub',item.form || '具体形态待验证');
  top.appendChild(left);
- const status=el('span','status',category==='confirmed'?(gateMet?'证据较强':'初筛 / 样本不足'):'观察 / 未核实');
+ const status=el('span','status',category==='confirmed'?(gateMet?'暂定 · 未达百源门槛':'初筛 / 样本不足'):'观察 / 未核实');
  if(category!=='confirmed'||!gateMet){status.style.background='#44362a';status.style.color='#f5d2a0';}
  top.appendChild(status);article.appendChild(top);
  const body=el('div','body');

@@ -17,7 +17,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Read public Bluesky author feeds, PocketMads HTML and species pages
+      - name: Read public Bluesky feeds, source HTML and full name-sort species pagination
         run: python scripts/social_public_probe.py
       - name: Commit probe evidence without certifying eligibility
         run: |

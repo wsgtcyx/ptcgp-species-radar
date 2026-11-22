@@ -1,32 +1,32 @@
-# PTCGP Reddit 百源选题雷达｜2026-11-22 立即执行（未达标）
+# PTCGP Reddit 百源选题雷达｜2026-11-22 14:51 手动重跑
 
-**时间窗口**：2026-11-19T12:42:57+08:00 — 2026-11-22T12:42:57+08:00（北京时间）。
-**报告生成时间**：2026-11-22T12:49:42+08:00。
-**研究质量：未通过百源门槛**。Reddit 是本轮唯一社媒平台，没有搜索 X。
+**窗口（北京时间）：** 2026-11-19T14:51:51+08:00 — 2026-11-22T14:51:51+08:00。生成时间 2026-11-22T14:55:56+08:00。
 
-## 信源漏斗（真实回读）
+## 核心验收：百源未达标
 
-- 直接打开、去重的 Reddit 原帖/评论 URL：**34**（10 个顶层帖 + 24 个评论永久链接）。
-- 含具体构筑意图的已查看记录：**32**；相关独立作者账号（仅内容层观察、非精确72小时核证）：**29**。
-- 严格核实“作者 + 创建时间精确落入72小时 + 构筑信息”的来源：**0 / 100**；网页只显示相对时间且可能为缓存，不能编造 created_utc。
-- GitHub Actions 的 Reddit 公开 JSON 采集工作流确已成功运行，但三个 subreddit 的 new.json 全部 **HTTP 403 Blocked**；原始帖子/评论元数据回收数：**0**。失败原始日志：[Reddit 403 日志](./evidence/reddit-public-raw-2026-11-22T044528Z.json)。
-- 同一顶层帖多位用户回复不能算多条互不关联的讨论。本轮仅检查了 10 个不同顶层讨论串（包含非构筑原帖），不代表全量社区覆盖。
+- 最新检索索引里明确显示日期且有构筑内容的 Reddit 顶层帖：**2条**（11月20日、11月21日）。
+- 本轮重新直接打开并同时核实作者、原始创建时间和正文的 Reddit 原帖/评论：**0条**。
+- 严格合格信源：**0/100**；**quality_gate=failed**，差额 **100**。这不是 Reddit 实际讨论量为 0，而是当前工具无法完成严格证据验证。
+- 之前 12:42 运行记录的 34 条网页 URL 来自**历史快照**，未在本轮重新完成时间核验，不得复用成今天的新证据。可查看 [之前的证据文件](./evidence/2026-11-22-1242-web-audit.json)。
+- 直接打开近期 Reddit 帖子失败（Cache miss）；reddit.com/r/PTCGP/new/ 的可读取网页是几个月前缓存，Reddit公开 JSON 也未能读取。GitHub Actions 先前的采集试验见 [原始403日志](./evidence/reddit-public-raw-2026-11-22T044528Z.json)，**本轮未假称该API已恢复**。
 
-## 5 个尚未进入物种目录的待验证 SEO 选题（非合格百源结论）
+## 本轮新增日期核对（Reddit 之外没有计入任何社交平台）
 
-1. **Chandelure（水晶灯火灵）**：Oricorio 弃牌加速、Copycat/Hiking Trail、Meloetta 变体，支持卡位争论。独立构筑主帖 https://www.reddit.com/r/PTCGP/comments/1y22t44/new_chandelure_deck/ ；其他用户讨论在该帖评论中。建议比较快攻与Meloetta节奏型构筑。
-2. **Aegislash（坚盾剑怪）**：Cursed Metal 的 Togedemaru、Dialga ex、Melmetal、Mega Skarmory 等搭档。求助与多名作者实质建议 https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/amy_good_builds_that_combo_with_this_card/ 。同一顶层帖，未证明跨帖升温。
-3. **Blastoise（水箭龟）**：C1 普通版限定赛、Lorelei＋Lapras、Squirtle 麻痹进化时机。见 https://www.reddit.com/r/PTCGP/comments/1y1dwkw/we_never_knew_how_much_wed_miss_him_til_he_was/ 和 https://www.reddit.com/r/PTCGP/comments/1y0rm9r/unpopular_opinion_i_like_the_limited_battles/ 的不同玩家构筑回复。
-4. **Paldean Clodsire（帕底亚土王）**：Rika 能量加速、Whiscash 搭档以及 Red Card 与 Stadium 替换。见 https://www.reddit.com/r/PokemonPocket/comments/1xzve1f/if_youre_struggling_with_the_limited_battles_this/ 以及 https://www.reddit.com/r/PTCGP/comments/1y1i9ao/what_cards_do_you_think_people_are_sleeping_on/ 。
-5. **Zoroark（索罗亚克）**：C1 Foul Play，Pidgeot + Blue's Provocation 与 Clodsire 牌组替换版。见 https://www.reddit.com/r/PTCGP/comments/1y1dwkw/we_never_knew_how_much_wed_miss_him_til_he_was/ 以及 https://www.reddit.com/r/PTCGP/comments/1y1i9ao/what_cards_do_you_think_people_are_sleeping_on/ 。
+1. [New Chandelure deck](https://www.reddit.com/r/PTCGP/comments/1y22t44/new_chandelure_deck/) — Reddit 搜索显示 **2026-11-21**。牌组核心为 Chandelure＋Oricorio，依靠弃牌提高伤害，配 Copycat / Hiking Trail 加快轮转。当前搜索能取得时间日历日期及内容，**原帖无法重新直读，作者身份仅在上一轮档案中保存**，不能计入本轮100条严格合格来源。
+2. [Unpopular opinion, I like the limited battles](https://www.reddit.com/r/PTCGP/comments/1y0rm9r/unpopular_opinion_i_like_the_limited_battles/) — Reddit 搜索显示 **2026-11-20**。讨论 Pikachu ex 在限定赛的打法以及兔子牌组的一致性问题。Pikachu 已有物种页，不构成新建目标；本轮原帖仍无法重新直读，因此也不计入严格100条。
 
-注意：这些物种没有在当次确认的[物种目录 All/Name 两页](https://www.pokemontcgpocket.app/en/deck/pokemon?sort=name)中出现（第一页40个，第二页Vespiquen，总41个）。其中一些已经有独立 **Deck 详情页**，不等于拥有按物种聚合的物种目录页；生成新物种页时必须区别于现有详情页，避免重复SEO内容。
+## 物种页排除核查状态
 
-## 证据审计与下游 Agent 说明
+[物种目录](https://www.pokemontcgpocket.app/en/deck/pokemon) 的最新搜索索引显示 **Page 1 of 2** 和 **Page 2 of 2**；第二页出现 Bewear ex。由于当前直接访问失败，**未能重新确认所有40+条目及过滤组合完整性**，不能以此宣布任何物种100%未收录。旧快照中42?条的描述也不冒充本轮完整核实。
 
-- [evidence/2026-11-22-1242-web-audit.json](./evidence/2026-11-22-1242-web-audit.json)：本轮网页直读的 34 个真实链接、作者、物种归类、父帖子ID与 **时间未核实** 标志。
-- [evidence/reddit-public-raw-2026-11-22T044528Z.json](./evidence/reddit-public-raw-2026-11-22T044528Z.json)：GitHub Actions Reddit API 403 拒绝日志。
-- [latest.json](./latest.json)：主榜 candidates=[]，仅 watchlist=5，audit.coverage_met=false。其他 Agent **不得**据此自动发布5个物种SEO页面。
-- [history/2026-11-22-1242.json](./history/2026-11-22-1242.json)：本次历史快照。
+## SEO观察名单：延续上一轮，非本轮5个新发现
 
-**阻碍不是“检索完成但恰好没有100篇”，而是可验证的 Reddit 原始元数据获取受限。** 要稳定达到100条有精确作者与发布时间的信源，需要合规的 Reddit API OAuth 访问或授权数据服务；不能尝试绕过403或把相对时间硬当绝对时间。
+Chandelure（水晶灯火灵）、Aegislash（坚盾剑怪）、Blastoise（水箭龟）、Paldean Clodsire（帕底亚土王）、Zoroark（索罗亚克）。除 Chandelure 本轮找到可核日期的原帖索引外，其余方向仍沿用上一轮研究线索，全部属于**待核观察，不可自动开页**。每项历史证据及状态在 `latest.json.watchlist` 中标注。
+
+## 对下游Agent的约束
+
+仅在 `audit.coverage_met=true` 且站内缺页已完整核验时，才允许将结果当作“百源完整调研”。本轮 `candidates=[]`、`watchlist=5`。请勿把上一轮34条URL和本轮2条搜索命中直接相加成36条合格信源，也不要捏造发帖时间、作者、增长率。
+
+证据文件：[evidence/2026-11-22-1451-reexecution.json](./evidence/2026-11-22-1451-reexecution.json)。历史快照：[history/2026-11-22-1451-reexecution.json](./history/2026-11-22-1451-reexecution.json)。
+
+GitHub和Pages是否同步以最新仓库提交与Pages部署检查为准；JSON不自我证明已发布。

@@ -1,35 +1,32 @@
-# PTCG Pocket 新物种 Deck 雷达：2026-11-22 深度复核（未达百源门槛）
+# PTCGP Reddit 百源选题雷达｜2026-11-22 立即执行（未达标）
 
-**研究时间**：2026-11-19T10:21:07+08:00 — 2026-11-22T10:21:07+08:00（北京时间，过去72小时）。GitHub Pages 链接：https://wsgtcyx.github.io/ptcgp-species-radar/
+**时间窗口**：2026-11-19T12:42:57+08:00 — 2026-11-22T12:42:57+08:00（北京时间）。
+**报告生成时间**：2026-11-22T12:49:42+08:00。
+**研究质量：未通过百源门槛**。Reddit 是本轮唯一社媒平台，没有搜索 X。
 
-## 结论与质量门禁
+## 信源漏斗（真实回读）
 
-**百源质量门禁未通过。** 本轮实际复核了 31 条独立可打开的 Reddit 原帖/评论 permalink（其中独立顶层讨论只有 3 条、评论链接 28 条），明确来自不同讨论的多作者证据不足。已核实 X 原帖 **0 条**，但不能据此认为 X 没有相关讨论。Reddit 评论的精确发帖时分也未能获取：`exact_datetime_verified_72h_sources=0`。因此这份报告是**探索性初筛，不是100条高质量72h证据覆盖的完整研究**。
+- 直接打开、去重的 Reddit 原帖/评论 URL：**34**（10 个顶层帖 + 24 个评论永久链接）。
+- 含具体构筑意图的已查看记录：**32**；相关独立作者账号（仅内容层观察、非精确72小时核证）：**29**。
+- 严格核实“作者 + 创建时间精确落入72小时 + 构筑信息”的来源：**0 / 100**；网页只显示相对时间且可能为缓存，不能编造 created_utc。
+- GitHub Actions 的 Reddit 公开 JSON 采集工作流确已成功运行，但三个 subreddit 的 new.json 全部 **HTTP 403 Blocked**；原始帖子/评论元数据回收数：**0**。失败原始日志：[Reddit 403 日志](./evidence/reddit-public-raw-2026-11-22T044528Z.json)。
+- 同一顶层帖多位用户回复不能算多条互不关联的讨论。本轮仅检查了 10 个不同顶层讨论串（包含非构筑原帖），不代表全量社区覆盖。
 
-不能用 31 个评论／帖 URL 冒充 31 个独立讨论串：父讨论只有 3 条，且混有未形成独立物种主轴的讨论。更不能将热度上升当作已核实。
+## 5 个尚未进入物种目录的待验证 SEO 选题（非合格百源结论）
 
-## 暂定研究目标（5个，不等于5个已证实升温的页面）
+1. **Chandelure（水晶灯火灵）**：Oricorio 弃牌加速、Copycat/Hiking Trail、Meloetta 变体，支持卡位争论。独立构筑主帖 https://www.reddit.com/r/PTCGP/comments/1y22t44/new_chandelure_deck/ ；其他用户讨论在该帖评论中。建议比较快攻与Meloetta节奏型构筑。
+2. **Aegislash（坚盾剑怪）**：Cursed Metal 的 Togedemaru、Dialga ex、Melmetal、Mega Skarmory 等搭档。求助与多名作者实质建议 https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/amy_good_builds_that_combo_with_this_card/ 。同一顶层帖，未证明跨帖升温。
+3. **Blastoise（水箭龟）**：C1 普通版限定赛、Lorelei＋Lapras、Squirtle 麻痹进化时机。见 https://www.reddit.com/r/PTCGP/comments/1y1dwkw/we_never_knew_how_much_wed_miss_him_til_he_was/ 和 https://www.reddit.com/r/PTCGP/comments/1y0rm9r/unpopular_opinion_i_like_the_limited_battles/ 的不同玩家构筑回复。
+4. **Paldean Clodsire（帕底亚土王）**：Rika 能量加速、Whiscash 搭档以及 Red Card 与 Stadium 替换。见 https://www.reddit.com/r/PokemonPocket/comments/1xzve1f/if_youre_struggling_with_the_limited_battles_this/ 以及 https://www.reddit.com/r/PTCGP/comments/1y1i9ao/what_cards_do_you_think_people_are_sleeping_on/ 。
+5. **Zoroark（索罗亚克）**：C1 Foul Play，Pidgeot + Blue's Provocation 与 Clodsire 牌组替换版。见 https://www.reddit.com/r/PTCGP/comments/1y1dwkw/we_never_knew_how_much_wed_miss_him_til_he_was/ 以及 https://www.reddit.com/r/PTCGP/comments/1y1i9ao/what_cards_do_you_think_people_are_sleeping_on/ 。
 
-1. **Aegislash（坚盾剑怪）** — Cursed Metal 的 +30增益，Togedemaru、Mega Skarmory、Dialga ex、Melmetal、Gholdengo ex。不同作者提供多个具体搭档/卡槽建议，但集中于同一讨论串：[Reddit Aegislash 求搭档](https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/amy_good_builds_that_combo_with_this_card/)；建议优先研究其独立物种页的不同构筑路线，暂不能推断搜索热度上涨。
-2. **Blastoise（水箭龟）** — C1普通版 Aqua Charge。多名作者分享限定赛 Blastoise 牌组、Squirtle 麻痹进化时机，有另一条讨论建议搭配 Lorelei 与 Lapras：[Reddit 事件讨论](https://www.reddit.com/r/PTCGP/comments/1y1dwkw/we_never_knew_how_much_wed_miss_him_til_he_was/) 和 [限定赛策略帖](https://www.reddit.com/r/PTCGP/comments/1y0rm9r/unpopular_opinion_i_like_the_limited_battles/)。不同主贴中有实质讨论，但未验证重复作者的同口径趋势。
-3. **Pidgeot（大比鸟）** — C1普通版与 Zoroark 或 Umbreon 组合、Blue's Provocation 调换前排：[Reddit 讨论](https://www.reddit.com/r/PTCGP/comments/1y1dwkw/we_never_knew_how_much_wed_miss_him_til_he_was/)；同一父讨论中两个独立作者，不能表述成多帖扩散。
-4. **Dialga ex（帝牙卢卡）** — A2-119 Metallic Turbo，与 Aegislash 的 Cursed Metal、Dawn 能量支援共同成套：[Reddit 配合讨论](https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/amy_good_builds_that_combo_with_this_card/)；与Aegislash共用同一父帖，且主轴归属有争议，须单独验证搜索意图与页面区分度。
-5. **Zoroark（索罗亚克）** — C1普通版 Foul Play，与 Pidgeot／Blue's Provocation 搭档。当前只有单一独立作者可核，[相关 Reddit 讨论](https://www.reddit.com/r/PTCGP/comments/1y1dwkw/we_never_knew_how_much_wed_miss_him_til_he_was/)；低信心研究线索，不宜自动生成独立 SEO 页。
+注意：这些物种没有在当次确认的[物种目录 All/Name 两页](https://www.pokemontcgpocket.app/en/deck/pokemon?sort=name)中出现（第一页40个，第二页Vespiquen，总41个）。其中一些已经有独立 **Deck 详情页**，不等于拥有按物种聚合的物种目录页；生成新物种页时必须区别于现有详情页，避免重复SEO内容。
 
-**合格的“多源交叉验证正在升温”物种数：0/5。** 上述五项为未通过总体百源覆盖门槛的研究备选；其他 Agent 不得把 `candidates` 的这五项当作已经验证可直接开发的任务。
+## 证据审计与下游 Agent 说明
 
-## 站内排除与信源覆盖
+- [evidence/2026-11-22-1242-web-audit.json](./evidence/2026-11-22-1242-web-audit.json)：本轮网页直读的 34 个真实链接、作者、物种归类、父帖子ID与 **时间未核实** 标志。
+- [evidence/reddit-public-raw-2026-11-22T044528Z.json](./evidence/reddit-public-raw-2026-11-22T044528Z.json)：GitHub Actions Reddit API 403 拒绝日志。
+- [latest.json](./latest.json)：主榜 candidates=[]，仅 watchlist=5，audit.coverage_met=false。其他 Agent **不得**据此自动发布5个物种SEO页面。
+- [history/2026-11-22-1242.json](./history/2026-11-22-1242.json)：本次历史快照。
 
-访问 https://www.pokemontcgpocket.app/en/deck/pokemon?sort=name ，逐页核查 name/all：**第一页40个，第二页只有 Vespiquen，合计41个物种**，还检查其他排序视图。以上5种均未在可见物种目录中，但可能有已存在的独立牌组详情页，应避免 SEO 内容互相重复。
-
-不同原帖数量远低于100的主要原因是 Reddit 搜索索引更新不稳定、多语种检索中旧帖混入，以及 X 原站访问受限。已排除过期帖子、实体纸牌、机器人与无构筑意图的纯提及；对于评论时间只见相对“1d/2d”时，不捏造精确日期时分。
-
-### 可审计证据清单
-
-- [evidence/2026-11-22-deep-audit.json](./evidence/2026-11-22-deep-audit.json) — 每条真实查看过的 permalink、作者、父帖子、是否有构筑意图及时间精度。
-- [latest.json](./latest.json) — Agent 稳定入口；明确 `audit.coverage_met=false`、三条父帖子以及五个暂定研究目标。
-- [history/2026-11-22-deep-audit.json](./history/2026-11-22-deep-audit.json) — 本次不可混同的历史快照。
-
-**发布校验**：以 GitHub 实际提交与 Pages 最新 Actions 为准；不能访问公共网站时仅能声明 GitHub 仓库回读成功或 Pages Actions 成功，不能声称已验证公开HTTP实时返回。
-
-**下一步**：如希望真正稳定执行100源/次，需接入可访问完整发帖时间的 Reddit 数据采集、可靠的X公共搜索或授权数据源；如果证据不足，应保持低信心，不为凑五个创建薄内容页。
+**阻碍不是“检索完成但恰好没有100篇”，而是可验证的 Reddit 原始元数据获取受限。** 要稳定达到100条有精确作者与发布时间的信源，需要合规的 Reddit API OAuth 访问或授权数据服务；不能尝试绕过403或把相对时间硬当绝对时间。

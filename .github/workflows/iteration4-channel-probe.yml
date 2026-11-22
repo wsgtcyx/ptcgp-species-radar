@@ -1,4 +1,4 @@
-name: Iteration 4 first-party creator channels and site probe
+name: Iteration 4 first-party creator channels, official RSS and site probe
 on:
   push:
     paths:
@@ -18,7 +18,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add evidence/2026-11-22-161536-iteration4-channel-probe.json
+          git add evidence/2026-11-22-161536-iteration4-channel-probe-v2.json
           git diff --staged --quiet && exit 0
           git commit -m "Record iteration 4 first-party channel and original-source probe (unassessed)"
           git pull --rebase origin main

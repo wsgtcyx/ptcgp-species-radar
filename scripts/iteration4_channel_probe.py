@@ -68,7 +68,7 @@ for label,vid,context in videos:
  AUDIT["youtube"].append(video)
  time.sleep(0.30)
 # Known official channel validates whether RSS is transport-readable but is NOT a deck source.
-channels.add("UC_SI1j1d8vJo_rYMV5o_dRg")
+channels.update({"UC_SI1j1d8vJo_rYMV5o_dRg","UCsf22ppLrgqdNoek8wc3y5A","UCq0VWPCoiu3ynVRQCgyhF6g","UCg-0sgAgnDDvEZIjL6qOvcA","UC8G8act2Xl_8bcRghswIY5A"})
 rss=[]
 for ch in sorted(channels)[:12]:
  url="https://www.youtube.com/feeds/videos.xml?channel_id="+ch
@@ -150,7 +150,7 @@ for handle,rkey in [("fictionlife06.bsky.social","3n2tt2z6glc2f"),("fictionlife0
   except Exception as e:AUDIT["bluesky"].append({"uri":uri,"error":str(e)[:100]})
  time.sleep(.2)
 AUDIT["completed_at_utc"]=dt.datetime.now(UTC).isoformat()
-out=pathlib.Path("evidence/2026-11-22-161536-iteration4-channel-probe.json")
+out=pathlib.Path("evidence/2026-11-22-161536-iteration4-channel-probe-v2.json")
 out.parent.mkdir(parents=True,exist_ok=True)
 out.write_text(json.dumps(AUDIT,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 print("PROBE_SUMMARY",json.dumps({"youtube_videos":len(AUDIT["youtube"]),"youtube_channels":len(channels),"rss_readable":sum(x["readable_xml"] for x in rss),"site_http":[(x["sort"],x["status"]) for x in AUDIT["site"]],"bsky_originals":len(AUDIT["bluesky"]),"pocketmads":len(AUDIT["pocketmads"]),"output":str(out)},ensure_ascii=False))

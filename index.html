@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1" />
-<meta name="description" content="Pokémon TCG Pocket 新物种 Deck SEO 机会雷达：72小时 Reddit 与 X 构筑讨论、作者去重及站内缺页核对。" />
+<meta name="description" content="Pokémon TCG Pocket 新物种 Deck SEO 机会雷达：72小时 Reddit 原帖构筑讨论、作者去重及站内缺页核对。" />
 <title>PTCG Pocket · Species Radar (Incomplete Source Coverage)</title>
 <style>
 :root{color-scheme:dark;--bg:#0a1116;--surf:#131e24;--surf2:#18262d;--line:#2b3941;--text:#eff7f4;--muted:#a1b7b5;--lime:#b6e589;--orange:#e3b77d;--red:#dc9d98;--blue:#94d3dc;--radius:18px}
@@ -14,21 +14,21 @@ a{color:var(--lime)}a:hover{text-decoration-thickness:2px}.wrap{max-width:1060px
 <main class="wrap">
 <header class="nav"><div class="logo"><span>◈</span> PTCGP / SPECIES RADAR</div><nav class="nav-links"><a href="#candidate">选题</a><a href="#audit">审计</a><a href="#agent">Agent JSON</a></nav></header>
 <div class="eyebrow"><span class="dot"></span>Independent SEO research / Trial run</div>
-<section class="hero"><h1>找到下一个值得<br/>创建的 Pokémon Deck 物种页。</h1><p>基于 Pokémon TCG Pocket 玩家近 72 小时的真实牌组讨论，检查独立作者、构筑意图和站内现有物种入口。候选结果直接从 latest.json 加载；若未达到百源覆盖要求，即使列出 5 个物种也只能视为初筛机会，不能当成已验证升温排行榜。</p><div class="meta"><span class="tag">报告日期 <span id="report-date">读取中</span></span><span class="tag"><span id="window-label">近72小时 · 北京时间</span></span><span class="tag">Reddit + X 双平台检索</span></div></section>
+<section class="hero"><h1>找到下一个值得<br/>创建的 Pokémon Deck 物种页。</h1><p>基于 Pokémon TCG Pocket 玩家近 72 小时的真实牌组讨论，检查独立作者、构筑意图和站内现有物种入口。候选结果直接从 latest.json 加载；若未达到百源覆盖要求，即使列出 5 个物种也只能视为初筛机会，不能当成已验证升温排行榜。</p><div class="meta"><span class="tag">报告日期 <span id="report-date">读取中</span></span><span class="tag"><span id="window-label">近72小时 · 北京时间</span></span><span class="tag">Reddit 原帖核验</span></div></section>
 
 <section class="stats" aria-label="研究统计">
 <div class="stat"><div class="num" id="count-total" style="color:var(--lime)">05</div><small>本轮研究线索（非升温榜）</small></div>
 <div class="stat"><div class="num" id="count-confirmed">01</div><small>初筛候选</small></div>
 <div class="stat"><div class="num" id="count-watchlist">04</div><small>待补证观察</small></div>
-<div class="stat"><div class="num" id="count-catalogue">40</div><small>物种目录可见入口</small></div>
+<div class="stat"><div class="num" id="count-catalogue">NA</div><small>物种目录可见入口</small></div>
 </section>
 <section id="candidate">
 <div class="section-title"><h2>本轮物种候选</h2><p>必须先通过信源覆盖和独立作者核验</p></div>
 <div id="quality-banner" class="callout" role="status">正在读取信源审计……</div><div id="dynamic-cards"><p class="muted">正在读取最新 JSON 数据。<a href="./latest.md">若无法加载，请阅读 Markdown 报告</a>。</p></div>
 <noscript>此页面需要 JavaScript 来展示最新研究目标。可直接阅读 <a href="./latest.md">Markdown 报告</a> 或 <a href="./latest.json">JSON 数据</a>。</noscript>
 </section>
-<section id="audit"><div class="section-title"><h2>证据质量与审计</h2><p>明确区分“没找到”与“无法访问”</p></div><div class="sidecards"><div class="pane"><h3>站内覆盖</h3><p>访问了英文 <a href="https://www.pokemontcgpocket.app/en/deck/pokemon?sort=name" target="_blank" rel="noopener">All / Name 物种目录</a>。可见 40 个物种，无下一页入口；未发现 Paldean Clodsire。未知是否存在不可见的客户端分页或私有数据。Bewear 虽已归档，仍从候选中排除。</p></div><div class="pane"><h3>平台访问限制</h3><p>部分 Reddit 原帖可直接打开；部分只能通过搜索索引获取摘要，未用于可靠的独立作者统计。X 原生搜索未能核实原帖 ID、作者和完整时间；因此 X 真实讨论量<strong>未知而不是零</strong>。</p></div><div class="pane"><h3>趋势判断</h3><p>已确认的是近 72 小时出现了多个独立账号参与同一构筑讨论。由于没有前一阶段同口径检索结果，不能推断“正在升温”或编造百分比。</p></div><div class="pane"><h3>后续应验证</h3><ul><li>更多 X 原帖及日语构筑证据</li><li>是否存在另一条独立主轴构筑路线</li><li>新建物种页是否真正补齐用户的比较需求</li><li>网站是否存在尚未显示的分页</li></ul></div></div></section>
-<section id="agent" class="data"><h3>供其他 Agent 使用的数据</h3><p>无需解析网页。通过静态 JSON 获取候选、作者数、证据 URL、未核验字段和审计信息。`null` 表示未知，不是零。</p><div class="links"><a href="./latest.json">读取 latest.json ↗</a><a href="./history/2026-11-21.json">历史快照 ↗</a><a href="./latest.md">Markdown 报告 ↗</a><a href="./README.md">部署说明 ↗</a></div></section>
+<section id="audit"><div class="section-title"><h2>证据质量与审计</h2><p>明确区分“没找到”与“无法访问”</p></div><div class="sidecards"><div class="pane"><h3>站内覆盖</h3><p>访问了英文 <a href="https://www.pokemontcgpocket.app/en/deck/pokemon?sort=name" target="_blank" rel="noopener">All / Name 物种目录</a>。本轮站点直连失败，无法完整遍历物种目录。搜索索引出现 Page 2 of 2 和 Bewear ex，仅供线索参考，不能算完整分页核验。</p></div><div class="pane"><h3>平台访问限制</h3><p>本轮 Reddit 原帖与评论时间戳小测全部缓存未命中，索引内容未用于严格100条来源。当前雷达只研究 Reddit，不检索 X。</p></div><div class="pane"><h3>趋势判断</h3><p>本轮没有获得原始时间与作者均可直读核验的72小时构筑来源。缺少可比历史基线，不能推断正在升温。</p></div><div class="pane"><h3>后续应验证</h3><ul><li>恢复正常允许的 Reddit 原帖与评论时间元数据</li><li>是否存在另一条独立主轴构筑路线</li><li>新建物种页是否真正补齐用户的比较需求</li><li>网站是否存在尚未显示的分页</li></ul></div></div></section>
+<section id="agent" class="data"><h3>供其他 Agent 使用的数据</h3><p>无需解析网页。通过静态 JSON 获取候选、作者数、证据 URL、未核验字段和审计信息。`null` 表示未知，不是零。</p><div class="links"><a href="./latest.json">读取 latest.json ↗</a><a id="history-link" href="./latest.json">历史快照 ↗</a><a href="./latest.md">Markdown 报告 ↗</a><a href="./README.md">部署说明 ↗</a></div></section>
 <footer class="footer"><p>研究数据和质量标记动态读取 latest.json；最新部署需按提交 SHA 核验。</p><p>独立粉丝研究项目，不隶属于 The Pokémon Company、Nintendo 或 DeNA。品牌名称属于其各自所有者。</p></footer>
 </main>
 <script>
@@ -100,6 +100,8 @@ fetch('./latest.json', {cache:'no-store'})
   document.getElementById('count-confirmed').textContent=String(confirmed.length).padStart(2,'0');
   document.getElementById('count-watchlist').textContent=String(watchlist.length).padStart(2,'0');
   document.getElementById('count-catalogue').textContent=d.site_audit?.observed_species_count ?? 'NA';
+  const hlink=document.getElementById('history-link');
+  if(hlink&&d.reporting?.history_path)hlink.href='./'+d.reporting.history_path;
   container.replaceChildren();
   for(const c of confirmed) container.appendChild(renderEntry(c,'confirmed',0,gateMet));
   for(const c of watchlist) container.appendChild(renderEntry(c,'watchlist',0,gateMet));

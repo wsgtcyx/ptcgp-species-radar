@@ -1,0 +1,118 @@
+{
+  "schema_version": "source-audit-v1",
+  "report_date": "2026-11-22",
+  "research_cutoff": "2026-11-22T10:02:59+08:00",
+  "assessment": "partial_not_100_source_verified",
+  "source_requirement": 100,
+  "unique_canonical_referenced_source_urls": 2,
+  "unique_parent_discussion_threads": 2,
+  "substantive_comment_records_claimed_in_report": 11,
+  "reddit_distinct_authors_claimed_in_report": 11,
+  "original_x_sources_directly_verified": 0,
+  "note": "Based only on canonical source URLs explicitly saved in today's candidate evidence. Multiple different author comments link to the same top-level thread URL; they are not individually attributable permalink URLs. These cannot establish 100 distinct sources or a multi-thread trend.",
+  "sources": [
+    {
+      "canonical_url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/amy_good_builds_that_combo_with_this_card/",
+      "platform": "reddit",
+      "source_date_calendar": "2026-11-20",
+      "mentions": [
+        {
+          "species": "Aegislash",
+          "author": "OldSpaghetti-Factory",
+          "intent_or_summary": "Original poster asks for Pokémon TCG Pocket deck builds around pictured Aegislash (A)."
+        },
+        {
+          "species": "Aegislash",
+          "author": "phvw",
+          "intent_or_summary": "Recommends Aegislash + Togedemaru because the recoil benefits from Aegislash's boost."
+        },
+        {
+          "species": "Aegislash",
+          "author": "Vesprince",
+          "intent_or_summary": "Reports using that deck and discusses Eviolite as a protection slot."
+        },
+        {
+          "species": "Aegislash",
+          "author": "GRE4TESTEV3R",
+          "intent_or_summary": "Recommends Aegislash + Dialga ex; Dawn energy timing; barrier/apron slots."
+        },
+        {
+          "species": "Aegislash",
+          "author": "e_ndoubleu",
+          "intent_or_summary": "Suggests Gholdengo ex pivot, trainers, Rare Candy consistency, Aegislash setup."
+        },
+        {
+          "species": "Aegislash",
+          "author": "AdagioDesperate",
+          "intent_or_summary": "Proposes Melmetal damage-reduction synergy."
+        },
+        {
+          "species": "Aegislash",
+          "author": "deckskin",
+          "intent_or_summary": "Reports using the Aegislash ability with Mega Mewtwo X."
+        },
+        {
+          "species": "Dialga",
+          "author": "GRE4TESTEV3R",
+          "intent_or_summary": "Discusses Dialga enabling Aegislash attacks, boosted Dialga damage and Dawn timing."
+        },
+        {
+          "species": "Dialga",
+          "author": "e_ndoubleu",
+          "intent_or_summary": "Discusses Dialga 100-160 attack and Metal Turbo into Gholdengo ex as alternative."
+        }
+      ],
+      "directly_opened": true,
+      "comment_permalinks_individually_verified": false,
+      "unique_authors_attributed": [
+        "OldSpaghetti-Factory",
+        "phvw",
+        "Vesprince",
+        "GRE4TESTEV3R",
+        "e_ndoubleu",
+        "AdagioDesperate",
+        "deckskin"
+      ]
+    },
+    {
+      "canonical_url": "https://www.reddit.com/r/PTCGP/comments/1y1dwkw/we_never_knew_how_much_wed_miss_him_til_he_was/",
+      "platform": "reddit",
+      "source_date_calendar": null,
+      "mentions": [
+        {
+          "species": "Pidgeot",
+          "author": "NormTheStorm",
+          "intent_or_summary": "Reports copying and playing Pidgeot–Zoroark with Blue's Provocation; pulls enemy Mega to active and copies its attack."
+        },
+        {
+          "species": "Pidgeot",
+          "author": "helpthisfish",
+          "intent_or_summary": "Reports Pidgeot–Umbreon deck in limited event and using Blue to force switching."
+        },
+        {
+          "species": "Blastoise",
+          "author": "ProfSpaceTime",
+          "intent_or_summary": "Shares successful Blastoise deck; explicitly recommends delaying Squirtle evolution to preserve paralysis."
+        },
+        {
+          "species": "Blastoise",
+          "author": "TKENation522",
+          "intent_or_summary": "Says they run Blastoise as the alternative to Fuecoco/Charizard with Blue's Provocation."
+        },
+        {
+          "species": "Zoroark",
+          "author": "NormTheStorm",
+          "intent_or_summary": "Describes finding, copying and using a Pidgeot–Zoroark deck that forces opponent Mega active and imitates its attack."
+        }
+      ],
+      "directly_opened": true,
+      "comment_permalinks_individually_verified": false,
+      "unique_authors_attributed": [
+        "NormTheStorm",
+        "helpthisfish",
+        "ProfSpaceTime",
+        "TKENation522"
+      ]
+    }
+  ]
+}

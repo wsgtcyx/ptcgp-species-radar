@@ -1,16 +1,16 @@
 {
   "schema_version": "1.1",
   "project": "PTCG Pocket Missing Species Deck Radar",
-  "generated_at": "2026-11-22T10:02:59+08:00",
+  "generated_at": "2026-11-22T10:21:07+08:00",
   "report_date": "2026-11-22",
   "timezone": "Asia/Shanghai",
   "window": {
-    "hours": 72,
-    "start": "2026-11-19T10:02:59+08:00",
-    "end": "2026-11-22T10:02:59+08:00"
+    "start": "2026-11-19T10:21:07+08:00",
+    "end": "2026-11-22T10:21:07+08:00",
+    "hours": 72
   },
-  "status": "provisional_candidates_source_coverage_below_minimum",
-  "summary": "Five preliminary species-page ideas came from only two distinct Reddit discussion threads and 11 substantive comments; this is far below the new 100-source audit threshold. No verified X original posts or demonstrated growth. Do not treat five candidates as five proven rising trends.",
+  "status": "exploratory_incomplete_under_100_verifiable_sources",
+  "summary": "Deep verification rerun: 31 directly opened distinct Reddit source/comment URLs from 3 parent threads; 0 X originals verified; strict source coverage target 100 NOT met. Five species are PROVISIONAL research leads, not five independently trending verified species.",
   "selection_rules": {
     "max_candidates": 5,
     "target_qualified": 5,
@@ -70,14 +70,18 @@
       "original_posts_directly_verified": 2,
       "substantive_comments_directly_read": 11,
       "known_verified_distinct_authors": 11,
-      "status": "Aegislash root and comments show absolute Friday November 20 2026 calendar date in indexed Reddit result; separate limited-event thread was directly opened and displayed approximately 5-6h ago for relevant comments at Nov22 morning cutoff. No UTC/Beijing exact timestamps; do not label the latter thread Nov20 without direct evidence.",
-      "effective_original_posts_direct_verified": 1
+      "status": "incomplete_deep_audit_3_parent_threads_only",
+      "effective_original_posts_direct_verified": 1,
+      "directly_opened_source_urls": 31,
+      "unique_parent_threads": 3,
+      "verified_exact_date_time_for_comments": 0
     },
     "x": {
       "original_posts_directly_verified": 0,
       "known_verified_distinct_authors": null,
-      "status": "attempted_but_no_verified_original",
-      "notes": "English and Japanese X original search attempted for broad Pokémon Pocket, Aegislash, Dialga ex, and prior candidates; no source with original player, status URL, and precise publication date verified. Account count NA, not 0."
+      "status": "unable_to_verify_original_tweet",
+      "notes": "Zero accessible verifiable original X posts, not zero actual discussion",
+      "verified_originals": 0
     },
     "multi_platform_unique_authors": null,
     "trend_baseline_available": false,
@@ -137,8 +141,8 @@
         "Mega Mewtwo X"
       ],
       "core_vs_tech": "primary_combo_engine",
-      "status": "qualified_recent_multi_author",
-      "reddit_unique_authors_verified": 7,
+      "status": "provisional_research_only_not_confirmed_trending",
+      "reddit_unique_authors_verified": 10,
       "reddit_original_posts_direct_verified": 1,
       "reddit_substantive_replies_direct_verified": 6,
       "x_unique_authors_verified": null,
@@ -169,151 +173,141 @@
       "evidence": [
         {
           "platform": "reddit",
-          "kind": "original_post",
-          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/amy_good_builds_that_combo_with_this_card/",
-          "post_id": "1y0sfrt",
           "author": "OldSpaghetti-Factory",
+          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/amy_good_builds_that_combo_with_this_card/",
+          "post_id": "1y0sfrt",
+          "parent_thread_id": "1y0sfrt",
           "published_date": "2026-11-20",
           "published_at": null,
-          "published_at_precision": "calendar_date_only",
-          "beijing_time": null,
-          "time_zone_verified": false,
-          "intent": [
-            "deck_request"
-          ],
-          "originality": "original_author",
+          "exact_timestamp_verified": false,
           "directly_opened": true,
-          "summary": "Original poster asks for Pokémon TCG Pocket deck builds around pictured Aegislash (A).",
-          "comment_permalink_verified": false,
-          "source_confidence": "directly_read_reddit_with_friday_nov20_calendar_date"
+          "summary": "build_advice",
+          "intent": "build_advice"
         },
         {
           "platform": "reddit",
-          "kind": "substantive_comment",
-          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/amy_good_builds_that_combo_with_this_card/",
-          "post_id": "1y0sfrt",
           "author": "phvw",
-          "published_date": "2026-11-20",
+          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/comment/19swgf541jupx/",
+          "post_id": "19swgf541jupx",
+          "parent_thread_id": "1y0sfrt",
+          "published_date": null,
           "published_at": null,
-          "published_at_precision": "calendar_date_only",
-          "beijing_time": null,
-          "time_zone_verified": false,
-          "intent": [
-            "partner_discussion",
-            "deck_optimization"
-          ],
-          "originality": "author_written_comment",
+          "exact_timestamp_verified": false,
           "directly_opened": true,
-          "summary": "Recommends Aegislash + Togedemaru because the recoil benefits from Aegislash's boost.",
-          "comment_permalink_verified": false,
-          "source_confidence": "directly_read_reddit_with_friday_nov20_calendar_date"
+          "summary": "partner_recoil_combo",
+          "intent": "partner_recoil_combo"
         },
         {
           "platform": "reddit",
-          "kind": "substantive_comment",
-          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/amy_good_builds_that_combo_with_this_card/",
-          "post_id": "1y0sfrt",
           "author": "Vesprince",
-          "published_date": "2026-11-20",
+          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/comment/19swifudi05s4/",
+          "post_id": "19swifudi05s4",
+          "parent_thread_id": "1y0sfrt",
+          "published_date": null,
           "published_at": null,
-          "published_at_precision": "calendar_date_only",
-          "beijing_time": null,
-          "time_zone_verified": false,
-          "intent": [
-            "battle_report",
-            "deck_optimization"
-          ],
-          "originality": "author_written_comment",
+          "exact_timestamp_verified": false,
           "directly_opened": true,
-          "summary": "Reports using that deck and discusses Eviolite as a protection slot.",
-          "comment_permalink_verified": false,
-          "source_confidence": "directly_read_reddit_with_friday_nov20_calendar_date"
+          "summary": "deck_optimization_eviolite",
+          "intent": "deck_optimization_eviolite"
         },
         {
           "platform": "reddit",
-          "kind": "substantive_comment",
-          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/amy_good_builds_that_combo_with_this_card/",
-          "post_id": "1y0sfrt",
+          "author": "SheerHippo",
+          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/comment/19swjjqltr51c/",
+          "post_id": "19swjjqltr51c",
+          "parent_thread_id": "1y0sfrt",
+          "published_date": null,
+          "published_at": null,
+          "exact_timestamp_verified": false,
+          "directly_opened": true,
+          "summary": "deck_experience",
+          "intent": "deck_experience"
+        },
+        {
+          "platform": "reddit",
           "author": "GRE4TESTEV3R",
-          "published_date": "2026-11-20",
+          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/comment/19swkbrhemtz4/",
+          "post_id": "19swkbrhemtz4",
+          "parent_thread_id": "1y0sfrt",
+          "published_date": null,
           "published_at": null,
-          "published_at_precision": "calendar_date_only",
-          "beijing_time": null,
-          "time_zone_verified": false,
-          "intent": [
-            "partner_discussion",
-            "deck_optimization"
-          ],
-          "originality": "author_written_comment",
+          "exact_timestamp_verified": false,
           "directly_opened": true,
-          "summary": "Recommends Aegislash + Dialga ex; Dawn energy timing; barrier/apron slots.",
-          "comment_permalink_verified": false,
-          "source_confidence": "directly_read_reddit_with_friday_nov20_calendar_date"
+          "summary": "partner_energy_ramp",
+          "intent": "partner_energy_ramp"
         },
         {
           "platform": "reddit",
-          "kind": "substantive_comment",
-          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/amy_good_builds_that_combo_with_this_card/",
-          "post_id": "1y0sfrt",
           "author": "e_ndoubleu",
-          "published_date": "2026-11-20",
+          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/comment/19swnp702g2m9/",
+          "post_id": "19swnp702g2m9",
+          "parent_thread_id": "1y0sfrt",
+          "published_date": null,
           "published_at": null,
-          "published_at_precision": "calendar_date_only",
-          "beijing_time": null,
-          "time_zone_verified": false,
-          "intent": [
-            "deck_optimization",
-            "partner_discussion"
-          ],
-          "originality": "author_written_comment",
+          "exact_timestamp_verified": false,
           "directly_opened": true,
-          "summary": "Suggests Gholdengo ex pivot, trainers, Rare Candy consistency, Aegislash setup.",
-          "comment_permalink_verified": false,
-          "source_confidence": "directly_read_reddit_with_friday_nov20_calendar_date"
+          "summary": "deck_optimization",
+          "intent": "deck_optimization"
         },
         {
           "platform": "reddit",
-          "kind": "substantive_comment",
-          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/amy_good_builds_that_combo_with_this_card/",
-          "post_id": "1y0sfrt",
           "author": "AdagioDesperate",
-          "published_date": "2026-11-20",
+          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/comment/19swhqlkioi0w/",
+          "post_id": "19swhqlkioi0w",
+          "parent_thread_id": "1y0sfrt",
+          "published_date": null,
           "published_at": null,
-          "published_at_precision": "calendar_date_only",
-          "beijing_time": null,
-          "time_zone_verified": false,
-          "intent": [
-            "partner_discussion"
-          ],
-          "originality": "author_written_comment",
+          "exact_timestamp_verified": false,
           "directly_opened": true,
-          "summary": "Proposes Melmetal damage-reduction synergy.",
-          "comment_permalink_verified": false,
-          "source_confidence": "directly_read_reddit_with_friday_nov20_calendar_date"
+          "summary": "partner_defense",
+          "intent": "partner_defense"
         },
         {
           "platform": "reddit",
-          "kind": "substantive_comment",
-          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/amy_good_builds_that_combo_with_this_card/",
-          "post_id": "1y0sfrt",
           "author": "deckskin",
-          "published_date": "2026-11-20",
+          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/comment/19swt7imazarp/",
+          "post_id": "19swt7imazarp",
+          "parent_thread_id": "1y0sfrt",
+          "published_date": null,
           "published_at": null,
-          "published_at_precision": "calendar_date_only",
-          "beijing_time": null,
-          "time_zone_verified": false,
-          "intent": [
-            "battle_report",
-            "partner_discussion"
-          ],
-          "originality": "author_written_comment",
+          "exact_timestamp_verified": false,
           "directly_opened": true,
-          "summary": "Reports using the Aegislash ability with Mega Mewtwo X.",
-          "comment_permalink_verified": false,
-          "source_confidence": "directly_read_reddit_with_friday_nov20_calendar_date"
+          "summary": "partner_combo",
+          "intent": "partner_combo"
+        },
+        {
+          "platform": "reddit",
+          "author": "ViewExplorer",
+          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/comment/19sxg1lm4se9u/",
+          "post_id": "19sxg1lm4se9u",
+          "parent_thread_id": "1y0sfrt",
+          "published_date": null,
+          "published_at": null,
+          "exact_timestamp_verified": false,
+          "directly_opened": true,
+          "summary": "ability_power_viability",
+          "intent": "ability_power_viability"
+        },
+        {
+          "platform": "reddit",
+          "author": "Ambitious_Chicken123",
+          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/comment/19swkwq5jrjnp/",
+          "post_id": "19swkwq5jrjnp",
+          "parent_thread_id": "1y0sfrt",
+          "published_date": null,
+          "published_at": null,
+          "exact_timestamp_verified": false,
+          "directly_opened": true,
+          "summary": "deck_viability",
+          "intent": "deck_viability"
         }
       ],
-      "audit_confidence": "provisional_insufficient_source_diversity"
+      "audit_confidence": "low_to_medium_single_parent_cluster_only",
+      "trending_evidence_verified": false,
+      "rising_trend_baseline_available": false,
+      "reddit_distinct_parent_discussion_threads": 1,
+      "under_100_coverage_warning": true,
+      "individual_comment_timestamps_verified": false
     },
     {
       "rank": 2,
@@ -330,7 +324,7 @@
         "Fuecoco ex"
       ],
       "core_vs_tech": "deck_axis_with_Blues_Provocation",
-      "status": "qualified_limited_window_verified",
+      "status": "provisional_research_only_not_confirmed_trending",
       "reddit_unique_authors_verified": 2,
       "reddit_original_posts_direct_verified": 0,
       "reddit_substantive_replies_direct_verified": 2,
@@ -361,55 +355,38 @@
       "evidence": [
         {
           "platform": "reddit",
-          "kind": "substantive_comment",
-          "url": "https://www.reddit.com/r/PTCGP/comments/1y1dwkw/we_never_knew_how_much_wed_miss_him_til_he_was/",
-          "post_id": "1y1dwkw",
           "author": "NormTheStorm",
+          "url": "https://www.reddit.com/r/PTCGP/comments/1y1dwkw/comment/19sxtl6ij8g0x/",
+          "post_id": "19sxtl6ij8g0x",
+          "parent_thread_id": "1y1dwkw",
           "published_date": null,
           "published_at": null,
-          "published_at_precision": "reddit_relative_hours_only",
-          "time_zone_verified": false,
-          "beijing_time": null,
+          "exact_timestamp_verified": false,
           "directly_opened": true,
-          "originality": "author_written_comment",
-          "intent": [
-            "partner_discussion",
-            "battle_report"
-          ],
-          "summary": "Reports copying and playing Pidgeot–Zoroark with Blue's Provocation; pulls enemy Mega to active and copies its attack.",
-          "comment_permalink_verified": false,
-          "comment_anchor": null,
-          "source_confidence": "direct_reddit_author_and_relative_age; absolute_timestamp_unavailable",
-          "platform_display_age": "approximately 5-6h ago (observed during 2026-11-22 morning Beijing research)",
-          "relative_age_window_validation": "well_within_72h_at_observation; exact Beijing clock time unavailable"
+          "summary": "battle_build",
+          "intent": "battle_build"
         },
         {
           "platform": "reddit",
-          "kind": "substantive_comment",
-          "url": "https://www.reddit.com/r/PTCGP/comments/1y1dwkw/we_never_knew_how_much_wed_miss_him_til_he_was/",
-          "post_id": "1y1dwkw",
           "author": "helpthisfish",
+          "url": "https://www.reddit.com/r/PTCGP/comments/1y1dwkw/comment/19sxtx3fltb1e/",
+          "post_id": "19sxtx3fltb1e",
+          "parent_thread_id": "1y1dwkw",
           "published_date": null,
           "published_at": null,
-          "published_at_precision": "reddit_relative_hours_only",
-          "time_zone_verified": false,
-          "beijing_time": null,
+          "exact_timestamp_verified": false,
           "directly_opened": true,
-          "originality": "author_written_comment",
-          "intent": [
-            "partner_discussion",
-            "battle_report"
-          ],
-          "summary": "Reports Pidgeot–Umbreon deck in limited event and using Blue to force switching.",
-          "comment_permalink_verified": false,
-          "comment_anchor": null,
-          "source_confidence": "direct_reddit_author_and_relative_age; absolute_timestamp_unavailable",
-          "platform_display_age": "approximately 5-6h ago (observed during 2026-11-22 morning Beijing research)",
-          "relative_age_window_validation": "well_within_72h_at_observation; exact Beijing clock time unavailable"
+          "summary": "battle_build",
+          "intent": "battle_build"
         }
       ],
       "date_verification_note": "The directly read 2026-11-22 morning Reddit view showed comments approximately 5-6h old, safely within the research window; absolute platform-local date/time cannot be asserted.",
-      "audit_confidence": "provisional_insufficient_source_diversity"
+      "audit_confidence": "low_to_medium_single_parent_cluster_only",
+      "trending_evidence_verified": false,
+      "rising_trend_baseline_available": false,
+      "reddit_distinct_parent_discussion_threads": 1,
+      "under_100_coverage_warning": true,
+      "individual_comment_timestamps_verified": false
     },
     {
       "rank": 3,
@@ -426,8 +403,8 @@
         "Blue's Provocation"
       ],
       "core_vs_tech": "main_evolution_axis",
-      "status": "qualified_limited_window_verified",
-      "reddit_unique_authors_verified": 2,
+      "status": "provisional_research_only_not_confirmed_trending",
+      "reddit_unique_authors_verified": 3,
       "reddit_original_posts_direct_verified": 0,
       "reddit_substantive_replies_direct_verified": 2,
       "x_unique_authors_verified": null,
@@ -457,54 +434,51 @@
       "evidence": [
         {
           "platform": "reddit",
-          "kind": "substantive_comment",
-          "url": "https://www.reddit.com/r/PTCGP/comments/1y1dwkw/we_never_knew_how_much_wed_miss_him_til_he_was/",
-          "post_id": "1y1dwkw",
           "author": "ProfSpaceTime",
+          "url": "https://www.reddit.com/r/PTCGP/comments/1y1dwkw/comment/19sxtn25u8o4g/",
+          "post_id": "19sxtn25u8o4g",
+          "parent_thread_id": "1y1dwkw",
           "published_date": null,
           "published_at": null,
-          "published_at_precision": "reddit_relative_hours_only",
-          "time_zone_verified": false,
-          "beijing_time": null,
+          "exact_timestamp_verified": false,
           "directly_opened": true,
-          "originality": "author_written_comment",
-          "intent": [
-            "battle_report",
-            "deck_optimization"
-          ],
-          "summary": "Shares successful Blastoise deck; explicitly recommends delaying Squirtle evolution to preserve paralysis.",
-          "comment_permalink_verified": false,
-          "comment_anchor": null,
-          "source_confidence": "direct_reddit_author_and_relative_age; absolute_timestamp_unavailable",
-          "platform_display_age": "approximately 5-6h ago (observed during 2026-11-22 morning Beijing research)",
-          "relative_age_window_validation": "well_within_72h_at_observation; exact Beijing clock time unavailable"
+          "summary": "battle_deck_evolution_timing",
+          "intent": "battle_deck_evolution_timing"
         },
         {
           "platform": "reddit",
-          "kind": "substantive_comment",
-          "url": "https://www.reddit.com/r/PTCGP/comments/1y1dwkw/we_never_knew_how_much_wed_miss_him_til_he_was/",
-          "post_id": "1y1dwkw",
-          "author": "TKENation522",
+          "author": "eddiemoney69",
+          "url": "https://www.reddit.com/r/PTCGP/comments/1y1dwkw/comment/19sxwei7qrm04/",
+          "post_id": "19sxwei7qrm04",
+          "parent_thread_id": "1y1dwkw",
           "published_date": null,
           "published_at": null,
-          "published_at_precision": "reddit_relative_hours_only",
-          "time_zone_verified": false,
-          "beijing_time": null,
+          "exact_timestamp_verified": false,
           "directly_opened": true,
-          "originality": "author_written_comment",
-          "intent": [
-            "partner_discussion"
-          ],
-          "summary": "Says they run Blastoise as the alternative to Fuecoco/Charizard with Blue's Provocation.",
-          "comment_permalink_verified": false,
-          "comment_anchor": null,
-          "source_confidence": "direct_reddit_author_and_relative_age; absolute_timestamp_unavailable",
-          "platform_display_age": "approximately 5-6h ago (observed during 2026-11-22 morning Beijing research)",
-          "relative_age_window_validation": "well_within_72h_at_observation; exact Beijing clock time unavailable"
+          "summary": "battle_partner",
+          "intent": "battle_partner"
+        },
+        {
+          "platform": "reddit",
+          "author": "TKENation522",
+          "url": "https://www.reddit.com/r/PTCGP/comments/1y1dwkw/comment/19sxvsed2neao/",
+          "post_id": "19sxvsed2neao",
+          "parent_thread_id": "1y1dwkw",
+          "published_date": null,
+          "published_at": null,
+          "exact_timestamp_verified": false,
+          "directly_opened": true,
+          "summary": "deck_choice",
+          "intent": "deck_choice"
         }
       ],
       "date_verification_note": "The directly read 2026-11-22 morning Reddit view showed comments approximately 5-6h old, safely within the research window; absolute platform-local date/time cannot be asserted.",
-      "audit_confidence": "provisional_insufficient_source_diversity"
+      "audit_confidence": "low_to_medium_single_parent_cluster_only",
+      "trending_evidence_verified": false,
+      "rising_trend_baseline_available": false,
+      "reddit_distinct_parent_discussion_threads": 1,
+      "under_100_coverage_warning": true,
+      "individual_comment_timestamps_verified": false
     },
     {
       "rank": 4,
@@ -521,7 +495,7 @@
         "Dawn"
       ],
       "core_vs_tech": "metal_energy_ramp_axis",
-      "status": "qualified_recent_multi_author_shared_thread",
+      "status": "provisional_research_only_not_confirmed_trending",
       "reddit_unique_authors_verified": 2,
       "reddit_original_posts_direct_verified": 0,
       "reddit_substantive_replies_direct_verified": 2,
@@ -551,48 +525,37 @@
       "evidence": [
         {
           "platform": "reddit",
-          "kind": "substantive_comment",
-          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/amy_good_builds_that_combo_with_this_card/",
-          "post_id": "1y0sfrt",
           "author": "GRE4TESTEV3R",
-          "published_date": "2026-11-20",
+          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/comment/19swkbrhemtz4/",
+          "post_id": "19swkbrhemtz4",
+          "parent_thread_id": "1y0sfrt",
+          "published_date": null,
           "published_at": null,
-          "published_at_precision": "calendar_date_only",
-          "beijing_time": null,
-          "time_zone_verified": false,
-          "intent": [
-            "partner_discussion",
-            "deck_optimization"
-          ],
-          "originality": "author_written_comment",
+          "exact_timestamp_verified": false,
           "directly_opened": true,
-          "summary": "Discusses Dialga enabling Aegislash attacks, boosted Dialga damage and Dawn timing.",
-          "comment_permalink_verified": false,
-          "source_confidence": "directly_read_reddit_with_friday_nov20_calendar_date"
+          "summary": "partner_energy_ramp",
+          "intent": "partner_energy_ramp"
         },
         {
           "platform": "reddit",
-          "kind": "substantive_comment",
-          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/amy_good_builds_that_combo_with_this_card/",
-          "post_id": "1y0sfrt",
           "author": "e_ndoubleu",
-          "published_date": "2026-11-20",
+          "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/comment/19swnp702g2m9/",
+          "post_id": "19swnp702g2m9",
+          "parent_thread_id": "1y0sfrt",
+          "published_date": null,
           "published_at": null,
-          "published_at_precision": "calendar_date_only",
-          "beijing_time": null,
-          "time_zone_verified": false,
-          "intent": [
-            "partner_discussion",
-            "deck_optimization"
-          ],
-          "originality": "author_written_comment",
+          "exact_timestamp_verified": false,
           "directly_opened": true,
-          "summary": "Discusses Dialga 100-160 attack and Metal Turbo into Gholdengo ex as alternative.",
-          "comment_permalink_verified": false,
-          "source_confidence": "directly_read_reddit_with_friday_nov20_calendar_date"
+          "summary": "deck_optimization",
+          "intent": "deck_optimization"
         }
       ],
-      "audit_confidence": "provisional_insufficient_source_diversity"
+      "audit_confidence": "low_to_medium_single_parent_cluster_only",
+      "trending_evidence_verified": false,
+      "rising_trend_baseline_available": false,
+      "reddit_distinct_parent_discussion_threads": 1,
+      "under_100_coverage_warning": true,
+      "individual_comment_timestamps_verified": false
     },
     {
       "rank": 5,
@@ -607,7 +570,7 @@
         "Pidgeot"
       ],
       "core_vs_tech": "co_attacker_deck_axis_copy_opponent_attack",
-      "status": "qualified_single_author_limited_evidence",
+      "status": "provisional_research_only_not_confirmed_trending",
       "reddit_unique_authors_verified": 1,
       "reddit_original_posts_direct_verified": 0,
       "reddit_substantive_replies_direct_verified": 1,
@@ -637,45 +600,39 @@
       "evidence": [
         {
           "platform": "reddit",
-          "kind": "substantive_comment",
-          "url": "https://www.reddit.com/r/PTCGP/comments/1y1dwkw/we_never_knew_how_much_wed_miss_him_til_he_was/",
-          "post_id": "1y1dwkw",
           "author": "NormTheStorm",
+          "url": "https://www.reddit.com/r/PTCGP/comments/1y1dwkw/comment/19sxtl6ij8g0x/",
+          "post_id": "19sxtl6ij8g0x",
+          "parent_thread_id": "1y1dwkw",
           "published_date": null,
           "published_at": null,
-          "published_at_precision": "reddit_relative_hours_only",
-          "time_zone_verified": false,
-          "beijing_time": null,
+          "exact_timestamp_verified": false,
           "directly_opened": true,
-          "originality": "author_written_comment",
-          "intent": [
-            "battle_report",
-            "partner_discussion"
-          ],
-          "summary": "Describes finding, copying and using a Pidgeot–Zoroark deck that forces opponent Mega active and imitates its attack.",
-          "comment_permalink_verified": false,
-          "comment_anchor": null,
-          "source_confidence": "direct_reddit_author_and_relative_age; absolute_timestamp_unavailable",
-          "platform_display_age": "approximately 5-6h ago (observed during 2026-11-22 morning Beijing research)",
-          "relative_age_window_validation": "well_within_72h_at_observation; exact Beijing clock time unavailable"
+          "summary": "battle_build",
+          "intent": "battle_build"
         }
       ],
       "date_verification_note": "The directly read 2026-11-22 morning Reddit view showed comments approximately 5-6h old, safely within the research window; absolute platform-local date/time cannot be asserted.",
-      "audit_confidence": "provisional_insufficient_source_diversity"
+      "audit_confidence": "low_to_medium_single_parent_cluster_only",
+      "trending_evidence_verified": false,
+      "rising_trend_baseline_available": false,
+      "reddit_distinct_parent_discussion_threads": 1,
+      "under_100_coverage_warning": true,
+      "individual_comment_timestamps_verified": false
     }
   ],
   "watchlist": [],
   "reporting": {
     "target_count": 5,
-    "qualified_count": 5,
-    "qualified_candidate_count": 5,
-    "shortfall_count": 0,
+    "qualified_count": 0,
+    "qualified_candidate_count": 0,
+    "shortfall_count": 5,
     "watchlist_count": 0,
     "total_research_targets": 5,
     "requested_targets": 5,
     "verified_x_accounts": null,
     "ranking": "distinct authors first, documented deck-role and user intent second. No baseline growth comparison.",
-    "history_path": "history/2026-11-22-final.json",
+    "history_path": "history/2026-11-22-deep-audit.json",
     "source_post_count_direct_verified": 2,
     "note": "The top post is not itself a substantive deck post; qualifying evidence is in authored comments on it.",
     "revised_from_snapshot": "history/2026-11-22-revised.json",
@@ -686,7 +643,12 @@
     "distinct_discussion_thread_count": 2,
     "high_confidence_rising_species_count": 0,
     "qualification_provisional": true,
-    "source_audit_path": "evidence/2026-11-22.json"
+    "source_audit_path": "evidence/2026-11-22-deep-audit.json",
+    "provisional_candidate_count": 5,
+    "audited_distinct_source_urls": 31,
+    "unique_parent_threads": 3,
+    "verified_x_original_urls": 0,
+    "research_status": "insufficient_evidence_diversity; candidate list provisional"
   },
   "excluded_examples": [
     {
@@ -716,55 +678,48 @@
   ],
   "recommended_next_action": "Build Aegislash Cursed Metal overview first with multiple requested core partners, Pidgeot next, Blastoise after, then Dialga ex and Zoroark with substantial non-duplicative content. Verify more independent sources and X for growth claims.",
   "publication": {
-    "status": "pages_build_deploy_verified_public_http_unverified",
-    "commit_written": true,
-    "repository_readback_verified": true,
-    "pages_deploy_verified": true,
+    "status": "repository_commit_pending",
+    "commit_written": false,
+    "repository_readback_verified": false,
+    "pages_deploy_verified": false,
     "public_json_verified": false,
-    "data_commit_sha": "b799f3b409754789179eb1e1f3ddf4d12a2ec2b7",
     "repository": "wsgtcyx/ptcgp-species-radar",
     "branch": "main",
     "pages_url": "https://wsgtcyx.github.io/ptcgp-species-radar/",
     "json_url": "https://wsgtcyx.github.io/ptcgp-species-radar/latest.json",
-    "raw_url": "https://raw.githubusercontent.com/wsgtcyx/ptcgp-species-radar/main/latest.json",
-    "pages_workflow_observed": {
-      "run_id": 44975132684,
-      "head_sha": "b799f3b409754789179eb1e1f3ddf4d12a2ec2b7",
-      "status": "completed",
-      "conclusion": "success",
-      "verified_build_job": true,
-      "verified_deploy_job": true,
-      "completed_at": "2026-11-22T02:14:48Z"
-    },
-    "notes": "GitHub repository readback and the five-candidate latest Pages workflow are verified. Direct public HTTP fetch of github.io remains blocked in this research environment; public_json_verified is false. This publication-metadata-only commit itself requires its own subsequent Pages workflow."
+    "alternate_json_url": "https://raw.githubusercontent.com/wsgtcyx/ptcgp-species-radar/main/latest.json",
+    "notes": "Publication status is best verified from GitHub readback and workflow (metadata in this JSON is a pre-commit snapshot). This data cannot self-certify its own deployment."
   },
   "audit": {
     "coverage_goal": 100,
     "coverage_met": false,
-    "coverage_confidence": "insufficient_sample",
-    "verified_canonical_72h_original_source_urls": 2,
-    "unique_parent_thread_count": 2,
-    "substantive_reddit_comments_read": 11,
+    "coverage_confidence": "inadequate_nonrepresentative",
+    "reviewed_unique_original_and_comment_urls": 31,
+    "independently_verified_exact_time_72h_urls": 0,
+    "parent_posts_calendar_day_within_72h": 3,
+    "unique_parent_thread_count": 3,
+    "directly_opened_reply_permalink_count": 28,
+    "deck_intent_records": 26,
     "verified_x_original_urls": 0,
-    "source_permalink_shortfall": 98,
-    "evidence_artifact": "evidence/2026-11-22.json",
+    "gap_to_100_at_reviewed_url_level": 69,
     "quality_gate_reasons": [
-      "Only 2 distinct top-level Reddit original URLs cited across all five candidates",
-      "Replies by different authors currently reference the same top-level thread URL, lacking direct comment permalinks",
-      "No independently verified X original URLs",
-      "No same-method historical window to establish growth"
+      "100-source coverage goal not achieved: direct unique Reddit posts and comment permalinks much fewer than 100",
+      "All studied evidence is clustered in 3 parent threads, rather than independent 72h subreddit/X discovery breadth",
+      "No verified X original post, major platform coverage gap",
+      "Comment creation clock-times not independently verified; dates must not be invented",
+      "No same-method growth baseline"
     ],
     "source_funnel": {
       "search_queries_executed": null,
-      "discovered_urls_total": null,
-      "discovered_unique_urls": null,
-      "directly_opened_unique_urls_reported_in_candidates": 2,
-      "confirmed_pocket_72h_unique_original_urls_in_candidates": 2,
-      "reddit_substantive_comment_records": 11,
-      "unique_parent_threads": 2,
-      "reddit_unique_authors_reported": 11,
-      "x_originals_verified": 0
+      "search_results_seen_urls": null,
+      "unique_directly_opened_url_count": 31,
+      "opened_parent_thread_count": 3,
+      "opened_comment_permalink_count": 28,
+      "unique_reddit_deck_authors": 26,
+      "individual_replies_with_exact_publication_datetime": 0,
+      "x_verified_posts": 0
     },
-    "audit_basis": "Computed from latest.json candidate evidence URLs, not a complete replay of today's search queries. Counts are conservative; unknown omitted."
+    "evidence_artifact": "evidence/2026-11-22-deep-audit.json",
+    "generated_at": "2026-11-22T10:21:07+08:00"
   }
 }

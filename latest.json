@@ -1,16 +1,16 @@
 {
   "schema_version": "1.1",
   "project": "PTCG Pocket Missing Species Deck Radar",
-  "generated_at": "2026-11-22T12:49:42+08:00",
+  "generated_at": "2026-11-22T14:55:56+08:00",
   "report_date": "2026-11-22",
   "timezone": "Asia/Shanghai",
   "window": {
     "hours": 72,
-    "start": "2026-11-19T12:42:57+08:00",
-    "end": "2026-11-22T12:42:57+08:00"
+    "start": "2026-11-19T14:51:51+08:00",
+    "end": "2026-11-22T14:51:51+08:00"
   },
-  "status": "partial_reddit_only_under_100_source_hard_gate",
-  "summary": "Immediate Reddit-only run at 12:42 BJT: inspected 34 individual post/comment URLs, 10 parent threads, but ZERO strictly timestamp-verified 72h original sources because Reddit returned only relative dates and public JSON endpoints returned HTTP 403. Five unverified research leads only.",
+  "status": "incomplete_reexecution_100_source_gate_failed",
+  "summary": "14:51 Beijing re-execution: 2 calendar-day current Reddit search-result originals (Nov20 and Nov21), but 0 originals fully revalidated by direct Reddit page+author+creation-time this run; strict 100-source gate failed. Prior 34 sources remain historical, not recounted.",
   "selection_rules": {
     "max_candidates": 5,
     "target_qualified": 5,
@@ -27,57 +27,25 @@
     "require_direct_source_and_cutoff_safe_date_for_qualified": true
   },
   "site_audit": {
-    "species_directory_url": "https://www.pokemontcgpocket.app/en/deck/pokemon?sort=name",
-    "observed_species_count": 41,
-    "list_pages_read": 2,
-    "pagination_observed": true,
-    "pagination_note": "Followed Name/All page 1 Next to page 2; page 1 showed 40 entries and page 2 exactly 1 (Vespiquen), with Previous only and 'Page 2 of 2'. Also opened popular/newest/recent views; observed count from name/all full visible pagination.",
-    "pages": [
-      {
-        "page": 1,
-        "url": "https://www.pokemontcgpocket.app/en/deck/pokemon?sort=name",
-        "observed_species": 40,
-        "has_next": true
-      },
-      {
-        "page": 2,
-        "url": "https://www.pokemontcgpocket.app/en/deck/pokemon?page=2&sort=name",
-        "observed_species": 1,
-        "has_next": false
-      }
-    ],
-    "failed_pages": [],
-    "last_page_verified": 2,
-    "extra_sort_views_checked": [
-      "popular",
-      "name",
-      "newest",
-      "recent"
-    ],
-    "excluded_present_examples": [
-      "Azumarill",
-      "Vespiquen",
-      "Fuecoco",
-      "Charizard",
-      "Mewtwo",
-      "Bewear"
-    ],
-    "candidate_species_present_in_directory": false,
-    "audit_scope": "Fully traversed the publicly rendered directory under name/all; may not reflect hidden administrative data or newly published pages after this retrieval."
+    "url": "https://www.pokemontcgpocket.app/en/deck/pokemon",
+    "source_type": "current search index snapshot, not live authenticated/complete html traversal",
+    "visible_pagination": "Page 1 of 2 and Page 2 of 2",
+    "second_page_visible_item": "Bewear ex",
+    "fully_verified_all_pages": false,
+    "note": "Search-index results show a two-page directory but does not prove exhaustiveness or all filter variants."
   },
   "source_coverage": {
     "reddit": {
-      "status": "partial_html_only_public_json_forbidden",
-      "directly_opened_urls": 34,
-      "verified_72h_sources": 0,
-      "has_exact_post_timestamps": false,
-      "api_probe_http_403": 3
+      "only_social_platform": true,
+      "full_subreddit_feeds_current": false,
+      "posts_with_dated_search_index_content": 2,
+      "author_plus_creation_time_newly_verified": 0,
+      "cache_miss_on_direct_posts": true,
+      "public_json_access_unavailable": true
     },
     "x": {
-      "status": "intentionally_not_searched_user_requested_reddit_only",
-      "verified_originals": null
-    },
-    "trend_baseline_available": false
+      "status": "not_searched_by_user_request"
+    }
   },
   "candidates": [],
   "watchlist": [
@@ -86,7 +54,7 @@
       "species": "Chandelure",
       "species_zh": "水晶灯火灵",
       "form": "Chandelure + Oricorio (copycat/Hiking Trail); Meloetta variant",
-      "status": "unverified_exact_published_datetime_no_100_source_gate",
+      "status": "historical_observation_unverified_current_run",
       "reddit_unique_authors_verified": null,
       "observed_distinct_author_handles": 3,
       "observed_parent_threads": 1,
@@ -110,7 +78,9 @@
           "parent_thread_id": "1y22t44",
           "intent": "decklist",
           "summary": "Chandelure Oricorio Copycat/Hiking Trail deck",
-          "verification_status": "content_and_author_opened_timestamp_not_verified"
+          "verification_status": "content_and_author_opened_timestamp_not_verified",
+          "verified_this_run": false,
+          "eligible_100_this_run": false
         },
         {
           "platform": "reddit",
@@ -123,7 +93,9 @@
           "parent_thread_id": "1y22t44",
           "intent": "meloetta_variant",
           "summary": "Manually inspected commenter discussion; full passage in linked Reddit source",
-          "verification_status": "content_and_author_opened_timestamp_not_verified"
+          "verification_status": "content_and_author_opened_timestamp_not_verified",
+          "verified_this_run": false,
+          "eligible_100_this_run": false
         },
         {
           "platform": "reddit",
@@ -136,16 +108,26 @@
           "parent_thread_id": "1y22t44",
           "intent": "trainer_slot",
           "summary": "Manually inspected commenter discussion; full passage in linked Reddit source",
-          "verification_status": "content_and_author_opened_timestamp_not_verified"
+          "verification_status": "content_and_author_opened_timestamp_not_verified",
+          "verified_this_run": false,
+          "eligible_100_this_run": false
         }
-      ]
+      ],
+      "qualification": "not_validated_for_new_species_page",
+      "fresh_2026_11_22_1451_direct_sources": 0,
+      "historical_evidence_provenance": "2026-11-22 12:42 run; NOT newly recrawled",
+      "fresh_index_search_date_supported": true,
+      "fresh_index_search_post_ids": [
+        "t3_1y22t44"
+      ],
+      "current_index_content": "New Chandelure deck with Oricorio, Copycat and Hiking Trail dated 2026-11-21; author from previous audit"
     },
     {
       "rank": 2,
       "species": "Aegislash",
       "species_zh": "坚盾剑怪",
       "form": "Aegislash Cursed Metal with Togedemaru, Dialga ex, Melmetal, Mega Skarmory",
-      "status": "unverified_exact_published_datetime_no_100_source_gate",
+      "status": "historical_observation_unverified_current_run",
       "reddit_unique_authors_verified": null,
       "observed_distinct_author_handles": 6,
       "observed_parent_threads": 1,
@@ -169,7 +151,9 @@
           "parent_thread_id": "1y0sfrt",
           "intent": "deck_help",
           "summary": "Aegislash partners request",
-          "verification_status": "content_and_author_opened_timestamp_not_verified"
+          "verification_status": "content_and_author_opened_timestamp_not_verified",
+          "verified_this_run": false,
+          "eligible_100_this_run": false
         },
         {
           "platform": "reddit",
@@ -182,7 +166,9 @@
           "parent_thread_id": "1y0sfrt",
           "intent": "partner_synergy",
           "summary": "Manually inspected commenter discussion; full passage in linked Reddit source",
-          "verification_status": "content_and_author_opened_timestamp_not_verified"
+          "verification_status": "content_and_author_opened_timestamp_not_verified",
+          "verified_this_run": false,
+          "eligible_100_this_run": false
         },
         {
           "platform": "reddit",
@@ -195,7 +181,9 @@
           "parent_thread_id": "1y0sfrt",
           "intent": "partner_synergy",
           "summary": "Manually inspected commenter discussion; full passage in linked Reddit source",
-          "verification_status": "content_and_author_opened_timestamp_not_verified"
+          "verification_status": "content_and_author_opened_timestamp_not_verified",
+          "verified_this_run": false,
+          "eligible_100_this_run": false
         },
         {
           "platform": "reddit",
@@ -208,7 +196,9 @@
           "parent_thread_id": "1y0sfrt",
           "intent": "energy_ramp",
           "summary": "Manually inspected commenter discussion; full passage in linked Reddit source",
-          "verification_status": "content_and_author_opened_timestamp_not_verified"
+          "verification_status": "content_and_author_opened_timestamp_not_verified",
+          "verified_this_run": false,
+          "eligible_100_this_run": false
         },
         {
           "platform": "reddit",
@@ -221,7 +211,9 @@
           "parent_thread_id": "1y0sfrt",
           "intent": "slot_optimization",
           "summary": "Manually inspected commenter discussion; full passage in linked Reddit source",
-          "verification_status": "content_and_author_opened_timestamp_not_verified"
+          "verification_status": "content_and_author_opened_timestamp_not_verified",
+          "verified_this_run": false,
+          "eligible_100_this_run": false
         },
         {
           "platform": "reddit",
@@ -234,16 +226,21 @@
           "parent_thread_id": "1y0sfrt",
           "intent": "defense_partner",
           "summary": "Manually inspected commenter discussion; full passage in linked Reddit source",
-          "verification_status": "content_and_author_opened_timestamp_not_verified"
+          "verification_status": "content_and_author_opened_timestamp_not_verified",
+          "verified_this_run": false,
+          "eligible_100_this_run": false
         }
-      ]
+      ],
+      "qualification": "not_validated_for_new_species_page",
+      "fresh_2026_11_22_1451_direct_sources": 0,
+      "historical_evidence_provenance": "2026-11-22 12:42 run; NOT newly recrawled"
     },
     {
       "rank": 3,
       "species": "Blastoise",
       "species_zh": "水箭龟",
       "form": "C1 ordinary Blastoise with Lorelei/Lapras; Squirtle paralysis timing",
-      "status": "unverified_exact_published_datetime_no_100_source_gate",
+      "status": "historical_observation_unverified_current_run",
       "reddit_unique_authors_verified": null,
       "observed_distinct_author_handles": 4,
       "observed_parent_threads": 2,
@@ -267,7 +264,9 @@
           "parent_thread_id": "1y0rm9r",
           "intent": "lorelei_partner",
           "summary": "Manually inspected commenter discussion; full passage in linked Reddit source",
-          "verification_status": "content_and_author_opened_timestamp_not_verified"
+          "verification_status": "content_and_author_opened_timestamp_not_verified",
+          "verified_this_run": false,
+          "eligible_100_this_run": false
         },
         {
           "platform": "reddit",
@@ -280,7 +279,9 @@
           "parent_thread_id": "1y1dwkw",
           "intent": "evolution_timing",
           "summary": "Manually inspected commenter discussion; full passage in linked Reddit source",
-          "verification_status": "content_and_author_opened_timestamp_not_verified"
+          "verification_status": "content_and_author_opened_timestamp_not_verified",
+          "verified_this_run": false,
+          "eligible_100_this_run": false
         },
         {
           "platform": "reddit",
@@ -293,7 +294,9 @@
           "parent_thread_id": "1y1dwkw",
           "intent": "partner_synergy",
           "summary": "Manually inspected commenter discussion; full passage in linked Reddit source",
-          "verification_status": "content_and_author_opened_timestamp_not_verified"
+          "verification_status": "content_and_author_opened_timestamp_not_verified",
+          "verified_this_run": false,
+          "eligible_100_this_run": false
         },
         {
           "platform": "reddit",
@@ -306,16 +309,21 @@
           "parent_thread_id": "1y1dwkw",
           "intent": "deck_choice",
           "summary": "Manually inspected commenter discussion; full passage in linked Reddit source",
-          "verification_status": "content_and_author_opened_timestamp_not_verified"
+          "verification_status": "content_and_author_opened_timestamp_not_verified",
+          "verified_this_run": false,
+          "eligible_100_this_run": false
         }
-      ]
+      ],
+      "qualification": "not_validated_for_new_species_page",
+      "fresh_2026_11_22_1451_direct_sources": 0,
+      "historical_evidence_provenance": "2026-11-22 12:42 run; NOT newly recrawled"
     },
     {
       "rank": 4,
       "species": "Paldean Clodsire",
       "species_zh": "帕底亚土王",
       "form": "C1 regular Paldean Clodsire + Whiscash + Rika",
-      "status": "unverified_exact_published_datetime_no_100_source_gate",
+      "status": "historical_observation_unverified_current_run",
       "reddit_unique_authors_verified": null,
       "observed_distinct_author_handles": 4,
       "observed_parent_threads": 2,
@@ -339,7 +347,9 @@
           "parent_thread_id": "1xzve1f",
           "intent": "battle_report",
           "summary": "Clodsire and Whiscash limited battle deck performance",
-          "verification_status": "content_and_author_opened_timestamp_not_verified"
+          "verification_status": "content_and_author_opened_timestamp_not_verified",
+          "verified_this_run": false,
+          "eligible_100_this_run": false
         },
         {
           "platform": "reddit",
@@ -352,7 +362,9 @@
           "parent_thread_id": "1y1i9ao",
           "intent": "partner_optimization",
           "summary": "Manually inspected commenter discussion; full passage in linked Reddit source",
-          "verification_status": "content_and_author_opened_timestamp_not_verified"
+          "verification_status": "content_and_author_opened_timestamp_not_verified",
+          "verified_this_run": false,
+          "eligible_100_this_run": false
         },
         {
           "platform": "reddit",
@@ -365,7 +377,9 @@
           "parent_thread_id": "1y1i9ao",
           "intent": "deck_partner",
           "summary": "Manually inspected commenter discussion; full passage in linked Reddit source",
-          "verification_status": "content_and_author_opened_timestamp_not_verified"
+          "verification_status": "content_and_author_opened_timestamp_not_verified",
+          "verified_this_run": false,
+          "eligible_100_this_run": false
         },
         {
           "platform": "reddit",
@@ -378,16 +392,21 @@
           "parent_thread_id": "1xzve1f",
           "intent": "red_card_swap",
           "summary": "Manually inspected commenter discussion; full passage in linked Reddit source",
-          "verification_status": "content_and_author_opened_timestamp_not_verified"
+          "verification_status": "content_and_author_opened_timestamp_not_verified",
+          "verified_this_run": false,
+          "eligible_100_this_run": false
         }
-      ]
+      ],
+      "qualification": "not_validated_for_new_species_page",
+      "fresh_2026_11_22_1451_direct_sources": 0,
+      "historical_evidence_provenance": "2026-11-22 12:42 run; NOT newly recrawled"
     },
     {
       "rank": 5,
       "species": "Zoroark",
       "species_zh": "索罗亚克",
       "form": "C1 regular Zoroark Foul Play + Pidgeot; alternate Clodsire replacement",
-      "status": "unverified_exact_published_datetime_no_100_source_gate",
+      "status": "historical_observation_unverified_current_run",
       "reddit_unique_authors_verified": null,
       "observed_distinct_author_handles": 2,
       "observed_parent_threads": 2,
@@ -411,7 +430,9 @@
           "parent_thread_id": "1y1i9ao",
           "intent": "partner_optimization",
           "summary": "Manually inspected commenter discussion; full passage in linked Reddit source",
-          "verification_status": "content_and_author_opened_timestamp_not_verified"
+          "verification_status": "content_and_author_opened_timestamp_not_verified",
+          "verified_this_run": false,
+          "eligible_100_this_run": false
         },
         {
           "platform": "reddit",
@@ -424,42 +445,30 @@
           "parent_thread_id": "1y1dwkw",
           "intent": "deck_experience",
           "summary": "Manually inspected commenter discussion; full passage in linked Reddit source",
-          "verification_status": "content_and_author_opened_timestamp_not_verified"
+          "verification_status": "content_and_author_opened_timestamp_not_verified",
+          "verified_this_run": false,
+          "eligible_100_this_run": false
         }
-      ]
+      ],
+      "qualification": "not_validated_for_new_species_page",
+      "fresh_2026_11_22_1451_direct_sources": 0,
+      "historical_evidence_provenance": "2026-11-22 12:42 run; NOT newly recrawled"
     }
   ],
   "reporting": {
     "target_count": 5,
     "qualified_count": 0,
-    "qualified_candidate_count": 0,
-    "shortfall_count": 5,
     "watchlist_count": 5,
-    "total_research_targets": 5,
-    "requested_targets": 5,
-    "verified_x_accounts": null,
-    "ranking": "distinct authors first, documented deck-role and user intent second. No baseline growth comparison.",
-    "history_path": "history/2026-11-22-1242.json",
-    "source_post_count_direct_verified": 0,
-    "note": "The top post is not itself a substantive deck post; qualifying evidence is in authored comments on it.",
-    "revised_from_snapshot": "history/2026-11-22-revised.json",
-    "cross_species_shared_authors_note": "Pidgeot/Zoroark share NormTheStorm; Aegislash/Dialga share GRE4TESTEV3R and e_ndoubleu; counted separately by species as permitted. Two same-thread comment clusters must not be presented as five independent threads.",
-    "coverage_goal": 100,
-    "coverage_met": false,
-    "verified_original_source_url_count": 2,
-    "distinct_discussion_thread_count": 2,
-    "high_confidence_rising_species_count": 0,
-    "qualification_provisional": true,
-    "source_audit_path": "evidence/2026-11-22-1242-web-audit.json",
-    "provisional_candidate_count": 5,
-    "audited_distinct_source_urls": 31,
-    "unique_parent_threads": 3,
-    "verified_x_original_urls": 0,
-    "research_status": "provisional_candidate_pool_not_verified_trending; sample below 100; no exact comment timestamps",
-    "publication_note": "This repository content has been updated; latest GitHub Pages workflow and public HTTP status require separate checks.",
-    "raw_api_probe_path": "evidence/reddit-public-raw-2026-11-22T044528Z.json",
-    "observed_url_count": 34,
-    "confirmed_timestamp_count": 0
+    "quality_gate": "failed",
+    "source_goal": 100,
+    "strict_eligible_count": 0,
+    "shortfall": 100,
+    "observation_current_indexed_posts": 2,
+    "unique_parent_threads_seen": 2,
+    "previous_run_34_counted_as_new": false,
+    "evidence_artifact": "evidence/2026-11-22-1451-reexecution.json",
+    "history_path": "history/2026-11-22-1451-reexecution.json",
+    "warning": "No reliable 100-source Reddit deck sample obtained; do not auto-create species pages."
   },
   "excluded_examples": [
     {
@@ -489,44 +498,31 @@
   ],
   "recommended_next_action": "Reddit OAuth/approved API source or authorized data partner is required to robustly collect 100 unique dated originals within 72h; the watchlist is not verified enough for automatic page publishing.",
   "publication": {
-    "status": "report_data_committed_and_pages_workflow_success_public_http_unverified",
-    "commit_written": true,
-    "repository_readback_verified": true,
-    "pages_deploy_verified": true,
+    "status": "pending_repository_commit_and_pages_deployment",
+    "commit_written": false,
+    "repository_readback_verified": false,
+    "pages_deploy_verified": false,
     "public_json_verified": false,
-    "verified_data_commit_sha": "af2ba05ca89678bd1abe969c5020cb89cb73b391",
-    "verified_pages_run_id": 44986758552,
-    "verified_pages_run_url": "https://github.com/wsgtcyx/ptcgp-species-radar/actions/runs/44986758552",
-    "verified_pages_run_head_sha": "af2ba05ca89678bd1abe969c5020cb89cb73b391",
-    "verified_pages_status": "completed",
-    "verified_pages_conclusion": "success",
-    "note": "The report data commit was verified and deployed. This status-only edit produces a subsequent Pages run; check GitHub Actions for that run. Public github.io HTTP response is not accessible from the research tools.",
-    "repository": "wsgtcyx/ptcgp-species-radar",
+    "repo": "wsgtcyx/ptcgp-species-radar",
     "branch": "main",
-    "pages_url": "https://wsgtcyx.github.io/ptcgp-species-radar/",
+    "site_url": "https://wsgtcyx.github.io/ptcgp-species-radar/",
     "json_url": "https://wsgtcyx.github.io/ptcgp-species-radar/latest.json",
-    "backup_raw_json": "https://raw.githubusercontent.com/wsgtcyx/ptcgp-species-radar/main/latest.json"
+    "note": "An artifact cannot self-certify its deployment; verify latest SHA and Actions after writing."
   },
   "audit": {
     "coverage_goal": 100,
     "coverage_met": false,
     "quality_gate": "failed",
-    "coverage_confidence": "small_web_sample_and_date_unverified",
-    "source_funnel": {
-      "reviewed_unique_urls": 34,
-      "reviewed_parent_urls": 10,
-      "reviewed_comment_permalinks": 24,
-      "observed_deck_discussion_urls": 32,
-      "verified_datetime_inside_72h": 0,
-      "rejected_datetime_or_missing": 34,
-      "api_fetched": 0,
-      "api_http_403": 3,
-      "unique_parent_threads": 10,
-      "observed_reddit_author_accounts": 29
-    },
-    "evidence_artifact": "evidence/2026-11-22-1242-web-audit.json",
-    "api_probe": "evidence/reddit-public-raw-2026-11-22T044528Z.json",
+    "eligible_sources": 0,
     "shortfall": 100,
-    "reason": "No directly accessible source exposes verified absolute creation time; Reddit public JSON requests from GitHub Actions all 403."
+    "source_funnel": {
+      "current_indexed_dated_originals": 2,
+      "new_direct_reddit_originals": 0,
+      "new_verified_author_and_creation_time": 0,
+      "prior_record_recount": 0
+    },
+    "evidence_artifact": "evidence/2026-11-22-1451-reexecution.json",
+    "site_audit_complete": false,
+    "limitation": "Source search indexing and Reddit direct-page cache limitations prevent verifying a representative 72-hour sample."
   }
 }

@@ -1,0 +1,503 @@
+{
+  "iteration": 4,
+  "run_id": "2026-11-22-161536-iteration4",
+  "window": {
+    "start": "2026-11-19T16:15:36+08:00",
+    "end": "2026-11-22T16:15:36+08:00",
+    "hours": 72,
+    "timezone": "Asia/Shanghai"
+  },
+  "generated_at": "2026-11-22T16:19:47+08:00",
+  "source_records": [
+    {
+      "platform": "pocketmads",
+      "source_id": "pocketmads:c0575dfc-71e3-41bb-89f4-14eefdc0bc7e",
+      "kind": "player_deck",
+      "parent_thread_id": "pocketmads:c0575dfc-71e3-41bb-89f4-14eefdc0bc7e",
+      "canonical_url": "https://app.pocketmads.com/feed/c0575dfc-71e3-41bb-89f4-14eefdc0bc7e",
+      "community": "PocketMads Community Feed",
+      "author": "badgerbreath",
+      "created_utc": "2026-11-20T21:41:23.978Z",
+      "published_at_bjt": "2026-11-21T05:41:23.978+08:00",
+      "body_excerpt": "CatSquid Confusion: Malamar + Meowstic to apply Confusion and attack early with one energy; Mega Mewtwo X ex charged for late game; Peculiar Plaza, May, Sightseer and 20-card published list.",
+      "deck_intent": [
+        "B",
+        "C"
+      ],
+      "species": [
+        "Malamar",
+        "Meowstic",
+        "Mewtwo"
+      ],
+      "form": [
+        "Malamar (card number not verified)",
+        "Mega Mewtwo X ex (card number not verified)"
+      ],
+      "is_pocket": true,
+      "original_user_content": true,
+      "verification_method": "first_party_PocketMads_public_HTML_time_datetime_and_full_20_card_list",
+      "verified_at": "2026-11-22T16:18:51.956+08:00",
+      "directly_opened": true,
+      "duplicate_of": null,
+      "exclusion_reason": null
+    },
+    {
+      "platform": "bluesky",
+      "source_id": "at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tt2z6glc2f",
+      "kind": "post",
+      "parent_thread_id": "at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tt2z6glc2f",
+      "canonical_url": "https://bsky.app/profile/fictionlife06.bsky.social/post/3n2tt2z6glc2f",
+      "community": "#ポケポケ",
+      "author": "fictionlife06.bsky.social",
+      "author_did": "did:plc:ewxwdmkc5ey5l3huw65ywwdk",
+      "created_utc": "2026-11-21T19:20:46.184Z",
+      "published_at_bjt": "2026-11-22T03:20:46.184+08:00",
+      "indexed_at_utc": "2026-11-21T19:21:04.154Z",
+      "body_excerpt": "【 #ポケポケ 】デュアルフュージョン環境ランダムマッチ。42戦。「バナッシー」。YouTube「つるおかかものはし」さんのリストより少し変更しました。18勝、24敗。新弾のアローラナッシーと組み合わせた型です。パワーはありますが、ブラッキーに極端に弱いです。タマタマはリーフマント込みでも耐えません。なぜパワーが高いか。それは進化前にエネ加速の技があるからです。結局メガフシギバナを入れることになりました。非ルールだけではパワーが足りません。2進化と1進化の組み合わせで噛み合うかどうかはその時次第。だからモノマネ2枚。",
+      "media_alt": [
+        "【#ポケポケ】デュアルフュージョン環境ランダムマッチ。使用デッキつるおかかものはしさんより少し変更「バナッシー」。",
+        "【#ポケポケ】2次元コード。デュアルフュージョン環境ランダムマッチ。使用デッキつるおかかものはしさんより少し変更「バナッシー」。"
+      ],
+      "deck_intent": [
+        "B",
+        "C"
+      ],
+      "species": [
+        "Alolan Exeggutor",
+        "Venusaur"
+      ],
+      "form": [
+        "Alolan Exeggutor (exact card number not verified)",
+        "Mega Venusaur (exact card number not verified)"
+      ],
+      "is_pocket": true,
+      "original_user_content": true,
+      "verification_method": "official_public_Bluesky_getPostThread_record.createdAt_text_AND_indexedAt",
+      "verified_at": "2026-11-22T16:18:51.956+08:00",
+      "directly_opened": true,
+      "duplicate_of": null,
+      "exclusion_reason": null,
+      "originality_note": "Modified a previously published YouTube list and reports own 42 battles (18-24), not counted as new decklist authorship"
+    },
+    {
+      "platform": "bluesky",
+      "source_id": "at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tt3bdmy22f",
+      "kind": "reply",
+      "parent_thread_id": "at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tt2z6glc2f",
+      "canonical_url": "https://bsky.app/profile/fictionlife06.bsky.social/post/3n2tt3bdmy22f",
+      "community": "#ポケポケ",
+      "author": "fictionlife06.bsky.social",
+      "author_did": "did:plc:ewxwdmkc5ey5l3huw65ywwdk",
+      "created_utc": "2026-11-21T19:20:46.185Z",
+      "published_at_bjt": "2026-11-22T03:20:46.185+08:00",
+      "indexed_at_utc": "2026-11-21T19:21:04.157Z",
+      "body_excerpt": "【 #ポケポケ 】デュアルフュージョン環境ランダムマッチ。39戦。「ゲルカメ」。YouTube「つるおかかものはし」さんのリストより少し変更しました。15勝、24敗。エネ加速のブルンゲルと組み合わせた型です。カメックスは結局散らして落ち着くことになりました。パラソル1で調整していましたが、ダメージを無かったことにできるのは強いと思い2積み。ベンチ狙撃のカメックスとグリーンの2種がリーサル手段になっている。とは言え火力不足は否めない、中打点デッキ。2進化と1進化の組み合わせで噛み合うかどうかはその時次第。だからモノマネ2枚。",
+      "media_alt": [
+        "【#ポケポケ】デュアルフュージョン環境ランダムマッチ。使用デッキつるおかかものはしさんより少し変更「ゲルカメ」。",
+        "【#ポケポケ】2次元コード。デュアルフュージョン環境ランダムマッチ。使用デッキつるおかかものはしさんより少し変更「ゲルカメ」。"
+      ],
+      "deck_intent": [
+        "B",
+        "C"
+      ],
+      "species": [
+        "Blastoise",
+        "Jellicent"
+      ],
+      "form": [
+        "Blastoise (exact card number not verified)",
+        "Jellicent (exact card number not verified)"
+      ],
+      "is_pocket": true,
+      "original_user_content": true,
+      "verification_method": "official_public_Bluesky_getPostThread_reply_own_record.createdAt_text_and_indexedAt",
+      "verified_at": "2026-11-22T16:18:51.956+08:00",
+      "directly_opened": true,
+      "duplicate_of": null,
+      "exclusion_reason": null,
+      "originality_note": "Original 39-match evaluation and card-slot alterations; decklist provenance credited to creator; same parent as Alolan Exeggutor post"
+    },
+    {
+      "platform": "bluesky",
+      "source_id": "at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tsrz7jms2f",
+      "kind": "post",
+      "parent_thread_id": "at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tsrz7jms2f",
+      "canonical_url": "https://bsky.app/profile/fictionlife06.bsky.social/post/3n2tsrz7jms2f",
+      "community": "#ポケポケ",
+      "author": "fictionlife06.bsky.social",
+      "author_did": "did:plc:ewxwdmkc5ey5l3huw65ywwdk",
+      "created_utc": "2026-11-21T19:15:44.231Z",
+      "published_at_bjt": "2026-11-22T03:15:44.231+08:00",
+      "indexed_at_utc": "2026-11-21T19:15:56.548Z",
+      "body_excerpt": "【 #ポケポケ 】デュアルフュージョン環境限定バトルイベント。17戦。使用デッキ「ルガルガンドオー」。YouTube「kinkakuj」さんのデッキ紹介より完コピでお借りしました。9勝8敗。勝ち越し。○ゲコラプラス、ラビットジャンプx4、ホゲータエンニュート、ピカチュウx2、不戦勝。×ラビットジャンプx3、ミュウツーx2、ゲッコウガ、ブラッキー、ピカチュウ。ラビットジャンプ以外ではこのデッキが強いと思います。",
+      "media_alt": [
+        "【#ポケポケ】デュアルフュージョン環境限定バトルイベント。使用デッキkinkakujさん紹介「ルガルガンドオー」。",
+        "【#ポケポケ】2次元コード。デュアルフュージョン環境限定バトルイベント。使用デッキkinkakujさん紹介「ルガルガンドオー」。"
+      ],
+      "deck_intent": [
+        "C"
+      ],
+      "species": [
+        "Paldean Clodsire",
+        "Lycanroc"
+      ],
+      "form": [
+        "Paldean Clodsire (exact card number not verified)",
+        "Lycanroc (exact card number not verified)"
+      ],
+      "is_pocket": true,
+      "original_user_content": true,
+      "verification_method": "official_public_Bluesky_getPostThread_record.createdAt_text_AND_indexedAt",
+      "verified_at": "2026-11-22T16:18:51.956+08:00",
+      "directly_opened": true,
+      "duplicate_of": null,
+      "exclusion_reason": null,
+      "originality_note": "Copied a named YouTube creator's deck but supplied own 17-event-match, 9-8 experience and matchup analysis"
+    },
+    {
+      "platform": "youtube",
+      "source_id": "youtube:uqeRbvS0qdo",
+      "kind": "creator_video_with_first_party_description",
+      "parent_thread_id": "youtube:uqeRbvS0qdo",
+      "canonical_url": "https://www.youtube.com/watch?v=uqeRbvS0qdo",
+      "community": "のりくんの休憩所",
+      "author": "のりくんの休憩所",
+      "author_channel_id": "UCg-0sgAgnDDvEZIjL6qOvcA",
+      "created_utc": "2026-11-21T09:00:09.000Z",
+      "published_at_bjt": "2026-11-21T17:00:09.000+08:00",
+      "body_excerpt": "ポケポケ「デュアルフュージョン」のピカチュウexとメガミュウツーXex、デッキを組んで戦ったらどっちが強い？今回はわっびーさんと初コラボで3本勝負！のりくんはピカチュウexにパーモット、わっびーさんはメガミュウツーXexにパルデア ドオーとチリを組み合わせます。2試合を終えたところでお互いにデッキを組み直し、ピカチュウ側はハラバリー、メガミュウツー側はププリンとダークライを加えて最終戦へ。\n\nあなたならピカチュウexとメガミュウツーXex、どっちを使いますか？一緒に入れたいカードもコメントで教えてください！\n\n▼チャプター\n00:00 ピカチュウex VS メガミュウツーXex\n01:00 わっびーのメガミュウツーXexデッキ構築\n04:07 のりくんのピカチュウexデッキ構築\n06:37 第1戦\n11:27 第2戦\n17:15 2試合を振り返って\n17:41 メガミュウツー側の改良｜ププリン＆ダークライ\n18:46 ピカチュウ側の改良｜ハラバリーを採用\n20:46 最終戦｜組み直したデッキで対決\n27:52 3本勝負の結果と感想\n\n#ポケポケ #ピカチュウex #メガミュウツーXex",
+      "deck_intent": [
+        "B",
+        "C"
+      ],
+      "species": [
+        "Pikachu",
+        "Mewtwo",
+        "Pawmot",
+        "Paldean Clodsire",
+        "Bellibolt",
+        "Darkrai"
+      ],
+      "form": [
+        "Pikachu ex",
+        "Mega Mewtwo X ex",
+        "Paldean Clodsire (exact card number not verified)"
+      ],
+      "is_pocket": true,
+      "original_user_content": true,
+      "verification_method": "official_first_party_YouTube_channel_Atom_RSS_yt:videoId_yt:channelId_published_media:description_chapters",
+      "verified_at": "2026-11-22T16:18:51.956+08:00",
+      "directly_opened": true,
+      "duplicate_of": null,
+      "exclusion_reason": null,
+      "video_watch_readable": false,
+      "notes": "The first-party creator's own detailed RSS media:description identifies Pikachu ex + Pawmot, Mega Mewtwo X ex + Paldean Clodsire/Rika, three original matches, two deck revisions, and added Bellibolt/Darkrai/Igglybuff. Generic watch HTML itself is not evidence; the channel's first-party rich video description is."
+    }
+  ],
+  "excluded_records": [
+    {
+      "platform": "pocketmads",
+      "source_id": "pocketmads:e7d762fe-fd5e-4c5d-862a-d155ea32275b",
+      "canonical_url": "https://app.pocketmads.com/feed/e7d762fe-fd5e-4c5d-862a-d155ea32275b",
+      "author": "GymLeader",
+      "created_utc": "2026-11-19T01:16:37.799034Z",
+      "reason": "outside fixed 72-hour window, published 2026-11-19T09:16:37+08:00"
+    },
+    {
+      "platform": "bluesky",
+      "source_id": "at://did:plc:7ni2hyn3xwijwj4nnfedkkhn/app.bsky.feed.post/3n2tc5t6hps2o",
+      "canonical_url": "https://bsky.app/profile/rat3ded.bsky.social/post/3n2tc5t6hps2o",
+      "reason": "First party text says poster does not play this proposed colorless list; no verified self-authored player deck strategy. Image not rereviewed for source ownership this iteration."
+    },
+    {
+      "platform": "reddit",
+      "source_id": "t3_1y22t44",
+      "canonical_url": "https://www.reddit.com/r/PTCGP/comments/1y22t44/new_chandelure_deck/",
+      "reason": "Current retrieved Reddit HTML exposes relative '11h ago' without a reliably fresh, absolute capture-time anchor; cannot certify the poster's original timestamp. A preexisting Chandelure/Oricorio archive substantially overlaps."
+    },
+    {
+      "platform": "youtube",
+      "source_id": "youtube:9fuDpFi8Vlw",
+      "canonical_url": "https://www.youtube.com/watch?v=9fuDpFi8Vlw",
+      "reason": "First-party channel RSS describes 13 other players' winning archetypes, not a new original player-built deck."
+    },
+    {
+      "platform": "youtube",
+      "source_id": "youtube:r-ynWsRXZuQ",
+      "canonical_url": "https://www.youtube.com/watch?v=r-ynWsRXZuQ",
+      "reason": "First-party video description gives QR/community link and generic Lapras note but insufficient substantive cardlist/matchup evidence."
+    },
+    {
+      "platform": "youtube",
+      "source_id": "youtube:F9eaA1ff4iM",
+      "canonical_url": "https://www.youtube.com/watch?v=F9eaA1ff4iM",
+      "reason": "Original YouTube RSS title mentions Mega Tyranitar ex/Umbreon; description lacks sufficient independently verifiable actual deck content."
+    }
+  ],
+  "source_funnel": {
+    "raw_first_party_http_attempts": 40,
+    "raw_unique_http_urls": 38,
+    "http_200": 40,
+    "raw_reddit_unique_originals": 0,
+    "raw_youtube_watch_shells": 8,
+    "youtube_official_rss_channels": 5,
+    "youtube_official_rss_entries_reviewed": 75,
+    "youtube_official_rss_entries_in_window": 13,
+    "official_rss_rich_original_deck_videos_qualified": 1,
+    "pocketmads_first_party_player_pages": 2,
+    "pocketmads_originals_inside_window": 1,
+    "bluesky_first_party_post_records": 4,
+    "bluesky_inside_window": 4,
+    "bluesky_strict_eligible": 3,
+    "strict_eligible": 5,
+    "eligible_per_platform": {
+      "pocketmads": 1,
+      "bluesky": 3,
+      "youtube": 1
+    },
+    "unique_parent_threads": 4,
+    "platform_author_accounts": 3,
+    "src_date_buckets": {
+      "0_24h": 4,
+      "24_48h": 1,
+      "48_72h": 0
+    }
+  },
+  "raw_probe_path": "evidence/2026-11-22-161536-iteration4-channel-probe-v2.json",
+  "quality_gate": "failed",
+  "coverage_met": false,
+  "shortfall": 95,
+  "source_diversity_insufficient": true,
+  "limitations": [
+    "YouTube watch requests returned HTTP 200 generic shell, so only one first-party official channel Atom RSS media:description with detailed actual deck and match narration qualifies.",
+    "The official Pokémon channel entries contain promotions or non-Pocket media and are excluded even when properly timestamped.",
+    "Normal site web page Name sorting returned 40+1 visible items across two pages; default sort second page could not be independently opened with a current text snapshot. GitHub runner HTTP 200 page content contained JS shell, not verifiable complete listing.",
+    "Reddit returned a readable relative-date HTML discussion, but no trustworthy page-capture time anchor for its own post/comment dates. X did not expose verifiable originals.",
+    "Only three platform-author accounts; cross-platform real-world identity not investigated or guessed.",
+    "Two Bluesky posts (Alolan Exeggutor and Blastoise) share the same original parent, counted as two original texts but one discussion cluster.",
+    "Card IDs of new player proposals not confirmed by each original; no confirmed missing species hub and no full source coverage."
+  ],
+  "summary": {
+    "strict_eligible_count": 5,
+    "source_goal": 100,
+    "coverage_met": false,
+    "quality_gate": "failed",
+    "shortfall": 95,
+    "reviewed_unique_urls": 38,
+    "raw_http_attempts": 40,
+    "raw_http_200": 40,
+    "first_party_original_records_with_content_and_date": 19,
+    "verified_parent_thread_count": 4,
+    "verified_unique_authors": 3,
+    "qualified_count": 0,
+    "target_count": 5,
+    "shortfall_count": 5,
+    "watchlist_count": 4,
+    "source_diversity_insufficient": true,
+    "iteration": 4,
+    "per_platform_eligible": {
+      "pocketmads": 1,
+      "bluesky": 3,
+      "youtube": 1
+    },
+    "slices": {
+      "0_24h": 4,
+      "24_48h": 1,
+      "48_72h": 0
+    },
+    "distinct_reddit_authors": 0,
+    "cross_platform_distinct_persons": null,
+    "verified_source_ids": [
+      "pocketmads:c0575dfc-71e3-41bb-89f4-14eefdc0bc7e",
+      "at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tt2z6glc2f",
+      "at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tt3bdmy22f",
+      "at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tsrz7jms2f",
+      "youtube:uqeRbvS0qdo"
+    ],
+    "growth_rate": null
+  },
+  "site_audit": {
+    "url": "https://www.pokemontcgpocket.app/en/deck/pokemon",
+    "web_name_sort_page1_visible": 40,
+    "web_name_sort_page2_visible": 1,
+    "web_name_sort_last_page": "2 of 2",
+    "web_name_sort_readable_pages": 2,
+    "web_default_sort_page1_readable": true,
+    "web_default_sort_page2_readable": false,
+    "github_actions_live_http_200_pages": 4,
+    "github_actions_pages_with_parseable_species_links": 0,
+    "complete_all_sort_verification": false,
+    "explanation": "Page 1 and Page 2 of Name sort can be read via indexed page snapshots; GitHub Actions GET returned 200 for all four URLs but parseable species listings were absent, so it does not prove complete live traversal",
+    "confirmed_hub_absence": false,
+    "observed_41_name_entries_only": true,
+    "existing_strategy_urls": [
+      {
+        "species": "Chandelure",
+        "url": "https://www.pokemontcgpocket.app/en/deck/chandelure-b2-oricorio-b4",
+        "http_status": 200,
+        "title": "Chandelure Oricorio Deck List · Archive | TCG Pocket"
+      },
+      {
+        "species": "Paldean Clodsire",
+        "url": "https://www.pokemontcgpocket.app/en/deck/paldean-clodsire-c1",
+        "http_status": 200,
+        "title": "Paldean Clodsire Fighting Deck List | TCG Pocket"
+      },
+      {
+        "species": "Malamar",
+        "url": "https://www.pokemontcgpocket.app/en/deck/malamar-b3-mega-sableye-ex-b3b",
+        "http_status": 200,
+        "title": "Malamar Mega Sableye ex Deck List · Archive | TCG Pocket"
+      },
+      {
+        "species": "Blastoise",
+        "url": "https://www.pokemontcgpocket.app/en/deck/blastoise-c1-araquanid-b4",
+        "http_status": 200,
+        "title": "Blastoise Araquanid Deck List | TCG Pocket"
+      },
+      {
+        "species": "Alolan Exeggutor",
+        "url": "https://www.pokemontcgpocket.app/en/deck/alolan-exeggutor-ex-c1",
+        "http_status": 200,
+        "title": "Alolan Exeggutor ex Deck List · Archive | TCG Pocket"
+      }
+    ],
+    "excluded_species": [
+      "Rayquaza",
+      "Pikachu (existing name directory)",
+      "Mewtwo (existing name directory)"
+    ]
+  },
+  "watchlist": [
+    {
+      "species": "Paldean Clodsire",
+      "name_zh": "帕底亚土王",
+      "name_ja": "ドオー",
+      "classification": "C_observation",
+      "eligible_sources": 2,
+      "verified_author_accounts": 2,
+      "distinct_parents": 2,
+      "source_ids": [
+        "at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tsrz7jms2f",
+        "youtube:uqeRbvS0qdo"
+      ],
+      "precise_card_form_verified": false,
+      "role": "partner_or_secondary_engine_not_proven_independent_main",
+      "why": "Lycanroc/Paldean Clodsire and Mega Mewtwo X ex/Paldean Clodsire are different partnerships; two first-party authors, but neither independently proves a Clodsire main archetype",
+      "site_strategy_url": "https://www.pokemontcgpocket.app/en/deck/paldean-clodsire-c1",
+      "hub_missing_verified": false,
+      "existing_strategy_different": "Paldean Clodsire C1-074 + Rika and unrelated partners already has a deck-level page; separate species hub not found in visible Name directory",
+      "next_needed": "A separate player-owned Paldean Clodsire-centered full 20-card list with a verified card printing and a distinct plan"
+    },
+    {
+      "species": "Malamar",
+      "name_zh": "乌贼王",
+      "name_ja": "カラマネロ",
+      "classification": "C_observation",
+      "eligible_sources": 1,
+      "verified_author_accounts": 1,
+      "distinct_parents": 1,
+      "source_ids": [
+        "pocketmads:c0575dfc-71e3-41bb-89f4-14eefdc0bc7e"
+      ],
+      "precise_card_form_verified": false,
+      "role": "possible_core_with_Meowstic",
+      "why": "One player-provided full deck uses confusion Meowstic, fast Malamar damage and Mega Mewtwo X ex finisher",
+      "site_strategy_url": "https://www.pokemontcgpocket.app/en/deck/malamar-b3-mega-sableye-ex-b3b",
+      "hub_missing_verified": false,
+      "existing_strategy_different": "Older Malamar B3 / Mega Sableye ex B3b archive is a different partner, not proof of new 72h demand",
+      "next_needed": "New independent authors and exact Malamar card ID; compare genuine unique user question against archived Malamar/Mega Sableye"
+    },
+    {
+      "species": "Alolan Exeggutor",
+      "name_zh": "阿罗拉椰蛋树",
+      "name_ja": "アローラナッシー",
+      "classification": "C_observation",
+      "eligible_sources": 1,
+      "verified_author_accounts": 1,
+      "distinct_parents": 1,
+      "source_ids": [
+        "at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tt2z6glc2f"
+      ],
+      "precise_card_form_verified": false,
+      "role": "partner_to_Mega_Venusaur_not_proven_main",
+      "why": "Player changed a creator list and tested 42 games, with exact weaknesses and energy-flow comments; core role not yet evidenced",
+      "site_strategy_url": "https://www.pokemontcgpocket.app/en/deck/alolan-exeggutor-ex-c1",
+      "hub_missing_verified": false,
+      "existing_strategy_different": "Alolan Exeggutor ex C1 archive exists; current poster refers to new Alolan Exeggutor but printing must be compared",
+      "next_needed": "Visible full 20-card list and form ID, plus independent author with a different Exeggutor-centered strategy"
+    },
+    {
+      "species": "Blastoise",
+      "name_zh": "水箭龟",
+      "name_ja": "カメックス",
+      "classification": "C_observation",
+      "eligible_sources": 1,
+      "verified_author_accounts": 1,
+      "distinct_parents": 1,
+      "source_ids": [
+        "at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tt3bdmy22f"
+      ],
+      "precise_card_form_verified": false,
+      "role": "Blastoise_Jellicent_combination",
+      "why": "One player's 39-game evaluation discusses Jellicent acceleration, Parasol card slots and damage issues",
+      "site_strategy_url": "https://www.pokemontcgpocket.app/en/deck/blastoise-c1-araquanid-b4",
+      "hub_missing_verified": false,
+      "existing_strategy_different": "Existing Blastoise/Araquanid archive is another route; a hub would need diverse variants, not a duplicated single-deck page",
+      "next_needed": "Original card ID and second independent Jellicent/Blastoise user with an alternative build"
+    }
+  ],
+  "candidates": [],
+  "reporting": {
+    "strict_eligible_count": 5,
+    "source_goal": 100,
+    "coverage_met": false,
+    "quality_gate": "failed",
+    "shortfall": 95,
+    "reviewed_unique_urls": 38,
+    "raw_http_attempts": 40,
+    "raw_http_200": 40,
+    "first_party_original_records_with_content_and_date": 19,
+    "verified_parent_thread_count": 4,
+    "verified_unique_authors": 3,
+    "qualified_count": 0,
+    "target_count": 5,
+    "shortfall_count": 5,
+    "watchlist_count": 4,
+    "source_diversity_insufficient": true,
+    "iteration": 4,
+    "per_platform_eligible": {
+      "pocketmads": 1,
+      "bluesky": 3,
+      "youtube": 1
+    },
+    "slices": {
+      "0_24h": 4,
+      "24_48h": 1,
+      "48_72h": 0
+    },
+    "distinct_reddit_authors": 0,
+    "cross_platform_distinct_persons": null,
+    "verified_source_ids": [
+      "pocketmads:c0575dfc-71e3-41bb-89f4-14eefdc0bc7e",
+      "at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tt2z6glc2f",
+      "at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tt3bdmy22f",
+      "at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tsrz7jms2f",
+      "youtube:uqeRbvS0qdo"
+    ],
+    "growth_rate": null,
+    "evidence_path": "evidence/2026-11-22-161536-iteration4.json",
+    "history_path": "history/2026-11-22-161536-iteration4.json",
+    "raw_probe_paths": [
+      "evidence/2026-11-22-161536-iteration4-channel-probe-v2.json",
+      "evidence/2026-11-22-161536-iteration4-channel-probe.json"
+    ],
+    "verified_reddit_originals": 0,
+    "verified_bluesky_originals": 3,
+    "verified_youtube_originals": 1,
+    "verified_pocketmads_originals": 1,
+    "newly_verified_youtube_creator_accounts": 1,
+    "site_audit_complete": false,
+    "audience_warning": "Below 100-source threshold. No species page should be automatically created."
+  }
+}

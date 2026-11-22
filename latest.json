@@ -70,7 +70,7 @@
       "original_posts_directly_verified": 2,
       "substantive_comments_directly_read": 11,
       "known_verified_distinct_authors": 11,
-      "status": "Two original threads directly read: Nov20 limited-event discussion and Nov20 Aegislash deck-advice thread; 5 distinct species qualify by attributed original/meaningful replies. All first-party Reddit exact clock times unavailable, but Nov20 UTC calendar date safely inside full Beijing cutoff.",
+      "status": "Aegislash root and comments show absolute Friday November 20 2026 calendar date in indexed Reddit result; separate limited-event thread was directly opened and displayed approximately 5-6h ago for relevant comments at Nov22 morning cutoff. No UTC/Beijing exact timestamps; do not label the latter thread Nov20 without direct evidence.",
       "effective_original_posts_direct_verified": 1
     },
     "x": {
@@ -112,7 +112,8 @@
       "No comparable same-method prior 72h baseline",
       "No evidence to claim a 5/5 qualified list",
       "Aegislash/Dialga discussion is a shared thread, so distinct thread count less than five.",
-      "Aegislash equivalently printed Cursed Metal variant confirmed but original pictured art number not directly established."
+      "Aegislash equivalently printed Cursed Metal variant confirmed but original pictured art number not directly established.",
+      "Corrected conservative source-date treatment: limited-event thread comments expose only relative 5-6h age in directly read page; previously reported Nov20 day is not considered corroborated."
     ]
   },
   "candidates": [
@@ -363,9 +364,9 @@
           "url": "https://www.reddit.com/r/PTCGP/comments/1y1dwkw/we_never_knew_how_much_wed_miss_him_til_he_was/",
           "post_id": "1y1dwkw",
           "author": "NormTheStorm",
-          "published_date": "2026-11-20",
+          "published_date": null,
           "published_at": null,
-          "published_at_precision": "platform_calendar_date_only",
+          "published_at_precision": "reddit_relative_hours_only",
           "time_zone_verified": false,
           "beijing_time": null,
           "directly_opened": true,
@@ -377,7 +378,9 @@
           "summary": "Reports copying and playing Pidgeot–Zoroark with Blue's Provocation; pulls enemy Mega to active and copies its attack.",
           "comment_permalink_verified": false,
           "comment_anchor": null,
-          "source_confidence": "direct_page_text_with_indexed_calendar_date"
+          "source_confidence": "direct_reddit_author_and_relative_age; absolute_timestamp_unavailable",
+          "platform_display_age": "approximately 5-6h ago (observed during 2026-11-22 morning Beijing research)",
+          "relative_age_window_validation": "well_within_72h_at_observation; exact Beijing clock time unavailable"
         },
         {
           "platform": "reddit",
@@ -385,9 +388,9 @@
           "url": "https://www.reddit.com/r/PTCGP/comments/1y1dwkw/we_never_knew_how_much_wed_miss_him_til_he_was/",
           "post_id": "1y1dwkw",
           "author": "helpthisfish",
-          "published_date": "2026-11-20",
+          "published_date": null,
           "published_at": null,
-          "published_at_precision": "platform_calendar_date_only",
+          "published_at_precision": "reddit_relative_hours_only",
           "time_zone_verified": false,
           "beijing_time": null,
           "directly_opened": true,
@@ -399,9 +402,12 @@
           "summary": "Reports Pidgeot–Umbreon deck in limited event and using Blue to force switching.",
           "comment_permalink_verified": false,
           "comment_anchor": null,
-          "source_confidence": "direct_page_text_with_indexed_calendar_date"
+          "source_confidence": "direct_reddit_author_and_relative_age; absolute_timestamp_unavailable",
+          "platform_display_age": "approximately 5-6h ago (observed during 2026-11-22 morning Beijing research)",
+          "relative_age_window_validation": "well_within_72h_at_observation; exact Beijing clock time unavailable"
         }
-      ]
+      ],
+      "date_verification_note": "The directly read 2026-11-22 morning Reddit view showed comments approximately 5-6h old, safely within the research window; absolute platform-local date/time cannot be asserted."
     },
     {
       "rank": 3,
@@ -453,9 +459,9 @@
           "url": "https://www.reddit.com/r/PTCGP/comments/1y1dwkw/we_never_knew_how_much_wed_miss_him_til_he_was/",
           "post_id": "1y1dwkw",
           "author": "ProfSpaceTime",
-          "published_date": "2026-11-20",
+          "published_date": null,
           "published_at": null,
-          "published_at_precision": "platform_calendar_date_only",
+          "published_at_precision": "reddit_relative_hours_only",
           "time_zone_verified": false,
           "beijing_time": null,
           "directly_opened": true,
@@ -467,7 +473,9 @@
           "summary": "Shares successful Blastoise deck; explicitly recommends delaying Squirtle evolution to preserve paralysis.",
           "comment_permalink_verified": false,
           "comment_anchor": null,
-          "source_confidence": "direct_page_text_with_indexed_calendar_date"
+          "source_confidence": "direct_reddit_author_and_relative_age; absolute_timestamp_unavailable",
+          "platform_display_age": "approximately 5-6h ago (observed during 2026-11-22 morning Beijing research)",
+          "relative_age_window_validation": "well_within_72h_at_observation; exact Beijing clock time unavailable"
         },
         {
           "platform": "reddit",
@@ -475,9 +483,9 @@
           "url": "https://www.reddit.com/r/PTCGP/comments/1y1dwkw/we_never_knew_how_much_wed_miss_him_til_he_was/",
           "post_id": "1y1dwkw",
           "author": "TKENation522",
-          "published_date": "2026-11-20",
+          "published_date": null,
           "published_at": null,
-          "published_at_precision": "platform_calendar_date_only",
+          "published_at_precision": "reddit_relative_hours_only",
           "time_zone_verified": false,
           "beijing_time": null,
           "directly_opened": true,
@@ -488,9 +496,12 @@
           "summary": "Says they run Blastoise as the alternative to Fuecoco/Charizard with Blue's Provocation.",
           "comment_permalink_verified": false,
           "comment_anchor": null,
-          "source_confidence": "direct_page_text_with_indexed_calendar_date"
+          "source_confidence": "direct_reddit_author_and_relative_age; absolute_timestamp_unavailable",
+          "platform_display_age": "approximately 5-6h ago (observed during 2026-11-22 morning Beijing research)",
+          "relative_age_window_validation": "well_within_72h_at_observation; exact Beijing clock time unavailable"
         }
-      ]
+      ],
+      "date_verification_note": "The directly read 2026-11-22 morning Reddit view showed comments approximately 5-6h old, safely within the research window; absolute platform-local date/time cannot be asserted."
     },
     {
       "rank": 4,
@@ -626,9 +637,9 @@
           "url": "https://www.reddit.com/r/PTCGP/comments/1y1dwkw/we_never_knew_how_much_wed_miss_him_til_he_was/",
           "post_id": "1y1dwkw",
           "author": "NormTheStorm",
-          "published_date": "2026-11-20",
+          "published_date": null,
           "published_at": null,
-          "published_at_precision": "platform_calendar_date_only",
+          "published_at_precision": "reddit_relative_hours_only",
           "time_zone_verified": false,
           "beijing_time": null,
           "directly_opened": true,
@@ -640,9 +651,12 @@
           "summary": "Describes finding, copying and using a Pidgeot–Zoroark deck that forces opponent Mega active and imitates its attack.",
           "comment_permalink_verified": false,
           "comment_anchor": null,
-          "source_confidence": "direct_page_text_with_indexed_calendar_date"
+          "source_confidence": "direct_reddit_author_and_relative_age; absolute_timestamp_unavailable",
+          "platform_display_age": "approximately 5-6h ago (observed during 2026-11-22 morning Beijing research)",
+          "relative_age_window_validation": "well_within_72h_at_observation; exact Beijing clock time unavailable"
         }
-      ]
+      ],
+      "date_verification_note": "The directly read 2026-11-22 morning Reddit view showed comments approximately 5-6h old, safely within the research window; absolute platform-local date/time cannot be asserted."
     }
   ],
   "watchlist": [],
@@ -656,10 +670,10 @@
     "requested_targets": 5,
     "verified_x_accounts": null,
     "ranking": "distinct authors first, documented deck-role and user intent second. No baseline growth comparison.",
-    "history_path": "history/2026-11-22-revised.json",
+    "history_path": "history/2026-11-22-final.json",
     "source_post_count_direct_verified": 2,
     "note": "The top post is not itself a substantive deck post; qualifying evidence is in authored comments on it.",
-    "revised_from_snapshot": "history/2026-11-22.json",
+    "revised_from_snapshot": "history/2026-11-22-revised.json",
     "cross_species_shared_authors_note": "Pidgeot/Zoroark share NormTheStorm; Aegislash/Dialga share GRE4TESTEV3R and e_ndoubleu; counted separately by species as permitted. Two same-thread comment clusters must not be presented as five independent threads."
   },
   "excluded_examples": [
@@ -690,10 +704,10 @@
   ],
   "recommended_next_action": "Build Aegislash Cursed Metal overview first with multiple requested core partners, Pidgeot next, Blastoise after, then Dialga ex and Zoroark with substantial non-duplicative content. Verify more independent sources and X for growth claims.",
   "publication": {
-    "status": "pages_deployment_success_public_http_not_directly_verified",
-    "commit_written": true,
-    "repository_readback_verified": true,
-    "pages_deploy_verified": true,
+    "status": "corrected_time_evidence_commit_pending",
+    "commit_written": false,
+    "repository_readback_verified": false,
+    "pages_deploy_verified": false,
     "public_json_verified": false,
     "data_commit_sha": "79fc1d9117d0aa43b5ef83eabb4a2b31142e9e94",
     "repository": "wsgtcyx/ptcgp-species-radar",
@@ -710,6 +724,6 @@
       "verified_deploy_job": true,
       "completed_at": "2026-11-22T02:11:17Z"
     },
-    "notes": "The five-qualified-species dataset was published and GitHub Pages workflow succeeded for its data commit. Direct HTTP retrieval of the github.io URL failed in the research environment, so public_json_verified remains false. The additional metadata-only commit records the successful build; its own workflow must be checked separately."
+    "notes": "This update corrects uncertain absolute dates for limited-event thread comments; prior Pages success proved the five-species dataset, but the final corrected version must be deployed and validated."
   }
 }

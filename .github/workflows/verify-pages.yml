@@ -1,0 +1,67 @@
+name: Verify deployed Pages JSON
+on:
+  push:
+    paths:
+      - .github/workflows/verify-pages.yml
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - name: Independently GET Pages homepage, latest JSON and history
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 - <<'PY'
+          import json,os,hashlib,time,urllib.request,urllib.error,sys
+          repo=os.environ["GITHUB_REPOSITORY"]
+          sha=os.environ["GITHUB_SHA"]
+          with open("latest.json","rb") as f: local=f.read()
+          expected=json.loads(local)
+          expected_sha256=hashlib.sha256(local).hexdigest()
+          run_id=expected["run_id"]
+          history=expected["reporting"]["history_path"]
+          with open(history,"rb") as f: history_bytes=f.read()
+          prefix="https://wsgtcyx.github.io/ptcgp-species-radar/"
+          endpoints={"latest":prefix+"latest.json","home":prefix,"history":prefix+history}
+          status={"commit_sha":sha,"run_id":run_id,"latest_hash":expected_sha256,
+                  "pages_deployed_sha":None,"latest_http_status":None,
+                  "latest_match":False,"home_http_status":None,
+                  "history_http_status":None,"history_match":False}
+          headers={"User-Agent":"ptcgp-pages-verify/1.0","Cache-Control":"no-cache"}
+          api="https://api.github.com/repos/"+repo+"/actions/runs?per_page=15"
+          for trial in range(24):
+           try:
+            h={**headers,"Authorization":"Bearer "+os.environ["GITHUB_TOKEN"],
+               "Accept":"application/vnd.github+json"}
+            with urllib.request.urlopen(urllib.request.Request(api,headers=h),timeout=10) as res:
+             runs=json.load(res)["workflow_runs"]
+            candidates=[x for x in runs if x["name"]=="pages build and deployment" and x["head_sha"]==sha]
+            if not any(x["status"]=="completed" and x["conclusion"]=="success" for x in candidates):
+             status["deployment_progress"]=[{"status":x["status"],"conclusion":x["conclusion"]} for x in candidates]
+             time.sleep(8);continue
+            status["pages_deployed_sha"]=sha
+            for name,url in endpoints.items():
+             try:
+              with urllib.request.urlopen(urllib.request.Request(url,headers=headers),timeout=12) as res:
+               body=res.read(2000000)
+               status[name+"_http_status"]=res.status
+              if name=="latest":
+               status["latest_match"]=hashlib.sha256(body).hexdigest()==expected_sha256 and json.loads(body).get("run_id")==run_id
+              if name=="history":
+               status["history_match"]=body==history_bytes
+             except Exception as exc:status[name+"_error"]=str(exc)[:150]
+            if status["latest_match"] and status["history_match"] and status["home_http_status"]==200:
+             status["verified"]=True
+             break
+           except Exception as exc:status["api_error"]=str(exc)[:180]
+           time.sleep(8)
+          print("VALIDATION_RESULT "+json.dumps(status,ensure_ascii=False))
+          if not status.get("verified"):sys.exit(1)
+          PY

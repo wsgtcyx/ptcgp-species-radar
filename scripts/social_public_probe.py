@@ -5,8 +5,8 @@ import html
 from html.parser import HTMLParser
 import json, pathlib, re, urllib.request, urllib.error, urllib.parse, time
 
-RUN_ID="2026-11-22-153002-iteration1"
-END=dt.datetime.fromisoformat("2026-11-22T15:30:02+08:00")
+RUN_ID="2026-11-22-154216-iteration2"
+END=dt.datetime.fromisoformat("2026-11-22T15:42:16+08:00")
 START=END-dt.timedelta(hours=72)
 UTC=dt.timezone.utc
 records=[]
@@ -32,7 +32,7 @@ def get(url, label):
  except Exception as e:item["error"]=str(e)[:180]
  return None,item
 
-for actor in ("rat3ded.bsky.social","sigure0809.bsky.social"):
+for actor in ("rat3ded.bsky.social","sigure0809.bsky.social","fictionlife06.bsky.social","azukey-game.bsky.social"):
  url="https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?"+urllib.parse.urlencode({"actor":actor,"limit":100,"filter":"posts_no_replies"})
  raw,meta=get(url,"bluesky_author_feed:"+actor)
  try:
@@ -53,7 +53,7 @@ for actor in ("rat3ded.bsky.social","sigure0809.bsky.social"):
      "author":author.get("handle"),"author_did":author.get("did"),"created_at":r.get("createdAt"),
      "record_text":text[:1500],"has_embedded_media":bool(r.get("embed")),"source":"official_public_getAuthorFeed",
      "within_fixed_window":True,"pocket_deck_prefilter":bool(re.search(r"ポケポケ|#PTCGP|TCGPocket|TCG Pocket|ポケモンカードアプリ",text,re.I) and re.search(r"デッキ|構築|対戦|deck|match|energy|メタ|編成",text,re.I)),
-     "human_verified_deck_intent":False})
+     "image_alt_text":[im.get("alt","")[:700] for im in (r.get("embed",{}).get("images",[]) or []) if isinstance(im,dict)],"human_verified_deck_intent":False})
  except Exception as e:meta["parse_error"]=str(e)[:180]
  requests.append(meta);time.sleep(0.7)
 
@@ -75,7 +75,33 @@ for label,url in urls:
   meta["datetime_attributes"]=re.findall(r'datetime=["\\\']([^"\\\']+)',raw,re.I)[:35]
   meta["linked_paths"]=list(dict.fromkeys(re.findall(r'href=["\\\'](/(?:en/deck/pokemon|feed/)[^"\\\']*)',raw,re.I)))[:125]
  requests.append(meta);time.sleep(0.6)
-result={"run_id":RUN_ID,"fixed_window":{"start":START.isoformat(),"end":END.isoformat()},"generated_at_utc":dt.datetime.now(UTC).isoformat(),"quality_gate":"unassessed_automatic_probe","http_requests":requests,"bluesky_window_posts":records,"automatically_qualified_sources":0,"note":"Requires original content and human review, official getAuthorFeed record timestamps are usable only when source is user-authored substantive Pocket deck content. HTML itself may not expose publication timestamp; reject incomplete rows."}
+# First-party YouTube watch pages and one public official channel RSS: discovery is not evidence of watched video.
+youtube_video_ids=("DpVJOft6VnM","8cBRc6u4-gs","IBI1cXo_C14","r-ynWsRXZuQ","F9eaA1ff4iM","5nSJ5UN37kA","oLmPhWeEsrk","OJeYJxwCfW4")
+for vid in youtube_video_ids:
+ url="https://www.youtube.com/watch?v="+vid
+ raw,meta=get(url,"youtube_watch:"+vid)
+ if raw:
+  meta["page_title"]=next(iter(re.findall(r'<title[^>]*>(.*?)</title>',raw,re.I|re.S)),None)
+  meta["upload_dates"]=list(dict.fromkeys(re.findall(r'"(?:uploadDate|datePublished|publishDate)"\\s*:\\s*"([^"]+)"',raw,re.I)))[:8]
+  meta["short_descriptions"]=list(dict.fromkeys(re.findall(r'"shortDescription"\\s*:\\s*"((?:\\\\.|[^"\\\\])*)"',raw,re.S)))[:2]
+  meta["caption_content_directly_read"]=False
+  meta["specific_card_list_in_direct_description"]=bool(meta["short_descriptions"] and re.search(r'\\b(?:Pok[eé] Ball|Copycat|Professor.s Research|Cyrus)\\b',meta["short_descriptions"][0],re.I))
+ requests.append(meta);time.sleep(0.4)
+raw,meta=get("https://www.youtube.com/feeds/videos.xml?channel_id=UCsLx5Q4YjLqmFQtgGbstcOw","youtube_public_channel_rss")
+if raw:
+ meta["published_tags"]=re.findall(r'<published>([^<]+)</published>',raw)[:16]
+ meta["entry_ids"]=re.findall(r'<yt:videoId>([^<]+)</yt:videoId>',raw)[:16]
+ meta["rss_is_only_discovery_not_content"]=True
+requests.append(meta)
+
+# Unmodified public listing from independent discovery index, not a qualifying player post.
+raw,meta=get("https://etc64.com/pokepoke/pokepoke-movielist/","japanese_video_directory_discovery_only")
+if raw:
+ meta["video_ids_discovered"]=list(dict.fromkeys(re.findall(r'www.youtube.com/watch\\?v=([\\w-]{11})',raw)))[:100]
+ meta["published_jp_dates_sample"]=re.findall(r'2026[./]11[./](?:19|20|21|22)\\s+\\d{2}:\\d{2}',raw)[:24]
+requests.append(meta)
+
+result={"run_id":RUN_ID,"fixed_window":{"start":START.isoformat(),"end":END.isoformat()},"generated_at_utc":dt.datetime.now(UTC).isoformat(),"iteration":2,"quality_gate":"unassessed_automatic_probe","http_requests":requests,"bluesky_window_posts":records,"automatically_qualified_sources":0,"note":"This first-party probe only; a video index/title/thumbnail or RSS timestamp does not prove substantive deck video content. Human review mandatory; no automatic eligibility counts."}
 path=pathlib.Path("evidence")/(RUN_ID+"-live-probe.json")
 path.write_text(json.dumps(result,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 print(json.dumps({"output":str(path),"requests":[{"label":r["label"],"status":r["status"],"error":r["error"]} for r in requests],"window_posts":len(records)},ensure_ascii=False))

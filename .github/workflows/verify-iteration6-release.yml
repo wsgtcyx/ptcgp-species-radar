@@ -1,0 +1,78 @@
+name: One-shot public Pages verification for iteration 6
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/verify-iteration6-release.yml
+permissions:
+  contents: write
+  actions: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify Pages deployment and public JSON + history + evidence
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 - <<'PY'
+          import datetime, hashlib, json, os, pathlib, time, urllib.request
+          now=lambda: datetime.datetime.now(datetime.timezone.utc).isoformat()
+          repo=os.environ["GITHUB_REPOSITORY"]; head=os.environ["GITHUB_SHA"]
+          root=pathlib.Path("."); latest_bytes=(root/"latest.json").read_bytes(); report=json.loads(latest_bytes)
+          run_id=report["run_id"]; history=report["reporting"]["history_path"]; evidence=report["reporting"]["evidence_path"]
+          paths={"latest.json":latest_bytes,history:(root/history).read_bytes(),evidence:(root/evidence).read_bytes()}
+          prefix="https://wsgtcyx.github.io/ptcgp-species-radar/"
+          result={"started":now(),"workflow_head_sha":head,"run_id":run_id,"checks":{},"pages_deploy_verified":False,
+                  "public_json_verified":False,"homepage_verified":False,"history_verified":False,"evidence_verified":False,
+                  "status":"failed","note":"Independent check stored only on audit branch to avoid latest version mutation."}
+          def fetch(url,api=False):
+            h={"User-Agent":"ptcgp-radar-verify/1.0","Accept":"application/vnd.github+json" if api else "application/json, text/html, */*"}
+            if api: h["Authorization"]="Bearer "+os.environ["GITHUB_TOKEN"]
+            with urllib.request.urlopen(urllib.request.Request(url,headers=h),timeout=15) as r: return r.status,r.read(4000000)
+          if run_id=="2026-11-22-162428-iteration6":
+            for retry in range(18):
+              try:
+                status,raw=fetch("https://api.github.com/repos/"+repo+"/actions/runs?per_page=50",True)
+                runs=json.loads(raw).get("workflow_runs",[])
+                matched=[r for r in runs if r.get("name")=="pages build and deployment" and r.get("head_sha")==head]
+                result["matched_deploy_runs"]=[{"id":r.get("id"),"status":r.get("status"),"conclusion":r.get("conclusion")} for r in matched]
+                if any(r.get("status")=="completed" and r.get("conclusion")=="success" for r in matched):
+                  result["pages_deploy_verified"]=True; break
+                if matched and all(r.get("status")=="completed" for r in matched): break
+              except Exception as e: result["api_error"]=str(e)[:180]
+              time.sleep(7)
+            for path,body in paths.items():
+              try:
+                status,public=fetch(prefix+path)
+                result["checks"][path]={"http":status,"public_sha256":hashlib.sha256(public).hexdigest(),"local_sha256":hashlib.sha256(body).hexdigest(),"match":status==200 and public==body}
+              except Exception as e: result["checks"][path]={"error":str(e)[:180],"match":False}
+            try:
+              status,body=fetch(prefix); result["checks"]["homepage"]={"http":status,"match":status==200}
+            except Exception as e: result["checks"]["homepage"]={"error":str(e)[:180],"match":False}
+            result["public_json_verified"]=result["checks"]["latest.json"].get("match",False)
+            result["history_verified"]=result["checks"][history].get("match",False)
+            result["evidence_verified"]=result["checks"][evidence].get("match",False)
+            result["homepage_verified"]=result["checks"]["homepage"].get("match",False)
+            if all([result["pages_deploy_verified"],result["public_json_verified"],result["homepage_verified"],result["history_verified"],result["evidence_verified"]]):
+              result["status"]="verified"
+          result["finished"]=now()
+          pathlib.Path("/tmp/radar-publication-v6.json").write_text(json.dumps(result,ensure_ascii=False,indent=2)+"\n")
+          print("PUBLIC_VERIFICATION_RESULT",json.dumps(result,ensure_ascii=False))
+          PY
+      - name: Preserve the check outside the latest release branch
+        if: always()
+        run: |
+          test -f /tmp/radar-publication-v6.json || exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin radar-publication-audit
+          git switch -C radar-publication-audit origin/radar-publication-audit
+          mkdir -p publication
+          cp /tmp/radar-publication-v6.json publication/2026-11-22-162428-iteration6.json
+          git add publication/2026-11-22-162428-iteration6.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Archive independent iteration6 public Pages verification"
+          git push origin HEAD:radar-publication-audit

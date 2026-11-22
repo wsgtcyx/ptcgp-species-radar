@@ -54,7 +54,7 @@ function renderEntry(item, category, i, gateMet) {
  addText(left,'h3','',item.species+(item.species_zh ? ' · '+item.species_zh : ''));
  addText(left,'p','sub',item.form || '具体形态待验证');
  top.appendChild(left);
- const status=el('span','status',category==='confirmed'?(gateMet?'暂定 · 未达百源门槛':'初筛 / 样本不足'):'观察 / 未核实');
+ const status=el('span','status',category==='confirmed'?(gateMet?'候选 · 需人工决策':'初筛 / 样本不足'):'观察 / 未核实');
  if(category!=='confirmed'||!gateMet){status.style.background='#44362a';status.style.color='#f5d2a0';}
  top.appendChild(status);article.appendChild(top);
  const body=el('div','body');
@@ -62,8 +62,8 @@ function renderEntry(item, category, i, gateMet) {
   addText(body,'p','explain',item.page_gap || item.recommended_page);
   addText(body,'p','value','Reddit 可核独立作者：'+(item.reddit_unique_authors_verified ?? '未知')+'；X：'+(item.x_unique_authors_verified ?? '未核验')+'。增长趋势：未核实。');
  }else{
-  addText(body,'p','explain',item.recommended_page || '需要进一步验证独立用户需求。');
-  addText(body,'p','value','Reddit 可核作者：'+(item.reddit_unique_authors_verified ?? '未达到可计数条件')+'；X：未核实。'+(item.missing||''));
+  addText(body,'p','explain',item.why || item.recommended_page || '需要进一步验证独立用户需求。');
+  addText(body,'p','value','可核平台账号：'+(item.verified_author_accounts ?? item.reddit_unique_authors_verified ?? '未核实')+'；独立讨论：'+(item.distinct_parents ?? '未核实')+'。'+(item.next_needed||item.missing||''));
  }
  const evs=Array.isArray(item.evidence)?item.evidence:[];
  if(evs.length){
@@ -89,11 +89,11 @@ fetch('./latest.json', {cache:'no-store'})
   document.getElementById('report-date').textContent=d.report_date||'未知';
   const w=d.window||{};
   document.getElementById('window-label').textContent=((w.start||'').slice(0,16))+' — '+((w.end||'').slice(0,16))+' 北京时间';
-  const n=d.audit?.verified_canonical_72h_original_source_urls;
+  const n=d.reporting?.strict_eligible_count ?? d.audit?.strict_eligible_count ?? d.audit?.verified_canonical_72h_original_source_urls;
   const goal=d.audit?.coverage_goal??100;
   document.getElementById('quality-banner').textContent=gateMet
     ? '独立原始信源核验已达到覆盖目标；仍需逐条检查候选物种证据。'
-    : '研究覆盖不足：已核原始信源URL '+(n??'未统计')+' / '+goal+'。不同帖子下的评论不等于多条独立原创来源。当前候选仅供进一步核验，不能推断正在升温。';
+    : '研究覆盖不足：已核原始信源URL '+(n??'未统计')+' / '+goal+'。同一讨论下的多条合格原文仍只算一个独立讨论。当前候选仅供进一步核验，不能推断正在升温。';
   const confirmed=Array.isArray(d.candidates)?d.candidates:[];
   const watchlist=Array.isArray(d.watchlist)?d.watchlist:[];
   document.getElementById('count-total').textContent=String(confirmed.length+watchlist.length).padStart(2,'0');

@@ -1,24 +1,24 @@
-# PTCG Pocket 新物种 Deck 雷达｜2026-11-22
+# PTCG Pocket 缺页物种雷达｜采集流程重做试跑
 
-**合格信源 5/100（缺 95）、实际直读 6、独立讨论 5、合格候选 0/5（缺5）。** 百源门槛未通过，不能作为全面选题结论，不可自动建页。
+已通过四路独立采集清单及统一校验器重跑。14/100 条，11 个平台账号，13 个独立讨论，正式建页 0/5。
 
-**72小时窗口**：2026-11-19T16:30:46+08:00 至 2026-11-22T16:30:46+08:00。run_id `2026-11-22-163046-iteration5`；作者去重 4；平台分布 note 5，Reddit/Bluesky/YouTube/X/PocketMads 0；时间切片 0–24/24–48/48–72 小时为 0/1/4。仅单平台五帖，独立讨论不足10（source_diversity_insufficient），没有可比增长率。
+冻结窗口（北京时间）：2026-11-19T17:21:00+08:00 至 2026-11-22T17:21:00+08:00
 
-## 可核第一方玩家原文（各自独立正文/作者/原发时间）
-- [形無れい｜2026-11-19T18:50+08:00｜Pikachu](https://note.com/katanashi_r/n/nb88ac0035ae7)：仅抽皮卡丘卡包的限定战20张Pikachu ex+Pawmot配方，两种训练家卡替换及起手思路；48-72h。
-- [Griffin｜2026-11-19T21:36+08:00｜Pikachu](https://note.com/griffin_game82/n/na18049be6a84)：实用Pikachu ex单体和Pawmot双方案，16场9胜7负，解释前期铺场/胜负手；48-72h。
-- [ゆーまっくす｜2026-11-19T23:52+08:00｜Rabbit Jump](https://note.com/bambee_san/n/nea156c53782f)：原创实战把Hope Trainer放入Rabbit Jump配方，节省能量及减少手牌事故，未实战的Mewtwo设想不计；48-72h。
-- [金のあざらし｜2026-11-20T07:11+08:00｜Alolan Exeggutor](https://note.com/azarashoshi/n/nc4a781011bfd)：个人构筑以普通阿罗拉椰蛋树主攻，配Skyla换位、草系加速及Leaf Cape，分析对局与自订卡位；准确卡号未确证；48-72h。
-- [ゆーまっくす｜2026-11-20T23:51+08:00｜Jolteon](https://note.com/bambee_san/n/n6e5b19644fb8)：实测讨论Jolteon+Manectric妨碍与机动、输出不足及被突破，提出与Pikachu配合的构思；Alolan Raichu ex只是设想不算；24-48h。
+100 条为硬门槛。旧计数未相加；每个入选记录保留原发时间、原始出处与构筑证据。
 
-## 0个正式候选；3个待核观察
-- **阿罗拉椰蛋树 / Alolan Exeggutor / アローラナッシー**：B limited evidence，本轮严格证据 1，独立作者 1、父帖 1。Firsthand distinct non-ex Skyla build, but site's existing Alolan Exeggutor ex C1-005 archive is not the same card; one author and no verified species hub status。既有策略：[Deck archive](https://www.pokemontcgpocket.app/en/deck/alolan-exeggutor-ex-c1)。补证：Second independently authored original build in another root thread, exact card ID, confirm species hub via canonical/HTTP and check leaf partners。
-- **雷伊布 / Jolteon / サンダース**：C preliminary，本轮严格证据 1，独立作者 1、父帖 1。Player's original post-mortem of a tested Jolteon/Manectric build, but neither a fresh 20-card list nor a viable Jolteon main strategy confirmed。既有策略：[Deck archive](https://www.pokemontcgpocket.app/en/deck/)。补证：Two independent actual Jolteon-centered deck lists, printed card numbers and current deck archive cross-check。
-- **乌贼王 / Malamar / カラマネロ**：C time-unverified，本轮严格证据 0，独立作者 0、父帖 0。First-party 20-card list and author read, but exact first-publication time not proven this run; cannot count as qualified evidence。既有策略：[Deck archive](https://www.pokemontcgpocket.app/en/deck/malamar-b3-mega-sableye-ex-b3b)。补证：First-party time datetime with timezone, then second unrelated author and check existing B3-112/Sableye archive difference。
+站内目录和 Sitemap 公网原始 HTTP 探测返回 403。以下只引用此前已知的牌组资料，不把未核独立页当缺页。
 
-## 审计/渠道限制
-原文链接尝试 8，成功直读6，原文时间证成5，Pocket及Deck内容直读6，去重合格5。PocketMads [CatSquid](https://app.pocketmads.com/feed/c0575dfc-71e3-41bb-89f4-14eefdc0bc7e) 原作者/20卡可读，但只有11月20日日期、时区和精确原发时间无法保守界定为72小时；不计。Reddit new 缓存约两周、Bluesky原帖不可读、YouTube watch本轮无法访问、X未直读，全部为0。旧轮任何5条来源没有沿用计数。
+节奏比较：此前的第 5 轮为 5/100、4 个账号、5 个根帖、最近 24 小时 0 条。两次窗口略有偏移，比较的是采集覆盖，不是玩家热度。
 
-站内 [Browse by Pokémon](https://www.pokemontcgpocket.app/en/deck/pokemon) 已读 all/popular及name各2页(40+2)，可见42基础物种；Pikachu/Pawmot/Azumarill已有物种入口，排除；Rayquaza额外排除。Sitemap及猜测的hub URL在本轮读取失败，因此其他未列物种**不得判定已确认缺页**。旧策略 Alolan Exeggutor ex、Malamar等的牌表详情并非Species hub；参照历史页对比，防止重复内容。全部候选仅观察，不能发出建页建议。
+## 本轮各渠道
+- note：5 条合格。discovered_unique=231；reviewed_unique=75；directly_opened_first_party=75；exact_time=75；within_window_exact=23；submitted_verified_records=5。
+- bluesky：6 条合格。query_count=9；feeds=22；pages=28；raw_feed_items=1574；unique_window_items=635；unique_window_authors=516；intent_preselected=52；custom_feed_successes=21；direct_original_reads_attempted=53；direct_original_reads_successful=53；exact_direct_in_window=53；watch_only=3；submitted_verified_records=6。
+- youtube：2 条合格。discovered_unique=77；reviewed_unique=77；directly_opened_first_party=75；exact_time=75；within_window_exact=10；rss_attempts=8；rss_http_200=6；canonical_watch_attempts=5；canonical_watch_readable=0；submitted_verified_records=2。
+- pocketmads：1 条合格。feed_items_scanned=20；plausibly_in_window_by_calendar_date=2；original_deck_pages_directly_read=2；exact_time_eligible=1；final_qualified_source_records=1；distinct_authors_eligible=1；submitted_verified_records=1。
 
-证据：[`evidence/2026-11-22-163046-iteration5.json`](https://github.com/wsgtcyx/ptcgp-species-radar/blob/main/evidence/2026-11-22-163046-iteration5.json)；历史：[`history/2026-11-22-163046-iteration5.json`](https://github.com/wsgtcyx/ptcgp-species-radar/blob/main/history/2026-11-22-163046-iteration5.json)；机器结果：[`latest.json`](https://github.com/wsgtcyx/ptcgp-species-radar/blob/main/latest.json)。公网Pages见本轮执行后实测反馈；本版本publication初始保持pending，GitHub SHA与页面HTTP单独验证。
+## 待核 / 已有策略
+- **Malamar**：原牌表直接确认卡号，与已知 B3-112＋Mega Sableye 归档不是同一构筑。Meowstic 造成混乱后，乌贼王一能量打 100。；下一步：找第二位独立作者的近72小时首发构筑；现有 Reddit 线索仅有缓存相对时间，不计。
+- **Paldean Clodsire**：两段独立创作者叙述和一位玩家的原创实战显示不同搭档或测试；土王在可核构筑仍主要承担搭档/吸收攻击，不足以证明独立物种页。；下一步：核对具体土王、鬃岩狼人卡号及旧牌组内容；找以土王为主轴的原创构筑。
+- **Alolan Exeggutor**：一篇 note.com 原创讲解风露换位和叶伊布供能；另一个玩家测试 Mega Venusaur 变体。两篇相互独立但在解决不同配方，不应合成同一变体的两份背书。；下一步：将风露换位与现有叶伊布配方逐卡核对，再选择更新而非复制。
+
+[逐条原文与渠道审计](evidence/2026-11-22-172100-pipeline-pilot.json)

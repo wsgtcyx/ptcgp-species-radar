@@ -1,0 +1,1077 @@
+{
+  "window": {
+    "start_utc": "2026-11-19T09:21:00+00:00",
+    "end_utc": "2026-11-22T09:21:00+00:00"
+  },
+  "reporting": {
+    "strict_eligible_count": 14,
+    "source_goal": 100,
+    "shortfall": 86,
+    "coverage_met": false,
+    "quality_gate": "failed",
+    "verified_unique_authors": 11,
+    "verified_parent_thread_count": 13,
+    "per_platform_eligible": {
+      "note": 5,
+      "bluesky": 6,
+      "youtube": 2,
+      "pocketmads": 1
+    },
+    "slices": {
+      "0-24h": 3,
+      "24-48h": 7,
+      "48-72h": 4
+    },
+    "source_diversity_insufficient": false,
+    "qualified_count": 0,
+    "watchlist_count": 3,
+    "target_count": 5,
+    "shortfall_count": 5,
+    "growth_rate": null,
+    "coverage_goal": 100,
+    "source_diversity_goal": 10,
+    "verified_source_ids": [
+      "bluesky:at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tt3bdmy22f",
+      "bluesky:at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tt2z6glc2f",
+      "bluesky:at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tsrz7jms2f",
+      "youtube:uqeRbvS0qdo",
+      "bluesky:at://did:plc:meboyu5pard7aztrtcxeuapl/app.bsky.feed.post/3n2rnvxu7z22y",
+      "pocketmads:c0575dfc-71e3-41bb-89f4-14eefdc0bc7e",
+      "youtube:DXzLH1lYf10",
+      "note:n6e5b19644fb8",
+      "bluesky:at://did:plc:h7bszso6ic5zpsfjmjy4w7rm/app.bsky.feed.post/3n2qenr5qxk24",
+      "bluesky:at://did:plc:csuz6gwzkao7rv2r6puwvkfg/app.bsky.feed.post/3n2qdbgzc5s26",
+      "note:nc4a781011bfd",
+      "note:nea156c53782f",
+      "note:na18049be6a84",
+      "note:nb88ac0035ae7"
+    ],
+    "eligible_sources": 14,
+    "reviewed_unique_urls": null,
+    "history_path": "history/2026-11-22-172100-pipeline-pilot.json",
+    "evidence_path": "evidence/2026-11-22-172100-pipeline-pilot.json"
+  },
+  "source_coverage": {
+    "note": {
+      "state": "ran",
+      "discovered_unique": 231,
+      "reviewed_unique": 75,
+      "directly_opened_first_party": 75,
+      "exact_time": 75,
+      "within_window_exact": 23,
+      "eligible": 5,
+      "in_window_exclusions": {
+        "Thought experiment for possible hypothetical B-series restricted formats, no played build.": 1,
+        "Pack-opening/collection only, incidental or no deck discussion.": 7,
+        "Paid/promoted article; ordinary independent web read failed and no clean unpaywalled firsthand evidence independently verified. Excluded conservatively.": 1,
+        "Pocket booster pull/collecting only.": 1,
+        "Thought experiment for hypothetical A-series restricted formats, no played build.": 1,
+        "Mixed-game diary, Pocket collection/play mention without deck.": 1,
+        "Physical card collection (wrong game intent).": 1,
+        "SNS-marketing spam/tag collision.": 1,
+        "Windows simulation software release, not a player deck original.": 1,
+        "Physical card resale prices, not Pocket player discussion.": 1,
+        "Splatoon 3 article (wrong game).": 1,
+        "Personal account of filling a Greninja collection/build with full-art prints, no substantive choices, list, matchup or play outcome.": 1
+      },
+      "discovery": "Seven public newest tags and four documented creator RSS feeds, 231 unique emitted links including historic ones, 75 selected and opened for exact origin verification; never count title alone.",
+      "submitted_verified_records": 5
+    },
+    "bluesky": {
+      "state": "ran",
+      "query_count": 9,
+      "feeds": 22,
+      "pages": 28,
+      "raw_feed_items": 1574,
+      "unique_window_items": 635,
+      "unique_window_authors": 516,
+      "intent_preselected": 52,
+      "custom_feed_successes": 21,
+      "direct_original_reads_attempted": 53,
+      "direct_original_reads_successful": 53,
+      "exact_direct_in_window": 53,
+      "watch_only": 3,
+      "excluded_in_second_review": [
+        {
+          "source_id": "at://did:plc:tieqxtnl3ayge33yn2eunjo3/app.bsky.feed.post/3n2s6uzoyck27",
+          "canonical_url": "https://bsky.app/profile/sigure0809.bsky.social/post/3n2s6uzoyck27",
+          "reason": "Authentic matchup log, but no sufficiently substantiated player's own deck or build decision; side/role uncertain."
+        }
+      ],
+      "limitations": [
+        "Search API not used for this batch; public custom feeds and direct read APIs only. Custom feed coverage is not exhaustive and mixes pulls, spam, physical TCG, and other games.",
+        "Discovery inventory includes raw and duplicate feed rows, not eligible records. The content thresholds were applied after the direct fetch.",
+        "Same author and parent thread are explicit; deduplicate for trend signals. Counts are this fresh validation only and are not a platform-wide sample.",
+        "Generic win complaints, unformed post-pull intentions, news, ads, bots, link/share-only posts, brand/editorial and the wrong games are excluded. A copied list is not counted as a unique list; original firsthand matchup analysis can qualify as its own source."
+      ],
+      "selected_feed_indicators": [
+        {
+          "feed_uri": "at://did:plc:majwjmpdulkr4i2pxdubjx6d/app.bsky.feed.generator/aaan3txgsk5ea",
+          "name": "ポケポケ",
+          "pages": 1,
+          "raw": 49,
+          "window": 49,
+          "slices": [
+            [
+              "2026-11-20T04:38:39",
+              "2026-11-22T07:27:07"
+            ]
+          ],
+          "older_page_reached": false,
+          "errors": []
+        },
+        {
+          "feed_uri": "at://did:plc:xyuy2ax4tkp3tugmkwufxjz5/app.bsky.feed.generator/aaao4f4uvw4ku",
+          "name": "青空ポケポケ部",
+          "pages": 1,
+          "raw": 80,
+          "window": 80,
+          "slices": [
+            [
+              "2026-11-20T04:38:39",
+              "2026-11-22T09:11:41"
+            ]
+          ],
+          "older_page_reached": false,
+          "errors": []
+        },
+        {
+          "feed_uri": "at://did:plc:bvt26ys7tx6ste32vtt3ckc4/app.bsky.feed.generator/aaamln3czfyem",
+          "name": "ポケポケ",
+          "pages": 1,
+          "raw": 53,
+          "window": 53,
+          "slices": [
+            [
+              "2026-11-20T04:38:39",
+              "2026-11-22T07:27:07"
+            ]
+          ],
+          "older_page_reached": false,
+          "errors": []
+        },
+        {
+          "feed_uri": "at://did:plc:sudor5rqiw53qdn3v52ax44c/app.bsky.feed.generator/193d0765a9a522d",
+          "name": "ポケポケ",
+          "pages": 1,
+          "raw": 14,
+          "window": 0,
+          "slices": [
+            [
+              "2024-12-16T16:56:17",
+              "2025-09-21T01:35:53"
+            ]
+          ],
+          "older_page_reached": true,
+          "errors": []
+        },
+        {
+          "feed_uri": "at://did:plc:4w4bwaqondll7gor2idiumon/app.bsky.feed.generator/aaaa26isiyfpw",
+          "name": "ポケポケNow",
+          "pages": 1,
+          "raw": 77,
+          "window": 77,
+          "slices": [
+            [
+              "2026-11-20T04:38:39",
+              "2026-11-22T07:39:20"
+            ]
+          ],
+          "older_page_reached": false,
+          "errors": []
+        },
+        {
+          "feed_uri": "at://did:plc:s2zvjlc7zuzyo23w2rpcrz24/app.bsky.feed.generator/aaakngb47amvi",
+          "name": "ポケポケID",
+          "pages": 1,
+          "raw": 0,
+          "window": 0,
+          "slices": [],
+          "older_page_reached": false,
+          "errors": []
+        },
+        {
+          "feed_uri": "at://did:plc:gqv7k7mhmyg5yu5by76oq3y3/app.bsky.feed.generator/robinfeed-gTsIX",
+          "name": "ポケモンカードゲームポケット",
+          "pages": 0,
+          "raw": 0,
+          "window": 0,
+          "slices": [],
+          "older_page_reached": false,
+          "errors": [
+            "HTTP Error 502: Bad Gateway"
+          ]
+        },
+        {
+          "feed_uri": "at://did:plc:3ozpj3kh2c43ngbpsp2k4f3o/app.bsky.feed.generator/aaaeuw2bz3lqe",
+          "name": "PokemonTCGPocket",
+          "pages": 1,
+          "raw": 40,
+          "window": 30,
+          "slices": [
+            [
+              "2026-11-20T15:05:35",
+              "2026-11-22T02:21:52"
+            ]
+          ],
+          "older_page_reached": false,
+          "errors": []
+        },
+        {
+          "feed_uri": "at://did:plc:djnf5jtz732aabjbaiehuvcz/app.bsky.feed.generator/aaal2fpbpf2kk",
+          "name": "Pokémon TCG Pocket",
+          "pages": 1,
+          "raw": 84,
+          "window": 46,
+          "slices": [
+            [
+              "2026-11-20T08:11:01",
+              "2026-11-22T08:49:33"
+            ]
+          ],
+          "older_page_reached": false,
+          "errors": []
+        },
+        {
+          "feed_uri": "at://did:plc:6zcwqeq3qz34vumibj3gvak7/app.bsky.feed.generator/aaalps3mghvaa",
+          "name": "Pokemon TCG pocket",
+          "pages": 1,
+          "raw": 29,
+          "window": 29,
+          "slices": [
+            [
+              "2026-11-20T15:05:35",
+              "2026-11-22T08:35:48"
+            ]
+          ],
+          "older_page_reached": false,
+          "errors": []
+        },
+        {
+          "feed_uri": "at://did:plc:3aasuablcmiu5gtsn5ojinux/app.bsky.feed.generator/aaaibvpmpff3w",
+          "name": "🃏 | Pokémon TCG Pocket",
+          "pages": 1,
+          "raw": 3,
+          "window": 3,
+          "slices": [
+            [
+              "2026-11-20T13:54:25",
+              "2026-11-21T22:40:02"
+            ]
+          ],
+          "older_page_reached": false,
+          "errors": []
+        },
+        {
+          "feed_uri": "at://did:plc:wa6l6yjfc5vvnthfhzonne2d/app.bsky.feed.generator/aaaaqth4rmnc2",
+          "name": "Pokémon TCG Pocket",
+          "pages": 1,
+          "raw": 39,
+          "window": 39,
+          "slices": [
+            [
+              "2026-11-20T15:05:35",
+              "2026-11-22T08:35:48"
+            ]
+          ],
+          "older_page_reached": false,
+          "errors": []
+        },
+        {
+          "feed_uri": "at://did:plc:52dkolxetfjnmxspedabvksi/app.bsky.feed.generator/aaadoomkh4z34",
+          "name": "BanieczkowePoksy",
+          "pages": 1,
+          "raw": 0,
+          "window": 0,
+          "slices": [],
+          "older_page_reached": false,
+          "errors": []
+        },
+        {
+          "feed_uri": "at://did:plc:qg2cqyqaf22i6h5cbrf47qze/app.bsky.feed.generator/aaaaljlhc3v5e",
+          "name": "Pokémon TCG Pocket ESP",
+          "pages": 1,
+          "raw": 4,
+          "window": 4,
+          "slices": [
+            [
+              "2026-11-20T13:52:42",
+              "2026-11-21T16:45:31"
+            ]
+          ],
+          "older_page_reached": false,
+          "errors": []
+        },
+        {
+          "feed_uri": "at://did:plc:ii4jj4szguab33e673aihhhd/app.bsky.feed.generator/aaamwtf45nseo",
+          "name": "Pokémon TCG Pocket ",
+          "pages": 5,
+          "raw": 489,
+          "window": 487,
+          "slices": [
+            [
+              "2026-11-21T23:03:04",
+              "2026-11-22T09:22:05"
+            ],
+            [
+              "2026-11-22T01:37:04",
+              "2026-11-22T04:52:52"
+            ],
+            [
+              "2026-11-21T22:46:13",
+              "2026-11-22T01:27:46"
+            ],
+            [
+              "2026-11-21T20:51:15",
+              "2026-11-21T22:45:19"
+            ],
+            [
+              "2026-11-21T18:16:53",
+              "2026-11-21T20:51:14"
+            ]
+          ],
+          "older_page_reached": false,
+          "errors": []
+        },
+        {
+          "feed_uri": "at://did:plc:6gkmfkvyqcpbakk7k75n2ija/app.bsky.feed.generator/aaagvtuqjuooy",
+          "name": "PTCGP",
+          "pages": 2,
+          "raw": 200,
+          "window": 1,
+          "slices": [
+            [
+              "2026-02-19T14:03:19",
+              "2026-11-20T15:11:40"
+            ],
+            [
+              "2025-05-29T06:00:34",
+              "2026-02-19T14:01:46"
+            ]
+          ],
+          "older_page_reached": true,
+          "errors": []
+        },
+        {
+          "feed_uri": "at://did:plc:is474jkkdmfc6oafmikgsfyj/app.bsky.feed.generator/aaapjd4nmfmzg",
+          "name": "Yusri's PTCGP Posts",
+          "pages": 2,
+          "raw": 200,
+          "window": 4,
+          "slices": [
+            [
+              "2026-07-29T07:54:34",
+              "2026-11-22T02:21:52"
+            ],
+            [
+              "2026-05-20T01:40:01",
+              "2026-08-23T01:58:16"
+            ]
+          ],
+          "older_page_reached": true,
+          "errors": []
+        },
+        {
+          "feed_uri": "at://did:plc:pgllbaa7lvdu4e76rr4eacwj/app.bsky.feed.generator/aaaf3utxdryy4",
+          "name": "pkmnTCGP",
+          "pages": 1,
+          "raw": 14,
+          "window": 14,
+          "slices": [
+            [
+              "2026-11-21T08:34:25",
+              "2026-11-22T02:21:52"
+            ]
+          ],
+          "older_page_reached": false,
+          "errors": []
+        },
+        {
+          "feed_uri": "at://did:plc:oleft46dhrncmnyya6mwyzu7/app.bsky.feed.generator/aaak6fyep772a",
+          "name": "TCGP Brasil",
+          "pages": 2,
+          "raw": 178,
+          "window": 18,
+          "slices": [
+            [
+              "2026-11-05T19:35:13",
+              "2026-11-21T09:15:42"
+            ],
+            [
+              "2026-10-26T10:13:01",
+              "2026-11-06T22:52:25"
+            ]
+          ],
+          "older_page_reached": true,
+          "errors": []
+        },
+        {
+          "feed_uri": "at://did:plc:obpuyxi42ohznc55kc32j3m2/app.bsky.feed.generator/pokemon",
+          "name": "Pokemon Pocket",
+          "pages": 1,
+          "raw": 5,
+          "window": 1,
+          "slices": [
+            [
+              "2025-01-30T15:12:27",
+              "2026-11-20T13:17:41"
+            ]
+          ],
+          "older_page_reached": false,
+          "errors": []
+        },
+        {
+          "feed_uri": "at://did:plc:pkwy4ttsm7a6fyeahzlhwuvi/app.bsky.feed.generator/aaadyx6wo43ma",
+          "name": "GreGor Pocket Decks",
+          "pages": 1,
+          "raw": 1,
+          "window": 0,
+          "slices": [
+            [
+              "2024-11-17T23:09:57",
+              "2024-11-17T23:09:57"
+            ]
+          ],
+          "older_page_reached": true,
+          "errors": []
+        },
+        {
+          "feed_uri": "at://did:plc:mr3r5n3v5j7w3o7shlusdxhp/app.bsky.feed.generator/aaafyfbfthlna",
+          "name": "TCG Pocket",
+          "pages": 1,
+          "raw": 15,
+          "window": 15,
+          "slices": [
+            [
+              "2026-11-21T09:41:19",
+              "2026-11-22T08:35:48"
+            ]
+          ],
+          "older_page_reached": false,
+          "errors": []
+        }
+      ],
+      "submitted_verified_records": 6,
+      "eligible": 6
+    },
+    "youtube": {
+      "state": "ran",
+      "discovered_unique": 77,
+      "reviewed_unique": 77,
+      "directly_opened_first_party": 75,
+      "exact_time": 75,
+      "within_window_exact": 10,
+      "eligible": 2,
+      "in_window_exclusions": {
+        "Mega Sceptile limited event named only by title; official creator description only prompts/membership/BGM, watch unavailable.": 1,
+        "Lycanroc title, generic playlist/hashtags; no distinct narrative and may be short of creator’s same topic.": 1,
+        "Generic title/playlist/hashtags, no deck specifics.": 2,
+        "RSS supplies player opinion and stock Aqua Charge/high Water attack, but no distinct list, identified partner, named matchup kit or personal tested result independently visible; watch throttled. Conservative skip.": 1,
+        "Tournament broadcast; not identified original player build or practical discussion.": 1,
+        "Deck pairings reproduced as recommendation chapters, no independently verified first-person testing or original list/play in official RSS.": 1,
+        "Mega Tyranitar title, generic supporting description and promo links; no verifiable specifics.": 1
+      },
+      "discovery": "Six reachable official creator RSS feeds and public search including two additional direct watch destinations; historical feed entries included in discovered/direct/exact counts but filtered before content. Two additional discovered creator RSS feeds timed out; exact timestamps unchanged. A failed watch does not invalidate independent rich official RSS, and generic descriptions are not a substitute.",
+      "rss_attempts": 8,
+      "rss_http_200": 6,
+      "rss_channel_failures": [
+        {
+          "handle": "Luckycad",
+          "c": "UCa4tK4ry575cuJzayeaxmSQ",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "handle": "Megamogwai",
+          "c": "UCvUZXLShMx-FZvoadtb8xBQ",
+          "error": "<urlopen error timed out>"
+        }
+      ],
+      "canonical_watch_attempts": 5,
+      "canonical_watch_readable": 0,
+      "submitted_verified_records": 2
+    },
+    "pocketmads": {
+      "state": "ran",
+      "feed_items_scanned": 20,
+      "plausibly_in_window_by_calendar_date": 2,
+      "original_deck_pages_directly_read": 2,
+      "exact_time_eligible": 1,
+      "final_qualified_source_records": 1,
+      "distinct_authors_eligible": 1,
+      "method": "Read the publicly rendered chronological feed, then low-frequency GETs of the two newest original public deck pages on the boundary dates. All remaining displayed entries dated Nov 18 or earlier, with older items behind Load more. No API, login, CAPTCHA, or bypass. This is bounded to the public feed sample, not exhaustive platform coverage.",
+      "blockers": [
+        "Low density of fresh originals in public chronology; no additional plausible eligible visible entries.",
+        "One qualified source does not independently establish a dedicated-species-page gap, cross-author demand, or trend."
+      ],
+      "examples_excluded": [
+        {
+          "platform": "pocketmads",
+          "source_id": "e7d762fe-fd5e-4c5d-862a-d155ea32275b",
+          "canonical_url": "https://app.pocketmads.com/feed/e7d762fe-fd5e-4c5d-862a-d155ea32275b",
+          "created_utc": "2026-11-19T01:16:37.799034Z",
+          "author": "GymLeader",
+          "parent_thread_id": "e7d762fe-fd5e-4c5d-862a-d155ea32275b",
+          "http_status": 200,
+          "reason": "Exact first-party HTML timestamp is 8h 4m before window start.",
+          "mechanics": "Mewtwo X C1-056 with Minior B4-090 and Mantyke A4a-023; full 20-card list."
+        }
+      ],
+      "submitted_verified_records": 1,
+      "eligible": 1
+    }
+  },
+  "eligible": [
+    {
+      "platform": "bluesky",
+      "source_id": "at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tt3bdmy22f",
+      "canonical_url": "https://bsky.app/profile/fictionlife06.bsky.social/post/3n2tt3bdmy22f",
+      "created_utc": "2026-11-21T19:20:46.185000+00:00",
+      "indexed_utc": "2026-11-21T19:21:04.157Z",
+      "author_did": "did:plc:ewxwdmkc5ey5l3huw65ywwdk",
+      "parent_thread_id": "at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tt2z6glc2f",
+      "reply_uri": "at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tt2z6glc2f",
+      "time_method": "Bluesky first-party getPostThread record.createdAt; checked against indexedAt",
+      "author_account": "fictionlife06.bsky.social",
+      "intent_type": "original tuning and playtest",
+      "species_cards": [
+        "Blastoise (non-ex; bench-sniping variant discussed)",
+        "Jellicent (energy acceleration)"
+      ],
+      "firsthand_deck_specifics": "Own adjusted source build; 15–24 in 39 random matches. Combines energy acceleration, Blastoise with bench sniping, two Protective Poncho effects and two Copycat; damage ceiling is a concern. Original substantive self-reply; shares parent and author with the Mega Venusaur record.",
+      "language": "ja",
+      "media_evidence": "original reply body and attached deck/QR, root captured",
+      "author": "did:plc:ewxwdmkc5ey5l3huw65ywwdk",
+      "author_display": "fictionlife06.bsky.social",
+      "review_state": "first_party_original_substantive",
+      "evidence": "Own adjusted source build; 15–24 in 39 random matches. Combines energy acceleration, Blastoise with bench sniping, two Protective Poncho effects and two Copycat; damage ceiling is a concern. Original substantive self-reply; shares parent and author with the Mega Venusaur record."
+    },
+    {
+      "platform": "bluesky",
+      "source_id": "at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tt2z6glc2f",
+      "canonical_url": "https://bsky.app/profile/fictionlife06.bsky.social/post/3n2tt2z6glc2f",
+      "created_utc": "2026-11-21T19:20:46.184000+00:00",
+      "indexed_utc": "2026-11-21T19:21:04.154Z",
+      "author_did": "did:plc:ewxwdmkc5ey5l3huw65ywwdk",
+      "parent_thread_id": "at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tt2z6glc2f",
+      "reply_uri": null,
+      "time_method": "Bluesky first-party getPostThread record.createdAt; checked against indexedAt",
+      "author_account": "fictionlife06.bsky.social",
+      "intent_type": "original tuning and playtest",
+      "species_cards": [
+        "Mega Venusaur ex",
+        "Alolan Exeggutor ex (Dual Fusion C1)"
+      ],
+      "firsthand_deck_specifics": "Own slightly modified build inspired by a YouTube player; 18–24 in 42 random matches. Energy acceleration before evolving, Umbreon weakness, Mega Venusaur needed for power and two Copycat. Counts for the author once per species.",
+      "language": "ja",
+      "media_evidence": "original author text and actual deck screenshot inspected: Mega Venusaur ex with 2× Alolan Exeggutor ex (two prints); not credited merely for the QR",
+      "author": "did:plc:ewxwdmkc5ey5l3huw65ywwdk",
+      "author_display": "fictionlife06.bsky.social",
+      "review_state": "first_party_original_substantive",
+      "evidence": "Own slightly modified build inspired by a YouTube player; 18–24 in 42 random matches. Energy acceleration before evolving, Umbreon weakness, Mega Venusaur needed for power and two Copycat. Counts for the author once per species."
+    },
+    {
+      "platform": "bluesky",
+      "source_id": "at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tsrz7jms2f",
+      "canonical_url": "https://bsky.app/profile/fictionlife06.bsky.social/post/3n2tsrz7jms2f",
+      "created_utc": "2026-11-21T19:15:44.231000+00:00",
+      "indexed_utc": "2026-11-21T19:15:56.548Z",
+      "author_did": "did:plc:ewxwdmkc5ey5l3huw65ywwdk",
+      "parent_thread_id": "at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tsrz7jms2f",
+      "reply_uri": null,
+      "time_method": "Bluesky first-party getPostThread record.createdAt; checked against indexedAt",
+      "author_account": "fictionlife06.bsky.social",
+      "intent_type": "original playtest of explicitly borrowed list",
+      "species_cards": [
+        "Lycanroc ex (Dual Fusion C1, Fighting/Darkness)",
+        "Paldean Clodsire",
+        "Lopunny (Rabbit Jumping matchup)"
+      ],
+      "firsthand_deck_specifics": "Player explicitly copied kinkakuj’s list, so no original list credit. Original 17-match personal limited-event test: 9–8, including 4 wins and 3 losses vs Rabbit Jumping, and their own matchup conclusion. Use only original playtest and exact roles; never claim original deck design.",
+      "language": "ja",
+      "media_evidence": "original text and list screenshot inspected: 2× Lycanroc ex (two prints), 2× Paldean Clodsire; borrowed list explicitly marked",
+      "author": "did:plc:ewxwdmkc5ey5l3huw65ywwdk",
+      "author_display": "fictionlife06.bsky.social",
+      "review_state": "first_party_original_substantive",
+      "evidence": "Player explicitly copied kinkakuj’s list, so no original list credit. Original 17-match personal limited-event test: 9–8, including 4 wins and 3 losses vs Rabbit Jumping, and their own matchup conclusion. Use only original playtest and exact roles; never claim original deck design."
+    },
+    {
+      "platform": "youtube",
+      "source_id": "uqeRbvS0qdo",
+      "canonical_url": "https://www.youtube.com/watch?v=uqeRbvS0qdo",
+      "created_utc": "2026-11-21T09:00:09+00:00",
+      "author": "UCg-0sgAgnDDvEZIjL6qOvcA",
+      "author_channel_id": "UCg-0sgAgnDDvEZIjL6qOvcA",
+      "parent_thread_id": "uqeRbvS0qdo",
+      "title": "【頂上決戦】新パックの王を決めます。【ポケポケ】",
+      "first_party_content_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCg-0sgAgnDDvEZIjL6qOvcA",
+      "time_method": "First-party channel Atom entry published, yt:videoId, yt:channelId, creator media:description",
+      "directly_opened": true,
+      "native_timestamp": "2026-11-21T09:00:09+00:00",
+      "within_window": true,
+      "watch_html_verified": false,
+      "eligible": true,
+      "body_summary": "Three-meet head-to-head playtest: Pikachu ex/Pawmot versus Mega Mewtwo X ex/Paldean Clodsire/Rika. Both rebuild after game two: Pikachu adds Bellibolt and Mewtwo adds Igglybuff and Darkrai.",
+      "species": [
+        "Pikachu ex",
+        "Pawmot",
+        "Mega Mewtwo X ex",
+        "Paldean Clodsire",
+        "Bellibolt",
+        "Igglybuff",
+        "Darkrai"
+      ],
+      "originality_note": "Original creator’s description includes documented player builds, two changes and three original gameplay chapters, not an aggregate. Count one post, not both collab players.",
+      "author_display": "のりくんの休憩所",
+      "review_state": "first_party_original_substantive",
+      "evidence": "Three-meet head-to-head playtest: Pikachu ex/Pawmot versus Mega Mewtwo X ex/Paldean Clodsire/Rika. Both rebuild after game two: Pikachu adds Bellibolt and Mewtwo adds Igglybuff and Darkrai."
+    },
+    {
+      "platform": "bluesky",
+      "source_id": "at://did:plc:meboyu5pard7aztrtcxeuapl/app.bsky.feed.post/3n2rnvxu7z22y",
+      "canonical_url": "https://bsky.app/profile/lydiaaeloria.bsky.social/post/3n2rnvxu7z22y",
+      "created_utc": "2026-11-20T22:43:08.839000+00:00",
+      "indexed_utc": "2026-11-20T22:43:11.348Z",
+      "author_did": "did:plc:meboyu5pard7aztrtcxeuapl",
+      "parent_thread_id": "at://did:plc:meboyu5pard7aztrtcxeuapl/app.bsky.feed.post/3n2rnvxu7z22y",
+      "reply_uri": null,
+      "time_method": "Bluesky first-party getPostThread record.createdAt; checked against indexedAt",
+      "author_account": "lydiaaeloria.bsky.social",
+      "intent_type": "original brew and replacement advice",
+      "species_cards": [
+        "Mega Mewtwo Y ex",
+        "Mew ex",
+        "Carbink (bench Energy support)"
+      ],
+      "firsthand_deck_specifics": "Player assembled their prepared Mega Mewtwo Y ex deck and suggests bench-Energy Carbink as a concrete option replacing Mew ex. Not a simple deck-code share.",
+      "language": "en",
+      "media_evidence": "first-party original text and embedded deck image attached; text sufficient",
+      "author": "did:plc:meboyu5pard7aztrtcxeuapl",
+      "author_display": "lydiaaeloria.bsky.social",
+      "review_state": "first_party_original_substantive",
+      "evidence": "Player assembled their prepared Mega Mewtwo Y ex deck and suggests bench-Energy Carbink as a concrete option replacing Mew ex. Not a simple deck-code share."
+    },
+    {
+      "platform": "pocketmads",
+      "source_id": "c0575dfc-71e3-41bb-89f4-14eefdc0bc7e",
+      "canonical_url": "https://app.pocketmads.com/feed/c0575dfc-71e3-41bb-89f4-14eefdc0bc7e",
+      "created_utc": "2026-11-20T21:41:23.978794+00:00",
+      "author": "badgerbreath",
+      "parent_thread_id": "c0575dfc-71e3-41bb-89f4-14eefdc0bc7e",
+      "time_method": "Exact first-party original publication HTML time[datetime] 2026-11-20T21:41:23.978794+00:00; prose marked edited, no edit datetime assumed.",
+      "http_status": 200,
+      "deck_title": "CatSquid Confusion",
+      "mechanics": "Original 20-card snapshot and explanatory text: Meowstic applies confusion from Active; retreat into Malamar for 100 damage on one energy against a Confused opposing Active. Inkay can confuse early; Peculiar Plaza supports free retreat and later Mega Mewtwo X ex.",
+      "deck_intent": "player-published deck list with specific mechanics, not independently measured performance",
+      "species": "Malamar",
+      "form": "non-ex Promos-C P-C-005; exact HTML linked print /cards/P-C/5",
+      "card_prints": [
+        [
+          "Espurr",
+          "B3-065",
+          2
+        ],
+        [
+          "Inkay",
+          "P-C-004",
+          2
+        ],
+        [
+          "Malamar",
+          "P-C-005",
+          2
+        ],
+        [
+          "Meowstic",
+          "B3-165",
+          2
+        ],
+        [
+          "Mega Mewtwo X ex",
+          "C1-185",
+          1
+        ],
+        [
+          "Peculiar Plaza",
+          "B2-155",
+          2
+        ],
+        [
+          "Poké Ball",
+          "P-A-005",
+          2
+        ],
+        [
+          "Professor's Research",
+          "P-A-007",
+          2
+        ],
+        [
+          "Copycat",
+          "B1-270",
+          1
+        ],
+        [
+          "Cyrus",
+          "A2-150",
+          1
+        ],
+        [
+          "Field Blower",
+          "B3-147",
+          1
+        ],
+        [
+          "May",
+          "B1-268",
+          1
+        ],
+        [
+          "Sightseer",
+          "B2-191",
+          1
+        ]
+      ],
+      "eligible": true,
+      "discovery_note": "Originally seen in iteration 2; independently direct-reverified within this redo. Not an additional author or new post across iterations; deduplicate by original source ID.",
+      "evidence": "Original 20-card snapshot and explanatory text: Meowstic applies confusion from Active; retreat into Malamar for 100 damage on one energy against a Confused opposing Active. Inkay can confuse early; Peculiar Plaza supports free retreat and later Mega Mewtwo X ex.",
+      "review_state": "first_party_original_substantive"
+    },
+    {
+      "platform": "youtube",
+      "source_id": "DXzLH1lYf10",
+      "canonical_url": "https://www.youtube.com/watch?v=DXzLH1lYf10",
+      "created_utc": "2026-11-20T19:41:31+00:00",
+      "author": "UCLB5yROBCkC9Y-Q3PdYtTvQ",
+      "author_channel_id": "UCLB5yROBCkC9Y-Q3PdYtTvQ",
+      "parent_thread_id": "DXzLH1lYf10",
+      "title": "Pokemon Pocket Finally Let Me Use Lycanroc ex",
+      "first_party_content_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCLB5yROBCkC9Y-Q3PdYtTvQ",
+      "time_method": "First-party channel Atom entry published, yt:videoId, yt:channelId, creator media:description",
+      "directly_opened": true,
+      "native_timestamp": "2026-11-20T19:41:31+00:00",
+      "within_window": true,
+      "watch_html_verified": false,
+      "eligible": true,
+      "body_summary": "spragels presents their own Dual Fusion-only pairing where Paldean Clodsire takes hits and Lycanroc ex cleans up; reports it played more consistently than expected.",
+      "species": [
+        "Lycanroc ex",
+        "Paldean Clodsire"
+      ],
+      "originality_note": "Official creator description gives personally used list pairing, defined roles and testing impression; no independently verified full list/win rate. Distinct from any copied-list player testing post.",
+      "author_display": "spragels Pocket",
+      "review_state": "first_party_original_substantive",
+      "evidence": "spragels presents their own Dual Fusion-only pairing where Paldean Clodsire takes hits and Lycanroc ex cleans up; reports it played more consistently than expected."
+    },
+    {
+      "platform": "note",
+      "source_id": "n6e5b19644fb8",
+      "canonical_url": "https://note.com/bambee_san/n/n6e5b19644fb8",
+      "created_utc": "2026-11-20T15:51:37+00:00",
+      "author": "bambee_san",
+      "parent_thread_id": "n6e5b19644fb8",
+      "title": "「ベイビーキッドマン」2026年11月20日の日記",
+      "first_party_content_url": "https://note.com/bambee_san/n/n6e5b19644fb8",
+      "time_method": "Original article JSON-LD datePublished (with explicit UTC offset), independently matched by visible HTML time plus official creator RSS on four initial originals",
+      "directly_opened": true,
+      "native_timestamp": "2026-11-21T00:51:37.000+09:00",
+      "within_window": true,
+      "eligible": true,
+      "body_summary": "Played Rabbit Jump/Azumarill; varied opponents include Mew and Ribombee. Used Jolteon/Manectric for mobile disruption but finds Manectric misses damage; uses Sylveon as draw in Team Rocket’s Slowking and early Gengar builds.",
+      "species": [
+        "Azumarill (Rabbit Jump)",
+        "Jolteon",
+        "Manectric",
+        "Sylveon",
+        "Team Rocket’s Slowking",
+        "Gengar"
+      ],
+      "originality_note": "Independent first-person event and earlier deck-use experience in diary; not a full card list and Alolan Raichu ideas are explicitly untested.",
+      "author_display": "bambee_san",
+      "review_state": "first_party_original_substantive",
+      "evidence": "Played Rabbit Jump/Azumarill; varied opponents include Mew and Ribombee. Used Jolteon/Manectric for mobile disruption but finds Manectric misses damage; uses Sylveon as draw in Team Rocket’s Slowking and early Gengar builds."
+    },
+    {
+      "platform": "bluesky",
+      "source_id": "at://did:plc:h7bszso6ic5zpsfjmjy4w7rm/app.bsky.feed.post/3n2qenr5qxk24",
+      "canonical_url": "https://bsky.app/profile/ko-same.bsky.social/post/3n2qenr5qxk24",
+      "created_utc": "2026-11-20T10:24:49.960000+00:00",
+      "indexed_utc": "2026-11-20T10:24:56.141Z",
+      "author_did": "did:plc:h7bszso6ic5zpsfjmjy4w7rm",
+      "parent_thread_id": "at://did:plc:h7bszso6ic5zpsfjmjy4w7rm/app.bsky.feed.post/3n2qenr5qxk24",
+      "reply_uri": null,
+      "time_method": "Bluesky first-party getPostThread record.createdAt; checked against indexedAt",
+      "author_account": "ko-same.bsky.social",
+      "intent_type": "firsthand event playtest and upgrade intent",
+      "species_cards": [
+        "Wigglytuff",
+        "Lopunny (Rabbit Jumping)"
+      ],
+      "firsthand_deck_specifics": "Player cleared the pack-limited event after swapping from a Wigglytuff-centered build in the first half to Rabbit Jumping after obtaining the cards. Wants a second Serena’s Choice.",
+      "language": "ja",
+      "media_evidence": "original text reports a specific before/after deck choice; matching image media attached",
+      "author": "did:plc:h7bszso6ic5zpsfjmjy4w7rm",
+      "author_display": "ko-same.bsky.social",
+      "review_state": "first_party_original_substantive",
+      "evidence": "Player cleared the pack-limited event after swapping from a Wigglytuff-centered build in the first half to Rabbit Jumping after obtaining the cards. Wants a second Serena’s Choice."
+    },
+    {
+      "platform": "bluesky",
+      "source_id": "at://did:plc:csuz6gwzkao7rv2r6puwvkfg/app.bsky.feed.post/3n2qdbgzc5s26",
+      "canonical_url": "https://bsky.app/profile/mshim77.bsky.social/post/3n2qdbgzc5s26",
+      "created_utc": "2026-11-20T10:00:02.935000+00:00",
+      "indexed_utc": "2026-11-20T10:00:06.943Z",
+      "author_did": "did:plc:csuz6gwzkao7rv2r6puwvkfg",
+      "parent_thread_id": "at://did:plc:csuz6gwzkao7rv2r6puwvkfg/app.bsky.feed.post/3n2qdbgzc5s26",
+      "reply_uri": null,
+      "time_method": "Bluesky first-party getPostThread record.createdAt; checked against indexedAt",
+      "author_account": "mshim77.bsky.social",
+      "intent_type": "firsthand match plus deck change",
+      "species_cards": [
+        "Mega Mewtwo Y ex (170 HP Promo-C, Psychic Blaster)",
+        "Mega Mewtwo X ex (C1, 180 HP)",
+        "Mew ex (C1, 130 HP)",
+        "Jigglypuff (Psychic, 50 HP)"
+      ],
+      "firsthand_deck_specifics": "Player says they beat an opposing Mega Mewtwo Y ex in advanced random battle, pulled their own from the reward pack, then immediately added it to their deck. Full follow-on screenshot shows their active Promo-C Mega Mewtwo Y ex hitting 180, Mega Mewtwo X ex + two Mew ex on their bench and Psychic Jigglypuff in hand. Compare roles; no full list claimed.",
+      "language": "ja",
+      "media_evidence": "both full original screenshots inspected; first is card pull, second is player’s own battle board with specific partners and 180 damage.",
+      "author": "did:plc:csuz6gwzkao7rv2r6puwvkfg",
+      "author_display": "mshim77.bsky.social",
+      "review_state": "first_party_original_substantive",
+      "evidence": "Player says they beat an opposing Mega Mewtwo Y ex in advanced random battle, pulled their own from the reward pack, then immediately added it to their deck. Full follow-on screenshot shows their active Promo-C Mega Mewtwo Y ex hitting 180, Mega Mewtwo X ex + two Mew ex on their bench and Psychic Jigglypuff in hand. Compare roles; no full list claimed."
+    },
+    {
+      "platform": "note",
+      "source_id": "nc4a781011bfd",
+      "canonical_url": "https://note.com/azarashoshi/n/nc4a781011bfd",
+      "created_utc": "2026-11-19T23:11:29+00:00",
+      "author": "azarashoshi",
+      "parent_thread_id": "nc4a781011bfd",
+      "title": "【ポケポケ】フウロで化ける！アローラナッシーデッキが想像以上に強い理由",
+      "first_party_content_url": "https://note.com/azarashoshi/n/nc4a781011bfd",
+      "time_method": "Original article JSON-LD datePublished (with explicit UTC offset), independently matched by visible HTML time plus official creator RSS on four initial originals",
+      "directly_opened": true,
+      "native_timestamp": "2026-11-20T08:11:29.000+09:00",
+      "within_window": true,
+      "eligible": true,
+      "body_summary": "Alolan Exeggutor ex + Leafeon ex + Skyla; two Active Leafeon ex switches before manual attach can build three Grass Energy on a lead Alolan Exeggutor ex. Skyla also clears status or attack locks by benching.",
+      "species": [
+        "Alolan Exeggutor ex (C1)",
+        "Leafeon ex (exact print not confirmed)"
+      ],
+      "originality_note": "First-person tested recipe with sequencing and describes downsides to fast high-damage attackers. Author distinguishes their pressure build from Ribombee endurance.",
+      "author_display": "azarashoshi",
+      "review_state": "first_party_original_substantive",
+      "evidence": "Alolan Exeggutor ex + Leafeon ex + Skyla; two Active Leafeon ex switches before manual attach can build three Grass Energy on a lead Alolan Exeggutor ex. Skyla also clears status or attack locks by benching."
+    },
+    {
+      "platform": "note",
+      "source_id": "nea156c53782f",
+      "canonical_url": "https://note.com/bambee_san/n/nea156c53782f",
+      "created_utc": "2026-11-19T15:52:37+00:00",
+      "author": "bambee_san",
+      "parent_thread_id": "nea156c53782f",
+      "title": "「ステキなホープ」2026年11月19日の日記",
+      "first_party_content_url": "https://note.com/bambee_san/n/nea156c53782f",
+      "time_method": "Original article JSON-LD datePublished with explicit UTC offset",
+      "directly_opened": true,
+      "native_timestamp": "2026-11-20T00:52:37.000+09:00",
+      "within_window": true,
+      "eligible": true,
+      "body_summary": "Traded for Hope Trainer and personally Slotted it in Rabbit Jump to save energy and recover bad opening hands.",
+      "species": [
+        "Azumarill (Rabbit Jump deck context; not directly named in this post)"
+      ],
+      "originality_note": "Distinct original tech decision tested by the same author as n6e5b19644fb8, same Rabbit Jump contributor for candidate independence; unplayed Mewtwo/card-partner ideas excluded.",
+      "author_display": "bambee_san",
+      "review_state": "first_party_original_substantive",
+      "evidence": "Traded for Hope Trainer and personally Slotted it in Rabbit Jump to save energy and recover bad opening hands."
+    },
+    {
+      "platform": "note",
+      "source_id": "na18049be6a84",
+      "canonical_url": "https://note.com/griffin_game82/n/na18049be6a84",
+      "created_utc": "2026-11-19T13:36:00+00:00",
+      "author": "griffin_game82",
+      "parent_thread_id": "na18049be6a84",
+      "title": "【イベント用デッキ紹介】限定バトルで9勝したい人へ～ピカチュウexデッキとピカパモデッキの組み方と立ち回り～【ポケポケ】",
+      "first_party_content_url": "https://note.com/griffin_game82/n/na18049be6a84",
+      "time_method": "Original article JSON-LD datePublished (with explicit UTC offset), independently matched by visible HTML time plus official creator RSS on four initial originals",
+      "directly_opened": true,
+      "native_timestamp": "2026-11-19T22:36:00.000+09:00",
+      "within_window": true,
+      "eligible": true,
+      "body_summary": "Event player accounts for 9–7 across Pikachu ex alone to Pikachu ex/Pawmot. Needs Pikachu plus Light Ball; Full Heal answers Jigglypuff sleep; no wins against encountered Mega Mewtwo X ex; Light Ball pressures Rabbit Jump basics.",
+      "species": [
+        "Pikachu ex (Dual Fusion)",
+        "Pawmot (Dual Fusion)"
+      ],
+      "originality_note": "Independent firsthand games and deck change, two native 20-card in-game screenshots inspected, not a separate topic cluster from other Pikachu/Pawmot posts.",
+      "author_display": "griffin_game82",
+      "review_state": "first_party_original_substantive",
+      "evidence": "Event player accounts for 9–7 across Pikachu ex alone to Pikachu ex/Pawmot. Needs Pikachu plus Light Ball; Full Heal answers Jigglypuff sleep; no wins against encountered Mega Mewtwo X ex; Light Ball pressures Rabbit Jump basics."
+    },
+    {
+      "platform": "note",
+      "source_id": "nb88ac0035ae7",
+      "canonical_url": "https://note.com/katanashi_r/n/nb88ac0035ae7",
+      "created_utc": "2026-11-19T10:50:09+00:00",
+      "author": "katanashi_r",
+      "parent_thread_id": "nb88ac0035ae7",
+      "title": "ピカチュウパックしか引いてない!そんな貴方に【ポケポケ】",
+      "first_party_content_url": "https://note.com/katanashi_r/n/nb88ac0035ae7",
+      "time_method": "Original article JSON-LD datePublished (with explicit UTC offset), independently matched by visible HTML time plus official creator RSS on four initial originals",
+      "directly_opened": true,
+      "native_timestamp": "2026-11-19T19:50:09.000+09:00",
+      "within_window": true,
+      "eligible": true,
+      "body_summary": "Pikachu-pack/promo-only 20-card Pikachu ex/Pawmot event build. Runs 2 each Pikachu ex, Pawmi, Pawmo, Pawmot, Light Ball, Poké Ball, Potion, Professor’s Research and Serena’s Choice plus 1 X Speed and 1 Full Heal. Suggests Eviolite as substitute; turn-one Light Ball pressure, with Rabbit Jump, Mega Greninja and Mega Mewtwo concerns.",
+      "species": [
+        "Pikachu ex (Dual Fusion)",
+        "Pawmot (Dual Fusion)"
+      ],
+      "originality_note": "Author reports own constraints and firsthand event play; complete readable list and matchup-specific substitutions.",
+      "author_display": "katanashi_r",
+      "review_state": "first_party_original_substantive",
+      "evidence": "Pikachu-pack/promo-only 20-card Pikachu ex/Pawmot event build. Runs 2 each Pikachu ex, Pawmi, Pawmo, Pawmot, Light Ball, Poké Ball, Potion, Professor’s Research and Serena’s Choice plus 1 X Speed and 1 Full Heal. Suggests Eviolite as substitute; turn-one Light Ball pressure, with Rabbit Jump, Mega Greninja and Mega Mewtwo concerns."
+    }
+  ],
+  "rejected_by_merge": [],
+  "verification_scope": "Human first-party originality/content review precedes this structural merge; cross-account same-person identity and cross-platform syndication require affirmative evidence.",
+  "run_id": "2026-11-22-172100-pipeline-pilot",
+  "site_audit": {
+    "checked_in_current_task": true,
+    "probes": [
+      {
+        "path": "/en/deck/pokemon",
+        "status": 403,
+        "effective_url": "https://www.pokemontcgpocket.app/en/deck/pokemon",
+        "title": null,
+        "canonical": null,
+        "directory_hrefs": [],
+        "valid_archive_marker": false
+      },
+      {
+        "path": "/en/deck/pokemon?page=2",
+        "status": 403,
+        "effective_url": "https://www.pokemontcgpocket.app/en/deck/pokemon?page=2",
+        "title": null,
+        "canonical": null,
+        "directory_hrefs": [],
+        "valid_archive_marker": false
+      },
+      {
+        "path": "/en/deck/pokemon?sort=name",
+        "status": 403,
+        "effective_url": "https://www.pokemontcgpocket.app/en/deck/pokemon?sort=name",
+        "title": null,
+        "canonical": null,
+        "directory_hrefs": [],
+        "valid_archive_marker": false
+      },
+      {
+        "path": "/en/deck/pokemon?page=2&sort=name",
+        "status": 403,
+        "effective_url": "https://www.pokemontcgpocket.app/en/deck/pokemon?page=2&sort=name",
+        "title": null,
+        "canonical": null,
+        "directory_hrefs": [],
+        "valid_archive_marker": false
+      },
+      {
+        "path": "/en/deck/pokemon/malamar",
+        "status": 403,
+        "effective_url": "https://www.pokemontcgpocket.app/en/deck/pokemon/malamar",
+        "title": null,
+        "canonical": null,
+        "directory_hrefs": [],
+        "valid_archive_marker": false
+      },
+      {
+        "path": "/en/deck/pokemon/jolteon",
+        "status": 403,
+        "effective_url": "https://www.pokemontcgpocket.app/en/deck/pokemon/jolteon",
+        "title": null,
+        "canonical": null,
+        "directory_hrefs": [],
+        "valid_archive_marker": false
+      },
+      {
+        "path": "/en/deck/pokemon/alolan-exeggutor",
+        "status": 403,
+        "effective_url": "https://www.pokemontcgpocket.app/en/deck/pokemon/alolan-exeggutor",
+        "title": null,
+        "canonical": null,
+        "directory_hrefs": [],
+        "valid_archive_marker": false
+      },
+      {
+        "path": "/en/deck/pokemon/blastoise",
+        "status": 403,
+        "effective_url": "https://www.pokemontcgpocket.app/en/deck/pokemon/blastoise",
+        "title": null,
+        "canonical": null,
+        "directory_hrefs": [],
+        "valid_archive_marker": false
+      },
+      {
+        "path": "/en/deck/pokemon/paldean-clodsire",
+        "status": 403,
+        "effective_url": "https://www.pokemontcgpocket.app/en/deck/pokemon/paldean-clodsire",
+        "title": null,
+        "canonical": null,
+        "directory_hrefs": [],
+        "valid_archive_marker": false
+      },
+      {
+        "path": "/en/deck/malamar-b3-mega-sableye-ex-b3b",
+        "status": 403,
+        "effective_url": "https://www.pokemontcgpocket.app/en/deck/malamar-b3-mega-sableye-ex-b3b",
+        "title": null,
+        "canonical": null,
+        "directory_hrefs": [],
+        "valid_archive_marker": false
+      },
+      {
+        "path": "/en/deck/alolan-exeggutor-ex-c1-leafeon-ex-a2a",
+        "status": 403,
+        "effective_url": "https://www.pokemontcgpocket.app/en/deck/alolan-exeggutor-ex-c1-leafeon-ex-a2a",
+        "title": null,
+        "canonical": null,
+        "directory_hrefs": [],
+        "valid_archive_marker": false
+      },
+      {
+        "path": "/en/deck/chandelure-b2-oricorio-b4",
+        "status": 403,
+        "effective_url": "https://www.pokemontcgpocket.app/en/deck/chandelure-b2-oricorio-b4",
+        "title": null,
+        "canonical": null,
+        "directory_hrefs": [],
+        "valid_archive_marker": false
+      },
+      {
+        "path": "/en/deck/paldean-clodsire-c1",
+        "status": 403,
+        "effective_url": "https://www.pokemontcgpocket.app/en/deck/paldean-clodsire-c1",
+        "title": null,
+        "canonical": null,
+        "directory_hrefs": [],
+        "valid_archive_marker": false
+      },
+      {
+        "path": "/sitemap.xml",
+        "status": 403,
+        "effective_url": "https://www.pokemontcgpocket.app/sitemap.xml",
+        "title": null,
+        "canonical": null,
+        "directory_hrefs": [],
+        "valid_archive_marker": false
+      }
+    ],
+    "directory_hub_counts": {},
+    "observed_species_count": null,
+    "confirmed_hub_absence": false,
+    "notes": "A guessed 404 alone does not prove a sitewide absence; compare the directory and active/archived strategy pages."
+  }
+}

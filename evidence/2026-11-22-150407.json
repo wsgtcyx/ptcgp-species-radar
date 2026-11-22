@@ -1,0 +1,306 @@
+{
+  "schema_version": "1.1",
+  "run_id": "2026-11-22-150407-BJT",
+  "started_at_bjt": "2026-11-22T15:04:07+08:00",
+  "generated_at": "2026-11-22T15:06:48+08:00",
+  "window": {
+    "start": "2026-11-19T15:04:07+08:00",
+    "end": "2026-11-22T15:04:07+08:00",
+    "hours": 72,
+    "timezone": "Asia/Shanghai"
+  },
+  "method": "Reddit-only; search-result discovery plus attempted direct source verification; no X",
+  "target_coverage": 100,
+  "summary": {
+    "discovered_urls": 5,
+    "original_fetch_attempts": 4,
+    "original_fetch_successes": 0,
+    "index_only_records": 5,
+    "unique_dated_inside_72h": null,
+    "pocket_only_index_leads": 4,
+    "substantive_deck_index_leads": 2,
+    "eligible_sources": 0,
+    "distinct_eligible_parent_threads": 0,
+    "distinct_eligible_authors": 0,
+    "duplicates": 0,
+    "out_of_window_index_leads": 1,
+    "non_pocket_index_leads": 1,
+    "missing_original_timestamp": 5,
+    "failed_timestamp_smoke_tests": 4
+  },
+  "quality_gate": "failed",
+  "coverage_met": false,
+  "shortfall": 100,
+  "smoke_test": [
+    {
+      "kind": "post",
+      "url": "https://www.reddit.com/r/PTCGP/comments/1y22t44/new_chandelure_deck/",
+      "reddit_id_from_url": "t3_1y22t44",
+      "method": "web.open",
+      "http_status": null,
+      "result": "cache_miss",
+      "author": false,
+      "original_body": false,
+      "original_timestamp": false,
+      "post_id_verified_from_original": false
+    },
+    {
+      "kind": "post",
+      "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/amy_good_builds_that_combo_with_this_card/",
+      "reddit_id_from_url": "t3_1y0sfrt",
+      "method": "web.open",
+      "http_status": null,
+      "result": "cache_miss",
+      "author": false,
+      "original_body": false,
+      "original_timestamp": false,
+      "post_id_verified_from_original": false
+    },
+    {
+      "kind": "comment",
+      "url": "https://www.reddit.com/r/PTCGP/comments/1y22t44/comment/19szfoqorwqhx/",
+      "reddit_id_from_url": "t1_19szfoqorwqhx",
+      "method": "web.open",
+      "http_status": null,
+      "result": "cache_miss",
+      "author": false,
+      "original_body": false,
+      "original_timestamp": false,
+      "comment_id_verified_from_original": false
+    },
+    {
+      "kind": "comment",
+      "url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/comment/19swgf541jupx/",
+      "reddit_id_from_url": "t1_19swgf541jupx",
+      "method": "web.open",
+      "http_status": null,
+      "result": "cache_miss",
+      "author": false,
+      "original_body": false,
+      "original_timestamp": false,
+      "comment_id_verified_from_original": false
+    }
+  ],
+  "smoke_test_summary": {
+    "top_level_post_tests": 2,
+    "comment_tests": 2,
+    "success_with_original_author_body_time": 0,
+    "web_http_status": null,
+    "web_error": "cache_miss",
+    "json_endpoint_result": "cache_miss",
+    "stale_new_feed": "r/PTCGP/new page shows 3-month-old crawler snapshot (not live posts); excluded",
+    "direct_external_http_attempt": "connection_error_without_http_status",
+    "authorized_reddit_api_connection_available": false
+  },
+  "discovered_records": [
+    {
+      "reddit_id": "t3_1y22t44",
+      "kind": "post",
+      "parent_thread_id": "1y22t44",
+      "url": "https://www.reddit.com/r/PTCGP/comments/1y22t44/new_chandelure_deck/",
+      "subreddit": "r/PTCGP",
+      "author": null,
+      "created_utc": null,
+      "published_at_bjt": null,
+      "search_index_calendar_date": "2026-11-21",
+      "date_source_timezone": null,
+      "summary": "Original thread snippet describes Chandelure/Oricorio deck, discard synergy, Copycat/Hiking Trail, two-Chandelure win plan.",
+      "deck_intent": [
+        "C"
+      ],
+      "species": [
+        "Chandelure"
+      ],
+      "form": null,
+      "is_pocket": true,
+      "originality": "appears to be first-person original deck post in search index; not directly verified",
+      "verified_at": "2026-11-22T15:06:48+08:00",
+      "directly_opened": false,
+      "verification_method": "fresh Reddit search result rendered through web search, NOT direct original",
+      "record_source": "turn995889reddit29",
+      "eligible": false,
+      "exclusion_reason": "Direct post fetch cache miss; author and original creation timestamp not independently verified."
+    },
+    {
+      "reddit_id": "t3_1y1jdnd",
+      "kind": "post",
+      "parent_thread_id": "1y1jdnd",
+      "url": "https://www.reddit.com/r/PTCGPocketTrading/comments/1y1jdnd/peak_deck_build/",
+      "subreddit": "r/PTCGPocketTrading",
+      "author": null,
+      "created_utc": null,
+      "published_at_bjt": null,
+      "search_index_calendar_date": "2026-11-21",
+      "date_source_timezone": null,
+      "summary": "Index text says a deck created by a YouTuber, includes card-slot and matchup comments; core Pokémon not identifiable from text excerpt.",
+      "deck_intent": [
+        "B",
+        "C"
+      ],
+      "species": [],
+      "form": null,
+      "is_pocket": true,
+      "originality": "sharing another creator's build, not confidently original",
+      "verified_at": "2026-11-22T15:06:48+08:00",
+      "directly_opened": false,
+      "verification_method": "fresh Reddit search result, not original direct read",
+      "record_source": "turn107648reddit1",
+      "eligible": false,
+      "exclusion_reason": "No original direct read, missing independently verified author/time and card-core version, attribution refers to external creator."
+    },
+    {
+      "reddit_id": "t3_1xzb6t9",
+      "kind": "post",
+      "parent_thread_id": "1xzb6t9",
+      "url": "https://www.reddit.com/r/PTCGP/comments/1xzb6t9/this_is_the_worst_event_ive_ever_seen/",
+      "subreddit": "r/PTCGP",
+      "author": null,
+      "created_utc": null,
+      "published_at_bjt": null,
+      "search_index_calendar_date": "2026-11-18",
+      "date_source_timezone": null,
+      "summary": "Event rewards complaint; some comments mention decks but no independent verified comment permalinks for this run.",
+      "deck_intent": [],
+      "species": [],
+      "form": null,
+      "is_pocket": true,
+      "originality": null,
+      "verified_at": "2026-11-22T15:06:48+08:00",
+      "directly_opened": false,
+      "verification_method": "Reddit search result",
+      "record_source": "turn797831reddit0",
+      "eligible": false,
+      "exclusion_reason": "Original post outside the fixed 72h window and not an eligible deck-intent original."
+    },
+    {
+      "reddit_id": "t3_1y25sui",
+      "kind": "post",
+      "parent_thread_id": "1y25sui",
+      "url": "https://www.reddit.com/r/PTCGL/comments/1y25sui/is_there_a_way_to_see_which_decks_are_currently/",
+      "subreddit": "r/PTCGL",
+      "author": null,
+      "created_utc": null,
+      "published_at_bjt": null,
+      "search_index_calendar_date": "2026-11-21",
+      "date_source_timezone": null,
+      "summary": "Question about LAIC 60-card paper/Live decks, not the 20-card Pocket game.",
+      "deck_intent": [
+        "A"
+      ],
+      "species": [],
+      "form": null,
+      "is_pocket": false,
+      "originality": null,
+      "verified_at": "2026-11-22T15:06:48+08:00",
+      "directly_opened": false,
+      "verification_method": "Reddit search result",
+      "record_source": "turn107648reddit0",
+      "eligible": false,
+      "exclusion_reason": "Wrong game (physical TCG or TCG Live, not Pocket)."
+    },
+    {
+      "reddit_id": "t3_1y1vfpi",
+      "kind": "post",
+      "parent_thread_id": "1y1vfpi",
+      "url": "https://www.reddit.com/r/PTCGPocketTrading/comments/1y1vfpi/top_5_posts_nov_21_2026_rptcgpockettrading/",
+      "subreddit": "r/PTCGPocketTrading",
+      "author": null,
+      "created_utc": null,
+      "published_at_bjt": null,
+      "search_index_calendar_date": "2026-11-21",
+      "date_source_timezone": null,
+      "summary": "Auto-generated ranked-post summary; not an original user's deck question.",
+      "deck_intent": [],
+      "species": [],
+      "form": null,
+      "is_pocket": true,
+      "originality": false,
+      "verified_at": "2026-11-22T15:06:48+08:00",
+      "directly_opened": false,
+      "verification_method": "Reddit search result",
+      "record_source": "turn107648reddit2",
+      "eligible": false,
+      "exclusion_reason": "Automated summary, not original substantive deck content."
+    }
+  ],
+  "eligible_records": [],
+  "verified_reddit_ids": [],
+  "parent_thread_distribution": [],
+  "author_distribution": [],
+  "per_subreddit_eligible_counts": {},
+  "query_samples": [
+    {
+      "language": "en",
+      "platform": "Reddit",
+      "queries": [
+        "site:reddit.com/r/PTCGP/comments/ deck 2026 Nov 21 Pokémon Pocket",
+        "site:reddit.com/r/PokemonPocket/comments/ deck 2026 Nov 20 21 22",
+        "site:reddit.com/r/PokemonTCGP/comments/ deck 2026 November 2026",
+        "site:reddit.com/r/PTCGP/comments/ \"November 21, 2026\" \"deck\"",
+        "site:reddit.com/r/PTCGP/comments/ \"November 20, 2026\" \"deck\"",
+        "site:reddit.com/r/PokemonPocket/comments/ \"November 21, 2026\" \"build\""
+      ]
+    },
+    {
+      "language": "ja",
+      "platform": "Reddit",
+      "queries": [
+        "site:reddit.com/r/PTCGP/comments/ \"ポケポケ\" \"デッキ\" November 2026",
+        "site:reddit.com \"ポケポケ\" \"構築\" \"11月21日\" 2026"
+      ]
+    },
+    {
+      "language": "es",
+      "platform": "Reddit",
+      "queries": [
+        "site:reddit.com \"PTCG Pocket\" \"mazo\" \"noviembre\" 2026"
+      ]
+    },
+    {
+      "language": "pt",
+      "platform": "Reddit",
+      "queries": [
+        "site:reddit.com \"PTCGP\" \"baralho\" \"novembro\" 2026"
+      ]
+    }
+  ],
+  "site_audit": {
+    "url": "https://pokemontcgpocket.app/en/deck/pokemon",
+    "filter": "All+Name",
+    "live_root_direct_fetch": "unavailable_via_web_tool",
+    "live_name_sort_direct_fetch": "cache_miss_or_inaccessible",
+    "live_pagination_attempts": [
+      "/en/deck/pokemon",
+      "/en/deck/pokemon?sort=name",
+      "/en/deck/pokemon?page=2",
+      "/en/deck/pokemon?page=1&sort=name"
+    ],
+    "index_evidence": [
+      {
+        "url": "https://www.pokemontcgpocket.app/en/deck/pokemon",
+        "observed": "search index shows partial catalogue cards, not a full direct read",
+        "method": "web.fast search result"
+      },
+      {
+        "url": "https://www.pokemontcgpocket.app/en/deck/pokemon?page=2",
+        "observed": "search index shows Page 2 of 2 and Bewear ex",
+        "method": "web.fast search result"
+      }
+    ],
+    "pages_directly_verified": 0,
+    "last_page_directly_verified": null,
+    "observed_species_count": null,
+    "missing_pages": null,
+    "exclusion_complete": false,
+    "species_confirmed_absent": [],
+    "exclusion_rule": "Exclude any basic species with an existing species page including all ex/Mega forms; additionally exclude Rayquaza.",
+    "conclusion": "Cannot certify any 'missing' species because entire live All+Name directory was not traversed."
+  },
+  "coverage_notes": [
+    "New/rising/hot Reddit feeds not exhaustively scanned; /new available page is stale cached content.",
+    "No authorized Reddit API source is available; no original timestamps from HTTP or direct page could be read.",
+    "Indexed calendar dates do not verify created_utc and cannot be counted.",
+    "All website directory pages remain unverified via direct navigation.",
+    "No prior-run evidence reused as new evidence."
+  ]
+}

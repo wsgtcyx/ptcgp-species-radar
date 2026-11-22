@@ -1,0 +1,240 @@
+{
+  "schema_version": "1.1",
+  "run_id": "2026-11-22-153002-iteration1",
+  "generated_at": "2026-11-22T15:34:45+08:00",
+  "report_date": "2026-11-22",
+  "window": {
+    "start": "2026-11-19T15:30:02+08:00",
+    "end": "2026-11-22T15:30:02+08:00",
+    "hours": 72
+  },
+  "site_audit": {
+    "url": "https://pokemontcgpocket.app/en/deck/pokemon",
+    "order": "All + Name",
+    "pages_directly_opened": 2,
+    "page_count_reported": 2,
+    "terminal_page_verified": true,
+    "page_1_count": 40,
+    "page_2_count": 2,
+    "species_base_count": 42,
+    "species": [
+      "absol",
+      "altaria",
+      "azumarill",
+      "baxcalibur",
+      "bewear",
+      "blaziken",
+      "carbink",
+      "charizard",
+      "chien-pao",
+      "darkrai",
+      "diancie",
+      "dragonair",
+      "dragonite",
+      "entei",
+      "fuecoco",
+      "garchomp",
+      "gardevoir",
+      "gengar",
+      "giratina",
+      "greninja",
+      "hoopa",
+      "hydreigon",
+      "igglybuff",
+      "lucario",
+      "magnezone",
+      "manectric",
+      "mawile",
+      "skarmory",
+      "mew",
+      "mewtwo",
+      "miraidon",
+      "oricorio",
+      "pawmot",
+      "pikachu",
+      "ribombee",
+      "sceptile",
+      "sharpedo",
+      "suicune",
+      "tyranitar",
+      "umbreon",
+      "venusaur",
+      "vespiquen"
+    ],
+    "excluded_extra": "Rayquaza",
+    "all_name_pagination_verified": true,
+    "alternate_sort": "Default/popular 2 pages direct HTTP 200, same 42 species",
+    "sitemap_check": "not independently fetched",
+    "single_deck_detail_not_equivalent_to_species_page": true
+  },
+  "source_coverage": {
+    "only_reddit": false,
+    "platform_distribution": {
+      "pocketmads": 1,
+      "reddit": 0,
+      "x": 0,
+      "youtube": 0,
+      "bluesky": 0,
+      "threads": 0,
+      "tiktok": 0,
+      "bilibili": 0
+    },
+    "platform_statuses": {
+      "reddit": {
+        "attempted_original_urls": 4,
+        "opened": 0,
+        "failures": 4
+      },
+      "bluesky": {
+        "actor_feeds": 2,
+        "http200": 2,
+        "records_dated_inside_window": 13,
+        "valid": 0
+      },
+      "pocketmads": {
+        "homepage_http200": 1,
+        "individual_original_http200": 1,
+        "within_window_eligible": 1,
+        "out_of_window_feed_post": 1
+      },
+      "x": {
+        "searched": true,
+        "originals_read": 0
+      },
+      "youtube": {
+        "searched": true,
+        "originals_read": 0
+      },
+      "other": {
+        "searched": false
+      }
+    },
+    "source_diversity_insufficient": true,
+    "author_cross_platform_dedup": "not applicable; only 1 eligible author"
+  },
+  "candidates": [],
+  "watchlist": [
+    {
+      "species": "Malamar",
+      "species_zh": "乌贼王",
+      "species_ja": "カラマネロ",
+      "form": "normal Malamar; exact expansion/card number not verified",
+      "status": "C_observation_only_insufficient_sample",
+      "candidate_eligible": false,
+      "evidence_links": [
+        "https://app.pocketmads.com/feed/c0575dfc-71e3-41bb-89f4-14eefdc0bc7e"
+      ],
+      "evidence_source_ids": [
+        "c0575dfc-71e3-41bb-89f4-14eefdc0bc7e"
+      ],
+      "reddit_verified_authors": 0,
+      "bluesky_verified_authors": 0,
+      "pocketmads_verified_authors": 1,
+      "other_verified_authors": 0,
+      "independent_parent_threads": 1,
+      "valid_source_count": 1,
+      "time_buckets": {
+        "0-24h": 0,
+        "24-48h": 1,
+        "48-72h": 0
+      },
+      "original_post_count": 1,
+      "valid_comment_count": 0,
+      "deck_intent": [
+        "B_partner_energy",
+        "C_published_deck_list"
+      ],
+      "primary_role": "Malamar as repeatable 100-damage attacker with one energy; Meowstic confusion engine, Mega Mewtwo X ex finisher",
+      "site_check": {
+        "all_name_pages_verified": 2,
+        "base_species_count": 42,
+        "is_missing_species_directory": true,
+        "site_single_deck_deduplication": "not fully confirmed"
+      },
+      "independent_page_value": "Potential Malamar/Meowstic confusion-based deck with tactics, list and variants; requires 2nd independently authored discussion and differentiation from Mewtwo pages",
+      "what_to_verify_next": "Find 2+ independent authentic players across 2 parent posts, verify Malamar variant/card ID, compare against any existing Malamar solo deck pages",
+      "growth_rate": null
+    }
+  ],
+  "audit": {
+    "iteration": 1,
+    "run_id": "2026-11-22-153002-iteration1",
+    "quality_gate": "failed",
+    "coverage_met": false,
+    "coverage_goal": 100,
+    "eligible_sources": 1,
+    "shortfall": 99,
+    "source_diversity_insufficient": true,
+    "strict_source_posts": 1,
+    "strict_source_comments": 0,
+    "source_funnel": {
+      "discovered_original_urls": 19,
+      "reviewed_unique_urls": 18,
+      "directly_fetched_original_records": 14,
+      "timestamp_verified_within_72h": 14,
+      "pocket_deck_intent_verified": 1,
+      "strictly_eligible_count": 1,
+      "duplicates_verified": 0,
+      "out_of_window": 1,
+      "no_substantive_deck_discussion": 13,
+      "original_unavailable": 4,
+      "unknown_author_or_time": 4
+    },
+    "per_platform_eligible": {
+      "pocketmads": 1,
+      "reddit": 0,
+      "x": 0,
+      "youtube": 0,
+      "bluesky": 0,
+      "threads": 0,
+      "tiktok": 0,
+      "bilibili": 0
+    },
+    "evidence_artifact": "evidence/2026-11-22-153002-iteration1.json",
+    "raw_probe_artifact": "evidence/2026-11-22-153002-iteration1-live-probe.json"
+  },
+  "reporting": {
+    "iteration": 1,
+    "run_id": "2026-11-22-153002-iteration1",
+    "strict_eligible_count": 1,
+    "source_goal": 100,
+    "coverage_met": false,
+    "quality_gate": "failed",
+    "shortfall": 99,
+    "reviewed_unique_urls": 18,
+    "verified_parent_thread_count": 1,
+    "verified_unique_authors": 1,
+    "qualified_count": 0,
+    "target_count": 5,
+    "shortfall_count": 5,
+    "watchlist_count": 1,
+    "source_diversity_insufficient": true,
+    "per_platform": {
+      "pocketmads": 1,
+      "reddit": 0,
+      "x": 0,
+      "youtube": 0,
+      "bluesky": 0,
+      "threads": 0,
+      "tiktok": 0,
+      "bilibili": 0
+    },
+    "history_path": "history/2026-11-22-153002-iteration1.json",
+    "evidence_path": "evidence/2026-11-22-153002-iteration1.json",
+    "raw_probe_path": "evidence/2026-11-22-153002-iteration1-live-probe.json"
+  },
+  "summary": "Iteration 1: 1/100 strictly verified live original (PocketMads Malamar deck); 14 original records read from official/public sources, 4 Reddit original URLs failed. All+Name species 42 across two pages, Malamar missing. No qualified candidate 0/5.",
+  "publication": {
+    "status": "pending",
+    "commit_written": false,
+    "repository_readback_verified": false,
+    "pages_deploy_verified": false,
+    "public_json_verified": false,
+    "repository": "wsgtcyx/ptcgp-species-radar",
+    "branch": "main",
+    "public_url": "https://wsgtcyx.github.io/ptcgp-species-radar/",
+    "json_url": "https://wsgtcyx.github.io/ptcgp-species-radar/latest.json",
+    "raw_json_url": "https://raw.githubusercontent.com/wsgtcyx/ptcgp-species-radar/main/latest.json",
+    "note": "Verify actual commit/run outside JSON; this pre-publish snapshot never self-certifies success."
+  }
+}

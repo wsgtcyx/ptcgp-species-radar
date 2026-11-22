@@ -2,6 +2,14 @@
 
 A static, agent-readable audit of Pokémon TCG Pocket deck/species-page opportunities. Trial research cutoff: 2026-11-21 17:32:57 China Standard Time.
 
+## Coverage standard (effective 2026-11-22)
+
+**Do not treat a five-species shortlist as evidence of a comprehensive scan.** The scheduled research task now aims to verify at least **100 distinct original 72-hour sources** across Reddit and X before treating its research coverage as sufficient. A distinct source requires a canonical original post permalink or a direct comment permalink, independently checked for Pokémon TCG Pocket context, author, publication date and deck-building intent. Repeated links, the same top-level thread, copies, index snippets and undated search hits do **not** count as distinct verified sources.
+
+Reports must disclose a source funnel: unique discovered URLs, actually opened unique URLs, verified 72-hour source URLs, deck-intent source URLs, independent top-level discussion threads, unique author identities, source access gaps, and species-list pagination coverage. The machine-readable `latest.json` must set `audit.coverage_goal=100`, `audit.coverage_met=false` if this threshold was not achieved, and disclose true counts or null when unavailable. It must never fake 100/100. Positive "trending" claims additionally require comparable previous-window evidence.
+
+**2026-11-22 quality correction:** The initially published five-species shortlist is preliminary: just **2 distinct Reddit top-level discussion URLs** and **11 substantive comments** were recorded in the run, with **0 directly verified X originals**. This is insufficient to support the original broad-coverage claim. Distinct species in one thread are not multiple independent source threads. Do not interpret these five candidates as five proven rising trends, and keep the audit flags when consuming the JSON.
+
 ## Data entry points
 
 - `latest.json` — machine-readable latest result; use this when querying as an AI agent.
@@ -17,7 +25,7 @@ Schema: `status=partial_verified` means some source coverage is incomplete; `nul
 2. Go to repository `Settings` → `Pages` → `Build and deployment`, choose `Deploy from a branch`, branch `main`, folder `/ (root)`, then Save.
 3. After GitHub confirms deployment, the public URLs are normally `https://<owner>.github.io/<repo>/` and `https://<owner>.github.io/<repo>/latest.json`. Verify them before passing to agents.
 
-The public GitHub repository exists, but GitHub Pages hosting has not been enabled or verified. The connected GitHub app has file-writing APIs but no create-repository or Pages-settings operation. A separate authorized deployment integration is needed for automated daily publication; ChatGPT automation currently only runs the research.
+GitHub Pages deployment has been enabled; the GitHub Actions pages build and deployment workflow has succeeded. The automation now attempts GitHub writeback on each run, but a successful deploy for a specific new report must be checked against that report's commit SHA; direct public HTTP verification may still be unavailable.
 
 ## Source policy
 

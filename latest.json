@@ -1,229 +1,292 @@
 {
   "schema_version": "1.1",
-  "run_id": "2026-11-22-153002-iteration1",
-  "generated_at": "2026-11-22T15:34:45+08:00",
+  "run_id": "2026-11-22-154216-iteration2",
+  "generated_at": "2026-11-22T15:48:51+08:00",
   "report_date": "2026-11-22",
   "window": {
-    "start": "2026-11-19T15:30:02+08:00",
-    "end": "2026-11-22T15:30:02+08:00",
-    "hours": 72
+    "hours": 72,
+    "start": "2026-11-19T15:42:16+08:00",
+    "end": "2026-11-22T15:42:16+08:00",
+    "timezone": "Asia/Shanghai"
   },
+  "summary": "Iteration 2/5: 3/100 strict original deck sources (Bluesky 2, PocketMads 1; Reddit 3 substantive sources held out due unanchored relative time), 3 independent original discussion posts, 2 public author accounts. Quality gate failed; 97 source gap and 5 candidate gap. Japanese YouTube original video validation failed despite HTTP 200 on watch shells.",
   "site_audit": {
-    "url": "https://pokemontcgpocket.app/en/deck/pokemon",
-    "order": "All + Name",
-    "pages_directly_opened": 2,
-    "page_count_reported": 2,
-    "terminal_page_verified": true,
-    "page_1_count": 40,
-    "page_2_count": 2,
-    "species_base_count": 42,
-    "species": [
-      "absol",
-      "altaria",
-      "azumarill",
-      "baxcalibur",
-      "bewear",
-      "blaziken",
-      "carbink",
-      "charizard",
-      "chien-pao",
-      "darkrai",
-      "diancie",
-      "dragonair",
-      "dragonite",
-      "entei",
-      "fuecoco",
-      "garchomp",
-      "gardevoir",
-      "gengar",
-      "giratina",
-      "greninja",
-      "hoopa",
-      "hydreigon",
-      "igglybuff",
-      "lucario",
-      "magnezone",
-      "manectric",
-      "mawile",
-      "skarmory",
-      "mew",
-      "mewtwo",
-      "miraidon",
-      "oricorio",
-      "pawmot",
-      "pikachu",
-      "ribombee",
-      "sceptile",
-      "sharpedo",
-      "suicune",
-      "tyranitar",
-      "umbreon",
-      "venusaur",
-      "vespiquen"
+    "date": "2026-11-22",
+    "visited_original_site_pages": 4,
+    "successful_http_200": 4,
+    "default_sort_pages": [
+      "https://pokemontcgpocket.app/en/deck/pokemon",
+      "https://www.pokemontcgpocket.app/en/deck/pokemon?page=2"
     ],
-    "excluded_extra": "Rayquaza",
-    "all_name_pagination_verified": true,
-    "alternate_sort": "Default/popular 2 pages direct HTTP 200, same 42 species",
-    "sitemap_check": "not independently fetched",
-    "single_deck_detail_not_equivalent_to_species_page": true
+    "name_sort_pages": [
+      "https://www.pokemontcgpocket.app/en/deck/pokemon?sort=name",
+      "https://www.pokemontcgpocket.app/en/deck/pokemon?sort=name&page=2"
+    ],
+    "actual_last_page": 2,
+    "page_1_items": 40,
+    "page_2_items": 2,
+    "unique_base_species": 42,
+    "last_page_default": [
+      "Oricorio",
+      "Bewear"
+    ],
+    "last_page_name": [
+      "Venusaur",
+      "Vespiquen"
+    ],
+    "duplicate_check": "Two sorts show the same 42-item base-species directory; first page only partially preserved in probe excerpt but previous count and last-page page2 count support 42. Full sitemap not audited.",
+    "confirmed_absent_by_normalized_name": [
+      "Malamar",
+      "Alolan Exeggutor",
+      "Paldean Clodsire",
+      "Chandelure"
+    ],
+    "excluded_existing": [
+      "Venusaur",
+      "Mewtwo",
+      "Pikachu"
+    ],
+    "extra_excluded": [
+      "Rayquaza"
+    ],
+    "category_verified": "all plus name",
+    "sitemap_reviewed": false,
+    "individual_deck_overlap_reviewed": false,
+    "http_provenance": "evidence/2026-11-22-154216-iteration2-live-probe.json"
   },
   "source_coverage": {
-    "only_reddit": false,
-    "platform_distribution": {
-      "pocketmads": 1,
-      "reddit": 0,
-      "x": 0,
-      "youtube": 0,
-      "bluesky": 0,
-      "threads": 0,
-      "tiktok": 0,
-      "bilibili": 0
-    },
-    "platform_statuses": {
+    "by_platform": {
       "reddit": {
-        "attempted_original_urls": 4,
-        "opened": 0,
-        "failures": 4
+        "strict": 0,
+        "direct_substantive_read": 3,
+        "reason": "time_only_relative_unanchored",
+        "status": "partial_readable"
       },
       "bluesky": {
-        "actor_feeds": 2,
-        "http200": 2,
-        "records_dated_inside_window": 13,
-        "valid": 0
+        "strict": 2,
+        "original_records_read": 15,
+        "first_party_feed_statuses": [
+          200,
+          200,
+          200,
+          200
+        ],
+        "status": "official_original_record_verified"
       },
       "pocketmads": {
-        "homepage_http200": 1,
-        "individual_original_http200": 1,
-        "within_window_eligible": 1,
-        "out_of_window_feed_post": 1
-      },
-      "x": {
-        "searched": true,
-        "originals_read": 0
+        "strict": 1,
+        "original_posts_read": 1,
+        "status": "200_with_exact_datetime_and_20_card_list"
       },
       "youtube": {
-        "searched": true,
-        "originals_read": 0
+        "strict": 0,
+        "original_watch_get_attempts": 8,
+        "http_200_generic_pages": 8,
+        "reason": "generic watch responses give no independently viewable video content, author, timestamp, deck description",
+        "rss_fetch_status": 200
       },
-      "other": {
-        "searched": false
+      "x": {
+        "strict": 0,
+        "original_posts_read": 0,
+        "status": "no_verifiable_original_post"
       }
     },
-    "source_diversity_insufficient": true,
-    "author_cross_platform_dedup": "not applicable; only 1 eligible author"
+    "counts_sum": 3,
+    "by_time_slice": {
+      "0-24h": 2,
+      "24-48h": 1,
+      "48-72h": 0
+    },
+    "cross_platform_proven_same_content_duplicates": 0,
+    "source_diversity_insufficient": true
   },
   "candidates": [],
   "watchlist": [
     {
       "species": "Malamar",
-      "species_zh": "乌贼王",
-      "species_ja": "カラマネロ",
-      "form": "normal Malamar; exact expansion/card number not verified",
-      "status": "C_observation_only_insufficient_sample",
-      "candidate_eligible": false,
-      "evidence_links": [
-        "https://app.pocketmads.com/feed/c0575dfc-71e3-41bb-89f4-14eefdc0bc7e"
-      ],
-      "evidence_source_ids": [
+      "name_zh": "乌贼王",
+      "name_ja": "カラマネロ",
+      "tier": "C_observation",
+      "priority": 1,
+      "source_ids": [
         "c0575dfc-71e3-41bb-89f4-14eefdc0bc7e"
       ],
-      "reddit_verified_authors": 0,
-      "bluesky_verified_authors": 0,
-      "pocketmads_verified_authors": 1,
-      "other_verified_authors": 0,
-      "independent_parent_threads": 1,
-      "valid_source_count": 1,
-      "time_buckets": {
-        "0-24h": 0,
-        "24-48h": 1,
-        "48-72h": 0
-      },
-      "original_post_count": 1,
-      "valid_comment_count": 0,
-      "deck_intent": [
-        "B_partner_energy",
-        "C_published_deck_list"
+      "verified_authors": 1,
+      "verified_parent_threads": 1,
+      "platforms": [
+        "pocketmads"
       ],
-      "primary_role": "Malamar as repeatable 100-damage attacker with one energy; Meowstic confusion engine, Mega Mewtwo X ex finisher",
-      "site_check": {
-        "all_name_pages_verified": 2,
-        "base_species_count": 42,
-        "is_missing_species_directory": true,
-        "site_single_deck_deduplication": "not fully confirmed"
-      },
-      "independent_page_value": "Potential Malamar/Meowstic confusion-based deck with tactics, list and variants; requires 2nd independently authored discussion and differentiation from Mewtwo pages",
-      "what_to_verify_next": "Find 2+ independent authentic players across 2 parent posts, verify Malamar variant/card ID, compare against any existing Malamar solo deck pages",
-      "growth_rate": null
+      "known_form": "Malamar (card ID not established)",
+      "partner": "Meowstic / Mega Mewtwo X ex",
+      "site_species_page_missing": true,
+      "site_pages_verified": 2,
+      "independent_deck_role": "main_attacker_proposed",
+      "why_watch": "20-card list and gameplay are independently readable; only one player and one thread; overlap with Mega Mewtwo X needs checking",
+      "keywords": [
+        "Malamar deck Pocket",
+        "Malamar Meowstic deck"
+      ],
+      "potential_page": "Compare Malamar confusion setups and energy budget rather than duplicate Mewtwo page",
+      "qualified": false
+    },
+    {
+      "species": "Alolan Exeggutor",
+      "name_zh": "阿罗拉椰蛋树",
+      "name_ja": "アローラナッシー",
+      "tier": "C_observation",
+      "priority": 2,
+      "source_ids": [
+        "at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tt2z6glc2f"
+      ],
+      "verified_authors": 1,
+      "verified_parent_threads": 1,
+      "platforms": [
+        "bluesky"
+      ],
+      "known_form": "Alolan Exeggutor in Dual Fusion, exact card ID unverified",
+      "partner": "Mega Venusaur (already on site)",
+      "site_species_page_missing": true,
+      "site_pages_verified": 2,
+      "independent_deck_role": "unverified",
+      "why_watch": "42 matches, 18 wins/24 losses and user-made modifications; copied original list; the independent role of Exeggutor needs confirmation",
+      "keywords": [
+        "Alolan Exeggutor deck Pocket",
+        "アローラナッシー デッキ ポケポケ"
+      ],
+      "potential_page": "If proven a separate engine, detail egg energy acceleration and Mega Venusaur vs Umbreon matchup",
+      "qualified": false
+    },
+    {
+      "species": "Paldean Clodsire",
+      "name_zh": "帕底亚土王",
+      "name_ja": "ドオー (パルデア)",
+      "tier": "C_observation",
+      "priority": 3,
+      "source_ids": [
+        "at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tsrz7jms2f"
+      ],
+      "verified_authors": 1,
+      "verified_parent_threads": 1,
+      "platforms": [
+        "bluesky"
+      ],
+      "known_form": "Paldean Clodsire, exact card ID unverified",
+      "partner": "Lycanroc",
+      "site_species_page_missing": true,
+      "site_pages_verified": 2,
+      "independent_deck_role": "unverified_shared_axis",
+      "why_watch": "17 real matches with 9 wins/8 losses and detailed favorable/unfavorable opponents, but borrowed deck and not enough independent main-axis proof; do not create separate Lycanroc opportunity on same evidence",
+      "keywords": [
+        "Paldean Clodsire Lycanroc deck",
+        "ルガルガン ドオー ポケポケ"
+      ],
+      "potential_page": "Only if new independent builds emerge, answer Clodsire/Lycanroc optimal pairing and limited battle matchup",
+      "qualified": false
+    },
+    {
+      "species": "Chandelure",
+      "name_zh": "水晶灯火灵",
+      "name_ja": "シャンデラ",
+      "tier": "C_time_unverified",
+      "priority": 4,
+      "source_ids": [
+        "t3_1y22t44",
+        "t1_19szfoqorwqhx",
+        "t1_19szgu601axi8"
+      ],
+      "verified_authors": 0,
+      "content_level_authors": 3,
+      "verified_parent_threads": 0,
+      "content_level_parent_threads": 1,
+      "platforms": [
+        "reddit"
+      ],
+      "known_form": "Chandelure + Oricorio, card number unverified",
+      "site_species_page_missing": true,
+      "site_pages_verified": 2,
+      "independent_deck_role": "yes_by_content_but_time_unverified",
+      "why_watch": "Original post plus two separate substantive comments were directly read, but relative timestamps were not anchored to reliable crawl moment; cannot count in strict sample",
+      "keywords": [
+        "Chandelure Oricorio deck Pocket",
+        "Chandelure Meloetta deck"
+      ],
+      "potential_page": "Compare fast Oricorio discard variant vs Meloetta supporter variant",
+      "qualified": false
     }
   ],
-  "audit": {
-    "iteration": 1,
-    "run_id": "2026-11-22-153002-iteration1",
-    "quality_gate": "failed",
-    "coverage_met": false,
-    "coverage_goal": 100,
-    "eligible_sources": 1,
-    "shortfall": 99,
-    "source_diversity_insufficient": true,
-    "strict_source_posts": 1,
-    "strict_source_comments": 0,
-    "source_funnel": {
-      "discovered_original_urls": 19,
-      "reviewed_unique_urls": 18,
-      "directly_fetched_original_records": 14,
-      "timestamp_verified_within_72h": 14,
-      "pocket_deck_intent_verified": 1,
-      "strictly_eligible_count": 1,
-      "duplicates_verified": 0,
-      "out_of_window": 1,
-      "no_substantive_deck_discussion": 13,
-      "original_unavailable": 4,
-      "unknown_author_or_time": 4
-    },
-    "per_platform_eligible": {
-      "pocketmads": 1,
-      "reddit": 0,
-      "x": 0,
-      "youtube": 0,
-      "bluesky": 0,
-      "threads": 0,
-      "tiktok": 0,
-      "bilibili": 0
-    },
-    "evidence_artifact": "evidence/2026-11-22-153002-iteration1.json",
-    "raw_probe_artifact": "evidence/2026-11-22-153002-iteration1-live-probe.json"
-  },
   "reporting": {
-    "iteration": 1,
-    "run_id": "2026-11-22-153002-iteration1",
-    "strict_eligible_count": 1,
+    "strict_eligible_count": 3,
     "source_goal": 100,
     "coverage_met": false,
     "quality_gate": "failed",
-    "shortfall": 99,
-    "reviewed_unique_urls": 18,
-    "verified_parent_thread_count": 1,
-    "verified_unique_authors": 1,
+    "shortfall": 97,
+    "reviewed_unique_urls": 28,
+    "verified_parent_thread_count": 3,
+    "verified_unique_authors": 2,
     "qualified_count": 0,
     "target_count": 5,
     "shortfall_count": 5,
-    "watchlist_count": 1,
+    "watchlist_count": 4,
+    "iteration": 2,
+    "evidence_path": "evidence/2026-11-22-154216-iteration2.json",
+    "raw_probe_path": "evidence/2026-11-22-154216-iteration2-live-probe.json",
+    "history_path": "history/2026-11-22-154216-iteration2.json",
+    "strict_source_ids": [
+      "at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tt2z6glc2f",
+      "at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tsrz7jms2f",
+      "c0575dfc-71e3-41bb-89f4-14eefdc0bc7e"
+    ],
+    "cross_platform_distinct_persons": null,
+    "source_diversity_insufficient": true
+  },
+  "audit": {
+    "iteration": 2,
+    "run_id": "2026-11-22-154216-iteration2",
+    "coverage_goal": 100,
+    "coverage_met": false,
+    "quality_gate": "failed",
+    "eligible_sources": 3,
+    "shortfall": 97,
+    "distinct_parent_threads": 3,
+    "distinct_author_accounts": 2,
+    "source_funnel": {
+      "original_records_with_readable_content": 20,
+      "first_party_bluesky_window_records": 15,
+      "pocketmads_original_with_exact_time": 1,
+      "reddit_substantive_direct_read_but_unanchored": 3,
+      "reddit_other_outside_or_ambiguous": 1,
+      "youtube_generic_watch_gets": 8,
+      "reviewed_unique_urls": 28,
+      "eligible": 3,
+      "duplicates_proven": 0,
+      "reddit_failures_on_other_old_links": 3
+    },
     "source_diversity_insufficient": true,
-    "per_platform": {
+    "evidence_path": "evidence/2026-11-22-154216-iteration2.json",
+    "discovery_and_channel_probe": "evidence/2026-11-22-154216-iteration2-live-probe.json",
+    "site_audit_complete": true,
+    "cutoff_note": "Web Reddit pages expose relative times with only 'Crawled today' and no exact crawl instant; these are NOT counted, even though the deck content is readable. YouTube HTTP 200 from runner returned generic '- YouTube' shells with no upload date, creator or transcript.",
+    "social_sources_in_scope": [
+      "Reddit",
+      "Bluesky",
+      "PocketMads",
+      "YouTube",
+      "X"
+    ],
+    "query_samples": [
+      "ポケポケ デッキ 対戦 2026 11 22",
+      "PTCG Pocket deck November 21 2026",
+      "site:bsky.app/profile/ ポケポケ デッキ",
+      "site:youtube.com/watch ポケポケ デッキ 2026年11月22日"
+    ],
+    "venue_counts": {
+      "bluesky": 2,
       "pocketmads": 1,
       "reddit": 0,
-      "x": 0,
       "youtube": 0,
-      "bluesky": 0,
-      "threads": 0,
-      "tiktok": 0,
-      "bilibili": 0
-    },
-    "history_path": "history/2026-11-22-153002-iteration1.json",
-    "evidence_path": "evidence/2026-11-22-153002-iteration1.json",
-    "raw_probe_path": "evidence/2026-11-22-153002-iteration1-live-probe.json"
+      "x": 0
+    }
   },
-  "summary": "Iteration 1: 1/100 strictly verified live original (PocketMads Malamar deck); 14 original records read from official/public sources, 4 Reddit original URLs failed. All+Name species 42 across two pages, Malamar missing. No qualified candidate 0/5.",
   "publication": {
     "status": "pending",
     "commit_written": false,
@@ -232,9 +295,10 @@
     "public_json_verified": false,
     "repository": "wsgtcyx/ptcgp-species-radar",
     "branch": "main",
-    "public_url": "https://wsgtcyx.github.io/ptcgp-species-radar/",
+    "base_sha_before_report": "40e7269447b253ef9759a1da3c8afebd58f62457",
+    "homepage": "https://wsgtcyx.github.io/ptcgp-species-radar/",
     "json_url": "https://wsgtcyx.github.io/ptcgp-species-radar/latest.json",
     "raw_json_url": "https://raw.githubusercontent.com/wsgtcyx/ptcgp-species-radar/main/latest.json",
-    "note": "Verify actual commit/run outside JSON; this pre-publish snapshot never self-certifies success."
+    "note": "This pre-publish report cannot certify its own deployment. Final verification is reported externally against the exact final SHA."
   }
 }

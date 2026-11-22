@@ -1,439 +1,249 @@
 {
   "schema_version": "1.1",
-  "run_id": "2026-11-22-160310-iteration3",
-  "generated_at": "2026-11-22T16:10:49.586+08:00",
+  "run_id": "2026-11-22-161536-iteration4",
   "report_date": "2026-11-22",
+  "generated_at": "2026-11-22T16:19:47+08:00",
   "window": {
     "hours": 72,
-    "start": "2026-11-19T16:03:10+08:00",
-    "end": "2026-11-22T16:03:10+08:00",
+    "start": "2026-11-19T16:15:36+08:00",
+    "end": "2026-11-22T16:15:36+08:00",
     "timezone": "Asia/Shanghai"
   },
-  "summary": "Iteration 3: 4 strictly verified original player contributions (3 Bluesky,1 PocketMads), 2 distinct public author identities, 3 independent top-level clusters. All 4 site species directory pages across two sorts direct-read; 42 names. No eligible build-page candidates (100-source gate failed). Image originals for the player-built deck and gameplay were manually inspected.",
+  "summary": "Iteration 4 verified five in-window originals from three first-party platform accounts (YouTube 1 creator-provided full RSS deck narration, Bluesky 3, PocketMads 1). Four independent discussion clusters. Source gate 5/100 failed; no qualified species pages; four observational opportunities only.",
   "site_audit": {
-    "date": "2026-11-22",
-    "verified_at": "2026-11-22T08:05:56.860255+00:00",
-    "all_name_pages_read": 2,
-    "default_pages_read": 2,
-    "visited_original_site_pages": 4,
-    "successful_http_200": 4,
-    "actual_last_page": 2,
-    "page_1_items": 40,
-    "page_2_items": 2,
-    "unique_base_species": 42,
-    "name_sort_matches_default": true,
-    "species_slugs": [
-      "absol",
-      "altaria",
-      "azumarill",
-      "baxcalibur",
-      "bewear",
-      "blaziken",
-      "carbink",
-      "charizard",
-      "chien-pao",
-      "darkrai",
-      "diancie",
-      "dragonair",
-      "dragonite",
-      "entei",
-      "fuecoco",
-      "garchomp",
-      "gardevoir",
-      "gengar",
-      "giratina",
-      "greninja",
-      "hoopa",
-      "hydreigon",
-      "igglybuff",
-      "lucario",
-      "magnezone",
-      "manectric",
-      "mawile",
-      "skarmory",
-      "mew",
-      "mewtwo",
-      "miraidon",
-      "oricorio",
-      "pawmot",
-      "pikachu",
-      "ribombee",
-      "sceptile",
-      "sharpedo",
-      "suicune",
-      "tyranitar",
-      "umbreon",
-      "venusaur",
-      "vespiquen"
+    "url": "https://www.pokemontcgpocket.app/en/deck/pokemon",
+    "web_name_sort_page1_visible": 40,
+    "web_name_sort_page2_visible": 1,
+    "web_name_sort_last_page": "2 of 2",
+    "web_name_sort_readable_pages": 2,
+    "web_default_sort_page1_readable": true,
+    "web_default_sort_page2_readable": false,
+    "github_actions_live_http_200_pages": 4,
+    "github_actions_pages_with_parseable_species_links": 0,
+    "complete_all_sort_verification": false,
+    "explanation": "Page 1 and Page 2 of Name sort can be read via indexed page snapshots; GitHub Actions GET returned 200 for all four URLs but parseable species listings were absent, so it does not prove complete live traversal",
+    "confirmed_hub_absence": false,
+    "observed_41_name_entries_only": true,
+    "existing_strategy_urls": [
+      {
+        "species": "Chandelure",
+        "url": "https://www.pokemontcgpocket.app/en/deck/chandelure-b2-oricorio-b4",
+        "http_status": 200,
+        "title": "Chandelure Oricorio Deck List · Archive | TCG Pocket"
+      },
+      {
+        "species": "Paldean Clodsire",
+        "url": "https://www.pokemontcgpocket.app/en/deck/paldean-clodsire-c1",
+        "http_status": 200,
+        "title": "Paldean Clodsire Fighting Deck List | TCG Pocket"
+      },
+      {
+        "species": "Malamar",
+        "url": "https://www.pokemontcgpocket.app/en/deck/malamar-b3-mega-sableye-ex-b3b",
+        "http_status": 200,
+        "title": "Malamar Mega Sableye ex Deck List · Archive | TCG Pocket"
+      },
+      {
+        "species": "Blastoise",
+        "url": "https://www.pokemontcgpocket.app/en/deck/blastoise-c1-araquanid-b4",
+        "http_status": 200,
+        "title": "Blastoise Araquanid Deck List | TCG Pocket"
+      },
+      {
+        "species": "Alolan Exeggutor",
+        "url": "https://www.pokemontcgpocket.app/en/deck/alolan-exeggutor-ex-c1",
+        "http_status": 200,
+        "title": "Alolan Exeggutor ex Deck List · Archive | TCG Pocket"
+      }
     ],
-    "confirmed_absent_by_normalized_name": [
-      "malamar",
-      "alolan-exeggutor",
-      "paldean-clodsire",
-      "blastoise"
-    ],
-    "excluded_existing": [
-      "absol",
-      "altaria",
-      "azumarill",
-      "baxcalibur",
-      "bewear",
-      "blaziken",
-      "carbink",
-      "charizard",
-      "chien-pao",
-      "darkrai",
-      "diancie",
-      "dragonair",
-      "dragonite",
-      "entei",
-      "fuecoco",
-      "garchomp",
-      "gardevoir",
-      "gengar",
-      "giratina",
-      "greninja",
-      "hoopa",
-      "hydreigon",
-      "igglybuff",
-      "lucario",
-      "magnezone",
-      "manectric",
-      "mawile",
-      "skarmory",
-      "mew",
-      "mewtwo",
-      "miraidon",
-      "oricorio",
-      "pawmot",
-      "pikachu",
-      "ribombee",
-      "sceptile",
-      "sharpedo",
-      "suicune",
-      "tyranitar",
-      "umbreon",
-      "venusaur",
-      "vespiquen"
-    ],
-    "extra_excluded": [
-      "rayquaza"
-    ],
-    "sitemap_root_http_status": 200,
-    "sitemap_child_xml_complete": false,
-    "individual_deck_overlap_reviewed": false,
-    "notes": "Live first-party GitHub Actions HTTP 200 HTML reads; all+name 40+2 items, default order 40+2 and identical 42 base names. Existing card pages distinct from species hub. Cross-link duplicate-content analysis not complete."
+    "excluded_species": [
+      "Rayquaza",
+      "Pikachu (existing name directory)",
+      "Mewtwo (existing name directory)"
+    ]
   },
   "source_coverage": {
-    "platform_eligible_counts": {
-      "bluesky": 3,
+    "per_platform_eligible": {
       "pocketmads": 1,
-      "reddit": 0,
-      "x": 0,
-      "youtube": 0
+      "bluesky": 3,
+      "youtube": 1
     },
-    "platforms": {
-      "bluesky": {
-        "direct_read_unique_relevant_or_deck_keyword_records": 67,
-        "strict_eligible": 3,
-        "actor_feeds_status": {
-          "requested_distinct_authors": 44,
-          "successful_feeds": 42,
-          "failed_feeds": 3,
-          "blue_news_discovery_pages": 4,
-          "bsky_live_posts_within_window_matching_initial_filters": 67,
-          "pocketmads_originals_directly_opened": 5,
-          "pocketmads_in_window": 1,
-          "first_party_game_images_visually_reviewed": 6,
-          "reddit_new_feed_tests": 3,
-          "reddit_http_403": 3,
-          "youtube_original_videos_viewed": 0,
-          "x_original_posts_viewed": 0,
-          "total_feed_calls": 45,
-          "successful_distinct_authors": 41,
-          "failed_distinct_authors": 3
-        }
-      },
-      "pocketmads": {
-        "original_pages_directly_read": 5,
-        "strict_eligible": 1
-      },
-      "reddit": {
-        "subreddits": [
-          "r/PTCGP",
-          "r/PokemonPocket",
-          "r/PokemonTCGP"
-        ],
-        "feed_tests": 3,
-        "http_403": 3,
-        "strict_eligible": 0
-      },
-      "x": {
-        "visited": 0,
-        "strict_eligible": 0,
-        "status": "no direct originals collected"
-      },
-      "youtube": {
-        "visited": 0,
-        "strict_eligible": 0,
-        "status": "earlier iteration video shell not recounted"
-      }
+    "reddit": {
+      "strict_eligible": 0,
+      "status": "relative_timestamp_unanchored_or_access_restricted"
     },
-    "time_slice_counts": {
-      "0-24h": 3,
-      "24-48h": 1,
-      "48-72h": 0
+    "x": {
+      "strict_eligible": 0,
+      "status": "no_verifiable_public_original_read"
+    },
+    "youtube": {
+      "strict_eligible": 1,
+      "status": "8 watch shells; five official channel RSS returned valid XML and one rich author-original deck description"
+    },
+    "bluesky": {
+      "strict_eligible": 3,
+      "status": "official first-party getPostThread records with createdAt and detailed original match reports"
+    },
+    "pocketmads": {
+      "strict_eligible": 1,
+      "status": "original deck HTML author, text, 20 cards and precise time datetime"
     }
   },
   "candidates": [],
   "watchlist": [
     {
+      "species": "Paldean Clodsire",
+      "name_zh": "帕底亚土王",
+      "name_ja": "ドオー",
+      "classification": "C_observation",
+      "eligible_sources": 2,
+      "verified_author_accounts": 2,
+      "distinct_parents": 2,
+      "source_ids": [
+        "at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tsrz7jms2f",
+        "youtube:uqeRbvS0qdo"
+      ],
+      "precise_card_form_verified": false,
+      "role": "partner_or_secondary_engine_not_proven_independent_main",
+      "why": "Lycanroc/Paldean Clodsire and Mega Mewtwo X ex/Paldean Clodsire are different partnerships; two first-party authors, but neither independently proves a Clodsire main archetype",
+      "site_strategy_url": "https://www.pokemontcgpocket.app/en/deck/paldean-clodsire-c1",
+      "hub_missing_verified": false,
+      "existing_strategy_different": "Paldean Clodsire C1-074 + Rika and unrelated partners already has a deck-level page; separate species hub not found in visible Name directory",
+      "next_needed": "A separate player-owned Paldean Clodsire-centered full 20-card list with a verified card printing and a distinct plan"
+    },
+    {
       "species": "Malamar",
       "name_zh": "乌贼王",
       "name_ja": "カラマネロ",
-      "tier": "C_observation",
-      "qualified": false,
-      "priority": 1,
-      "forms_verified": [
-        "Malamar with Pester the Dizzy effect (card ID in original deck unverified)"
-      ],
+      "classification": "C_observation",
+      "eligible_sources": 1,
+      "verified_author_accounts": 1,
+      "distinct_parents": 1,
       "source_ids": [
         "pocketmads:c0575dfc-71e3-41bb-89f4-14eefdc0bc7e"
       ],
-      "source_urls": [
-        "https://app.pocketmads.com/feed/c0575dfc-71e3-41bb-89f4-14eefdc0bc7e"
-      ],
-      "verified_authors": 1,
-      "verified_parent_threads": 1,
-      "valid_deck_comments": 0,
-      "time_slices": {
-        "0-24h": 0,
-        "24-48h": 1,
-        "48-72h": 0
-      },
-      "platforms": [
-        "pocketmads"
-      ],
-      "site_species_page_missing": true,
-      "site_pages_verified": 2,
-      "site_card_pages_existing": "https://pokemontcgpocket.app/en/card/P-C-005",
-      "site_deck_archive_overlap_unverified": true,
-      "partner": "Meowstic / Mega Mewtwo X ex",
-      "seo_value_hypothesis": "Confusion-triggered one-Energy Malamar attack and dedicated trainer-slot choices can differentiate from a Mega Mewtwo hub",
-      "queries": [
-        "Malamar Meowstic deck Pocket",
-        "Malamar confusion deck"
-      ],
-      "next_verification": "Find a second independent player's original Malamar deck or testing thread",
-      "why_not_qualified": "Source threshold under 100, fewer than two independent authors and two top-level threads for this species; precise card number and duplicate-content review incomplete."
+      "precise_card_form_verified": false,
+      "role": "possible_core_with_Meowstic",
+      "why": "One player-provided full deck uses confusion Meowstic, fast Malamar damage and Mega Mewtwo X ex finisher",
+      "site_strategy_url": "https://www.pokemontcgpocket.app/en/deck/malamar-b3-mega-sableye-ex-b3b",
+      "hub_missing_verified": false,
+      "existing_strategy_different": "Older Malamar B3 / Mega Sableye ex B3b archive is a different partner, not proof of new 72h demand",
+      "next_needed": "New independent authors and exact Malamar card ID; compare genuine unique user question against archived Malamar/Mega Sableye"
     },
     {
       "species": "Alolan Exeggutor",
       "name_zh": "阿罗拉椰蛋树",
       "name_ja": "アローラナッシー",
-      "tier": "C_observation",
-      "qualified": false,
-      "priority": 2,
-      "forms_verified": [
-        "Alolan Exeggutor (card number not verified)"
-      ],
+      "classification": "C_observation",
+      "eligible_sources": 1,
+      "verified_author_accounts": 1,
+      "distinct_parents": 1,
       "source_ids": [
         "at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tt2z6glc2f"
       ],
-      "source_urls": [
-        "https://bsky.app/profile/fictionlife06.bsky.social/post/3n2tt2z6glc2f"
-      ],
-      "verified_authors": 1,
-      "verified_parent_threads": 1,
-      "valid_deck_comments": 0,
-      "time_slices": {
-        "0-24h": 1,
-        "24-48h": 0,
-        "48-72h": 0
-      },
-      "platforms": [
-        "bluesky"
-      ],
-      "site_species_page_missing": true,
-      "site_pages_verified": 2,
-      "site_card_pages_existing": null,
-      "site_deck_archive_overlap_unverified": true,
-      "partner": "Mega Venusaur",
-      "seo_value_hypothesis": "42-game modified build with energy acceleration and Umbreon matchup; compare build variants rather than copy Venusaur archive",
-      "queries": [
-        "Alolan Exeggutor Mega Venusaur Pocket deck",
-        "アローラナッシー メガフシギバナ デッキ"
-      ],
-      "next_verification": "Find another independent Alolan Exeggutor-focused deck, verify card number and core role",
-      "why_not_qualified": "Source threshold under 100, fewer than two independent authors and two top-level threads for this species; precise card number and duplicate-content review incomplete."
-    },
-    {
-      "species": "Paldean Clodsire",
-      "name_zh": "帕底亚土王",
-      "name_ja": "ドオー（パルデアのすがた）",
-      "tier": "C_observation",
-      "qualified": false,
-      "priority": 3,
-      "forms_verified": [
-        "Paldean Clodsire regular, precise set ID unverified"
-      ],
-      "source_ids": [
-        "at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tsrz7jms2f"
-      ],
-      "source_urls": [
-        "https://bsky.app/profile/fictionlife06.bsky.social/post/3n2tsrz7jms2f"
-      ],
-      "verified_authors": 1,
-      "verified_parent_threads": 1,
-      "valid_deck_comments": 0,
-      "time_slices": {
-        "0-24h": 1,
-        "24-48h": 0,
-        "48-72h": 0
-      },
-      "platforms": [
-        "bluesky"
-      ],
-      "site_species_page_missing": true,
-      "site_pages_verified": 2,
-      "site_card_pages_existing": null,
-      "site_deck_archive_overlap_unverified": true,
-      "partner": "Lycanroc",
-      "seo_value_hypothesis": "17 Limited Battles matchup details can support event-specific analysis but deck list borrowed; standalone main-axis uncertain",
-      "queries": [
-        "Paldean Clodsire Lycanroc Pocket deck",
-        "ドオー ルガルガン 限定バトル デッキ"
-      ],
-      "next_verification": "Identify Clodsire as true engine vs tech and find two distinct primary-source constructions",
-      "why_not_qualified": "Source threshold under 100, fewer than two independent authors and two top-level threads for this species; precise card number and duplicate-content review incomplete."
+      "precise_card_form_verified": false,
+      "role": "partner_to_Mega_Venusaur_not_proven_main",
+      "why": "Player changed a creator list and tested 42 games, with exact weaknesses and energy-flow comments; core role not yet evidenced",
+      "site_strategy_url": "https://www.pokemontcgpocket.app/en/deck/alolan-exeggutor-ex-c1",
+      "hub_missing_verified": false,
+      "existing_strategy_different": "Alolan Exeggutor ex C1 archive exists; current poster refers to new Alolan Exeggutor but printing must be compared",
+      "next_needed": "Visible full 20-card list and form ID, plus independent author with a different Exeggutor-centered strategy"
     },
     {
       "species": "Blastoise",
       "name_zh": "水箭龟",
       "name_ja": "カメックス",
-      "tier": "C_observation",
-      "qualified": false,
-      "priority": 4,
-      "forms_verified": [
-        "Blastoise regular (card number not verified)"
-      ],
+      "classification": "C_observation",
+      "eligible_sources": 1,
+      "verified_author_accounts": 1,
+      "distinct_parents": 1,
       "source_ids": [
         "at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tt3bdmy22f"
       ],
-      "source_urls": [
-        "https://bsky.app/profile/fictionlife06.bsky.social/post/3n2tt3bdmy22f"
-      ],
-      "verified_authors": 1,
-      "verified_parent_threads": 1,
-      "valid_deck_comments": 1,
-      "time_slices": {
-        "0-24h": 1,
-        "24-48h": 0,
-        "48-72h": 0
-      },
-      "platforms": [
-        "bluesky"
-      ],
-      "site_species_page_missing": true,
-      "site_pages_verified": 2,
-      "site_card_pages_existing": "https://pokemontcgpocket.app/en/card/P-A-029",
-      "site_deck_archive_overlap_unverified": true,
-      "partner": "Jellicent",
-      "seo_value_hypothesis": "39-game modified deck has a Jellicent energy strategy and bench-targeted Blastoise finisher, distinct from single card pages",
-      "queries": [
-        "Blastoise Jellicent deck Pocket",
-        "カメックス ブルンゲル デッキ"
-      ],
-      "next_verification": "Confirm Blastoise print/set and find independent deck-author variation beyond one reply thread",
-      "why_not_qualified": "Source threshold under 100, fewer than two independent authors and two top-level threads for this species; precise card number and duplicate-content review incomplete."
+      "precise_card_form_verified": false,
+      "role": "Blastoise_Jellicent_combination",
+      "why": "One player's 39-game evaluation discusses Jellicent acceleration, Parasol card slots and damage issues",
+      "site_strategy_url": "https://www.pokemontcgpocket.app/en/deck/blastoise-c1-araquanid-b4",
+      "hub_missing_verified": false,
+      "existing_strategy_different": "Existing Blastoise/Araquanid archive is another route; a hub would need diverse variants, not a duplicated single-deck page",
+      "next_needed": "Original card ID and second independent Jellicent/Blastoise user with an alternative build"
     }
   ],
-  "reporting": {
-    "strict_eligible_count": 4,
-    "source_goal": 100,
-    "coverage_met": false,
-    "quality_gate": "failed",
-    "shortfall": 96,
-    "reviewed_unique_urls": 72,
-    "verified_parent_thread_count": 3,
-    "verified_unique_authors": 2,
-    "qualified_count": 0,
-    "target_count": 5,
-    "shortfall_count": 5,
-    "watchlist_count": 4,
-    "source_diversity_insufficient": true,
-    "iteration": 3,
-    "evidence_path": "evidence/2026-11-22-160310-iteration3.json",
-    "raw_probe_paths": [
-      "evidence/2026-11-22-160310-iteration3-live-probe.json",
-      "evidence/2026-11-22-160310-iteration3-media-probe.json",
-      "evidence/2026-11-22-160310-iteration3-extra-images.json"
-    ],
-    "history_path": "history/2026-11-22-160310-iteration3.json",
-    "verified_source_ids": [
-      "at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tt3bdmy22f",
-      "at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tt2z6glc2f",
-      "at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tsrz7jms2f",
-      "pocketmads:c0575dfc-71e3-41bb-89f4-14eefdc0bc7e"
-    ],
-    "cross_platform_distinct_persons": null,
-    "reviewed_original_records": 72,
-    "growth_rate": null,
-    "current_verified_bluesky_authors": 1,
-    "current_verified_bluesky_source_count": 3,
-    "additional_unique_authors_vs_iteration2": 0,
-    "additional_verified_source_ids_vs_iteration2": 1
-  },
   "audit": {
-    "strict_eligible_count": 4,
+    "iteration": 4,
+    "quality_gate": "failed",
+    "coverage_met": false,
+    "shortfall": 95,
+    "source_goal": 100,
+    "eligible_sources": 5,
+    "source_diversity_insufficient": true,
+    "reviewed_unique_urls": 38,
+    "verified_parent_thread_count": 4,
+    "verified_unique_authors": 3,
+    "evidence_artifact": "evidence/2026-11-22-161536-iteration4.json",
+    "raw_probe_path": "evidence/2026-11-22-161536-iteration4-channel-probe-v2.json",
+    "slices": {
+      "0_24h": 4,
+      "24_48h": 1,
+      "48_72h": 0
+    },
+    "per_platform_eligible": {
+      "pocketmads": 1,
+      "bluesky": 3,
+      "youtube": 1
+    }
+  },
+  "reporting": {
+    "strict_eligible_count": 5,
     "source_goal": 100,
     "coverage_met": false,
     "quality_gate": "failed",
-    "shortfall": 96,
-    "reviewed_unique_urls": 72,
-    "verified_parent_thread_count": 3,
-    "verified_unique_authors": 2,
+    "shortfall": 95,
+    "reviewed_unique_urls": 38,
+    "raw_http_attempts": 40,
+    "raw_http_200": 40,
+    "first_party_original_records_with_content_and_date": 19,
+    "verified_parent_thread_count": 4,
+    "verified_unique_authors": 3,
     "qualified_count": 0,
     "target_count": 5,
     "shortfall_count": 5,
     "watchlist_count": 4,
     "source_diversity_insufficient": true,
-    "iteration": 3,
-    "platform_eligible_counts": {
-      "bluesky": 3,
+    "iteration": 4,
+    "per_platform_eligible": {
       "pocketmads": 1,
-      "reddit": 0,
-      "x": 0,
-      "youtube": 0
+      "bluesky": 3,
+      "youtube": 1
     },
-    "time_slice_counts": {
-      "0-24h": 3,
-      "24-48h": 1,
-      "48-72h": 0
+    "slices": {
+      "0_24h": 4,
+      "24_48h": 1,
+      "48_72h": 0
     },
-    "site_audit_complete_for_hub_directory": true,
-    "source_funnel": {
-      "source_records_directly_read": 72,
-      "within_window_source_records": 68,
-      "verified_author_and_date_originals": 72,
-      "strict_constructive_player_originals": 4,
-      "blocked_reddit_feed_requests": 3,
-      "unreadability_of_other_platforms": "X/YT unverified this run"
-    },
-    "eligible_parent_clusters": [
-      "bluesky|at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tt2z6glc2f",
-      "bluesky|at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tsrz7jms2f",
-      "pocketmads|pocketmads:c0575dfc-71e3-41bb-89f4-14eefdc0bc7e"
+    "distinct_reddit_authors": 0,
+    "cross_platform_distinct_persons": null,
+    "verified_source_ids": [
+      "pocketmads:c0575dfc-71e3-41bb-89f4-14eefdc0bc7e",
+      "at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tt2z6glc2f",
+      "at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tt3bdmy22f",
+      "at://did:plc:ewxwdmkc5ey5l3huw65ywwdk/app.bsky.feed.post/3n2tsrz7jms2f",
+      "youtube:uqeRbvS0qdo"
     ],
-    "eligible_author_keys": [
-      "bluesky|fictionlife06.bsky.social",
-      "pocketmads|badgerbreath"
+    "growth_rate": null,
+    "evidence_path": "evidence/2026-11-22-161536-iteration4.json",
+    "history_path": "history/2026-11-22-161536-iteration4.json",
+    "raw_probe_paths": [
+      "evidence/2026-11-22-161536-iteration4-channel-probe-v2.json",
+      "evidence/2026-11-22-161536-iteration4-channel-probe.json"
     ],
-    "known_exclusions": {
-      "rat3ded": "Full 20 card image read, but game screenshot label Afrog33k differs from posting handle; authorship not established.",
-      "sigure0809": "Original battle log and gameplay image verified, but no specific owned deck list or named main axis.",
-      "yusrikhairi765": "Pack opening plus wish to make Rabbit Jumping with missing cards, no specific request or built list."
-    }
+    "verified_reddit_originals": 0,
+    "verified_bluesky_originals": 3,
+    "verified_youtube_originals": 1,
+    "verified_pocketmads_originals": 1,
+    "newly_verified_youtube_creator_accounts": 1,
+    "site_audit_complete": false,
+    "audience_warning": "Below 100-source threshold. No species page should be automatically created."
   },
   "publication": {
     "status": "pending_deploy_verification",
@@ -446,6 +256,6 @@
     "homepage": "https://wsgtcyx.github.io/ptcgp-species-radar/",
     "json_url": "https://wsgtcyx.github.io/ptcgp-species-radar/latest.json",
     "raw_json_url": "https://raw.githubusercontent.com/wsgtcyx/ptcgp-species-radar/main/latest.json",
-    "note": "Prepublished immutable report; final SHA and public HTTP verification must be assessed out of band without self-mutating published JSON."
+    "note": "Prepublished immutable JSON; post-deploy outcome separately checked without creating self-invalidating commits"
   }
 }

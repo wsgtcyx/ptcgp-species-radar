@@ -1,0 +1,44 @@
+{
+  "started": "2026-11-22T08:32:02.638450+00:00",
+  "workflow_head_sha": "1f4d1824486863c23fba5ad9e137303c110de2c5",
+  "run_id": "2026-11-22-162428-iteration6",
+  "checks": {
+    "latest.json": {
+      "http": 200,
+      "public_sha256": "ab62c36f19083e33159243de64b8fadfba3100d0fa2adabdb2f9282e8d46ccbd",
+      "local_sha256": "ab62c36f19083e33159243de64b8fadfba3100d0fa2adabdb2f9282e8d46ccbd",
+      "match": true
+    },
+    "history/2026-11-22-162428-iteration6.json": {
+      "http": 200,
+      "public_sha256": "ab62c36f19083e33159243de64b8fadfba3100d0fa2adabdb2f9282e8d46ccbd",
+      "local_sha256": "ab62c36f19083e33159243de64b8fadfba3100d0fa2adabdb2f9282e8d46ccbd",
+      "match": true
+    },
+    "evidence/2026-11-22-162428-iteration6.json": {
+      "http": 200,
+      "public_sha256": "7876eba4561396b9f439fdd2ffe18f8ab7e6b55440f36e17723270f04afa64f3",
+      "local_sha256": "7876eba4561396b9f439fdd2ffe18f8ab7e6b55440f36e17723270f04afa64f3",
+      "match": true
+    },
+    "homepage": {
+      "http": 200,
+      "match": true
+    }
+  },
+  "pages_deploy_verified": true,
+  "public_json_verified": true,
+  "homepage_verified": true,
+  "history_verified": true,
+  "evidence_verified": true,
+  "status": "verified",
+  "note": "Independent check stored only on audit branch to avoid latest version mutation.",
+  "matched_deploy_runs": [
+    {
+      "id": 45003246810,
+      "status": "completed",
+      "conclusion": "success"
+    }
+  ],
+  "finished": "2026-11-22T08:32:29.369006+00:00"
+}

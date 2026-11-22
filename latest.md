@@ -1,51 +1,35 @@
-# PTCG Pocket 缺页物种 Deck 雷达 — 2026-11-22（最终扩展版）
+# PTCG Pocket 新物种 Deck 雷达：2026-11-22 深度复核（未达百源门槛）
 
-## 重要质量更正（2026-11-22）
+**研究时间**：2026-11-19T10:21:07+08:00 — 2026-11-22T10:21:07+08:00（北京时间，过去72小时）。GitHub Pages 链接：https://wsgtcyx.github.io/ptcgp-species-radar/
 
-**本轮为初筛，不是充分验证的升温榜。** 当前 5 个物种候选实际只来自 **2 个不同 Reddit 顶层帖子 URL** 及其 **11 条实质构筑评论**；不同评论作者在报告中复用了相同帖子 URL，未提供可逐条核实的评论 permalink。X 原帖 **0 条已直接核实**（不等于无人讨论）。本轮未达到新要求的 **至少 100 条 72 小时内独立原始信源**，信源覆盖标记为 `coverage_met=false`。不能因此声称 5 个物种已经“升温”或得到独立多帖交叉验证。
+## 结论与质量门禁
 
-原始链接去重及出处审计见 [evidence/2026-11-22.json](./evidence/2026-11-22.json)。下游 Agent 应优先读取 [latest.json](./latest.json) 的 `audit` 字段，未达到质量门槛时不要直接自动开发新页面。
+**百源质量门禁未通过。** 本轮实际复核了 31 条独立可打开的 Reddit 原帖/评论 permalink（其中独立顶层讨论只有 3 条、评论链接 28 条），明确来自不同讨论的多作者证据不足。已核实 X 原帖 **0 条**，但不能据此认为 X 没有相关讨论。Reddit 评论的精确发帖时分也未能获取：`exact_datetime_verified_72h_sources=0`。因此这份报告是**探索性初筛，不是100条高质量72h证据覆盖的完整研究**。
 
+不能用 31 个评论／帖 URL 冒充 31 个独立讨论串：父讨论只有 3 条，且混有未形成独立物种主轴的讨论。更不能将热度上升当作已核实。
 
-采集基准为北京时间 **2026-11-22 10:02:59**，严格 72 小时窗口：**2026-11-19 10:02:59—2026-11-22 10:02:59**。本轮最终核实 **5 个不同的物种独立页新建候选，缺口 0**。它们来自 2 条 Reddit 原帖及其多个有实质内容的不同作者评论，**不是五条互不相关的热帖**，且仍无法证实 X 原创作者/时间、真实搜索量或热度“上涨”。
+## 暂定研究目标（5个，不等于5个已证实升温的页面）
 
-## 主榜 5 个：均在网站完整可见物种目录 2 页 / 41 种之外
+1. **Aegislash（坚盾剑怪）** — Cursed Metal 的 +30增益，Togedemaru、Mega Skarmory、Dialga ex、Melmetal、Gholdengo ex。不同作者提供多个具体搭档/卡槽建议，但集中于同一讨论串：[Reddit Aegislash 求搭档](https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/amy_good_builds_that_combo_with_this_card/)；建议优先研究其独立物种页的不同构筑路线，暂不能推断搜索热度上涨。
+2. **Blastoise（水箭龟）** — C1普通版 Aqua Charge。多名作者分享限定赛 Blastoise 牌组、Squirtle 麻痹进化时机，有另一条讨论建议搭配 Lorelei 与 Lapras：[Reddit 事件讨论](https://www.reddit.com/r/PTCGP/comments/1y1dwkw/we_never_knew_how_much_wed_miss_him_til_he_was/) 和 [限定赛策略帖](https://www.reddit.com/r/PTCGP/comments/1y0rm9r/unpopular_opinion_i_like_the_limited_battles/)。不同主贴中有实质讨论，但未验证重复作者的同口径趋势。
+3. **Pidgeot（大比鸟）** — C1普通版与 Zoroark 或 Umbreon 组合、Blue's Provocation 调换前排：[Reddit 讨论](https://www.reddit.com/r/PTCGP/comments/1y1dwkw/we_never_knew_how_much_wed_miss_him_til_he_was/)；同一父讨论中两个独立作者，不能表述成多帖扩散。
+4. **Dialga ex（帝牙卢卡）** — A2-119 Metallic Turbo，与 Aegislash 的 Cursed Metal、Dawn 能量支援共同成套：[Reddit 配合讨论](https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/amy_good_builds_that_combo_with_this_card/)；与Aegislash共用同一父帖，且主轴归属有争议，须单独验证搜索意图与页面区分度。
+5. **Zoroark（索罗亚克）** — C1普通版 Foul Play，与 Pidgeot／Blue's Provocation 搭档。当前只有单一独立作者可核，[相关 Reddit 讨论](https://www.reddit.com/r/PTCGP/comments/1y1dwkw/we_never_knew_how_much_wed_miss_him_til_he_was/)；低信心研究线索，不宜自动生成独立 SEO 页。
 
-### 1｜Aegislash 坚盾剑怪 · Cursed Metal（B1-172 等同效果版本）
-- **Reddit 可核作者 7 / X NA**；1 个直接核实的原创求牌组帖 + 6 位有具体构筑方案的独立回复；时间：**2026-11-20（平台显示日期，精确北京时间时分 NA）**；意图 A/B/C。
-- [原始求组帖与玩家回复](https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/amy_good_builds_that_combo_with_this_card/)：原帖作者 **u/OldSpaghetti-Factory** 直接求 Aegislash 构筑；**u/phvw** 推荐 **Togedemaru** 反伤增幅；**u/Vesprince** 提 Eviolite 保护；**u/GRE4TESTEV3R** 推荐 **Dialga ex** 能量加速与 Dawn；**u/e_ndoubleu** 比较 Gholdengo ex、道具和 Rare Candy；**u/AdagioDesperate** 建议 Melmetal 减伤；**u/deckskin** 分享 Mega Mewtwo X 搭档。
-- 版本依据：[站内 Aegislash B1-172](https://www.pokemontcgpocket.app/en/card/B1-172) 的 **Cursed Metal** 特性与帖子一致；B1a-102/B4b-164/341 属同技能印刷。**不能从图片无损判定具体印刷卡号**，因此不冒充已确定卡面。
-- 推荐页：`Aegislash deck Pokémon TCG Pocket`。核心应是 **Togedemaru / Dialga ex / Melmetal / Mega Mewtwo X** 构筑变体，能量选择、Rare Candy、装备防护。SEO价值五问：明确求组有；多搭档有；可命名主轴有；技能形态有/卡面精确编号未核；需避免复刻卡牌详情。
-### 2｜Pidgeot 大比鸟 · C1-104（普通版）
-- **Reddit 2 / X NA**；2 位独立作者有实质构筑回复，**直接页面显示约5–6小时前（绝对日历日期未独立核验）**，意图 B/C。
-- [Reddit 原帖及评论](https://www.reddit.com/r/PTCGP/comments/1y1dwkw/we_never_knew_how_much_wed_miss_him_til_he_was/)：**u/NormTheStorm** 实测 Pidgeot–Zoroark + Blue's Provocation，把对手 Mega 换上场并模仿攻击；**u/helpthisfish** 分享 Pidgeot–Umbreon + Blue's Provocation。
-- 推荐页：`Pidgeot deck Pokémon TCG Pocket`，比较 Zoroark 和 Umbreon 两条打法、受限赛事组牌、没有 Rare Candy 的一致性。五问：需求有、变体有、主轴有、形态有、须区别于已有 Pidgeot–Umbreon 单 Deck 页。
-### 3｜Blastoise 水箭龟 · C1-031 Aqua Charge
-- **Reddit 2 / X NA**；2 位作者的实质回复，**直接页面显示约5–6小时前（绝对日历日期未独立核验）**，意图 B/C。
-- [Reddit 原帖及评论](https://www.reddit.com/r/PTCGP/comments/1y1dwkw/we_never_knew_how_much_wed_miss_him_til_he_was/)：**u/ProfSpaceTime** 分享 Blastoise 实战并解释 Squirtle 麻痹与进化时机；**u/TKENation522** 讨论 Blastoise + Blue's Provocation 替换 Fuecoco/Charizard。
-- 推荐页：`Blastoise C1-031 deck`、`Blastoise Blue's Provocation`，围绕麻痹时机、进化与能量、限定赛环境组牌。五问：需求有、变体部分有、主轴有、形态有、须区别既有牌表。
-### 4｜Dialga 帝牙卢卡 · Dialga ex A2-119 Metallic Turbo
-- **Reddit 2 / X NA**；2 位作者实质讨论，**直接页面显示约5–6小时前（绝对日历日期未独立核验）**，意图 B。
-- [Aegislash 讨论中的两位玩家回复](https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/amy_good_builds_that_combo_with_this_card/)：**u/GRE4TESTEV3R** 比较 Dialga 为 Aegislash 供能、Dawn 提早攻击；**u/e_ndoubleu** 讨论 Dialga 早期输出和 Gholdengo ex 分支。
-- [站内卡牌 A2-119](https://www.pokemontcgpocket.app/en/card/A2-119) 确认 Metallic Turbo 为 Metal 能量加速。推荐页：`Dialga ex Aegislash deck`、`Dialga ex Gholdengo deck`；此页主轴是 **Dialga ex 能量引擎**，与 Aegislash 页的伤害特性主轴不同。五问：具体配卡优化有、两个去向有、能量核心有、版号核验有、需防共轴重复。
-### 5｜Zoroark 索罗亚克 · C1-088 Foul Play
-- **Reddit 1 / X NA**；1 位作者有实质牌组讨论，**直接页面显示约5–6小时前（绝对日历日期未独立核验）**，意图 B/C。**仅单作者，不能称热度上升或多作者活跃。**
-- [Reddit 原帖及评论](https://www.reddit.com/r/PTCGP/comments/1y1dwkw/we_never_knew_how_much_wed_miss_him_til_he_was/)：**u/NormTheStorm** 使用 Pidgeot–Zoroark + Blue's Provocation 复制对手攻击。
-- 推荐页：`Zoroark Foul Play deck`、`Zoroark Pidgeot deck C1`，专注复制对手攻击的 matchup、如何选择拉人目标及不依赖单一 Pidgeot 牌表的变体。五问：需求有、变体未核、共同主轴有、形态有、与 Pidgeot 页重合风险较高。
+**合格的“多源交叉验证正在升温”物种数：0/5。** 上述五项为未通过总体百源覆盖门槛的研究备选；其他 Agent 不得把 `candidates` 的这五项当作已经验证可直接开发的任务。
 
-### 作者去重与来源重叠说明
-Aegislash 与 Dialga 共享 **u/GRE4TESTEV3R、u/e_ndoubleu** 的同一讨论；Pidgeot 与 Zoroark 共享 **u/NormTheStorm**。这是**按物种独立计数**，而不是声称跨物种有 5 个独立帖子。Reddit 本轮有实质构筑原帖 1 条（Aegislash）、非构筑大帖下的实质评论；未把无构筑内容的原帖正文当牌组证据。
+## 站内排除与信源覆盖
 
-## 站内已收录物种排除
-实际遍历 [All / Name 第1页](https://www.pokemontcgpocket.app/en/deck/pokemon?sort=name) **40 种**，点击 Next 到 [第2页](https://www.pokemontcgpocket.app/en/deck/pokemon?page=2&sort=name) **1 种 Vespiquen**，第2页显示 **Page 2 of 2**。同时查看其他排序。完整**公开可见目录共41种**；五个候选不在目录中。Rayquaza 按任务规则排除。无法据此断言隐藏后台数据也已穷尽。
+访问 https://www.pokemontcgpocket.app/en/deck/pokemon?sort=name ，逐页核查 name/all：**第一页40个，第二页只有 Vespiquen，合计41个物种**，还检查其他排序视图。以上5种均未在可见物种目录中，但可能有已存在的独立牌组详情页，应避免 SEO 内容互相重复。
 
-### 观察但未入选
-**Paldean Clodsire**：部分新帖只能通过搜索摘要看到，来源作者/北京时间无法核；**Lopunny**：近期 Rabbit Jump 讨论无法证明具体使用 Lopunny 这张卡，不能偷算成它的构筑需求。相关背景不会计入五个合格候选。
+不同原帖数量远低于100的主要原因是 Reddit 搜索索引更新不稳定、多语种检索中旧帖混入，以及 X 原站访问受限。已排除过期帖子、实体纸牌、机器人与无构筑意图的纯提及；对于评论时间只见相对“1d/2d”时，不捏造精确日期时分。
 
-## 平台、语言与时间边界
-Reddit / X 均检索；已直读 Reddit 两个讨论：Aegislash 帖在搜索结果显示 11月20日，限定赛话题帖在直接页面显示评论约5–6小时前，均在截止时刻之前的72小时内；但后者的绝对日历日期未核实，不能假定同为11月20日。无法提供精确北京时间时分。X 上未找到可直接核验的原创帖子、作者及时间，**X数据NA，不代表0**。英语为主体；尝试日语、西语、葡语、韩语但没有可用的原帖证据，德法中文未全量检查。部分原帖无法直接打开，不计入独立作者。没可比过去72小时基线，增长率 **NA**。不造 Google 搜索量、赛果、帖子阅读量。
+### 可审计证据清单
 
-实际原样查询示例：`site:reddit.com/r/PTCGP/comments/ 2026 November 21 Pidgeot Zoroark limited deck`；`site:x.com ポケポケ ギルガルド デッキ 2026年11月20日`；`site:reddit.com PTCGP mazo noviembre 2026`；`site:reddit.com PTCGP baralho novembro 2026`。具体请求次数无可靠统一日志，标 NA。
+- [evidence/2026-11-22-deep-audit.json](./evidence/2026-11-22-deep-audit.json) — 每条真实查看过的 permalink、作者、父帖子、是否有构筑意图及时间精度。
+- [latest.json](./latest.json) — Agent 稳定入口；明确 `audit.coverage_met=false`、三条父帖子以及五个暂定研究目标。
+- [history/2026-11-22-deep-audit.json](./history/2026-11-22-deep-audit.json) — 本次不可混同的历史快照。
 
-## Agent 与发布
-最新 `latest.json` 的 `candidates` **5** 个、`watchlist` **0** 个，完整记录作者、URL、卡号与时间窗；历史版本 `history/2026-11-22.json` 保留初次3+2结果，扩展后的快照另存 `history/2026-11-22-revised.json`（第一次扩展结果，保留时间标签历史版本），最终时间证据修正版位于 `history/2026-11-22-final.json`。网页 https://wsgtcyx.github.io/ptcgp-species-radar/ ，JSON https://wsgtcyx.github.io/ptcgp-species-radar/latest.json ；是否已部署以 GitHub Actions 的本次构建结果为准。
+**发布校验**：以 GitHub 实际提交与 Pages 最新 Actions 为准；不能访问公共网站时仅能声明 GitHub 仓库回读成功或 Pages Actions 成功，不能声称已验证公开HTTP实时返回。
+
+**下一步**：如希望真正稳定执行100源/次，需接入可访问完整发帖时间的 Reddit 数据采集、可靠的X公共搜索或授权数据源；如果证据不足，应保持低信心，不为凑五个创建薄内容页。

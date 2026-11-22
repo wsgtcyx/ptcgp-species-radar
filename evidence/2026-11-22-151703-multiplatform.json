@@ -1,0 +1,655 @@
+{
+  "schema_version": "1.1",
+  "run_id": "2026-11-22-151703-BJT-multiplatform",
+  "cutoff_bjt": "2026-11-22T15:17:03+08:00",
+  "window": {
+    "start": "2026-11-19T15:17:03+08:00",
+    "end": "2026-11-22T15:17:03+08:00",
+    "hours": 72
+  },
+  "generated_at": "2026-11-22T15:21:56+08:00",
+  "source_policy": "Cross-platform total 100; originals + author + time window + substantive deck intent, comment own permalink; no old-run carryover",
+  "funnel": {
+    "discovered_index_hits": null,
+    "fetched_originals": 16,
+    "reviewed_unique_urls": 16,
+    "unique_dated_within_window": 11,
+    "pocket_only": 11,
+    "deck_intent": 11,
+    "cross_platform_duplicates_removed": 0,
+    "eligible_sources": 11,
+    "distinct_parent_threads": 2,
+    "distinct_unique_public_authors": 11,
+    "posts": 1,
+    "comments": 10,
+    "missing_time": 7,
+    "out_of_window": null,
+    "inaccessible": null,
+    "non_pocket": null,
+    "duplicates": null
+  },
+  "platform_distribution": {
+    "reddit": 11,
+    "x": 0,
+    "youtube": 0,
+    "bluesky": 0,
+    "other": 0
+  },
+  "source_diversity_insufficient": true,
+  "slice_distribution": {
+    "time_0_24h": 3,
+    "time_24_48h": 0,
+    "time_48_72h": 0,
+    "ambiguous_slice_but_eligible": 8,
+    "note": "1d ago timestamp bound is wholly inside fixed 72h but spans multiple 24h slices; avoid forced assignment."
+  },
+  "by_parent_thread": [
+    {
+      "parent_thread_id": "1y22t44",
+      "count": 3,
+      "authors": [
+        "OldGrapefruit2827",
+        "mnk907",
+        "myrtlebitch"
+      ],
+      "comment_only": false
+    },
+    {
+      "parent_thread_id": "1y1dwkw",
+      "count": 8,
+      "authors": [
+        "NormTheStorm",
+        "helpthisfish",
+        "ProfSpaceTime",
+        "eddiemoney69",
+        "trollhole12",
+        "DeanThePeon",
+        "Manticzeus",
+        "ZombieAladdin"
+      ],
+      "comment_only": true
+    }
+  ],
+  "scan_coverage": {
+    "platforms": {
+      "reddit": {
+        "search_attempted": true,
+        "opened_post_and_comment_permalinks": true,
+        "community_scope": [
+          "r/PTCGP",
+          "r/PokemonPocket",
+          "r/PokemonTCGP",
+          "r/PTCGPocketTrading"
+        ],
+        "status": "partial original content available, not exhaustive /new or API pagination"
+      },
+      "x": {
+        "search_attempted": true,
+        "original_posts_directly_verified": 0,
+        "reason": "Original X posts not obtained in readable timestamped form"
+      },
+      "youtube": {
+        "search_attempted": true,
+        "video_urls_attempted": 2,
+        "subtitles_or_video_content_verified": 0,
+        "reason": "2 video opens cache miss"
+      },
+      "bluesky": {
+        "search_attempted": true,
+        "author_profile_opened": true,
+        "getAuthorFeed_usable": false,
+        "original_posts_directly_verified": 0,
+        "reason": "Author feed API retrieval failed; index/profile not proof of original posts"
+      }
+    },
+    "languages": {
+      "english": true,
+      "japanese": true,
+      "spanish": true,
+      "portuguese": true,
+      "korean": false,
+      "chinese": false
+    },
+    "representative_queries": [
+      "site:reddit.com/r/PTCGP/comments \"Saturday November 21 2026\" \"deck\"",
+      "site:reddit.com/r/PokemonPocket/comments \"Saturday November 21 2026\" \"deck\"",
+      "site:reddit.com/r/PTCGP/comments \"Sunday November 22 2026\" deck",
+      "ポケポケ デッキ 2026年11月21日",
+      "PTCG Pocket new deck November 22 2026",
+      "Pokemon Pocket mazo noviembre 2026",
+      "Pokémon Pocket baralho novembro 2026",
+      "site:x.com ポケポケ デッキ 2026 11 21",
+      "site:bsky.app ポケポケ デッキ",
+      "pokemon tcg pocket deck site:youtube.com/watch November 21 2026"
+    ],
+    "failures": [
+      "Reddit public .json direct open cache-miss and /new page cached inconsistently, not a valid full live feed",
+      "X originals not readable/dated in available public preview",
+      "YouTube titles/video index appear but video and captions not retrieved",
+      "Bluesky public getAuthorFeed open failed (API route) and profile indexes have no post metadata",
+      "Most deck-specific individual commenters in secondary thread clustered in 1 parent; source diversity not adequate"
+    ]
+  },
+  "site_audit": {
+    "url": "https://pokemontcgpocket.app/en/deck/pokemon",
+    "order": "All + Name",
+    "pages_directly_opened": 2,
+    "page_count_reported": 2,
+    "terminal_page_verified": true,
+    "page_1_count": 40,
+    "page_2_count": 1,
+    "species_base_count": 41,
+    "species": [
+      "Absol",
+      "Altaria",
+      "Azumarill",
+      "Baxcalibur",
+      "Bewear",
+      "Blaziken",
+      "Carbink",
+      "Charizard",
+      "Chien-Pao",
+      "Darkrai",
+      "Diancie",
+      "Dragonair",
+      "Dragonite",
+      "Entei",
+      "Fuecoco",
+      "Garchomp",
+      "Gardevoir",
+      "Gengar",
+      "Giratina",
+      "Greninja",
+      "Hoopa",
+      "Hydreigon",
+      "Igglybuff",
+      "Lucario",
+      "Magnezone",
+      "Manectric",
+      "Mawile",
+      "Skarmory",
+      "Mew",
+      "Mewtwo",
+      "Miraidon",
+      "Oricorio",
+      "Pawmot",
+      "Pikachu",
+      "Sceptile",
+      "Sharpedo",
+      "Suicune",
+      "Tyranitar",
+      "Umbreon",
+      "Venusaur",
+      "Vespiquen"
+    ],
+    "excluded_extra": "Rayquaza",
+    "all_name_pagination_verified": true,
+    "alternate_sort": "Newest page 1 inspected, sort changes order; did not re-traverse its pages",
+    "sitemap_check": "No independent complete sitemap census available; Name listing itself fully traversed",
+    "single_deck_detail_not_equivalent_to_species_page": true
+  },
+  "eligible_sources": [
+    {
+      "platform": "reddit",
+      "source_id": "t3_1y22t44",
+      "reddit_id": "t3_1y22t44",
+      "kind": "post",
+      "parent_thread_id": "1y22t44",
+      "canonical_url": "https://www.reddit.com/r/PTCGP/comments/1y22t44/new_chandelure_deck/",
+      "community": "r/PTCGP",
+      "author": "OldGrapefruit2827",
+      "created_utc": null,
+      "published_at_bjt": null,
+      "published_interval_bjt": {
+        "earliest": "2026-11-21T12:00:00+08:00",
+        "latest": "2026-11-22T04:21:56+08:00"
+      },
+      "relative_time_displayed": "11h ago",
+      "captured_page_crawl_label": "today",
+      "verified_at": "2026-11-22T15:21:56+08:00",
+      "body_summary": "Chandelure + Oricorio discard engine; Copycat/Hiking Trail draw and Bonsly pivot",
+      "deck_intent": [
+        "C",
+        "B"
+      ],
+      "species": [
+        "Chandelure",
+        "Oricorio"
+      ],
+      "form": "Chandelure specific card number unverified",
+      "is_pocket": true,
+      "original_content_verified": true,
+      "directly_opened": true,
+      "verification_method": "Reddit individual original or comment permalink opened; author, actual text, age read from original; bounded original creation time using crawled-today and reading clock; original exact UTC timestamp not available",
+      "time_within_fixed_window": true,
+      "duplicate_of": null,
+      "exclusion_reason": null
+    },
+    {
+      "platform": "reddit",
+      "source_id": "t1_19szfoqorwqhx",
+      "reddit_id": "t1_19szfoqorwqhx",
+      "kind": "comment",
+      "parent_thread_id": "1y22t44",
+      "canonical_url": "https://www.reddit.com/r/PTCGP/comments/1y22t44/comment/19szfoqorwqhx/",
+      "community": "r/PTCGP",
+      "author": "mnk907",
+      "created_utc": null,
+      "published_at_bjt": null,
+      "published_interval_bjt": {
+        "earliest": "2026-11-21T13:00:00+08:00",
+        "latest": "2026-11-22T05:21:56+08:00"
+      },
+      "relative_time_displayed": "10h ago",
+      "captured_page_crawl_label": "today",
+      "verified_at": "2026-11-22T15:21:56+08:00",
+      "body_summary": "Compares Meloetta variant, Leaf vs X Speed and Giant Cape survivability",
+      "deck_intent": [
+        "B"
+      ],
+      "species": [
+        "Chandelure"
+      ],
+      "form": "version unverified",
+      "is_pocket": true,
+      "original_content_verified": true,
+      "directly_opened": true,
+      "verification_method": "Reddit individual original or comment permalink opened; author, actual text, age read from original; bounded original creation time using crawled-today and reading clock; original exact UTC timestamp not available",
+      "time_within_fixed_window": true,
+      "duplicate_of": null,
+      "exclusion_reason": null
+    },
+    {
+      "platform": "reddit",
+      "source_id": "t1_19szgu601axi8",
+      "reddit_id": "t1_19szgu601axi8",
+      "kind": "comment",
+      "parent_thread_id": "1y22t44",
+      "canonical_url": "https://www.reddit.com/r/PTCGP/comments/1y22t44/comment/19szgu601axi8/",
+      "community": "r/PTCGP",
+      "author": "myrtlebitch",
+      "created_utc": null,
+      "published_at_bjt": null,
+      "published_interval_bjt": {
+        "earliest": "2026-11-21T14:00:00+08:00",
+        "latest": "2026-11-22T06:21:56+08:00"
+      },
+      "relative_time_displayed": "9h ago",
+      "captured_page_crawl_label": "today",
+      "verified_at": "2026-11-22T15:21:56+08:00",
+      "body_summary": "Explains Red damage modifier and Cape/Cabbie/Hiking Trail support-card choices",
+      "deck_intent": [
+        "B"
+      ],
+      "species": [
+        "Chandelure"
+      ],
+      "form": "version unverified",
+      "is_pocket": true,
+      "original_content_verified": true,
+      "directly_opened": true,
+      "verification_method": "Reddit individual original or comment permalink opened; author, actual text, age read from original; bounded original creation time using crawled-today and reading clock; original exact UTC timestamp not available",
+      "time_within_fixed_window": true,
+      "duplicate_of": null,
+      "exclusion_reason": null
+    },
+    {
+      "platform": "reddit",
+      "source_id": "t1_19sxtl6ij8g0x",
+      "reddit_id": "t1_19sxtl6ij8g0x",
+      "kind": "comment",
+      "parent_thread_id": "1y1dwkw",
+      "canonical_url": "https://www.reddit.com/r/PTCGP/comments/1y1dwkw/comment/19sxtl6ij8g0x/",
+      "community": "r/PTCGP",
+      "author": "NormTheStorm",
+      "created_utc": null,
+      "published_at_bjt": null,
+      "published_interval_bjt": {
+        "earliest": "2026-11-20T00:00:00+08:00",
+        "latest": "2026-11-21T15:21:56+08:00"
+      },
+      "relative_time_displayed": "1d ago",
+      "captured_page_crawl_label": "today",
+      "verified_at": "2026-11-22T15:21:56+08:00",
+      "body_summary": "Uses Pidgeot + Zoroark + Blue's Provocation switch-and-copy deck, observed 9–2 on distinct Rika deck but no result attributed to Pidgeot",
+      "deck_intent": [
+        "B",
+        "C"
+      ],
+      "species": [
+        "Pidgeot",
+        "Zoroark"
+      ],
+      "form": "specific card numbers unverified",
+      "is_pocket": true,
+      "original_content_verified": true,
+      "directly_opened": true,
+      "verification_method": "Reddit individual original or comment permalink opened; author, actual text, age read from original; bounded original creation time using crawled-today and reading clock; original exact UTC timestamp not available",
+      "time_within_fixed_window": true,
+      "duplicate_of": null,
+      "exclusion_reason": null
+    },
+    {
+      "platform": "reddit",
+      "source_id": "t1_19sxtx3fltb1e",
+      "reddit_id": "t1_19sxtx3fltb1e",
+      "kind": "comment",
+      "parent_thread_id": "1y1dwkw",
+      "canonical_url": "https://www.reddit.com/r/PTCGP/comments/1y1dwkw/comment/19sxtx3fltb1e/",
+      "community": "r/PTCGP",
+      "author": "helpthisfish",
+      "created_utc": null,
+      "published_at_bjt": null,
+      "published_interval_bjt": {
+        "earliest": "2026-11-20T00:00:00+08:00",
+        "latest": "2026-11-21T15:21:56+08:00"
+      },
+      "relative_time_displayed": "1d ago",
+      "captured_page_crawl_label": "today",
+      "verified_at": "2026-11-22T15:21:56+08:00",
+      "body_summary": "Pidgeot + Umbreon deck with Blue's Provocation forced switching",
+      "deck_intent": [
+        "B"
+      ],
+      "species": [
+        "Pidgeot",
+        "Umbreon"
+      ],
+      "form": "specific card numbers unverified",
+      "is_pocket": true,
+      "original_content_verified": true,
+      "directly_opened": true,
+      "verification_method": "Reddit individual original or comment permalink opened; author, actual text, age read from original; bounded original creation time using crawled-today and reading clock; original exact UTC timestamp not available",
+      "time_within_fixed_window": true,
+      "duplicate_of": null,
+      "exclusion_reason": null
+    },
+    {
+      "platform": "reddit",
+      "source_id": "t1_19sxtn25u8o4g",
+      "reddit_id": "t1_19sxtn25u8o4g",
+      "kind": "comment",
+      "parent_thread_id": "1y1dwkw",
+      "canonical_url": "https://www.reddit.com/r/PTCGP/comments/1y1dwkw/comment/19sxtn25u8o4g/",
+      "community": "r/PTCGP",
+      "author": "ProfSpaceTime",
+      "created_utc": null,
+      "published_at_bjt": null,
+      "published_interval_bjt": {
+        "earliest": "2026-11-20T00:00:00+08:00",
+        "latest": "2026-11-21T15:21:56+08:00"
+      },
+      "relative_time_displayed": "1d ago",
+      "captured_page_crawl_label": "today",
+      "verified_at": "2026-11-22T15:21:56+08:00",
+      "body_summary": "Playing Blastoise deck; Squirtle paralysis means evolution timing is strategic",
+      "deck_intent": [
+        "B",
+        "C"
+      ],
+      "species": [
+        "Blastoise"
+      ],
+      "form": "specific card numbers unverified",
+      "is_pocket": true,
+      "original_content_verified": true,
+      "directly_opened": true,
+      "verification_method": "Reddit individual original or comment permalink opened; author, actual text, age read from original; bounded original creation time using crawled-today and reading clock; original exact UTC timestamp not available",
+      "time_within_fixed_window": true,
+      "duplicate_of": null,
+      "exclusion_reason": null
+    },
+    {
+      "platform": "reddit",
+      "source_id": "t1_19sxwei7qrm04",
+      "reddit_id": "t1_19sxwei7qrm04",
+      "kind": "comment",
+      "parent_thread_id": "1y1dwkw",
+      "canonical_url": "https://www.reddit.com/r/PTCGP/comments/1y1dwkw/comment/19sxwei7qrm04/",
+      "community": "r/PTCGP",
+      "author": "eddiemoney69",
+      "created_utc": null,
+      "published_at_bjt": null,
+      "published_interval_bjt": {
+        "earliest": "2026-11-20T00:00:00+08:00",
+        "latest": "2026-11-21T15:21:56+08:00"
+      },
+      "relative_time_displayed": "1d ago",
+      "captured_page_crawl_label": "today",
+      "verified_at": "2026-11-22T15:21:56+08:00",
+      "body_summary": "Plays similar Blastoise deck; Blue's Provocation surprise switch, Lapras role",
+      "deck_intent": [
+        "B",
+        "C"
+      ],
+      "species": [
+        "Blastoise"
+      ],
+      "form": "specific card numbers unverified",
+      "is_pocket": true,
+      "original_content_verified": true,
+      "directly_opened": true,
+      "verification_method": "Reddit individual original or comment permalink opened; author, actual text, age read from original; bounded original creation time using crawled-today and reading clock; original exact UTC timestamp not available",
+      "time_within_fixed_window": true,
+      "duplicate_of": null,
+      "exclusion_reason": null
+    },
+    {
+      "platform": "reddit",
+      "source_id": "t1_19sxrqoeaqhpd",
+      "reddit_id": "t1_19sxrqoeaqhpd",
+      "kind": "comment",
+      "parent_thread_id": "1y1dwkw",
+      "canonical_url": "https://www.reddit.com/r/PTCGP/comments/1y1dwkw/comment/19sxrqoeaqhpd/",
+      "community": "r/PTCGP",
+      "author": "trollhole12",
+      "created_utc": null,
+      "published_at_bjt": null,
+      "published_interval_bjt": {
+        "earliest": "2026-11-20T00:00:00+08:00",
+        "latest": "2026-11-21T15:21:56+08:00"
+      },
+      "relative_time_displayed": "1d ago",
+      "captured_page_crawl_label": "today",
+      "verified_at": "2026-11-22T15:21:56+08:00",
+      "body_summary": "Venusaur-focused deck win, early evo importance; Pinsir buys time, Vespiquen and Ribombee honey generation",
+      "deck_intent": [
+        "B",
+        "C"
+      ],
+      "species": [
+        "Venusaur",
+        "Vespiquen"
+      ],
+      "form": "specific card numbers unverified",
+      "is_pocket": true,
+      "original_content_verified": true,
+      "directly_opened": true,
+      "verification_method": "Reddit individual original or comment permalink opened; author, actual text, age read from original; bounded original creation time using crawled-today and reading clock; original exact UTC timestamp not available",
+      "time_within_fixed_window": true,
+      "duplicate_of": null,
+      "exclusion_reason": null
+    },
+    {
+      "platform": "reddit",
+      "source_id": "t1_19sxtscz3icdc",
+      "reddit_id": "t1_19sxtscz3icdc",
+      "kind": "comment",
+      "parent_thread_id": "1y1dwkw",
+      "canonical_url": "https://www.reddit.com/r/PTCGP/comments/1y1dwkw/comment/19sxtscz3icdc/",
+      "community": "r/PTCGP",
+      "author": "DeanThePeon",
+      "created_utc": null,
+      "published_at_bjt": null,
+      "published_interval_bjt": {
+        "earliest": "2026-11-20T00:00:00+08:00",
+        "latest": "2026-11-21T15:21:56+08:00"
+      },
+      "relative_time_displayed": "1d ago",
+      "captured_page_crawl_label": "today",
+      "verified_at": "2026-11-22T15:21:56+08:00",
+      "body_summary": "Fuecoco ex + Charizard deck: substitute one X Speed with Red Card to counter holding cards",
+      "deck_intent": [
+        "B",
+        "C"
+      ],
+      "species": [
+        "Fuecoco",
+        "Charizard"
+      ],
+      "form": "Fuecoco ex mentioned, card number unverified",
+      "is_pocket": true,
+      "original_content_verified": true,
+      "directly_opened": true,
+      "verification_method": "Reddit individual original or comment permalink opened; author, actual text, age read from original; bounded original creation time using crawled-today and reading clock; original exact UTC timestamp not available",
+      "time_within_fixed_window": true,
+      "duplicate_of": null,
+      "exclusion_reason": null
+    },
+    {
+      "platform": "reddit",
+      "source_id": "t1_19sxruhrpygpx",
+      "reddit_id": "t1_19sxruhrpygpx",
+      "kind": "comment",
+      "parent_thread_id": "1y1dwkw",
+      "canonical_url": "https://www.reddit.com/r/PTCGP/comments/1y1dwkw/comment/19sxruhrpygpx/",
+      "community": "r/PTCGP",
+      "author": "Manticzeus",
+      "created_utc": null,
+      "published_at_bjt": null,
+      "published_interval_bjt": {
+        "earliest": "2026-11-20T00:00:00+08:00",
+        "latest": "2026-11-21T15:21:56+08:00"
+      },
+      "relative_time_displayed": "1d ago",
+      "captured_page_crawl_label": "today",
+      "verified_at": "2026-11-22T15:21:56+08:00",
+      "body_summary": "Fuecoco + Charizard plus Eviolite and Blue's Provocation positioning without Fire Patch",
+      "deck_intent": [
+        "B"
+      ],
+      "species": [
+        "Fuecoco",
+        "Charizard"
+      ],
+      "form": "specific card numbers unverified",
+      "is_pocket": true,
+      "original_content_verified": true,
+      "directly_opened": true,
+      "verification_method": "Reddit individual original or comment permalink opened; author, actual text, age read from original; bounded original creation time using crawled-today and reading clock; original exact UTC timestamp not available",
+      "time_within_fixed_window": true,
+      "duplicate_of": null,
+      "exclusion_reason": null
+    },
+    {
+      "platform": "reddit",
+      "source_id": "t1_19sxyqxj33i8w",
+      "reddit_id": "t1_19sxyqxj33i8w",
+      "kind": "comment",
+      "parent_thread_id": "1y1dwkw",
+      "canonical_url": "https://www.reddit.com/r/PTCGP/comments/1y1dwkw/comment/19sxyqxj33i8w/",
+      "community": "r/PTCGP",
+      "author": "ZombieAladdin",
+      "created_utc": null,
+      "published_at_bjt": null,
+      "published_interval_bjt": {
+        "earliest": "2026-11-20T00:00:00+08:00",
+        "latest": "2026-11-21T15:21:56+08:00"
+      },
+      "relative_time_displayed": "1d ago",
+      "captured_page_crawl_label": "today",
+      "verified_at": "2026-11-22T15:21:56+08:00",
+      "body_summary": "Playing Vespiquen + Ribombee and details Lightning weakness to Pikachu ex Light Ball attack",
+      "deck_intent": [
+        "B",
+        "C"
+      ],
+      "species": [
+        "Vespiquen",
+        "Ribombee"
+      ],
+      "form": "specific card numbers unverified",
+      "is_pocket": true,
+      "original_content_verified": true,
+      "directly_opened": true,
+      "verification_method": "Reddit individual original or comment permalink opened; author, actual text, age read from original; bounded original creation time using crawled-today and reading clock; original exact UTC timestamp not available",
+      "time_within_fixed_window": true,
+      "duplicate_of": null,
+      "exclusion_reason": null
+    }
+  ],
+  "excluded_or_unverified": [
+    {
+      "topic": "Aegislash",
+      "canonical_url": "https://www.reddit.com/r/PokemonPocket/comments/1y0sfrt/amy_good_builds_that_combo_with_this_card/",
+      "reason": "Opened original and several individually linked comments, but 2d ago cannot be bounded wholly inside window without independently verified per-item dates.",
+      "exclusion_reason": "timestamp_incomplete",
+      "eligible": false
+    },
+    {
+      "topic": "Parent discussion (not substantive deck post)",
+      "canonical_url": "https://www.reddit.com/r/PTCGP/comments/1y1dwkw/we_never_knew_how_much_wed_miss_him_til_he_was/",
+      "reason": "Original parent is event/meme commentary; only separately verified substantive deck comments counted.",
+      "exclusion_reason": "non_deck_post",
+      "eligible": false
+    },
+    {
+      "topic": "Event statistics",
+      "canonical_url": "https://www.reddit.com/r/PTCGP/comments/1y1xkh2/a_statistical_analysisperspective_on_the_old_vs/",
+      "reason": "Original discussion about pack drop probability, not deck building.",
+      "exclusion_reason": "not_deck",
+      "eligible": false
+    },
+    {
+      "topic": "Reposted YouTuber deck",
+      "canonical_url": "https://www.reddit.com/r/PTCGPocketTrading/comments/1y1jdnd/peak_deck_build/",
+      "reason": "Search-index-only accessible and credits a different YouTuber as original; not counted.",
+      "exclusion_reason": "not_original_and_not_directly_opened",
+      "eligible": false
+    },
+    {
+      "topic": "YouTube video 1",
+      "canonical_url": "https://www.youtube.com/watch?v=9a4DWBmn93c",
+      "reason": "Video could not be opened; title or description alone insufficient.",
+      "exclusion_reason": "video_content_unavailable",
+      "eligible": false
+    },
+    {
+      "topic": "YouTube video 2",
+      "canonical_url": "https://www.youtube.com/watch?v=FS0fe0Gu5fg",
+      "reason": "Video could not be opened; subtitles/content unavailable.",
+      "exclusion_reason": "video_content_unavailable",
+      "eligible": false
+    },
+    {
+      "topic": "Old event post",
+      "canonical_url": "https://www.reddit.com/r/PTCGP/comments/1xzfws1/limited_event_deck/",
+      "reason": "Page cache age not anchored to current window; strict time proof missing.",
+      "exclusion_reason": "stale_cache_uncertain",
+      "eligible": false
+    },
+    {
+      "topic": "Old unrelated deck",
+      "canonical_url": "https://www.reddit.com/r/PTCGP/comments/1xq3dhx/using_this_deck_to_complete_the_12_cards_in_dual/",
+      "reason": "Page crawled weeks ago and apparent relative time stale.",
+      "exclusion_reason": "stale_cache_uncertain",
+      "eligible": false
+    }
+  ],
+  "audit_totals": {
+    "strict_eligible_count": 11,
+    "source_goal": 100,
+    "coverage_met": false,
+    "quality_gate": "failed",
+    "shortfall": 89,
+    "reviewed_unique_urls": 16,
+    "verified_parent_thread_count": 2,
+    "verified_unique_authors": 11,
+    "qualified_count": 0,
+    "target_count": 5,
+    "shortfall_count": 5,
+    "watchlist_count": 5,
+    "source_diversity_insufficient": true
+  },
+  "verification_note": "A post/comment's displayed relative age is bound using its own fresh 'Crawled: today' Reddit original page and current inspection time. Bounds conservatively cover all possible crawl times on 2026-11-22 up to actual reading time; no exact creation timestamp fabricated. For '1d ago', broad interval 2026-11-20 00:00 to inspected_at-24h wholly lies inside window. Source date precision not sufficient to allocate a unique 24h slice."
+}

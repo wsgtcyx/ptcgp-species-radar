@@ -1,8 +1,9 @@
-name: Independently verify deployed iteration 2 JSON, history and evidence
+name: Verify deployed current radar JSON, history and evidence
 on:
   push:
     paths:
       - .github/workflows/verify-pages.yml
+      - latest.json
 
 permissions:
   contents: read

@@ -404,7 +404,7 @@
       ],
       "core_vs_tech": "main_evolution_axis",
       "status": "provisional_research_only_not_confirmed_trending",
-      "reddit_unique_authors_verified": 3,
+      "reddit_unique_authors_verified": 4,
       "reddit_original_posts_direct_verified": 0,
       "reddit_substantive_replies_direct_verified": 2,
       "x_unique_authors_verified": null,
@@ -470,13 +470,26 @@
           "directly_opened": true,
           "summary": "deck_choice",
           "intent": "deck_choice"
+        },
+        {
+          "platform": "reddit",
+          "author": "seribuan",
+          "url": "https://www.reddit.com/r/PTCGP/comments/1y0rm9r/comment/19swma9ibjgps/",
+          "post_id": "19swma9ibjgps",
+          "parent_thread_id": "1y0rm9r",
+          "published_date": null,
+          "published_at": null,
+          "exact_timestamp_verified": false,
+          "directly_opened": true,
+          "summary": "Lorelei + Lapras + Blastoise + Blue's Provocation counter to rabbit decks",
+          "intent": "battle_lorelei_blue_counter"
         }
       ],
       "date_verification_note": "The directly read 2026-11-22 morning Reddit view showed comments approximately 5-6h old, safely within the research window; absolute platform-local date/time cannot be asserted.",
       "audit_confidence": "low_to_medium_single_parent_cluster_only",
       "trending_evidence_verified": false,
       "rising_trend_baseline_available": false,
-      "reddit_distinct_parent_discussion_threads": 1,
+      "reddit_distinct_parent_discussion_threads": 2,
       "under_100_coverage_warning": true,
       "individual_comment_timestamps_verified": false
     },
@@ -632,7 +645,7 @@
     "requested_targets": 5,
     "verified_x_accounts": null,
     "ranking": "distinct authors first, documented deck-role and user intent second. No baseline growth comparison.",
-    "history_path": "history/2026-11-22-deep-audit.json",
+    "history_path": "history/2026-11-22-deep-audit-v2.json",
     "source_post_count_direct_verified": 2,
     "note": "The top post is not itself a substantive deck post; qualifying evidence is in authored comments on it.",
     "revised_from_snapshot": "history/2026-11-22-revised.json",
@@ -648,7 +661,8 @@
     "audited_distinct_source_urls": 31,
     "unique_parent_threads": 3,
     "verified_x_original_urls": 0,
-    "research_status": "insufficient_evidence_diversity; candidate list provisional"
+    "research_status": "provisional_candidate_pool_not_verified_trending; sample below 100; no exact comment timestamps",
+    "publication_note": "This repository content has been updated; latest GitHub Pages workflow and public HTTP status require separate checks."
   },
   "excluded_examples": [
     {
@@ -720,6 +734,7 @@
       "x_verified_posts": 0
     },
     "evidence_artifact": "evidence/2026-11-22-deep-audit.json",
-    "generated_at": "2026-11-22T10:21:07+08:00"
+    "generated_at": "2026-11-22T10:21:07+08:00",
+    "research_caveat": "Reddit original top-level pages have calendar date; individual comment exact timestamps unknown; 31 actually opened URL sources do not satisfy the minimum of 100 strict verified 72-hour originals."
   }
 }

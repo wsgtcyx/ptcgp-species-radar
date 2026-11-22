@@ -1,0 +1,27 @@
+name: Iteration 3 requested first-party gameplay image check
+on:
+  push:
+    paths:
+      - .github/workflows/iteration3-extra-images.yml
+permissions:
+  contents: write
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 7
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install -q Pillow
+      - run: python scripts/iteration3_extra_images.py
+      - name: Save original author media record for audit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add evidence/2026-11-22-160310-iteration3-extra-images.json
+          if git diff --staged --quiet; then exit 0; fi
+          git commit -m "Save original gameplay images for iteration 3 assessment"
+          git pull --rebase origin main
+          git push origin HEAD:main

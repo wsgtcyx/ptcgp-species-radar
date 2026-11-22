@@ -489,16 +489,23 @@
   ],
   "recommended_next_action": "Reddit OAuth/approved API source or authorized data partner is required to robustly collect 100 unique dated originals within 72h; the watchlist is not verified enough for automatic page publishing.",
   "publication": {
-    "status": "repository_write_pending",
-    "commit_written": false,
-    "repository_readback_verified": false,
-    "pages_deploy_verified": false,
+    "status": "report_data_committed_and_pages_workflow_success_public_http_unverified",
+    "commit_written": true,
+    "repository_readback_verified": true,
+    "pages_deploy_verified": true,
     "public_json_verified": false,
+    "verified_data_commit_sha": "af2ba05ca89678bd1abe969c5020cb89cb73b391",
+    "verified_pages_run_id": 44986758552,
+    "verified_pages_run_url": "https://github.com/wsgtcyx/ptcgp-species-radar/actions/runs/44986758552",
+    "verified_pages_run_head_sha": "af2ba05ca89678bd1abe969c5020cb89cb73b391",
+    "verified_pages_status": "completed",
+    "verified_pages_conclusion": "success",
+    "note": "The report data commit was verified and deployed. This status-only edit produces a subsequent Pages run; check GitHub Actions for that run. Public github.io HTTP response is not accessible from the research tools.",
     "repository": "wsgtcyx/ptcgp-species-radar",
     "branch": "main",
     "pages_url": "https://wsgtcyx.github.io/ptcgp-species-radar/",
     "json_url": "https://wsgtcyx.github.io/ptcgp-species-radar/latest.json",
-    "note": "Metadata is a pre-commit snapshot. Verify GitHub readback and current Actions independently."
+    "backup_raw_json": "https://raw.githubusercontent.com/wsgtcyx/ptcgp-species-radar/main/latest.json"
   },
   "audit": {
     "coverage_goal": 100,

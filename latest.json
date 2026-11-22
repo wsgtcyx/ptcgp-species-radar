@@ -9,8 +9,8 @@
     "start": "2026-11-19T10:02:59+08:00",
     "end": "2026-11-22T10:02:59+08:00"
   },
-  "status": "five_qualified_candidates_partial_platform_coverage",
-  "summary": "Five distinct species-page candidates identified with recent attributable substantive Reddit discussion: Aegislash, Pidgeot, Blastoise, Dialga ex, and Zoroark. Authors for overlapping archetypes remain counted per species; X source coverage is unverified. No proven growth trend.",
+  "status": "provisional_candidates_source_coverage_below_minimum",
+  "summary": "Five preliminary species-page ideas came from only two distinct Reddit discussion threads and 11 substantive comments; this is far below the new 100-source audit threshold. No verified X original posts or demonstrated growth. Do not treat five candidates as five proven rising trends.",
   "selection_rules": {
     "max_candidates": 5,
     "target_qualified": 5,
@@ -312,7 +312,8 @@
           "comment_permalink_verified": false,
           "source_confidence": "directly_read_reddit_with_friday_nov20_calendar_date"
         }
-      ]
+      ],
+      "audit_confidence": "provisional_insufficient_source_diversity"
     },
     {
       "rank": 2,
@@ -407,7 +408,8 @@
           "relative_age_window_validation": "well_within_72h_at_observation; exact Beijing clock time unavailable"
         }
       ],
-      "date_verification_note": "The directly read 2026-11-22 morning Reddit view showed comments approximately 5-6h old, safely within the research window; absolute platform-local date/time cannot be asserted."
+      "date_verification_note": "The directly read 2026-11-22 morning Reddit view showed comments approximately 5-6h old, safely within the research window; absolute platform-local date/time cannot be asserted.",
+      "audit_confidence": "provisional_insufficient_source_diversity"
     },
     {
       "rank": 3,
@@ -501,7 +503,8 @@
           "relative_age_window_validation": "well_within_72h_at_observation; exact Beijing clock time unavailable"
         }
       ],
-      "date_verification_note": "The directly read 2026-11-22 morning Reddit view showed comments approximately 5-6h old, safely within the research window; absolute platform-local date/time cannot be asserted."
+      "date_verification_note": "The directly read 2026-11-22 morning Reddit view showed comments approximately 5-6h old, safely within the research window; absolute platform-local date/time cannot be asserted.",
+      "audit_confidence": "provisional_insufficient_source_diversity"
     },
     {
       "rank": 4,
@@ -588,7 +591,8 @@
           "comment_permalink_verified": false,
           "source_confidence": "directly_read_reddit_with_friday_nov20_calendar_date"
         }
-      ]
+      ],
+      "audit_confidence": "provisional_insufficient_source_diversity"
     },
     {
       "rank": 5,
@@ -656,7 +660,8 @@
           "relative_age_window_validation": "well_within_72h_at_observation; exact Beijing clock time unavailable"
         }
       ],
-      "date_verification_note": "The directly read 2026-11-22 morning Reddit view showed comments approximately 5-6h old, safely within the research window; absolute platform-local date/time cannot be asserted."
+      "date_verification_note": "The directly read 2026-11-22 morning Reddit view showed comments approximately 5-6h old, safely within the research window; absolute platform-local date/time cannot be asserted.",
+      "audit_confidence": "provisional_insufficient_source_diversity"
     }
   ],
   "watchlist": [],
@@ -674,7 +679,14 @@
     "source_post_count_direct_verified": 2,
     "note": "The top post is not itself a substantive deck post; qualifying evidence is in authored comments on it.",
     "revised_from_snapshot": "history/2026-11-22-revised.json",
-    "cross_species_shared_authors_note": "Pidgeot/Zoroark share NormTheStorm; Aegislash/Dialga share GRE4TESTEV3R and e_ndoubleu; counted separately by species as permitted. Two same-thread comment clusters must not be presented as five independent threads."
+    "cross_species_shared_authors_note": "Pidgeot/Zoroark share NormTheStorm; Aegislash/Dialga share GRE4TESTEV3R and e_ndoubleu; counted separately by species as permitted. Two same-thread comment clusters must not be presented as five independent threads.",
+    "coverage_goal": 100,
+    "coverage_met": false,
+    "verified_original_source_url_count": 2,
+    "distinct_discussion_thread_count": 2,
+    "high_confidence_rising_species_count": 0,
+    "qualification_provisional": true,
+    "source_audit_path": "evidence/2026-11-22.json"
   },
   "excluded_examples": [
     {
@@ -725,5 +737,34 @@
       "completed_at": "2026-11-22T02:11:17Z"
     },
     "notes": "This update corrects uncertain absolute dates for limited-event thread comments; prior Pages success proved the five-species dataset, but the final corrected version must be deployed and validated."
+  },
+  "audit": {
+    "coverage_goal": 100,
+    "coverage_met": false,
+    "coverage_confidence": "insufficient_sample",
+    "verified_canonical_72h_original_source_urls": 2,
+    "unique_parent_thread_count": 2,
+    "substantive_reddit_comments_read": 11,
+    "verified_x_original_urls": 0,
+    "source_permalink_shortfall": 98,
+    "evidence_artifact": "evidence/2026-11-22.json",
+    "quality_gate_reasons": [
+      "Only 2 distinct top-level Reddit original URLs cited across all five candidates",
+      "Replies by different authors currently reference the same top-level thread URL, lacking direct comment permalinks",
+      "No independently verified X original URLs",
+      "No same-method historical window to establish growth"
+    ],
+    "source_funnel": {
+      "search_queries_executed": null,
+      "discovered_urls_total": null,
+      "discovered_unique_urls": null,
+      "directly_opened_unique_urls_reported_in_candidates": 2,
+      "confirmed_pocket_72h_unique_original_urls_in_candidates": 2,
+      "reddit_substantive_comment_records": 11,
+      "unique_parent_threads": 2,
+      "reddit_unique_authors_reported": 11,
+      "x_originals_verified": 0
+    },
+    "audit_basis": "Computed from latest.json candidate evidence URLs, not a complete replay of today's search queries. Counts are conservative; unknown omitted."
   }
 }

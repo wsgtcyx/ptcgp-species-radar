@@ -1,0 +1,32 @@
+name: One-shot Reddit 72h evidence collection
+on:
+  push:
+    paths:
+      - .github/workflows/reddit-harvest.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Fetch public Reddit posts and comments (no auth bypass)
+        run: python scripts/reddit_harvest.py
+      - name: Commit raw audit (do not certify as verified)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add evidence/reddit-public-raw-*.json
+          if git diff --staged --quiet; then
+            echo "No evidence produced."
+          else
+            git commit -m "Add raw Reddit evidence collection (not independently validated)"
+            git push origin HEAD:main
+          fi

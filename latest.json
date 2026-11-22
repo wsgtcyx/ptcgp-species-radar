@@ -1,197 +1,313 @@
 {
   "schema_version": "1.1",
-  "project": "PTCG Pocket Reddit 百源新物种 Deck SEO 选题雷达",
-  "run_id": "2026-11-22-150407-BJT",
-  "generated_at": "2026-11-22T15:06:48+08:00",
+  "run_id": "2026-11-22-151703-BJT-multiplatform",
+  "generated_at": "2026-11-22T15:21:56+08:00",
   "report_date": "2026-11-22",
-  "timezone": "Asia/Shanghai",
   "window": {
-    "hours": 72,
-    "start": "2026-11-19T15:04:07+08:00",
-    "end": "2026-11-22T15:04:07+08:00"
-  },
-  "status": "partial_unverified_timestamp_and_site_directory",
-  "summary": "本轮严格合格 Reddit 原始构筑信源 0/100，缺 100；全站目录未能直读完整分页，合格建页候选 0/5。发现 Chandelure 近期搜索索引线索但不计入来源。",
-  "selection_rules": {
-    "reddit_only": true,
-    "coverage_goal": 100,
-    "required_distinct_parent_threads": 10,
-    "require_real_author_and_original_time": true,
-    "required_all_species_pages_directly_checked": true,
-    "rayquaza_excluded": true
+    "start": "2026-11-19T15:17:03+08:00",
+    "end": "2026-11-22T15:17:03+08:00",
+    "hours": 72
   },
   "site_audit": {
     "url": "https://pokemontcgpocket.app/en/deck/pokemon",
-    "filter": "All+Name",
-    "live_root_direct_fetch": "unavailable_via_web_tool",
-    "live_name_sort_direct_fetch": "cache_miss_or_inaccessible",
-    "live_pagination_attempts": [
-      "/en/deck/pokemon",
-      "/en/deck/pokemon?sort=name",
-      "/en/deck/pokemon?page=2",
-      "/en/deck/pokemon?page=1&sort=name"
+    "order": "All + Name",
+    "pages_directly_opened": 2,
+    "page_count_reported": 2,
+    "terminal_page_verified": true,
+    "page_1_count": 40,
+    "page_2_count": 1,
+    "species_base_count": 41,
+    "species": [
+      "Absol",
+      "Altaria",
+      "Azumarill",
+      "Baxcalibur",
+      "Bewear",
+      "Blaziken",
+      "Carbink",
+      "Charizard",
+      "Chien-Pao",
+      "Darkrai",
+      "Diancie",
+      "Dragonair",
+      "Dragonite",
+      "Entei",
+      "Fuecoco",
+      "Garchomp",
+      "Gardevoir",
+      "Gengar",
+      "Giratina",
+      "Greninja",
+      "Hoopa",
+      "Hydreigon",
+      "Igglybuff",
+      "Lucario",
+      "Magnezone",
+      "Manectric",
+      "Mawile",
+      "Skarmory",
+      "Mew",
+      "Mewtwo",
+      "Miraidon",
+      "Oricorio",
+      "Pawmot",
+      "Pikachu",
+      "Sceptile",
+      "Sharpedo",
+      "Suicune",
+      "Tyranitar",
+      "Umbreon",
+      "Venusaur",
+      "Vespiquen"
     ],
-    "index_evidence": [
-      {
-        "url": "https://www.pokemontcgpocket.app/en/deck/pokemon",
-        "observed": "search index shows partial catalogue cards, not a full direct read",
-        "method": "web.fast search result"
-      },
-      {
-        "url": "https://www.pokemontcgpocket.app/en/deck/pokemon?page=2",
-        "observed": "search index shows Page 2 of 2 and Bewear ex",
-        "method": "web.fast search result"
-      }
-    ],
-    "pages_directly_verified": 0,
-    "last_page_directly_verified": null,
-    "observed_species_count": null,
-    "missing_pages": null,
-    "exclusion_complete": false,
-    "species_confirmed_absent": [],
-    "exclusion_rule": "Exclude any basic species with an existing species page including all ex/Mega forms; additionally exclude Rayquaza.",
-    "conclusion": "Cannot certify any 'missing' species because entire live All+Name directory was not traversed."
+    "excluded_extra": "Rayquaza",
+    "all_name_pagination_verified": true,
+    "alternate_sort": "Newest page 1 inspected, sort changes order; did not re-traverse its pages",
+    "sitemap_check": "No independent complete sitemap census available; Name listing itself fully traversed",
+    "single_deck_detail_not_equivalent_to_species_page": true
   },
   "source_coverage": {
-    "reddit": {
-      "status": "original_direct_read_unavailable",
-      "smoke_test": {
-        "top_level_post_tests": 2,
-        "comment_tests": 2,
-        "success_with_original_author_body_time": 0,
-        "web_http_status": null,
-        "web_error": "cache_miss",
-        "json_endpoint_result": "cache_miss",
-        "stale_new_feed": "r/PTCGP/new page shows 3-month-old crawler snapshot (not live posts); excluded",
-        "direct_external_http_attempt": "connection_error_without_http_status",
-        "authorized_reddit_api_connection_available": false
-      },
-      "subreddits_attempted": [
-        "r/PTCGP",
-        "r/PokemonPocket",
-        "r/PokemonTCGP",
-        "r/PTCGPocketTrading"
-      ],
-      "languages_attempted": [
-        "en",
-        "ja",
-        "es",
-        "pt"
-      ],
-      "indexed_leads": 5,
-      "originals_direct_verified": 0,
-      "verified_timestamp_authors": 0,
-      "query_samples": [
-        {
-          "language": "en",
-          "platform": "Reddit",
-          "queries": [
-            "site:reddit.com/r/PTCGP/comments/ deck 2026 Nov 21 Pokémon Pocket",
-            "site:reddit.com/r/PokemonPocket/comments/ deck 2026 Nov 20 21 22",
-            "site:reddit.com/r/PokemonTCGP/comments/ deck 2026 November 2026",
-            "site:reddit.com/r/PTCGP/comments/ \"November 21, 2026\" \"deck\"",
-            "site:reddit.com/r/PTCGP/comments/ \"November 20, 2026\" \"deck\"",
-            "site:reddit.com/r/PokemonPocket/comments/ \"November 21, 2026\" \"build\""
-          ]
-        },
-        {
-          "language": "ja",
-          "platform": "Reddit",
-          "queries": [
-            "site:reddit.com/r/PTCGP/comments/ \"ポケポケ\" \"デッキ\" November 2026",
-            "site:reddit.com \"ポケポケ\" \"構築\" \"11月21日\" 2026"
-          ]
-        },
-        {
-          "language": "es",
-          "platform": "Reddit",
-          "queries": [
-            "site:reddit.com \"PTCG Pocket\" \"mazo\" \"noviembre\" 2026"
-          ]
-        },
-        {
-          "language": "pt",
-          "platform": "Reddit",
-          "queries": [
-            "site:reddit.com \"PTCGP\" \"baralho\" \"novembro\" 2026"
-          ]
-        }
-      ]
+    "only_reddit": false,
+    "platform_distribution": {
+      "reddit": 11,
+      "x": 0,
+      "youtube": 0,
+      "bluesky": 0,
+      "other": 0
     },
-    "x": {
-      "status": "not_searched_explicitly_reddit_only"
-    }
+    "platform_statuses": {
+      "reddit": {
+        "search_attempted": true,
+        "opened_post_and_comment_permalinks": true,
+        "community_scope": [
+          "r/PTCGP",
+          "r/PokemonPocket",
+          "r/PokemonTCGP",
+          "r/PTCGPocketTrading"
+        ],
+        "status": "partial original content available, not exhaustive /new or API pagination"
+      },
+      "x": {
+        "search_attempted": true,
+        "original_posts_directly_verified": 0,
+        "reason": "Original X posts not obtained in readable timestamped form"
+      },
+      "youtube": {
+        "search_attempted": true,
+        "video_urls_attempted": 2,
+        "subtitles_or_video_content_verified": 0,
+        "reason": "2 video opens cache miss"
+      },
+      "bluesky": {
+        "search_attempted": true,
+        "author_profile_opened": true,
+        "getAuthorFeed_usable": false,
+        "original_posts_directly_verified": 0,
+        "reason": "Author feed API retrieval failed; index/profile not proof of original posts"
+      }
+    },
+    "source_diversity_insufficient": true
   },
   "candidates": [],
   "watchlist": [
     {
       "species": "Chandelure",
-      "species_zh": "水晶灯火灵",
-      "species_ja": "シャンデラ",
-      "form": "卡牌具体形态/卡号未核",
-      "status": "C_unverified_lead",
-      "reddit_unique_authors_verified": null,
-      "reddit_original_posts_verified": 0,
-      "reddit_comments_verified": 0,
-      "reddit_unique_parent_threads_verified": 0,
-      "source_count_strict_72h": 0,
-      "trending": null,
-      "recommended_page": "仅作待核观察：公开索引展示 Chandelure + Oricorio 的独立构筑、弃牌增伤、Copycat / Hiking Trail 轮转需求。站内缺页、作者、精确发帖时间、卡号均未直读核验，因此不建议下游自动建页。",
-      "missing": "缺少本轮 Reddit 原帖作者/独立发布时间、完整本站物种目录排除及可靠版本号。",
-      "evidence": [
-        {
-          "url": "https://www.reddit.com/r/PTCGP/comments/1y22t44/new_chandelure_deck/",
-          "source_id": "t3_1y22t44",
-          "author": null,
-          "published_date": "2026-11-21 (search index only)",
-          "published_at_bjt": null,
-          "directly_opened": false,
-          "summary": "Chandelure / Oricorio / Copycat / Hiking Trail deck; full post fetch failed.",
-          "intent": [
-            "C"
-          ],
-          "verification_status": "index_only_not_eligible"
-        }
-      ]
+      "name_en": "Chandelure",
+      "name_zh": "水晶灯火灵",
+      "name_ja": "シャンデラ",
+      "form": "Chandelure + Oricorio discard/accelerated damage, exact card ID not independently verified",
+      "why": "Primary deck engine with multiple concrete draw and support-card disagreements; species landing page could compare Meloetta/Oricorio variants",
+      "search_questions": [
+        "chandelure deck pokemon tcg pocket",
+        "chandelure oricorio deck",
+        "chandelure meloetta deck"
+      ],
+      "priority": "A_observation_100_gate_failed",
+      "strict_sources": 3,
+      "verified_authors": 3,
+      "verified_parent_threads": 1,
+      "post_count": 1,
+      "comment_count": 2,
+      "source_ids": [
+        "t3_1y22t44",
+        "t1_19szfoqorwqhx",
+        "t1_19szgu601axi8"
+      ],
+      "source_urls": [
+        "https://www.reddit.com/r/PTCGP/comments/1y22t44/new_chandelure_deck/",
+        "https://www.reddit.com/r/PTCGP/comments/1y22t44/comment/19szfoqorwqhx/",
+        "https://www.reddit.com/r/PTCGP/comments/1y22t44/comment/19szgu601axi8/"
+      ],
+      "listed_in_species_directory": false,
+      "auto_build_approved": false
+    },
+    {
+      "species": "Pidgeot",
+      "name_en": "Pidgeot",
+      "name_zh": "大比鸟",
+      "name_ja": "ピジョット",
+      "form": "Specific version not verified; Pidgeot + Zoroark or Umbreon with Blue's Provocation",
+      "why": "Two independently described partners, but both from one general-event parent thread",
+      "search_questions": [
+        "pidgeot zoroark deck pocket",
+        "pidgeot umbreon deck pocket"
+      ],
+      "priority": "B_observation_100_gate_failed",
+      "strict_sources": 2,
+      "verified_authors": 2,
+      "verified_parent_threads": 1,
+      "post_count": 0,
+      "comment_count": 2,
+      "source_ids": [
+        "t1_19sxtl6ij8g0x",
+        "t1_19sxtx3fltb1e"
+      ],
+      "source_urls": [
+        "https://www.reddit.com/r/PTCGP/comments/1y1dwkw/comment/19sxtl6ij8g0x/",
+        "https://www.reddit.com/r/PTCGP/comments/1y1dwkw/comment/19sxtx3fltb1e/"
+      ],
+      "listed_in_species_directory": false,
+      "auto_build_approved": false
+    },
+    {
+      "species": "Blastoise",
+      "name_en": "Blastoise",
+      "name_zh": "水箭龟",
+      "name_ja": "カメックス",
+      "form": "Specific version not verified; Squirtle paralysis and Lapras/Blue's Provocation",
+      "why": "Two direct comments about evolution timing and match-up control, one parent thread only",
+      "search_questions": [
+        "blastoise deck pokemon pocket",
+        "blastoise blue's provocation"
+      ],
+      "priority": "B_observation_100_gate_failed",
+      "strict_sources": 2,
+      "verified_authors": 2,
+      "verified_parent_threads": 1,
+      "post_count": 0,
+      "comment_count": 2,
+      "source_ids": [
+        "t1_19sxtn25u8o4g",
+        "t1_19sxwei7qrm04"
+      ],
+      "source_urls": [
+        "https://www.reddit.com/r/PTCGP/comments/1y1dwkw/comment/19sxtn25u8o4g/",
+        "https://www.reddit.com/r/PTCGP/comments/1y1dwkw/comment/19sxwei7qrm04/"
+      ],
+      "listed_in_species_directory": false,
+      "auto_build_approved": false
+    },
+    {
+      "species": "Zoroark",
+      "name_en": "Zoroark",
+      "name_zh": "索罗亚克",
+      "name_ja": "ゾロアーク",
+      "form": "Foul Play/copy attack implied, exact card number unverified",
+      "why": "One person reports actual Pidgeot-Zoroark usage as a named strategy, but species overlap and single author make independent SEO value uncertain",
+      "search_questions": [
+        "zoroark pidgeot deck pocket"
+      ],
+      "priority": "C_observation_100_gate_failed",
+      "strict_sources": 1,
+      "verified_authors": 1,
+      "verified_parent_threads": 1,
+      "post_count": 0,
+      "comment_count": 1,
+      "source_ids": [
+        "t1_19sxtl6ij8g0x"
+      ],
+      "source_urls": [
+        "https://www.reddit.com/r/PTCGP/comments/1y1dwkw/comment/19sxtl6ij8g0x/"
+      ],
+      "listed_in_species_directory": false,
+      "auto_build_approved": false
+    },
+    {
+      "species": "Aegislash",
+      "name_en": "Aegislash",
+      "name_zh": "坚盾剑怪",
+      "name_ja": "ギルガルド",
+      "form": null,
+      "why": "Original build-help discussion and detailed partners visible, but per-comment creation time could not be bounded strictly within fixed window, 0 eligible current sources",
+      "search_questions": [
+        "aegislash deck pocket"
+      ],
+      "priority": "C_timestamp_unverified",
+      "strict_sources": 0,
+      "verified_authors": 0,
+      "verified_parent_threads": 0,
+      "post_count": 0,
+      "comment_count": 0,
+      "source_ids": [],
+      "source_urls": [],
+      "listed_in_species_directory": false,
+      "auto_build_approved": false
     }
   ],
-  "reporting": {
-    "run_id": "2026-11-22-150407-BJT",
-    "strict_eligible_count": 0,
+  "audit": {
+    "strict_eligible_count": 11,
     "source_goal": 100,
     "coverage_met": false,
     "quality_gate": "failed",
-    "shortfall": 100,
-    "reviewed_unique_urls": 5,
-    "verified_parent_thread_count": 0,
-    "verified_unique_authors": 0,
+    "shortfall": 89,
+    "reviewed_unique_urls": 16,
+    "verified_parent_thread_count": 2,
+    "verified_unique_authors": 11,
     "qualified_count": 0,
     "target_count": 5,
     "shortfall_count": 5,
-    "watchlist_count": 1,
-    "history_path": "history/2026-11-22-150407.json",
-    "evidence_path": "evidence/2026-11-22-150407.json",
-    "verified_72h_source_count": 0,
+    "watchlist_count": 5,
     "source_diversity_insufficient": true,
-    "source_diversity_goal": 10,
-    "pages_directly_verified": 0,
-    "search_rounds_completed": 1,
-    "second_round_original_comment_reads_attempted": 2,
-    "stopping_reason": "Timestamp+original-content path failed at required 2+2 smoke test; further search snippets cannot satisfy 100-source gate.",
-    "query_log_scope": "Representatively logged queries, not exhaustive count of every search across tool calls."
-  },
-  "excluded_examples": [
-    {
-      "species": "Rayquaza",
-      "reason": "permanent exclusion by task rules"
-    },
-    {
-      "species": "Unknown TCG Live card",
-      "reason": "PTCGL original indexed link not digital Pocket",
-      "url": "https://www.reddit.com/r/PTCGL/comments/1y25sui/is_there_a_way_to_see_which_decks_are_currently/"
+    "coverage_goal": 100,
+    "evidence_artifact": "evidence/2026-11-22-151703-multiplatform.json",
+    "source_funnel": {
+      "discovered_index_hits": null,
+      "fetched_originals": 16,
+      "reviewed_unique_urls": 16,
+      "unique_dated_within_window": 11,
+      "pocket_only": 11,
+      "deck_intent": 11,
+      "cross_platform_duplicates_removed": 0,
+      "eligible_sources": 11,
+      "distinct_parent_threads": 2,
+      "distinct_unique_public_authors": 11,
+      "posts": 1,
+      "comments": 10,
+      "missing_time": 7,
+      "out_of_window": null,
+      "inaccessible": null,
+      "non_pocket": null,
+      "duplicates": null
     }
-  ],
-  "recommended_next_action": "Recover a permitted, authenticated or otherwise directly timestamp-readable Reddit original-data path; then rescan all 72h feeds, full page site catalogue, and verify 100+ originals before selecting pages.",
+  },
+  "reporting": {
+    "run_id": "2026-11-22-151703-BJT-multiplatform",
+    "strict_eligible_count": 11,
+    "source_goal": 100,
+    "coverage_met": false,
+    "quality_gate": "failed",
+    "shortfall": 89,
+    "reviewed_unique_urls": 16,
+    "verified_parent_thread_count": 2,
+    "verified_unique_authors": 11,
+    "qualified_count": 0,
+    "target_count": 5,
+    "shortfall_count": 5,
+    "watchlist_count": 5,
+    "source_diversity_insufficient": true,
+    "history_path": "history/2026-11-22-151703-multiplatform.json",
+    "evidence_path": "evidence/2026-11-22-151703-multiplatform.json",
+    "strict_source_posts": 1,
+    "strict_source_comments": 10,
+    "per_platform": {
+      "reddit": 11,
+      "x": 0,
+      "youtube": 0,
+      "bluesky": 0,
+      "other": 0
+    }
+  },
+  "summary": "11/100 eligible original sources verified across platforms (Reddit 11, X 0, YouTube 0, Bluesky 0), 2 parent threads, 11 authors; 0/5 auto-build-qualified species because the 100-source gate is failed. 5 evidence-based/uncertain watchlist entries; directory All+Name 2 pages/41 base species verified.",
   "publication": {
     "status": "pending",
     "commit_written": false,
@@ -203,38 +319,6 @@
     "public_url": "https://wsgtcyx.github.io/ptcgp-species-radar/",
     "json_url": "https://wsgtcyx.github.io/ptcgp-species-radar/latest.json",
     "raw_json_url": "https://raw.githubusercontent.com/wsgtcyx/ptcgp-species-radar/main/latest.json",
-    "note": "These fields are pending at file creation; actual final submission/deploy/HTTP checks are reported in run conversation to avoid generating a new unverified commit."
-  },
-  "audit": {
-    "run_id": "2026-11-22-150407-BJT",
-    "coverage_goal": 100,
-    "coverage_met": false,
-    "quality_gate": "failed",
-    "verified_canonical_72h_original_source_urls": 0,
-    "strict_eligible_count": 0,
-    "shortfall": 100,
-    "reviewed_unique_urls": 5,
-    "verified_parent_thread_count": 0,
-    "verified_unique_authors": 0,
-    "source_funnel": {
-      "discovered_urls": 5,
-      "original_fetch_attempts": 4,
-      "original_fetch_successes": 0,
-      "index_only_records": 5,
-      "unique_dated_inside_72h": null,
-      "pocket_only_index_leads": 4,
-      "substantive_deck_index_leads": 2,
-      "eligible_sources": 0,
-      "distinct_eligible_parent_threads": 0,
-      "distinct_eligible_authors": 0,
-      "duplicates": 0,
-      "out_of_window_index_leads": 1,
-      "non_pocket_index_leads": 1,
-      "missing_original_timestamp": 5,
-      "failed_timestamp_smoke_tests": 4
-    },
-    "discovered_index_only": 5,
-    "evidence_artifact": "evidence/2026-11-22-150407.json",
-    "site_audit_complete": false
+    "note": "Files do not self-certify deployment; final result verified out of band after commit. Other jobs' newer latest must not be overwritten."
   }
 }

@@ -716,27 +716,27 @@
   ],
   "recommended_next_action": "Build Aegislash Cursed Metal overview first with multiple requested core partners, Pidgeot next, Blastoise after, then Dialga ex and Zoroark with substantial non-duplicative content. Verify more independent sources and X for growth claims.",
   "publication": {
-    "status": "corrected_time_evidence_commit_pending",
-    "commit_written": false,
-    "repository_readback_verified": false,
-    "pages_deploy_verified": false,
+    "status": "pages_build_deploy_verified_public_http_unverified",
+    "commit_written": true,
+    "repository_readback_verified": true,
+    "pages_deploy_verified": true,
     "public_json_verified": false,
-    "data_commit_sha": "79fc1d9117d0aa43b5ef83eabb4a2b31142e9e94",
+    "data_commit_sha": "b799f3b409754789179eb1e1f3ddf4d12a2ec2b7",
     "repository": "wsgtcyx/ptcgp-species-radar",
     "branch": "main",
     "pages_url": "https://wsgtcyx.github.io/ptcgp-species-radar/",
     "json_url": "https://wsgtcyx.github.io/ptcgp-species-radar/latest.json",
     "raw_url": "https://raw.githubusercontent.com/wsgtcyx/ptcgp-species-radar/main/latest.json",
     "pages_workflow_observed": {
-      "run_id": 44974860828,
-      "head_sha": "79fc1d9117d0aa43b5ef83eabb4a2b31142e9e94",
+      "run_id": 44975132684,
+      "head_sha": "b799f3b409754789179eb1e1f3ddf4d12a2ec2b7",
       "status": "completed",
       "conclusion": "success",
       "verified_build_job": true,
       "verified_deploy_job": true,
-      "completed_at": "2026-11-22T02:11:17Z"
+      "completed_at": "2026-11-22T02:14:48Z"
     },
-    "notes": "This update corrects uncertain absolute dates for limited-event thread comments; prior Pages success proved the five-species dataset, but the final corrected version must be deployed and validated."
+    "notes": "GitHub repository readback and the five-candidate latest Pages workflow are verified. Direct public HTTP fetch of github.io remains blocked in this research environment; public_json_verified is false. This publication-metadata-only commit itself requires its own subsequent Pages workflow."
   },
   "audit": {
     "coverage_goal": 100,

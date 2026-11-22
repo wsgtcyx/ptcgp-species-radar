@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1",
-  "run_id": "2026-11-22-151703-BJT-multiplatform",
-  "generated_at": "2026-11-22T15:21:56+08:00",
+  "run_id": "2026-11-22-153002-iteration1",
+  "generated_at": "2026-11-22T15:34:45+08:00",
   "report_date": "2026-11-22",
   "window": {
-    "start": "2026-11-19T15:17:03+08:00",
-    "end": "2026-11-22T15:17:03+08:00",
+    "start": "2026-11-19T15:30:02+08:00",
+    "end": "2026-11-22T15:30:02+08:00",
     "hours": 72
   },
   "site_audit": {
@@ -15,299 +15,215 @@
     "page_count_reported": 2,
     "terminal_page_verified": true,
     "page_1_count": 40,
-    "page_2_count": 1,
-    "species_base_count": 41,
+    "page_2_count": 2,
+    "species_base_count": 42,
     "species": [
-      "Absol",
-      "Altaria",
-      "Azumarill",
-      "Baxcalibur",
-      "Bewear",
-      "Blaziken",
-      "Carbink",
-      "Charizard",
-      "Chien-Pao",
-      "Darkrai",
-      "Diancie",
-      "Dragonair",
-      "Dragonite",
-      "Entei",
-      "Fuecoco",
-      "Garchomp",
-      "Gardevoir",
-      "Gengar",
-      "Giratina",
-      "Greninja",
-      "Hoopa",
-      "Hydreigon",
-      "Igglybuff",
-      "Lucario",
-      "Magnezone",
-      "Manectric",
-      "Mawile",
-      "Skarmory",
-      "Mew",
-      "Mewtwo",
-      "Miraidon",
-      "Oricorio",
-      "Pawmot",
-      "Pikachu",
-      "Sceptile",
-      "Sharpedo",
-      "Suicune",
-      "Tyranitar",
-      "Umbreon",
-      "Venusaur",
-      "Vespiquen"
+      "absol",
+      "altaria",
+      "azumarill",
+      "baxcalibur",
+      "bewear",
+      "blaziken",
+      "carbink",
+      "charizard",
+      "chien-pao",
+      "darkrai",
+      "diancie",
+      "dragonair",
+      "dragonite",
+      "entei",
+      "fuecoco",
+      "garchomp",
+      "gardevoir",
+      "gengar",
+      "giratina",
+      "greninja",
+      "hoopa",
+      "hydreigon",
+      "igglybuff",
+      "lucario",
+      "magnezone",
+      "manectric",
+      "mawile",
+      "skarmory",
+      "mew",
+      "mewtwo",
+      "miraidon",
+      "oricorio",
+      "pawmot",
+      "pikachu",
+      "ribombee",
+      "sceptile",
+      "sharpedo",
+      "suicune",
+      "tyranitar",
+      "umbreon",
+      "venusaur",
+      "vespiquen"
     ],
     "excluded_extra": "Rayquaza",
     "all_name_pagination_verified": true,
-    "alternate_sort": "Newest page 1 inspected, sort changes order; did not re-traverse its pages",
-    "sitemap_check": "No independent complete sitemap census available; Name listing itself fully traversed",
+    "alternate_sort": "Default/popular 2 pages direct HTTP 200, same 42 species",
+    "sitemap_check": "not independently fetched",
     "single_deck_detail_not_equivalent_to_species_page": true
   },
   "source_coverage": {
     "only_reddit": false,
     "platform_distribution": {
-      "reddit": 11,
+      "pocketmads": 1,
+      "reddit": 0,
       "x": 0,
       "youtube": 0,
       "bluesky": 0,
-      "other": 0
+      "threads": 0,
+      "tiktok": 0,
+      "bilibili": 0
     },
     "platform_statuses": {
       "reddit": {
-        "search_attempted": true,
-        "opened_post_and_comment_permalinks": true,
-        "community_scope": [
-          "r/PTCGP",
-          "r/PokemonPocket",
-          "r/PokemonTCGP",
-          "r/PTCGPocketTrading"
-        ],
-        "status": "partial original content available, not exhaustive /new or API pagination"
-      },
-      "x": {
-        "search_attempted": true,
-        "original_posts_directly_verified": 0,
-        "reason": "Original X posts not obtained in readable timestamped form"
-      },
-      "youtube": {
-        "search_attempted": true,
-        "video_urls_attempted": 2,
-        "subtitles_or_video_content_verified": 0,
-        "reason": "2 video opens cache miss"
+        "attempted_original_urls": 4,
+        "opened": 0,
+        "failures": 4
       },
       "bluesky": {
-        "search_attempted": true,
-        "author_profile_opened": true,
-        "getAuthorFeed_usable": false,
-        "original_posts_directly_verified": 0,
-        "reason": "Author feed API retrieval failed; index/profile not proof of original posts"
+        "actor_feeds": 2,
+        "http200": 2,
+        "records_dated_inside_window": 13,
+        "valid": 0
+      },
+      "pocketmads": {
+        "homepage_http200": 1,
+        "individual_original_http200": 1,
+        "within_window_eligible": 1,
+        "out_of_window_feed_post": 1
+      },
+      "x": {
+        "searched": true,
+        "originals_read": 0
+      },
+      "youtube": {
+        "searched": true,
+        "originals_read": 0
+      },
+      "other": {
+        "searched": false
       }
     },
-    "source_diversity_insufficient": true
+    "source_diversity_insufficient": true,
+    "author_cross_platform_dedup": "not applicable; only 1 eligible author"
   },
   "candidates": [],
   "watchlist": [
     {
-      "species": "Chandelure",
-      "name_en": "Chandelure",
-      "name_zh": "水晶灯火灵",
-      "name_ja": "シャンデラ",
-      "form": "Chandelure + Oricorio discard/accelerated damage, exact card ID not independently verified",
-      "why": "Primary deck engine with multiple concrete draw and support-card disagreements; species landing page could compare Meloetta/Oricorio variants",
-      "search_questions": [
-        "chandelure deck pokemon tcg pocket",
-        "chandelure oricorio deck",
-        "chandelure meloetta deck"
+      "species": "Malamar",
+      "species_zh": "乌贼王",
+      "species_ja": "カラマネロ",
+      "form": "normal Malamar; exact expansion/card number not verified",
+      "status": "C_observation_only_insufficient_sample",
+      "candidate_eligible": false,
+      "evidence_links": [
+        "https://app.pocketmads.com/feed/c0575dfc-71e3-41bb-89f4-14eefdc0bc7e"
       ],
-      "priority": "A_observation_100_gate_failed",
-      "strict_sources": 3,
-      "verified_authors": 3,
-      "verified_parent_threads": 1,
-      "post_count": 1,
-      "comment_count": 2,
-      "source_ids": [
-        "t3_1y22t44",
-        "t1_19szfoqorwqhx",
-        "t1_19szgu601axi8"
+      "evidence_source_ids": [
+        "c0575dfc-71e3-41bb-89f4-14eefdc0bc7e"
       ],
-      "source_urls": [
-        "https://www.reddit.com/r/PTCGP/comments/1y22t44/new_chandelure_deck/",
-        "https://www.reddit.com/r/PTCGP/comments/1y22t44/comment/19szfoqorwqhx/",
-        "https://www.reddit.com/r/PTCGP/comments/1y22t44/comment/19szgu601axi8/"
+      "reddit_verified_authors": 0,
+      "bluesky_verified_authors": 0,
+      "pocketmads_verified_authors": 1,
+      "other_verified_authors": 0,
+      "independent_parent_threads": 1,
+      "valid_source_count": 1,
+      "time_buckets": {
+        "0-24h": 0,
+        "24-48h": 1,
+        "48-72h": 0
+      },
+      "original_post_count": 1,
+      "valid_comment_count": 0,
+      "deck_intent": [
+        "B_partner_energy",
+        "C_published_deck_list"
       ],
-      "listed_in_species_directory": false,
-      "auto_build_approved": false
-    },
-    {
-      "species": "Pidgeot",
-      "name_en": "Pidgeot",
-      "name_zh": "大比鸟",
-      "name_ja": "ピジョット",
-      "form": "Specific version not verified; Pidgeot + Zoroark or Umbreon with Blue's Provocation",
-      "why": "Two independently described partners, but both from one general-event parent thread",
-      "search_questions": [
-        "pidgeot zoroark deck pocket",
-        "pidgeot umbreon deck pocket"
-      ],
-      "priority": "B_observation_100_gate_failed",
-      "strict_sources": 2,
-      "verified_authors": 2,
-      "verified_parent_threads": 1,
-      "post_count": 0,
-      "comment_count": 2,
-      "source_ids": [
-        "t1_19sxtl6ij8g0x",
-        "t1_19sxtx3fltb1e"
-      ],
-      "source_urls": [
-        "https://www.reddit.com/r/PTCGP/comments/1y1dwkw/comment/19sxtl6ij8g0x/",
-        "https://www.reddit.com/r/PTCGP/comments/1y1dwkw/comment/19sxtx3fltb1e/"
-      ],
-      "listed_in_species_directory": false,
-      "auto_build_approved": false
-    },
-    {
-      "species": "Blastoise",
-      "name_en": "Blastoise",
-      "name_zh": "水箭龟",
-      "name_ja": "カメックス",
-      "form": "Specific version not verified; Squirtle paralysis and Lapras/Blue's Provocation",
-      "why": "Two direct comments about evolution timing and match-up control, one parent thread only",
-      "search_questions": [
-        "blastoise deck pokemon pocket",
-        "blastoise blue's provocation"
-      ],
-      "priority": "B_observation_100_gate_failed",
-      "strict_sources": 2,
-      "verified_authors": 2,
-      "verified_parent_threads": 1,
-      "post_count": 0,
-      "comment_count": 2,
-      "source_ids": [
-        "t1_19sxtn25u8o4g",
-        "t1_19sxwei7qrm04"
-      ],
-      "source_urls": [
-        "https://www.reddit.com/r/PTCGP/comments/1y1dwkw/comment/19sxtn25u8o4g/",
-        "https://www.reddit.com/r/PTCGP/comments/1y1dwkw/comment/19sxwei7qrm04/"
-      ],
-      "listed_in_species_directory": false,
-      "auto_build_approved": false
-    },
-    {
-      "species": "Zoroark",
-      "name_en": "Zoroark",
-      "name_zh": "索罗亚克",
-      "name_ja": "ゾロアーク",
-      "form": "Foul Play/copy attack implied, exact card number unverified",
-      "why": "One person reports actual Pidgeot-Zoroark usage as a named strategy, but species overlap and single author make independent SEO value uncertain",
-      "search_questions": [
-        "zoroark pidgeot deck pocket"
-      ],
-      "priority": "C_observation_100_gate_failed",
-      "strict_sources": 1,
-      "verified_authors": 1,
-      "verified_parent_threads": 1,
-      "post_count": 0,
-      "comment_count": 1,
-      "source_ids": [
-        "t1_19sxtl6ij8g0x"
-      ],
-      "source_urls": [
-        "https://www.reddit.com/r/PTCGP/comments/1y1dwkw/comment/19sxtl6ij8g0x/"
-      ],
-      "listed_in_species_directory": false,
-      "auto_build_approved": false
-    },
-    {
-      "species": "Aegislash",
-      "name_en": "Aegislash",
-      "name_zh": "坚盾剑怪",
-      "name_ja": "ギルガルド",
-      "form": null,
-      "why": "Original build-help discussion and detailed partners visible, but per-comment creation time could not be bounded strictly within fixed window, 0 eligible current sources",
-      "search_questions": [
-        "aegislash deck pocket"
-      ],
-      "priority": "C_timestamp_unverified",
-      "strict_sources": 0,
-      "verified_authors": 0,
-      "verified_parent_threads": 0,
-      "post_count": 0,
-      "comment_count": 0,
-      "source_ids": [],
-      "source_urls": [],
-      "listed_in_species_directory": false,
-      "auto_build_approved": false
+      "primary_role": "Malamar as repeatable 100-damage attacker with one energy; Meowstic confusion engine, Mega Mewtwo X ex finisher",
+      "site_check": {
+        "all_name_pages_verified": 2,
+        "base_species_count": 42,
+        "is_missing_species_directory": true,
+        "site_single_deck_deduplication": "not fully confirmed"
+      },
+      "independent_page_value": "Potential Malamar/Meowstic confusion-based deck with tactics, list and variants; requires 2nd independently authored discussion and differentiation from Mewtwo pages",
+      "what_to_verify_next": "Find 2+ independent authentic players across 2 parent posts, verify Malamar variant/card ID, compare against any existing Malamar solo deck pages",
+      "growth_rate": null
     }
   ],
   "audit": {
-    "strict_eligible_count": 11,
-    "source_goal": 100,
-    "coverage_met": false,
+    "iteration": 1,
+    "run_id": "2026-11-22-153002-iteration1",
     "quality_gate": "failed",
-    "shortfall": 89,
-    "reviewed_unique_urls": 16,
-    "verified_parent_thread_count": 2,
-    "verified_unique_authors": 11,
-    "qualified_count": 0,
-    "target_count": 5,
-    "shortfall_count": 5,
-    "watchlist_count": 5,
-    "source_diversity_insufficient": true,
+    "coverage_met": false,
     "coverage_goal": 100,
-    "evidence_artifact": "evidence/2026-11-22-151703-multiplatform.json",
-    "source_funnel": {
-      "discovered_index_hits": null,
-      "fetched_originals": 16,
-      "reviewed_unique_urls": 16,
-      "unique_dated_within_window": 11,
-      "pocket_only": 11,
-      "deck_intent": 11,
-      "cross_platform_duplicates_removed": 0,
-      "eligible_sources": 11,
-      "distinct_parent_threads": 2,
-      "distinct_unique_public_authors": 11,
-      "posts": 1,
-      "comments": 10,
-      "missing_time": 7,
-      "out_of_window": null,
-      "inaccessible": null,
-      "non_pocket": null,
-      "duplicates": null
-    }
-  },
-  "reporting": {
-    "run_id": "2026-11-22-151703-BJT-multiplatform",
-    "strict_eligible_count": 11,
-    "source_goal": 100,
-    "coverage_met": false,
-    "quality_gate": "failed",
-    "shortfall": 89,
-    "reviewed_unique_urls": 16,
-    "verified_parent_thread_count": 2,
-    "verified_unique_authors": 11,
-    "qualified_count": 0,
-    "target_count": 5,
-    "shortfall_count": 5,
-    "watchlist_count": 5,
+    "eligible_sources": 1,
+    "shortfall": 99,
     "source_diversity_insufficient": true,
-    "history_path": "history/2026-11-22-151703-multiplatform.json",
-    "evidence_path": "evidence/2026-11-22-151703-multiplatform.json",
     "strict_source_posts": 1,
-    "strict_source_comments": 10,
-    "per_platform": {
-      "reddit": 11,
+    "strict_source_comments": 0,
+    "source_funnel": {
+      "discovered_original_urls": 19,
+      "reviewed_unique_urls": 18,
+      "directly_fetched_original_records": 14,
+      "timestamp_verified_within_72h": 14,
+      "pocket_deck_intent_verified": 1,
+      "strictly_eligible_count": 1,
+      "duplicates_verified": 0,
+      "out_of_window": 1,
+      "no_substantive_deck_discussion": 13,
+      "original_unavailable": 4,
+      "unknown_author_or_time": 4
+    },
+    "per_platform_eligible": {
+      "pocketmads": 1,
+      "reddit": 0,
       "x": 0,
       "youtube": 0,
       "bluesky": 0,
-      "other": 0
-    }
+      "threads": 0,
+      "tiktok": 0,
+      "bilibili": 0
+    },
+    "evidence_artifact": "evidence/2026-11-22-153002-iteration1.json",
+    "raw_probe_artifact": "evidence/2026-11-22-153002-iteration1-live-probe.json"
   },
-  "summary": "11/100 eligible original sources verified across platforms (Reddit 11, X 0, YouTube 0, Bluesky 0), 2 parent threads, 11 authors; 0/5 auto-build-qualified species because the 100-source gate is failed. 5 evidence-based/uncertain watchlist entries; directory All+Name 2 pages/41 base species verified.",
+  "reporting": {
+    "iteration": 1,
+    "run_id": "2026-11-22-153002-iteration1",
+    "strict_eligible_count": 1,
+    "source_goal": 100,
+    "coverage_met": false,
+    "quality_gate": "failed",
+    "shortfall": 99,
+    "reviewed_unique_urls": 18,
+    "verified_parent_thread_count": 1,
+    "verified_unique_authors": 1,
+    "qualified_count": 0,
+    "target_count": 5,
+    "shortfall_count": 5,
+    "watchlist_count": 1,
+    "source_diversity_insufficient": true,
+    "per_platform": {
+      "pocketmads": 1,
+      "reddit": 0,
+      "x": 0,
+      "youtube": 0,
+      "bluesky": 0,
+      "threads": 0,
+      "tiktok": 0,
+      "bilibili": 0
+    },
+    "history_path": "history/2026-11-22-153002-iteration1.json",
+    "evidence_path": "evidence/2026-11-22-153002-iteration1.json",
+    "raw_probe_path": "evidence/2026-11-22-153002-iteration1-live-probe.json"
+  },
+  "summary": "Iteration 1: 1/100 strictly verified live original (PocketMads Malamar deck); 14 original records read from official/public sources, 4 Reddit original URLs failed. All+Name species 42 across two pages, Malamar missing. No qualified candidate 0/5.",
   "publication": {
     "status": "pending",
     "commit_written": false,
@@ -319,6 +235,6 @@
     "public_url": "https://wsgtcyx.github.io/ptcgp-species-radar/",
     "json_url": "https://wsgtcyx.github.io/ptcgp-species-radar/latest.json",
     "raw_json_url": "https://raw.githubusercontent.com/wsgtcyx/ptcgp-species-radar/main/latest.json",
-    "note": "Files do not self-certify deployment; final result verified out of band after commit. Other jobs' newer latest must not be overwritten."
+    "note": "Verify actual commit/run outside JSON; this pre-publish snapshot never self-certifies success."
   }
 }

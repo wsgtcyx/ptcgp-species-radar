@@ -1,41 +1,30 @@
-# PTCG Pocket 缺页物种 Deck 雷达｜迭代 4/5
+# PTCG Pocket 缺页物种 Deck 雷达｜试跑迭代6/6
 
-**固定72小时窗口**：2026-11-19T16:15:36+08:00 — 2026-11-22T16:15:36+08:00（Asia/Shanghai）。**本轮截止时间**：2026-11-22T16:15:36+08:00；报告生成：2026-11-22T16:19:47+08:00。**run_id**：`2026-11-22-161536-iteration4`。
+窗口：2026-11-19T16:24:28.250311+08:00 至 2026-11-22T16:24:28.250311+08:00。run_id：`2026-11-22-162428-iteration6`。生成时间 2026-11-22T16:29:50.513+08:00。
 
-**合格信源：5/100（缺95）；经过38个不同第一方HTTP端点的40次读取、19条带原发时间的第一方内容记录；独立有效讨论簇4；平台作者账号3；合格建页候选0/5（缺5），观察4。** `quality_gate=failed`；`coverage_met=false`；`source_diversity_insufficient=true`。这不是整个社区只有5条原创的断言。
+**合格信源5/100（缺95），本轮原始记录89，独立讨论簇4，平台账号3，正式新建候选0/5（缺5）。** `quality_gate=failed`、`source_diversity_insufficient=true`；观察名单4个。**禁止自动建页**，没有可比窗口增长证据（`growth_rate=null`）。
 
-## 迭代4核心进展：创作者频道级核验实际跑通
-- 第一方 YouTube watch 页：8个测试视频均 HTTP 200 但只有通用壳，**0条计数**。
-- YouTube 官方频道RSS `feeds/videos.xml?channel_id=...`：真实读取 **5个频道**，共75条视频记录，其中13条原发在本窗口内。1条通过作者原始 `media:description` 直接给出具体玩法/配牌、三局对战和二次改牌，因此计 **1条**。视频只有标题、频道聚合或赛事选题的其余均未计数。
-- <https://www.youtube.com/watch?v=uqeRbvS0qdo> — **のりくんの休憩所**，2026-11-21 17:00:09 +08:00。频道首次发布的描述详细记录 Pikachu ex + Pawmot 对 Mega Mewtwo X ex + Paldean Clodsire（另有 Rika）三局原创对战，之后各自修改卡槽（Bellibolt / Igglybuff / Darkrai），并有真实章节段落时间。**这是本轮新增的可信创作者证据**，不是第三方视频目录标题。
-- Sifu 发布的 13 组赛事胜者牌表整理来自他人，不当作自身原创。ボオルトオレ Shorts 的描述只说 Lapras 卡组及 QR 或 Mega Tyranitar ex 但无法直接核到实质构筑，均排除。官方 Pokémon 视频不是玩家原创。
-- Bluesky 官方原帖API本轮重新直读3条可核实构筑（同一作者，共两个父帖）；PocketMads重新直读2个玩家完整页面，其中一个发布于本轮窗口之外而被排除。
+平台：Bluesky 3，PocketMads 1，YouTube（作者官方原发RSS中自述三局原创建组实战）1，Reddit 0（公开new三次403），X 0（本轮没有原创直读）。原始时间切片0–24/24–48/48–72小时：4/1/0。作者3个并非5人；Bluesky同一作者评论与顶帖共用一个父簇。
 
-## 5条严格合格原文（去重）
-1. **YouTube｜のりくんの休憩所**：<https://www.youtube.com/watch?v=uqeRbvS0qdo>。2026-11-21 17:00:09 +08:00，B/C，Pikachu ex vs Mega Mewtwo X ex 配牌、Paldean Clodsire 搭档、卡槽替换。
-2. **PocketMads｜badgerbreath**：<https://app.pocketmads.com/feed/c0575dfc-71e3-41bb-89f4-14eefdc0bc7e>。2026-11-21 05:41:23 +08:00，B/C，Malamar + Meowstic + Mega Mewtwo X ex，完整20张牌表，Peculiar Plaza/May/Sightseer。
-3. **Bluesky｜fictionlife06**：<https://bsky.app/profile/fictionlife06.bsky.social/post/3n2tt2z6glc2f>。2026-11-22 03:20:46 +08:00，B/C，Alolan Exeggutor + Mega Venusaur；本人调整牌表，42局18胜24负。
-4. **Bluesky｜fictionlife06**：<https://bsky.app/profile/fictionlife06.bsky.social/post/3n2tt3bdmy22f>。2026-11-22 03:20:46 +08:00，B/C，Blastoise + Jellicent，39局15胜24负和Parasol卡位；**与第3条同一根帖，不增加独立讨论簇**。
-5. **Bluesky｜fictionlife06**：<https://bsky.app/profile/fictionlife06.bsky.social/post/3n2tsrz7jms2f>。2026-11-22 03:15:44 +08:00，C，Paldean Clodsire + Lycanroc，玩家原创17局9胜8负战绩与对阵分析，牌表来源另行注明为视频作者。
+## 严格有效原帖（五条均从本轮新窗口重新核验作者、正文与原发时间）
+- [bluesky · fictionlife06.bsky.social · 2026-11-22T03:15:44.231000+08:00](https://bsky.app/profile/fictionlife06.bsky.social/post/3n2tsrz7jms2f)：【 #ポケポケ 】デュアルフュージョン環境限定バトルイベント。17戦。使用デッキ「ルガルガンドオー」。YouTube「kinkakuj」さんのデッキ紹介より完コピでお借りしました。9勝8敗。勝ち越し。○ゲコラプラス、ラビットジャンプx4、ホゲータエンニュート、ピカチュウx2、不戦勝。×ラビットジャンプx3、ミュウツーx2、ゲッコウガ、ブラッキー、ピカチュウ。ラビットジャンプ以外ではこのデッキが強いと思います。。
+- [bluesky · fictionlife06.bsky.social · 2026-11-22T03:20:46.185000+08:00](https://bsky.app/profile/fictionlife06.bsky.social/post/3n2tt3bdmy22f)：【 #ポケポケ 】デュアルフュージョン環境ランダムマッチ。39戦。「ゲルカメ」。YouTube「つるおかかものはし」さんのリストより少し変更しました。15勝、24敗。エネ加速のブルンゲルと組み合わせた型です。カメックスは結局散らして落ち着くことになりました。パラソル1で調整していましたが、ダメージを無かったことにできるのは強いと思い2積み。ベンチ狙撃のカメックスとグリーンの2種がリーサル手段になっている。とは言え火力不足は否めない、中打点デッキ。2進化と1。
+- [bluesky · fictionlife06.bsky.social · 2026-11-22T03:20:46.184000+08:00](https://bsky.app/profile/fictionlife06.bsky.social/post/3n2tt2z6glc2f)：【 #ポケポケ 】デュアルフュージョン環境ランダムマッチ。42戦。「バナッシー」。YouTube「つるおかかものはし」さんのリストより少し変更しました。18勝、24敗。新弾のアローラナッシーと組み合わせた型です。パワーはありますが、ブラッキーに極端に弱いです。タマタマはリーフマント込みでも耐えません。なぜパワーが高いか。それは進化前にエネ加速の技があるからです。結局メガフシギバナを入れることになりました。非ルールだけではパワーが足りません。2進化と1進化の。
+- [pocketmads · badgerbreath · 2026-11-21T05:41:23.978+08:00](https://app.pocketmads.com/feed/c0575dfc-71e3-41bb-89f4-14eefdc0bc7e)：Player's 20-card CatSquid Confusion list: Meowstic creates confusion; Malamar early 100 damage with one Energy, Peculiar Plaza free retreat, Mega Mewtwo X ex powered for late-game offense; May and Sightseer improve consistency。
+- [youtube · のりくんの休憩所 · 2026-11-21T17:00:09+08:00](https://www.youtube.com/watch?v=uqeRbvS0qdo)：ポケポケ「デュアルフュージョン」のピカチュウexとメガミュウツーXex、デッキを組んで戦ったらどっちが強い？今回はわっびーさんと初コラボで3本勝負！のりくんはピカチュウexにパーモット、わっびーさんはメガミュウツーXexにパルデア ドオーとチリを組み合わせます。2試合を終えたところでお互いにデッキを組み直し、ピカチュウ側はハラバリー、メガミュウツー側はププリンとダークライを加えて最終戦へ。  あなたならピカチュウexとメガミュウツーXex、どっちを使います。
 
-0–24h合格4；24–48h合格1；48–72h合格0。分平台**YouTube 1、Bluesky 3、PocketMads 1，合计5**。平台作者账号共3，跨平台现实身份未确证。没有可比72h基线，**增长率NA**。
+## 观察物种（均非合格候选）
+- **帕底亚土王 / Paldean Clodsire / ドオー**：2条，2平台作者，2讨论簇。Lycanroc and Mega Mewtwo X ex uses are different partnerships, but an independent Clodsire-centered game plan has not been demonstrated。旧独立Deck页：https://www.pokemontcgpocket.app/en/deck/paldean-clodsire-c1；欠缺：Independent original 20-card list built around Clodsire with exact printing; separately compare existing Clodsire C1 deck page。
+- **乌贼王 / Malamar / カラマネロ**：1条，1平台作者，1讨论簇。One original twenty-card confusion engine, with a different partnership than site's old archive。旧独立Deck页：https://www.pokemontcgpocket.app/en/deck/malamar-b3-mega-sableye-ex-b3b；欠缺：A second independent author and exact card version; demonstrate unique query versus current old archive。
+- **阿罗拉椰蛋树 / Alolan Exeggutor / アローラナッシー**：1条，1平台作者，1讨论簇。42-game modified deck analysis, but no second author or verified primary Exeggutor deck。旧独立Deck页：https://www.pokemontcgpocket.app/en/deck/alolan-exeggutor-ex-c1；欠缺：Original card ID, 20-card contents and independent Exeggutor-centered variation。
+- **水箭龟 / Blastoise / カメックス**：1条，1平台作者，1讨论簇。39-game personal improvement discussing energy acceleration, Parasol slots and damage。旧独立Deck页：https://www.pokemontcgpocket.app/en/deck/blastoise-c1-araquanid-b4；欠缺：Second original author from independent thread and precise printing; distinguish existing Blastoise/Araquanid page。
 
-## 观察物种：0/5正式合格，不能自动建页
-1. **Paldean Clodsire（帕底亚土王 / ドオー）**：2作者、2父帖、2实质来源（YouTube 原创 Mewtwo X 搭档、Bluesky Lycanroc 搭档）。新的独立路线已出现，但目前均为**搭档，非已核独立主轴**；原始卡号未核。已有[Paldean Clodsire C1-074 单一Deck页](https://www.pokemontcgpocket.app/en/deck/paldean-clodsire-c1)。下一条最值钱证据是独立的“Clodsire为核心主轴”的20张构筑。
-2. **Malamar（乌贼王 / カラマネロ）**：1作者、1父帖。可验证的 Meowstic 混乱＋Malamar 低能耗路线不同于站内旧的[Malamar/Mega Sableye ex归档](https://www.pokemontcgpocket.app/en/deck/malamar-b3-mega-sableye-ex-b3b)；需要第二作者和准确卡号。
-3. **Alolan Exeggutor（阿罗拉椰蛋树 / アローラナッシー）**：1作者、1父帖；和 Mega Venusaur 合作的42局实战，但站内已有[Alolan Exeggutor ex C1 归档](https://www.pokemontcgpocket.app/en/deck/alolan-exeggutor-ex-c1)，必须核对版本与主轴，不能把旧卡组换搭档当新物种页。
-4. **Blastoise（水箭龟 / カメックス）**：1作者、1父帖且同 Alolan Exeggutor 共父帖；Jellicent 加速和 Parasol 优化，与已存在的[Blastoise/Araquanid归档](https://www.pokemontcgpocket.app/en/deck/blastoise-c1-araquanid-b4)不同，但还不足以单独建物种Hub。
-**Chandelure** 已有完整的 [Chandelure B2-069 / Oricorio B4-078 归档](https://www.pokemontcgpocket.app/en/deck/chandelure-b2-oricorio-b4)，Copycat/Hiking Trail 与近日Reddit讨论高度重合，默认更应**更新既有内容**，不是本轮新的独立流派。
+## 本轮改善与仍然失败的环节
+- 30余名第一方Bluesky作者、61条原始相关帖、15条玩家牌表原页、13条YouTube官方原发说明，合计89条逐项原始记录；75次第一方HTTP探测。扩大了作者与直接评论核验，但新增严格有效来源仍为0。
+- Reddit r/PTCGP、r/PokemonPocket、r/PokemonTCGP各正常公开访问一次，HTTP403。X本轮没有直读样本，绝不冒充采集成功。仅关键词或游戏名相同的非Pocket/开包/想组牌无实际问题者不计。
+- 物种Hub的Popular、Name各Page1、Page2：网页直读表明分别40+2，但本轮自动抓取HTML虽然HTTP200，实际未解析出完整物种卡片、站点sitemap未穷尽：`complete_all_sort_verification=false`。Rayquaza排除。
+- 观察项已有单张Deck详情或归档内容，不等于Species Hub缺失得到完整证明，独立SEO内容价值仍待核。
+- [本轮全部原始证据与排除原因](https://github.com/wsgtcyx/ptcgp-species-radar/blob/main/evidence/2026-11-22-162428-iteration6.json)；[本轮独立一手抓取](https://github.com/wsgtcyx/ptcgp-species-radar/blob/main/evidence/2026-11-22-162428-iteration6-probe.json)；[本轮历史JSON](https://github.com/wsgtcyx/ptcgp-species-radar/blob/main/history/2026-11-22-162428-iteration6.json)。
+- [第5轮历史](https://github.com/wsgtcyx/ptcgp-species-radar/blob/main/history/2026-11-22-162354-iteration5.json)；[第4轮历史](https://github.com/wsgtcyx/ptcgp-species-radar/blob/main/history/2026-11-22-161536-iteration4.json)。
 
-## 站内核验边界
-- 网站真实可读的 Name 排序目录网页第1页40条、第2页1条（显示 **Page 2 of 2**），但默认Popular排序第2页网页缓存不可读。GitHub Actions 对4个目录URL返回 HTTP 200，取到的HTML未包含可解析的物种列表，因此**不将其冒充4页内容完整核验**。本轮跨排序的“全量目录收录排除”**未完成**。
-- 现有5个相关Deck/Archive具体路径逐一取得 HTTP 200 与页面标题，但**有具体策略页不等于存在基础物种Hub**。对上述观察对象没有正式确认缺Hub，不建议立即创建新URL。
-
-## 实测限制与审计
-- Reddit 当前被读到的Chandelure原帖有原文和作者，但时间仅“11h ago”，而网页缓存时刻不明确，因此**不计入5条**。
-- X原帖不可核，不把搜索索引计原创；官方频道宣传、旧PocketMads发布、赛事整理、纯标题视频都排除。
-- 独立作者实际新增1名YouTube创作者；本轮三个平台作者账号分别为上述三位。没有100源，**缺95**；独立父讨论仅4，低于10的最低目标。
-- 原始URL、作者ID、原发UTC/北京时间、正文、卡型、核验与排除理由、原始官方RSS及站内探针均保存于本轮 [证据文件](./evidence/2026-11-22-161536-iteration4.json) 和 [原始通道探针](./evidence/2026-11-22-161536-iteration4-channel-probe-v2.json)。历史快照：[history/2026-11-22-161536-iteration4.json](./history/2026-11-22-161536-iteration4.json)。
-
-## GitHub 发布
-本轮证据、历史、`latest.md`、`latest.json`依次写入main。部署、仓库回读和公网HTTP状态须以下游最新SHA实际检查为准，报告生成时标记pending。
+发布：main提交、仓库回读、对应Pages构建、公开HTTP均须分别核验，未验证前JSON字段`publication.status=pending_deploy_verification`。

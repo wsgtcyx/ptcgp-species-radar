@@ -1,0 +1,96 @@
+{
+  "run_id": "2026-11-23-095917-daily",
+  "window": {
+    "start": "2026-11-20T09:59:17+08:00",
+    "end": "2026-11-23T09:59:17+08:00",
+    "hours": 72,
+    "timezone": "Asia/Shanghai"
+  },
+  "coverage": {
+    "state": "attempted",
+    "first_party_original_urls_attempted": 4,
+    "directly_opened_first_party": 4,
+    "published_time_to_minute_read": 4,
+    "within_window": 3,
+    "firsthand_substantive": 1,
+    "eligible": 1,
+    "distinct_authors_eligible": 1,
+    "discovered_unique": null,
+    "discovery": "note.com #ポケポケ newest, #ポケポケデッキ newest, author profile, English/Japanese web discovery",
+    "obstacles": "new tag contained predominantly older or non-build posts; current extra items cosmetic or speculative"
+  },
+  "records": [
+    {
+      "platform": "note",
+      "source_id": "n6e5b19644fb8",
+      "reddit_id": null,
+      "kind": "article",
+      "parent_thread_id": "n6e5b19644fb8",
+      "canonical_url": "https://note.com/bambee_san/n/n6e5b19644fb8",
+      "permalink": "https://note.com/bambee_san/n/n6e5b19644fb8",
+      "community": "note.com public personal diary",
+      "author": "bambee_san",
+      "author_display": "ゆーまっくす",
+      "created_utc": "2026-11-20T15:51:00+00:00",
+      "created_utc_interval": {
+        "earliest": "2026-11-20T15:51:00+00:00",
+        "latest_inclusive": "2026-11-20T15:51:59+00:00"
+      },
+      "published_at_bjt": "2026-11-20T23:51:00+08:00",
+      "published_at_bjt_precision": "minute",
+      "original_published_text": "2026年11月21日 00:51",
+      "time_method": "First-party note.com published minute Japan time, both limits inside frozen 72h; :00 is minute floor not exact seconds",
+      "evidence": "Firsthand played Rabbit Jump/Azumarill and Jolteon+Manectric. Own Jolteon+Manectric deck had excellent disruption/mobility, but Manectric damage is insufficient and Jolteon gets KO; has stopped using it as often. Reports Sylveon draw/support with Rocket Slowking and early Gengar. Pikachu/Alolan Raichu ex hypothetical pairing is NOT credited as tested.",
+      "body_summary": "本人实战：Rabbit Jump/玛力露丽；雷伊布+雷电兽干扰与机动性好，但伤害不足、易被击倒；仙子伊布辅助抽牌。未实测的皮卡丘及阿罗拉雷丘 ex 配对不计实战。",
+      "deck_intent": [
+        "firsthand_playtest",
+        "matchup_performance",
+        "partner_role"
+      ],
+      "species": [
+        "Azumarill",
+        "Jolteon",
+        "Manectric",
+        "Sylveon"
+      ],
+      "form": null,
+      "card_id": null,
+      "is_pocket": true,
+      "verification_method": "Directly opened first-party article and read author/time/deck discussion",
+      "verified_at": null,
+      "verification_run_id": "2026-11-23-095917-daily",
+      "directly_opened": true,
+      "duplicate_of": null,
+      "exclusion_reason": null,
+      "review_state": "first_party_original_substantive",
+      "source_credit": "reverified_prior_link_not_new_discovery",
+      "originality": "original firsthand match feedback, not asserted original decklist"
+    }
+  ],
+  "excluded": [
+    {
+      "platform": "note",
+      "url": "https://note.com/bambee_san/n/n4fca267747db",
+      "author": "bambee_san",
+      "published_time_original": "2026年11月22日 01:34 JST",
+      "reason": "only aesthetic full-art Greninja deck mention; no substantial specific build/playtest",
+      "directly_opened": true
+    },
+    {
+      "platform": "note",
+      "url": "https://note.com/azarashoshi/n/nc4a781011bfd",
+      "author": "azarashoshi",
+      "published_time_original": "2026年11月20日 08:11 JST",
+      "reason": "original Alolan Exeggutor/Leafeon play guide, but 2026-11-19T23:11Z is before cutoff",
+      "directly_opened": true
+    },
+    {
+      "platform": "note",
+      "url": "https://note.com/4_4_6/n/na30efb0e4f5c",
+      "author": "4_4_6",
+      "published_time_original": "2026年11月21日 12:02 JST",
+      "reason": "hypothetical ChatGPT-assisted past-pack limited battle analysis rather than firsthand constructed/playtested deck",
+      "directly_opened": true
+    }
+  ]
+}

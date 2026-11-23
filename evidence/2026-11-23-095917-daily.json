@@ -1,0 +1,358 @@
+{
+  "schema_version": "2.0",
+  "run_id": "2026-11-23-095917-daily",
+  "generated_at": "2026-11-23T02:05:42.441Z",
+  "window": {
+    "start": "2026-11-20T09:59:17+08:00",
+    "end": "2026-11-23T09:59:17+08:00",
+    "hours": 72,
+    "timezone": "Asia/Shanghai"
+  },
+  "reporting": {
+    "strict_eligible_count": 1,
+    "source_goal": 100,
+    "shortfall": 99,
+    "coverage_met": false,
+    "quality_gate": "failed",
+    "verified_unique_authors": 1,
+    "verified_parent_thread_count": 1,
+    "per_platform_eligible": {
+      "note": 1,
+      "bluesky": 0,
+      "youtube": 0,
+      "pocketmads": 0,
+      "reddit": 0,
+      "x": 0
+    },
+    "slices": {
+      "0-24h": 0,
+      "24-48h": 0,
+      "48-72h": 1
+    },
+    "source_diversity_insufficient": true,
+    "qualified_count": 0,
+    "watchlist_count": 2,
+    "target_count": 5,
+    "shortfall_count": 5,
+    "growth_rate": null,
+    "coverage_goal": 100,
+    "source_diversity_goal": 10,
+    "verified_source_ids": [
+      "note:n6e5b19644fb8"
+    ],
+    "eligible_sources": 1,
+    "reviewed_unique_urls": 14,
+    "actually_opened_unique_originals": 9,
+    "history_path": "history/2026-11-23-095917-daily.json",
+    "evidence_path": "evidence/2026-11-23-095917-daily.json"
+  },
+  "collection_funnel": {
+    "discovered_unique_total": null,
+    "reason_unset": "Discovery indexes and unverified links cannot be accurately summed across providers",
+    "reviewed_unique_original_urls": 14,
+    "original_first_party_open_success": 9,
+    "original_articles_with_minute_published_time": 4,
+    "original_articles_with_time_in_window": 3,
+    "pocket_game_original_and_substantive_in_window": 1,
+    "strict_after_duplicates": 1
+  },
+  "source_coverage": {
+    "note": {
+      "state": "attempted",
+      "first_party_original_urls_attempted": 4,
+      "directly_opened_first_party": 4,
+      "published_time_to_minute_read": 4,
+      "within_window": 3,
+      "firsthand_substantive": 1,
+      "eligible": 1,
+      "distinct_authors_eligible": 1,
+      "discovered_unique": null,
+      "discovery": "note.com #ポケポケ newest, #ポケポケデッキ newest, author profile, English/Japanese web discovery",
+      "obstacles": "new tag contained predominantly older or non-build posts; current extra items cosmetic or speculative"
+    },
+    "bluesky": {
+      "state": "failed",
+      "original_urls_attempted": 3,
+      "directly_opened_first_party": 0,
+      "time_verified": 0,
+      "eligible": 0,
+      "discovered_unique": null,
+      "obstacles": "bsky.app and official public getPostThread routes could not be read; old samples not inherited; did not bypass access controls"
+    },
+    "youtube": {
+      "state": "failed",
+      "original_watch_attempted": 2,
+      "creator_rss_attempted": 1,
+      "creator_directory_checked": 1,
+      "directly_opened_first_party": 0,
+      "time_verified": 0,
+      "eligible": 0,
+      "discovered_unique": null,
+      "obstacles": "watch and official channel RSS disabled; discovery directory titles alone invalid"
+    },
+    "pocketmads": {
+      "state": "attempted",
+      "feed_items_scanned": 20,
+      "original_deck_pages_attempted": 1,
+      "directly_opened_first_party": 1,
+      "calendar_date_only": 1,
+      "original_exact_time_verified": 0,
+      "eligible": 0,
+      "discovered_unique": 20,
+      "obstacles": "full original Malamar build visible, but only day-level published field and edited marker; date interval overlaps window edge"
+    },
+    "reddit": {
+      "state": "attempted",
+      "community_new_lists_attempted": 3,
+      "original_urls_attempted": 4,
+      "directly_opened_first_party": 4,
+      "published_time_in_window_verified": 0,
+      "eligible": 0,
+      "discovered_unique": null,
+      "obstacles": "new pages indexed weeks ago; originals inspected old and/or removed; current search disabled"
+    },
+    "x": {
+      "state": "failed",
+      "public_search_attempted": 1,
+      "directly_opened_first_party": 0,
+      "eligible": 0,
+      "discovered_unique": null,
+      "obstacles": "public search returned access DisabledError; did not bypass"
+    }
+  },
+  "eligible": [
+    {
+      "platform": "note",
+      "source_id": "n6e5b19644fb8",
+      "reddit_id": null,
+      "kind": "article",
+      "parent_thread_id": "n6e5b19644fb8",
+      "canonical_url": "https://note.com/bambee_san/n/n6e5b19644fb8",
+      "permalink": "https://note.com/bambee_san/n/n6e5b19644fb8",
+      "community": "note.com public personal diary",
+      "author": "bambee_san",
+      "author_display": "ゆーまっくす",
+      "created_utc": "2026-11-20T15:51:00+00:00",
+      "created_utc_interval": {
+        "earliest": "2026-11-20T15:51:00+00:00",
+        "latest_inclusive": "2026-11-20T15:51:59+00:00"
+      },
+      "published_at_bjt": "2026-11-20T23:51:00+08:00",
+      "published_at_bjt_precision": "minute",
+      "original_published_text": "2026年11月21日 00:51",
+      "time_method": "First-party note.com published minute Japan time, both limits inside frozen 72h; :00 is minute floor not exact seconds",
+      "evidence": "Firsthand played Rabbit Jump/Azumarill and Jolteon+Manectric. Own Jolteon+Manectric deck had excellent disruption/mobility, but Manectric damage is insufficient and Jolteon gets KO; has stopped using it as often. Reports Sylveon draw/support with Rocket Slowking and early Gengar. Pikachu/Alolan Raichu ex hypothetical pairing is NOT credited as tested.",
+      "body_summary": "本人实战：Rabbit Jump/玛力露丽；雷伊布+雷电兽干扰与机动性好，但伤害不足、易被击倒；仙子伊布辅助抽牌。未实测的皮卡丘及阿罗拉雷丘 ex 配对不计实战。",
+      "deck_intent": [
+        "firsthand_playtest",
+        "matchup_performance",
+        "partner_role"
+      ],
+      "species": [
+        "Azumarill",
+        "Jolteon",
+        "Manectric",
+        "Sylveon"
+      ],
+      "form": null,
+      "card_id": null,
+      "is_pocket": true,
+      "verification_method": "Directly opened first-party article and read author/time/deck discussion",
+      "verified_at": null,
+      "verification_run_id": "2026-11-23-095917-daily",
+      "directly_opened": true,
+      "duplicate_of": null,
+      "exclusion_reason": null,
+      "review_state": "first_party_original_substantive",
+      "source_credit": "reverified_prior_link_not_new_discovery",
+      "originality": "original firsthand match feedback, not asserted original decklist"
+    }
+  ],
+  "excluded": [
+    {
+      "platform": "note",
+      "url": "https://note.com/bambee_san/n/n4fca267747db",
+      "author": "bambee_san",
+      "published_time_original": "2026年11月22日 01:34 JST",
+      "reason": "only aesthetic full-art Greninja deck mention; no substantial specific build/playtest",
+      "directly_opened": true
+    },
+    {
+      "platform": "note",
+      "url": "https://note.com/azarashoshi/n/nc4a781011bfd",
+      "author": "azarashoshi",
+      "published_time_original": "2026年11月20日 08:11 JST",
+      "reason": "original Alolan Exeggutor/Leafeon play guide, but 2026-11-19T23:11Z is before cutoff",
+      "directly_opened": true
+    },
+    {
+      "platform": "note",
+      "url": "https://note.com/4_4_6/n/na30efb0e4f5c",
+      "author": "4_4_6",
+      "published_time_original": "2026年11月21日 12:02 JST",
+      "reason": "hypothetical ChatGPT-assisted past-pack limited battle analysis rather than firsthand constructed/playtested deck",
+      "directly_opened": true
+    },
+    {
+      "platform": "pocketmads",
+      "url": "https://app.pocketmads.com/feed/c0575dfc-71e3-41bb-89f4-14eefdc0bc7e",
+      "author": "badgerbreath",
+      "published_time_original": "Published Nov 20, 2026; edited",
+      "reason": "original 20-card Malamar / Meowstic / Mega Mewtwo X content visible, but no verifiable first publication time of day; calendar date overlaps cutoff",
+      "directly_opened": true
+    },
+    {
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/fictionlife06.bsky.social/post/3n2tt2z6glc2f",
+      "author": null,
+      "published_time_original": null,
+      "reason": "first-party post/getPostThread inaccessible in current run; cannot inherit prior original verification",
+      "directly_opened": false
+    },
+    {
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/fictionlife06.bsky.social/post/3n2tsrz7jms2f",
+      "author": null,
+      "published_time_original": null,
+      "reason": "first-party post/getPostThread inaccessible in current run; cannot inherit prior original verification",
+      "directly_opened": false
+    },
+    {
+      "platform": "bluesky",
+      "url": "https://bsky.app/profile/fictionlife06.bsky.social/post/3n2tt3bdmy22f",
+      "author": null,
+      "published_time_original": null,
+      "reason": "first-party post/getPostThread inaccessible in current run; cannot inherit prior original verification",
+      "directly_opened": false
+    },
+    {
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=DXzLH1lYf10",
+      "author": null,
+      "published_time_original": null,
+      "reason": "first-party watch not readable; official creator RSS not readable for re-verification",
+      "directly_opened": false
+    },
+    {
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=uqeRbvS0qdo",
+      "author": null,
+      "published_time_original": null,
+      "reason": "first-party watch not readable; official creator RSS not readable for re-verification",
+      "directly_opened": false
+    },
+    {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/PTCGP/comments/1xp9bqo/",
+      "author": null,
+      "published_time_original": "old Reddit original, roughly 16-17 days ago",
+      "reason": "out of frozen 72h; some deleted or inaccessible original body",
+      "directly_opened": true
+    },
+    {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/PTCGP/comments/1xp8muf/",
+      "author": null,
+      "published_time_original": "old Reddit original, roughly 16-17 days ago",
+      "reason": "out of frozen 72h; some deleted or inaccessible original body",
+      "directly_opened": true
+    },
+    {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/PTCGP/comments/1xp8llp/",
+      "author": null,
+      "published_time_original": "old Reddit original, roughly 16-17 days ago",
+      "reason": "out of frozen 72h; some deleted or inaccessible original body",
+      "directly_opened": true
+    },
+    {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/PTCGP/comments/1xp7r8i/",
+      "author": null,
+      "published_time_original": "old Reddit original, roughly 16-17 days ago",
+      "reason": "out of frozen 72h; some deleted or inaccessible original body",
+      "directly_opened": true
+    }
+  ],
+  "reviewed_unique_urls": 14,
+  "reviewed_originals_successfully_opened": 9,
+  "site_audit": {
+    "checked_in_current_task": true,
+    "confirmed_directory_page_count": 2,
+    "checked_sortings": [
+      "all/popular",
+      "all/name"
+    ],
+    "checks": [
+      {
+        "url": "https://www.pokemontcgpocket.app/en/deck/pokemon",
+        "sort": "popular",
+        "page": 1,
+        "state": "opened"
+      },
+      {
+        "url": "https://www.pokemontcgpocket.app/en/deck/pokemon?page=2",
+        "sort": "popular",
+        "page": 2,
+        "state": "opened",
+        "last_page": true
+      },
+      {
+        "url": "https://www.pokemontcgpocket.app/en/deck/pokemon?sort=name",
+        "sort": "name",
+        "page": 1,
+        "state": "opened"
+      },
+      {
+        "url": "https://www.pokemontcgpocket.app/en/deck/pokemon?page=2&sort=name",
+        "sort": "name",
+        "page": 2,
+        "state": "opened",
+        "last_page": true
+      }
+    ],
+    "page_counts": {
+      "popular": 2,
+      "name": 2
+    },
+    "observed_species_count": 42,
+    "failed_directory_pages": [],
+    "excluded_existing_base_species": [
+      "Azumarill",
+      "Manectric",
+      "Pikachu",
+      "Pawmot",
+      "Venusaur",
+      "Rayquaza (forced)"
+    ],
+    "confirmed_hub_absence": false,
+    "sitemap": {
+      "url": "https://www.pokemontcgpocket.app/sitemap.xml",
+      "status": "unreadable"
+    },
+    "hub_probes": {
+      "malamar": "inaccessible; NOT 404",
+      "jolteon": "inaccessible; NOT 404"
+    },
+    "archive_overlap": [
+      {
+        "species": "Malamar",
+        "url": "https://www.pokemontcgpocket.app/en/deck/malamar-b3-mega-sableye-ex-b3b",
+        "difference": "B3/Mega Sableye archive, not proof of Malamar/Meowstic original"
+      },
+      {
+        "species": "Paldean Clodsire",
+        "url": "https://www.pokemontcgpocket.app/en/deck/paldean-clodsire-c1",
+        "difference": "existing strategy article, current run has no eligible new Clodsire original"
+      },
+      {
+        "species": "Alolan Exeggutor",
+        "url": "https://www.pokemontcgpocket.app/en/deck/alolan-exeggutor-ex-c1-leafeon-ex-a2a",
+        "difference": "existing overlapping Leafeon strategy; current note original excluded by timestamp"
+      }
+    ],
+    "notes": "Directory pagination succeeded; missing directory entry is not the same as verified nonexistence of a species hub; guessed hub and sitemap inaccessible."
+  },
+  "review_standard": "Only direct first-party original author/time/content, exact/minute interval wholly within frozen 72h, player deck experience. No prior-run evidence copied, timestamp rounded DOWN only to express minute interval; duplicate authors and parent roots counted separately.",
+  "machine_merger": "Run pipeline/merge_evidence.py offline with 4 manifests; accepted 1, rejected 0; four source manifests published alongside."
+}

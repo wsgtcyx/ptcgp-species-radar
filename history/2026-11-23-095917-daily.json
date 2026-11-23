@@ -1,0 +1,309 @@
+{
+  "schema_version": "2.0",
+  "report_date": "2026-11-23",
+  "run_id": "2026-11-23-095917-daily",
+  "generated_at": "2026-11-23T02:05:42.441Z",
+  "window": {
+    "start": "2026-11-20T09:59:17+08:00",
+    "end": "2026-11-23T09:59:17+08:00",
+    "hours": 72,
+    "timezone": "Asia/Shanghai"
+  },
+  "reporting": {
+    "strict_eligible_count": 1,
+    "source_goal": 100,
+    "shortfall": 99,
+    "coverage_met": false,
+    "quality_gate": "failed",
+    "verified_unique_authors": 1,
+    "verified_parent_thread_count": 1,
+    "per_platform_eligible": {
+      "note": 1,
+      "bluesky": 0,
+      "youtube": 0,
+      "pocketmads": 0,
+      "reddit": 0,
+      "x": 0
+    },
+    "slices": {
+      "0-24h": 0,
+      "24-48h": 0,
+      "48-72h": 1
+    },
+    "source_diversity_insufficient": true,
+    "qualified_count": 0,
+    "watchlist_count": 2,
+    "target_count": 5,
+    "shortfall_count": 5,
+    "growth_rate": null,
+    "coverage_goal": 100,
+    "source_diversity_goal": 10,
+    "verified_source_ids": [
+      "note:n6e5b19644fb8"
+    ],
+    "eligible_sources": 1,
+    "reviewed_unique_urls": 14,
+    "actually_opened_unique_originals": 9,
+    "history_path": "history/2026-11-23-095917-daily.json",
+    "evidence_path": "evidence/2026-11-23-095917-daily.json"
+  },
+  "audit": {
+    "strict_eligible_count": 1,
+    "source_goal": 100,
+    "shortfall": 99,
+    "coverage_met": false,
+    "quality_gate": "failed",
+    "verified_unique_authors": 1,
+    "verified_parent_thread_count": 1,
+    "per_platform_eligible": {
+      "note": 1,
+      "bluesky": 0,
+      "youtube": 0,
+      "pocketmads": 0,
+      "reddit": 0,
+      "x": 0
+    },
+    "slices": {
+      "0-24h": 0,
+      "24-48h": 0,
+      "48-72h": 1
+    },
+    "source_diversity_insufficient": true,
+    "qualified_count": 0,
+    "watchlist_count": 2,
+    "target_count": 5,
+    "shortfall_count": 5,
+    "growth_rate": null,
+    "coverage_goal": 100,
+    "source_diversity_goal": 10,
+    "verified_source_ids": [
+      "note:n6e5b19644fb8"
+    ],
+    "eligible_sources": 1,
+    "reviewed_unique_urls": 14,
+    "actually_opened_unique_originals": 9,
+    "history_path": "history/2026-11-23-095917-daily.json",
+    "evidence_path": "evidence/2026-11-23-095917-daily.json"
+  },
+  "summary": "本轮冻结72h，仅1/100条严格合格，1个讨论、1位作者，完整站内42物种两种排序均2页；正式建页0/5；跨平台原文和时间可读性受限。",
+  "site_audit": {
+    "checked_in_current_task": true,
+    "confirmed_directory_page_count": 2,
+    "checked_sortings": [
+      "all/popular",
+      "all/name"
+    ],
+    "checks": [
+      {
+        "url": "https://www.pokemontcgpocket.app/en/deck/pokemon",
+        "sort": "popular",
+        "page": 1,
+        "state": "opened"
+      },
+      {
+        "url": "https://www.pokemontcgpocket.app/en/deck/pokemon?page=2",
+        "sort": "popular",
+        "page": 2,
+        "state": "opened",
+        "last_page": true
+      },
+      {
+        "url": "https://www.pokemontcgpocket.app/en/deck/pokemon?sort=name",
+        "sort": "name",
+        "page": 1,
+        "state": "opened"
+      },
+      {
+        "url": "https://www.pokemontcgpocket.app/en/deck/pokemon?page=2&sort=name",
+        "sort": "name",
+        "page": 2,
+        "state": "opened",
+        "last_page": true
+      }
+    ],
+    "page_counts": {
+      "popular": 2,
+      "name": 2
+    },
+    "observed_species_count": 42,
+    "failed_directory_pages": [],
+    "excluded_existing_base_species": [
+      "Azumarill",
+      "Manectric",
+      "Pikachu",
+      "Pawmot",
+      "Venusaur",
+      "Rayquaza (forced)"
+    ],
+    "confirmed_hub_absence": false,
+    "sitemap": {
+      "url": "https://www.pokemontcgpocket.app/sitemap.xml",
+      "status": "unreadable"
+    },
+    "hub_probes": {
+      "malamar": "inaccessible; NOT 404",
+      "jolteon": "inaccessible; NOT 404"
+    },
+    "archive_overlap": [
+      {
+        "species": "Malamar",
+        "url": "https://www.pokemontcgpocket.app/en/deck/malamar-b3-mega-sableye-ex-b3b",
+        "difference": "B3/Mega Sableye archive, not proof of Malamar/Meowstic original"
+      },
+      {
+        "species": "Paldean Clodsire",
+        "url": "https://www.pokemontcgpocket.app/en/deck/paldean-clodsire-c1",
+        "difference": "existing strategy article, current run has no eligible new Clodsire original"
+      },
+      {
+        "species": "Alolan Exeggutor",
+        "url": "https://www.pokemontcgpocket.app/en/deck/alolan-exeggutor-ex-c1-leafeon-ex-a2a",
+        "difference": "existing overlapping Leafeon strategy; current note original excluded by timestamp"
+      }
+    ],
+    "notes": "Directory pagination succeeded; missing directory entry is not the same as verified nonexistence of a species hub; guessed hub and sitemap inaccessible."
+  },
+  "source_coverage": {
+    "note": {
+      "state": "attempted",
+      "first_party_original_urls_attempted": 4,
+      "directly_opened_first_party": 4,
+      "published_time_to_minute_read": 4,
+      "within_window": 3,
+      "firsthand_substantive": 1,
+      "eligible": 1,
+      "distinct_authors_eligible": 1,
+      "discovered_unique": null,
+      "discovery": "note.com #ポケポケ newest, #ポケポケデッキ newest, author profile, English/Japanese web discovery",
+      "obstacles": "new tag contained predominantly older or non-build posts; current extra items cosmetic or speculative"
+    },
+    "bluesky": {
+      "state": "failed",
+      "original_urls_attempted": 3,
+      "directly_opened_first_party": 0,
+      "time_verified": 0,
+      "eligible": 0,
+      "discovered_unique": null,
+      "obstacles": "bsky.app and official public getPostThread routes could not be read; old samples not inherited; did not bypass access controls"
+    },
+    "youtube": {
+      "state": "failed",
+      "original_watch_attempted": 2,
+      "creator_rss_attempted": 1,
+      "creator_directory_checked": 1,
+      "directly_opened_first_party": 0,
+      "time_verified": 0,
+      "eligible": 0,
+      "discovered_unique": null,
+      "obstacles": "watch and official channel RSS disabled; discovery directory titles alone invalid"
+    },
+    "pocketmads": {
+      "state": "attempted",
+      "feed_items_scanned": 20,
+      "original_deck_pages_attempted": 1,
+      "directly_opened_first_party": 1,
+      "calendar_date_only": 1,
+      "original_exact_time_verified": 0,
+      "eligible": 0,
+      "discovered_unique": 20,
+      "obstacles": "full original Malamar build visible, but only day-level published field and edited marker; date interval overlaps window edge"
+    },
+    "reddit": {
+      "state": "attempted",
+      "community_new_lists_attempted": 3,
+      "original_urls_attempted": 4,
+      "directly_opened_first_party": 4,
+      "published_time_in_window_verified": 0,
+      "eligible": 0,
+      "discovered_unique": null,
+      "obstacles": "new pages indexed weeks ago; originals inspected old and/or removed; current search disabled"
+    },
+    "x": {
+      "state": "failed",
+      "public_search_attempted": 1,
+      "directly_opened_first_party": 0,
+      "eligible": 0,
+      "discovered_unique": null,
+      "obstacles": "public search returned access DisabledError; did not bypass"
+    }
+  },
+  "collection_funnel": {
+    "discovered_unique_total": null,
+    "reason_unset": "Discovery indexes and unverified links cannot be accurately summed across providers",
+    "reviewed_unique_original_urls": 14,
+    "original_first_party_open_success": 9,
+    "original_articles_with_minute_published_time": 4,
+    "original_articles_with_time_in_window": 3,
+    "pocket_game_original_and_substantive_in_window": 1,
+    "strict_after_duplicates": 1
+  },
+  "candidates": [],
+  "watchlist": [
+    {
+      "species": "Jolteon",
+      "species_zh": "雷伊布",
+      "species_ja": "サンダース",
+      "forms": "normal; exact card print unverified",
+      "classification": "B有限证据/物种hub待核",
+      "verified_author_accounts": 1,
+      "distinct_parents": 1,
+      "substantive_comments": 0,
+      "slices": {
+        "0-24h": 0,
+        "24-48h": 0,
+        "48-72h": 1
+      },
+      "evidence": [
+        {
+          "url": "https://note.com/bambee_san/n/n6e5b19644fb8",
+          "author": "ゆーまっくす (bambee_san)",
+          "published_at_bjt": "2026-11-20 23:51 (+08:00)",
+          "intent": "Jolteon / Manectric 自用实战复盘"
+        }
+      ],
+      "role": "Jolteon+Manectric co-deck partner, not proven main",
+      "seo_value": "Could contrast interruption and mobility vs damage ceiling if independent demand emerges; do NOT auto-create",
+      "next_needed": "Second independently authored 72h firsthand deck thread, precise card IDs, verify hub and card/archived overlap",
+      "hub_missing_verified": false,
+      "existing_species_directory_listed": false,
+      "related_existing_species": "Manectric already in 42-item Browse by Pokémon"
+    },
+    {
+      "species": "Malamar",
+      "species_zh": "乌贼王",
+      "species_ja": "カラマネロ",
+      "forms": "P-C-005 inferred from earlier clue but NOT reverified from card image this run; leave exact print unknown",
+      "classification": "C时间待核/独立变体可能",
+      "verified_author_accounts": 0,
+      "distinct_parents": 0,
+      "substantive_comments": 0,
+      "slices": {
+        "0-24h": 0,
+        "24-48h": 0,
+        "48-72h": 0
+      },
+      "evidence": [
+        {
+          "url": "https://app.pocketmads.com/feed/c0575dfc-71e3-41bb-89f4-14eefdc0bc7e",
+          "author": "badgerbreath",
+          "published_at_bjt": null,
+          "intent": "original Malamar/Meowstic/Mega Mewtwo X 20-card list, exact first publication time unknown"
+        }
+      ],
+      "role": "Malamar planned damage dealer; Meowstic confuse support",
+      "seo_value": "Possible variant distinct from archived Mega Sableye partnership, pending independent player evidence and hub check",
+      "next_needed": "First-party datetime proving original time entirely within frozen window, second independent author/thread, card print/photo read, compare current archive",
+      "hub_missing_verified": false,
+      "existing_species_directory_listed": false,
+      "existing_strategy_url": "https://www.pokemontcgpocket.app/en/deck/malamar-b3-mega-sableye-ex-b3b"
+    }
+  ],
+  "publication": {
+    "status": "pending_deploy_verification",
+    "repository": "wsgtcyx/ptcgp-species-radar",
+    "branch": "main",
+    "homepage": "https://wsgtcyx.github.io/ptcgp-species-radar/",
+    "json_url": "https://wsgtcyx.github.io/ptcgp-species-radar/latest.json",
+    "raw_fallback": "https://raw.githubusercontent.com/wsgtcyx/ptcgp-species-radar/main/latest.json"
+  }
+}

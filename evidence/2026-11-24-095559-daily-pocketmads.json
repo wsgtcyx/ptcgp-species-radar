@@ -1,0 +1,54 @@
+{
+  "run_id": "2026-11-24-095559-daily",
+  "window": {
+    "start": "2026-11-21T09:55:59+08:00",
+    "end": "2026-11-24T09:55:59+08:00",
+    "hours": 72,
+    "timezone": "Asia/Shanghai"
+  },
+  "coverage": {
+    "state": "attempted",
+    "original_urls_attempted": 2,
+    "directly_opened_first_party": 2,
+    "time_verified": 0,
+    "within_window": 0,
+    "eligible": 0,
+    "distinct_authors_eligible": 0,
+    "distinct_parents_eligible": 0,
+    "discovered_unique": null,
+    "obstacles": "公开feed最新可见日期11月20日，读两份完整牌表但不能证明在冻结窗内。"
+  },
+  "records": [],
+  "excluded": [
+    {
+      "platform": "pocketmads",
+      "source_id": "c0575dfc-71e3-41bb-89f4-14eefdc0bc7e",
+      "canonical_url": "https://app.pocketmads.com/feed/c0575dfc-71e3-41bb-89f4-14eefdc0bc7e",
+      "permalink": "https://app.pocketmads.com/feed/c0575dfc-71e3-41bb-89f4-14eefdc0bc7e",
+      "author": "badgerbreath",
+      "original_published_text": "Published Nov 20, 2026; edited",
+      "created_utc": null,
+      "published_at_bjt": null,
+      "directly_opened": true,
+      "verification_run_id": "2026-11-24-095559-daily",
+      "duplicate_of": null,
+      "exclusion_reason": "Malamar/Meowstic/Mega Mewtwo X 20卡，日级时间无法证明在窗内",
+      "reason": "Malamar/Meowstic/Mega Mewtwo X 20卡，日级时间无法证明在窗内"
+    },
+    {
+      "platform": "pocketmads",
+      "source_id": "e7d762fe-fd5e-4c5d-862a-d155ea32275b",
+      "canonical_url": "https://app.pocketmads.com/feed/e7d762fe-fd5e-4c5d-862a-d155ea32275b",
+      "permalink": "https://app.pocketmads.com/feed/e7d762fe-fd5e-4c5d-862a-d155ea32275b",
+      "author": "GymLeader",
+      "original_published_text": "Nov 19, 2026",
+      "created_utc": null,
+      "published_at_bjt": null,
+      "directly_opened": true,
+      "verification_run_id": "2026-11-24-095559-daily",
+      "duplicate_of": null,
+      "exclusion_reason": "Mega Mewtwo X/Minior/Mantyke；超窗",
+      "reason": "Mega Mewtwo X/Minior/Mantyke；超窗"
+    }
+  ]
+}

@@ -1,37 +1,42 @@
-# PTCG Pocket 新物种 Deck SEO 选题雷达 · 2026-11-23
+# 2026-11-24 PTCGP 新物种 Deck SEO 雷达
 
-**合格信源 1/100｜实际打开 9｜独立讨论 1｜合格候选 0/5。**
+**合格信源 1/100｜实际打开 22（尝试26）｜独立讨论 1｜合格候选 0/5**
 
-- 冻结北京时间：2026-11-20T09:59:17+08:00 至 2026-11-23T09:59:17+08:00（72小时）。
-- **quality_gate=failed / coverage_met=false / shortfall=99。** 正式建页缺口 5。独立父帖只有 1，source_diversity_insufficient=true；不能推断热门物种、增长率或全面热度。
-- 严格合格平台：note.com 1；Bluesky 0；YouTube 0；PocketMads 0；Reddit 0；X 0。0–24h / 24–48h / 48–72h = **0 / 0 / 1**。合格作者 1，父讨论簇 1；发现索引不计入100。
-- 共尝试逐条核验14条不同原帖/原视频URL；9条可直接打开原始页面，严格通过1条。发现总量未按独立原文可靠去重，填null，不拿搜索结果数冒充有效数。
+run_id: 2026-11-24-095559-daily
 
-## 本轮唯一严格合格原文
+冻结北京时间：2026-11-21T09:55:59+08:00 — 2026-11-24T09:55:59+08:00。百源缺99，候选缺5；quality_gate=failed，coverage_met=false，source_diversity_insufficient=true。不自动建页。0–24 / 24–48 / 48–72小时 = 0/0/1。无可比增长率。
 
-[ゆーまっくす，2026-11-20 23:51 北京时间](https://note.com/bambee_san/n/n6e5b19644fb8)：玩家原发自述 Rabbit Jump/玛力露丽实战，并复盘雷伊布（Jolteon）＋雷电兽（Manectric）构筑：妨碍与换位灵活，但雷电兽打点不够、雷伊布易被击倒，因此减少使用；另提仙子伊布抽牌辅助。未实际测试的皮卡丘及阿罗拉雷丘ex搭配**没有计为实战**。原页显示 2026-11-21 00:51 JST，精确到分钟；对应北京时间 2026-11-20 23:51，分钟区间全部处于本轮窗口内。本文属上轮链接**本轮重读复核**，非本轮新发现。
+## 平台审计
 
-## 两个观察对象；都不是可执行建页推荐
+|平台|尝试原文|打开|严格合格|
+|---|---:|---:|---:|
+|note|8|8|1|
+|bluesky|1|0|0|
+|youtube|3|0|0|
+|pocketmads|2|2|0|
+|reddit|12|12|0|
+|x|0|0|0|
 
-1. **雷伊布 Jolteon / サンダース：B档有限证据。** 1作者/1父帖/0构筑评论，48–72小时1条；与雷电兽组合主要是实战优缺点反馈，未确认准确卡号或其为构筑主轴。本站名称目录未列出雷伊布但雷电兽已经有物种页；独立hub路径与sitemap不能核实，**只判待核**。最需要第二位作者、第二个父帖的当期实战牌表，核实卡形态、既有详情与独立SEO价值。
-2. **乌贼王 Malamar / カラマネロ：C档时间待核。** [badgerbreath 的PocketMads原牌表](https://app.pocketmads.com/feed/c0575dfc-71e3-41bb-89f4-14eefdc0bc7e)可直读 Meowstic／Mega Mewtwo X 搭配与20张卡，但仅显示 Nov20 的发布日期及编辑标记，不能确定首发时刻是否落在本轮冻结时间窗内，**不计100**。本站已经有 [Malamar B3＋Mega Sableye ex策略归档](https://www.pokemontcgpocket.app/en/deck/malamar-b3-mega-sableye-ex-b3b)；应先验证时间、确切卡号、第二作者及变体价值，不能把已有归档当成hub。
+- note：标签和作者检索；新文章多非实质构筑；作者RSS读取失败。原发现程序未运行，直接网络DNS不可用。
+- bluesky：公开Feed目录、话题聚合、作者feed和原帖不能取得有效原文；3个种子主页试查，未读到可核帖子。
+- youtube：公开日语目录发现三频道视频；第一方watch受限，UCt73ukfEGoNM4DwQzyQ0org官方RSS不可读。
+- pocketmads：公开feed最新可见日期11月20日，读两份完整牌表但不能证明在冻结窗内。
+- reddit：公开列表缓存滞后；同一评论父帖和永久链接的相对时间不一致；JSON读取被禁，未绕过。
+- x：公开搜索不可读取；没有第一方原帖可核。
 
-## 跨平台原文取证与失效路径
+## 唯一合格证据
 
-- **note.com：** 4篇第一方原创直读，3篇时间落窗，其中上文1篇可计；另外一篇[全画卡组日记](https://note.com/bambee_san/n/n4fca267747db)只有美术收藏叙述，一篇[假想旧卡包分析](https://note.com/4_4_6/n/na30efb0e4f5c)是AI辅助理论构思，均不计；[阿罗拉椰蛋树／叶伊布原帖](https://note.com/azarashoshi/n/nc4a781011bfd)首发时间早于窗口2小时48分，排除。
-- **Bluesky：** 尝试3条原帖及官方公开getPostThread路线，本轮原文无法读回，0合格；不复用昨日6条。
-- **YouTube：** 2个视频watch及官方频道RSS路线失败，0合格；目录与仅标题不计。
-- **PocketMads：** 公开feed扫描20项，直读1页，有牌表但只有日级首发日期，0合格。
-- **Reddit：** 检查3个社区new及4条原帖，页面只给出旧缓存/16–17天前原帖；搜索受限，0合格。
-- **X：** 公开搜索页面受限，未能直读原帖，0合格。不突破403/429/登录墙。
+[わらび原创构筑](https://note.com/ample_oxalis5534/n/nbf565ff32d30)，北京时间11月21日20:51（分钟精度）。公开正文讨论Drampa前场与Mega Rayquaza ex后排切换和能量管理、双Mega更快路线。卡号未核；未读取付费内容。独立作者和父帖各1。
 
-## 本站42物种完整分页审计
+## 观察（非正式候选）
 
-成功遍历 [Popular/All P1](https://www.pokemontcgpocket.app/en/deck/pokemon)、[P2末页](https://www.pokemontcgpocket.app/en/deck/pokemon?page=2)、[Name P1](https://www.pokemontcgpocket.app/en/deck/pokemon?sort=name)、[P2末页](https://www.pokemontcgpocket.app/en/deck/pokemon?page=2&sort=name)。每排序2页，共42个基础物种目录入口，失败页0；已有玛力露丽、雷电兽、皮卡丘等物种入口直接排除。独立hub路径和sitemap不可读，任何未列目录的物种均不能标“确认缺页”。另外现有 [帕底亚土王策略](https://www.pokemontcgpocket.app/en/deck/paldean-clodsire-c1) 和 [阿罗拉椰蛋树ex＋叶伊布ex](https://www.pokemontcgpocket.app/en/deck/alolan-exeggutor-ex-c1-leafeon-ex-a2a) 属于防止重复建页的站内旁证，不能算新社媒信源。
+- 老翁龙（Drampa/ジジーロン）：B有限证据；更新现有攻略优先。前期搭档，独立主轴未证明。可补充能量管理和前场打法；已有搭档攻略，独立hub价值未证。[原文](https://note.com/ample_oxalis5534/n/nbf565ff32d30)；[已有攻略](https://pokemontcgpocket.app/en/deck/dragonair-mega-rayquaza-ex-b4)；[关联卡](https://www.pokemontcgpocket.app/en/card/B4-124)。补证：第二独立作者/根帖的Drampa主轴与具体卡号；核验hub实际HTTP及canonical。
+- 谜拟丘（Mimikyu/ミミッキュ）：C时间待核；非ex不可仅从未写ex推断。技术位。若独立原创证明早期防守路线可区分已有ex搭配；当前不推荐。[原文](https://www.reddit.com/r/PTCGP/comments/1y1i9ao/what_cards_do_you_think_people_are_sleeping_on/)；[已有攻略](https://www.pokemontcgpocket.app/en/deck/mimikyu-ex-b2-mega-diancie-ex-b3b)；[关联卡](https://www.pokemontcgpocket.app/en/card/B2-073)。补证：原发时间明确的两位独立作者、实际卡型及hub核验。
 
-## 审计与发布
+## 站内
 
-四份独立平台manifest及结构化合并证据保存到 `evidence/`；本地运行仓库 `pipeline/merge_evidence.py` 对冻结窗、平台域、原文ID、去重汇总，结果 **accepted=1/rejected=0**。新一轮不是上轮累计；全部计数从唯一严格合格明细生成，其他13条逐条保留排除原因。
+Name、Popular均完整两页，40+5=45个入口，Rayquaza强制排除；两观察物种不在目录，但hub及sitemap未读通，不能确认缺失。已有配对攻略须去重。
 
-- [本轮证据](https://github.com/wsgtcyx/ptcgp-species-radar/blob/main/evidence/2026-11-23-095917-daily.json) · [同轮历史](https://github.com/wsgtcyx/ptcgp-species-radar/blob/main/history/2026-11-23-095917-daily.json) · [latest.json](https://github.com/wsgtcyx/ptcgp-species-radar/blob/main/latest.json)
-- [GitHub Pages 最新JSON](https://wsgtcyx.github.io/ptcgp-species-radar/latest.json) · [首页](https://wsgtcyx.github.io/ptcgp-species-radar/)。提交时 publication=**pending_deploy_verification**；仓库回读、Actions部署与独立公网HTTP检验结果以本轮聊天执行记录为准，不能把仅提交说成公网可用。
+[完整证据](https://wsgtcyx.github.io/ptcgp-species-radar/evidence/2026-11-24-095559-daily.json) | [历史JSON](https://wsgtcyx.github.io/ptcgp-species-radar/history/2026-11-24-095559-daily.json) | [最新JSON](https://wsgtcyx.github.io/ptcgp-species-radar/latest.json)
+
+发布状态待提交及独立公网回读。

@@ -1,0 +1,83 @@
+{
+  "run_id": "2026-11-24-095559-daily",
+  "window": {
+    "start": "2026-11-21T09:55:59+08:00",
+    "end": "2026-11-24T09:55:59+08:00",
+    "hours": 72,
+    "timezone": "Asia/Shanghai"
+  },
+  "coverage": {
+    "state": "failed",
+    "original_urls_attempted": 3,
+    "directly_opened_first_party": 0,
+    "time_verified": 0,
+    "within_window": 0,
+    "eligible": 0,
+    "distinct_authors_eligible": 0,
+    "distinct_parents_eligible": 0,
+    "discovered_unique": null,
+    "creator_directory_checked": 1,
+    "creator_channels_discovered": 3,
+    "creator_rss_attempted": 1,
+    "creator_rss_readable": 0,
+    "watch_readable": 0,
+    "obstacles": "公开日语目录发现三频道视频；第一方watch受限，UCt73ukfEGoNM4DwQzyQ0org官方RSS不可读。"
+  },
+  "records": [],
+  "excluded": [
+    {
+      "platform": "youtube",
+      "source_id": "4b8gnZciM94",
+      "canonical_url": "https://www.youtube.com/watch?v=4b8gnZciM94",
+      "permalink": "https://www.youtube.com/watch?v=4b8gnZciM94",
+      "author": null,
+      "original_published_text": null,
+      "created_utc": null,
+      "published_at_bjt": null,
+      "directly_opened": false,
+      "verification_run_id": "2026-11-24-095559-daily",
+      "duplicate_of": null,
+      "exclusion_reason": "第一方watch抓取受限，目录作者及时间仅发现线索，未读首发内容",
+      "reason": "第一方watch抓取受限，目录作者及时间仅发现线索，未读首发内容",
+      "discovery_author": "マキムラch",
+      "discovery_time": "11/23 21:00 JST",
+      "kind": "video"
+    },
+    {
+      "platform": "youtube",
+      "source_id": "bFnMIonqekE",
+      "canonical_url": "https://www.youtube.com/watch?v=bFnMIonqekE",
+      "permalink": "https://www.youtube.com/watch?v=bFnMIonqekE",
+      "author": null,
+      "original_published_text": null,
+      "created_utc": null,
+      "published_at_bjt": null,
+      "directly_opened": false,
+      "verification_run_id": "2026-11-24-095559-daily",
+      "duplicate_of": null,
+      "exclusion_reason": "第一方watch抓取受限，目录作者及时间仅发现线索，未读首发内容",
+      "reason": "第一方watch抓取受限，目录作者及时间仅发现线索，未读首发内容",
+      "discovery_author": "たこやきGames",
+      "discovery_time": "11/23 20:45 JST",
+      "kind": "video"
+    },
+    {
+      "platform": "youtube",
+      "source_id": "cTCZJMNyeE0",
+      "canonical_url": "https://www.youtube.com/watch?v=cTCZJMNyeE0",
+      "permalink": "https://www.youtube.com/watch?v=cTCZJMNyeE0",
+      "author": null,
+      "original_published_text": null,
+      "created_utc": null,
+      "published_at_bjt": null,
+      "directly_opened": false,
+      "verification_run_id": "2026-11-24-095559-daily",
+      "duplicate_of": null,
+      "exclusion_reason": "第一方watch抓取受限，目录作者及时间仅发现线索，未读首发内容",
+      "reason": "第一方watch抓取受限，目录作者及时间仅发现线索，未读首发内容",
+      "discovery_author": "つるおかかものはし",
+      "discovery_time": "11/23 20:00 JST",
+      "kind": "video"
+    }
+  ]
+}

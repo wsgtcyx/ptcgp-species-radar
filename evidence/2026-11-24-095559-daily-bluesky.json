@@ -1,0 +1,39 @@
+{
+  "run_id": "2026-11-24-095559-daily",
+  "window": {
+    "start": "2026-11-21T09:55:59+08:00",
+    "end": "2026-11-24T09:55:59+08:00",
+    "hours": 72,
+    "timezone": "Asia/Shanghai"
+  },
+  "coverage": {
+    "state": "failed",
+    "original_urls_attempted": 1,
+    "directly_opened_first_party": 0,
+    "time_verified": 0,
+    "within_window": 0,
+    "eligible": 0,
+    "distinct_authors_eligible": 0,
+    "distinct_parents_eligible": 0,
+    "discovered_unique": null,
+    "obstacles": "公开Feed目录、话题聚合、作者feed和原帖不能取得有效原文；3个种子主页试查，未读到可核帖子。"
+  },
+  "records": [],
+  "excluded": [
+    {
+      "platform": "bluesky",
+      "source_id": "3n2tt3bdmy22f",
+      "canonical_url": "https://bsky.app/profile/fictionlife06.bsky.social/post/3n2tt3bdmy22f",
+      "permalink": "https://bsky.app/profile/fictionlife06.bsky.social/post/3n2tt3bdmy22f",
+      "author": null,
+      "original_published_text": null,
+      "created_utc": null,
+      "published_at_bjt": null,
+      "directly_opened": false,
+      "verification_run_id": "2026-11-24-095559-daily",
+      "duplicate_of": null,
+      "exclusion_reason": "第一方原帖不可读；旧链接重新试查不沿用旧数据",
+      "reason": "第一方原帖不可读；旧链接重新试查不沿用旧数据"
+    }
+  ]
+}

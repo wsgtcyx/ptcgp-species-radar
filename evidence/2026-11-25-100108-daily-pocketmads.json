@@ -1,0 +1,81 @@
+{
+  "run_id": "2026-11-25-100108-daily",
+  "window": {
+    "start": "2026-11-22T10:01:08+08:00",
+    "end": "2026-11-25T10:01:08+08:00",
+    "hours": 72,
+    "timezone": "Asia/Shanghai"
+  },
+  "coverage": {
+    "state": "attempted",
+    "original_urls_attempted": 1,
+    "directly_opened_first_party": 1,
+    "time_verified": 0,
+    "within_window": 0,
+    "eligible": 0,
+    "distinct_authors_eligible": 0,
+    "distinct_parents_eligible": 0,
+    "discovered_unique": null,
+    "obstacles": "公开feed有新快照；一条独立牌表可读，原发日期无时间或时区；不请求/api/。"
+  },
+  "records": [],
+  "excluded": [
+    {
+      "platform": "pocketmads",
+      "source_id": "1ed9d52d-8db4-4b7a-857a-62ad12499d2d",
+      "reddit_id": null,
+      "kind": "deck_post",
+      "parent_thread_id": "1ed9d52d-8db4-4b7a-857a-62ad12499d2d",
+      "canonical_url": "https://app.pocketmads.com/feed/1ed9d52d-8db4-4b7a-857a-62ad12499d2d",
+      "permalink": "https://app.pocketmads.com/feed/1ed9d52d-8db4-4b7a-857a-62ad12499d2d",
+      "community": "pocketmads",
+      "author": "Infamous_D",
+      "created_utc": null,
+      "published_at_bjt": null,
+      "original_published_text": "Published Nov 24, 2026",
+      "body_summary": "20张非ex牌表：Inkay制造混乱、Malamar输出，后排两只Dustox，Team Rocket’s Magmar收尾；Cyrus可换Sabrina，怕状态免疫。",
+      "deck_intent": [
+        "firsthand_build",
+        "full_deck",
+        "partner_role"
+      ],
+      "species": [
+        "Dustox",
+        "Malamar",
+        "Magmar"
+      ],
+      "form": {
+        "Dustox": "普通",
+        "Malamar": "普通",
+        "Magmar": "Team Rocket’s Magmar"
+      },
+      "is_pocket": true,
+      "verification_method": "First-party public page rendered text; no raw HTML timestamp extracted",
+      "verified_at": null,
+      "verification_run_id": "2026-11-25-100108-daily",
+      "directly_opened": true,
+      "duplicate_of": null,
+      "exclusion_reason": "只有日期、无偏移或精确首发时间；保守最晚可能时间超过冻结截止，且页面抓取时点无法确定在截止之前",
+      "review_state": "excluded",
+      "source_credit": "newly_discovered_this_run",
+      "time_interval_conservative": {
+        "earliest": "2026-11-23T10:00:00Z",
+        "latest_inclusive": "2026-11-25T11:59:59Z"
+      },
+      "card_counts": {
+        "Dustox": 2,
+        "Inkay": 2,
+        "Malamar": 2,
+        "Wurmple": 2,
+        "Team Rocket’s Magmar": 1,
+        "Poké Ball": 2,
+        "Professor's Research": 2,
+        "Rare Candy": 2,
+        "Copycat": 1,
+        "Cyrus": 1,
+        "Serena's Choice": 1,
+        "Team Rocket’s Master Plan": 2
+      }
+    }
+  ]
+}

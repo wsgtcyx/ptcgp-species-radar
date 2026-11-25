@@ -1,42 +1,36 @@
-# 2026-11-24 PTCGP 新物种 Deck SEO 雷达
+# PTCGP 新物种 Deck SEO 雷达｜2026-11-25
 
-**合格信源 1/100｜实际打开 22（尝试26）｜独立讨论 1｜合格候选 0/5**
+**合格信源 0/100｜实际打开 8｜独立讨论 0｜合格候选 0/5**
 
-run_id: 2026-11-24-095559-daily
+窗口：2026-11-22T10:01:08+08:00 — 2026-11-25T10:01:08+08:00。run_id: 2026-11-25-100108-daily。
 
-冻结北京时间：2026-11-21T09:55:59+08:00 — 2026-11-24T09:55:59+08:00。百源缺99，候选缺5；quality_gate=failed，coverage_met=false，source_diversity_insufficient=true。不自动建页。0–24 / 24–48 / 48–72小时 = 0/0/1。无可比增长率。
+百源缺口100，正式候选缺口5，quality_gate=failed，coverage_met=false，source_diversity_insufficient=true。不能作为全面选题结论。增长率null。
 
-## 平台审计
+## 采集审计
 
-|平台|尝试原文|打开|严格合格|
-|---|---:|---:|---:|
-|note|8|8|1|
-|bluesky|1|0|0|
-|youtube|3|0|0|
-|pocketmads|2|2|0|
-|reddit|12|12|0|
-|x|0|0|0|
+- note：原帖尝试5，实际打开5，合格0。标签两页无法读；作者页读到日记，RSS XML不支持；五篇原文中无严格合格。日语三日分段搜索大量纸牌或旧稿，另有中文B站发现尝试未得可核原文。
+- bluesky：原帖尝试0，实际打开0，合格0。官方公开Feed目录、两话题聚合、种子作者主页均无法读取；直接DNS失败。
+- youtube：原帖尝试5，实际打开0，合格0。日语目录三个时间段均有线索；4个作者5条watch并发首批全部throttled；官方频道RSS一条不可用。未继续重复。
+- pocketmads：原帖尝试1，实际打开1，合格0。公开feed有新快照；一条独立牌表可读，原发日期无时间或时区；不请求/api/。
+- reddit：原帖尝试3，实际打开2，合格0。三社区new页缓存4天、2周、4周；3条原帖尝试，2条可读但非构筑/旧文；未获得合格评论永久链接。
+- x：原帖尝试0，实际打开0，合格0。公开英文检索无可回原文；没有原帖可核。
 
-- note：标签和作者检索；新文章多非实质构筑；作者RSS读取失败。原发现程序未运行，直接网络DNS不可用。
-- bluesky：公开Feed目录、话题聚合、作者feed和原帖不能取得有效原文；3个种子主页试查，未读到可核帖子。
-- youtube：公开日语目录发现三频道视频；第一方watch受限，UCt73ukfEGoNM4DwQzyQ0org官方RSS不可读。
-- pocketmads：公开feed最新可见日期11月20日，读两份完整牌表但不能证明在冻结窗内。
-- reddit：公开列表缓存滞后；同一评论父帖和永久链接的相对时间不一致；JSON读取被禁，未绕过。
-- x：公开搜索不可读取；没有第一方原帖可核。
+三切片合格均0。未独立打开评论永久链接；广泛发现总数未知。四路清单采用README字段；直接网络DNS失败，仓库Python发现及合并程序未实际运行，以本轮明细JS计算。未复制上轮计数。
 
-## 唯一合格证据
+## 观察（不建议建页）
 
-[わらび原创构筑](https://note.com/ample_oxalis5534/n/nbf565ff32d30)，北京时间11月21日20:51（分钟精度）。公开正文讨论Drampa前场与Mega Rayquaza ex后排切换和能量管理、双Mega更快路线。卡号未核；未读取付费内容。独立作者和父帖各1。
+### 胖丁 Jigglypuff / プリン
 
-## 观察（非正式候选）
+C 待核；未实测构筑设想。原帖：[bambee_san](https://note.com/bambee_san/n/n061adda6392a)；显示时间 2026年11月24日 01:05。作者计划组胖丁睡眠＋Darkrai，考虑Mega Mewtwo X或Diancie收尾及两能量负担；还没有组成或实测该路线。。严格合格作者/父帖/评论均0。拟前场睡眠控制，终结位未确定。区分已有Igglybuff/Darkrai睡眠策略的胖丁双硬币机制、能量成本和后排终结位；现有卡页已覆盖部分用途。 [已有内容](https://www.pokemontcgpocket.app/en/deck/pokemon/igglybuff)；[卡面](https://www.pokemontcgpocket.app/en/card/C1-051)。下一步：真实20卡及实战、另一作者、hub状态。
 
-- 老翁龙（Drampa/ジジーロン）：B有限证据；更新现有攻略优先。前期搭档，独立主轴未证明。可补充能量管理和前场打法；已有搭档攻略，独立hub价值未证。[原文](https://note.com/ample_oxalis5534/n/nbf565ff32d30)；[已有攻略](https://pokemontcgpocket.app/en/deck/dragonair-mega-rayquaza-ex-b4)；[关联卡](https://www.pokemontcgpocket.app/en/card/B4-124)。补证：第二独立作者/根帖的Drampa主轴与具体卡号；核验hub实际HTTP及canonical。
-- 谜拟丘（Mimikyu/ミミッキュ）：C时间待核；非ex不可仅从未写ex推断。技术位。若独立原创证明早期防守路线可区分已有ex搭配；当前不推荐。[原文](https://www.reddit.com/r/PTCGP/comments/1y1i9ao/what_cards_do_you_think_people_are_sleeping_on/)；[已有攻略](https://www.pokemontcgpocket.app/en/deck/mimikyu-ex-b2-mega-diancie-ex-b3b)；[关联卡](https://www.pokemontcgpocket.app/en/card/B2-073)。补证：原发时间明确的两位独立作者、实际卡型及hub核验。
+### 毒粉蛾 Dustox / ドクケイル
 
-## 站内
+C 原发时间待核；与Malamar合为同一策略线索。原帖：[Infamous_D](https://app.pocketmads.com/feed/1ed9d52d-8db4-4b7a-857a-62ad12499d2d)；显示时间 Published Nov 24, 2026。20张非ex牌表：Inkay制造混乱、Malamar输出，后排两只Dustox，Team Rocket’s Magmar收尾；Cyrus可换Sabrina，怕状态免疫。。严格合格作者/父帖/评论均0。后排状态辅助，Malamar主输出；独立主轴未证。不同于Beautifly/Dustox归档的混乱路线；需确认Dustox独立主轴与具体印刷。 [已有内容](https://pokemontcgpocket.app/en/deck/beautifly-b1-dustox-b4)；[卡面](https://pokemontcgpocket.app/en/card/P-C-005)。下一步：原发ISO时间、第二独立作者、具体Dustox和Malamar卡号；不要拆成两个成熟机会。
 
-Name、Popular均完整两页，40+5=45个入口，Rayquaza强制排除；两观察物种不在目录，但hub及sitemap未读通，不能确认缺失。已有配对攻略须去重。
+## 站内核验
 
-[完整证据](https://wsgtcyx.github.io/ptcgp-species-radar/evidence/2026-11-24-095559-daily.json) | [历史JSON](https://wsgtcyx.github.io/ptcgp-species-radar/history/2026-11-24-095559-daily.json) | [最新JSON](https://wsgtcyx.github.io/ptcgp-species-radar/latest.json)
+Popular与Name分别完整2页，40+6=46入口。三条hub探针及sitemap不可读，不等于404，全部待核。Rayquaza强制排除。
 
-发布状态待提交及独立公网回读。
+## 资产
+
+[完整证据](evidence/2026-11-25-100108-daily.json) · [历史JSON](history/2026-11-25-100108-daily.json)。发布验证待完成。

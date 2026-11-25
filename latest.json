@@ -1,26 +1,26 @@
 {
   "schema_version": "2.0",
-  "report_date": "2026-11-24",
-  "run_id": "2026-11-24-095559-daily",
-  "generated_at": "2026-11-24T01:59:56.877Z",
+  "report_date": "2026-11-25",
+  "run_id": "2026-11-25-100108-daily",
+  "generated_at": "2026-11-25T10:01:08+08:00",
   "window": {
-    "start": "2026-11-21T09:55:59+08:00",
-    "end": "2026-11-24T09:55:59+08:00",
+    "start": "2026-11-22T10:01:08+08:00",
+    "end": "2026-11-25T10:01:08+08:00",
     "hours": 72,
     "timezone": "Asia/Shanghai"
   },
   "reporting": {
-    "strict_eligible_count": 1,
+    "strict_eligible_count": 0,
     "source_goal": 100,
-    "shortfall": 99,
+    "shortfall": 100,
     "coverage_met": false,
     "quality_gate": "failed",
-    "reviewed_unique_urls": 26,
-    "actually_opened_unique_originals": 22,
-    "verified_parent_thread_count": 1,
-    "verified_unique_authors": 1,
+    "reviewed_unique_urls": 14,
+    "actually_opened_unique_originals": 8,
+    "verified_parent_thread_count": 0,
+    "verified_unique_authors": 0,
     "per_platform_eligible": {
-      "note": 1,
+      "note": 0,
       "bluesky": 0,
       "youtube": 0,
       "pocketmads": 0,
@@ -30,7 +30,7 @@
     "slices": {
       "0-24h": 0,
       "24-48h": 0,
-      "48-72h": 1
+      "48-72h": 0
     },
     "qualified_count": 0,
     "watchlist_count": 2,
@@ -40,25 +40,23 @@
     "coverage_goal": 100,
     "source_diversity_goal": 10,
     "source_diversity_insufficient": true,
-    "verified_source_ids": [
-      "note:nbf565ff32d30"
-    ],
-    "eligible_sources": 1,
-    "history_path": "history/2026-11-24-095559-daily.json",
-    "evidence_path": "evidence/2026-11-24-095559-daily.json"
+    "verified_source_ids": [],
+    "eligible_sources": 0,
+    "history_path": "history/2026-11-25-100108-daily.json",
+    "evidence_path": "evidence/2026-11-25-100108-daily.json"
   },
   "audit": {
-    "strict_eligible_count": 1,
+    "strict_eligible_count": 0,
     "source_goal": 100,
-    "shortfall": 99,
+    "shortfall": 100,
     "coverage_met": false,
     "quality_gate": "failed",
-    "reviewed_unique_urls": 26,
-    "actually_opened_unique_originals": 22,
-    "verified_parent_thread_count": 1,
-    "verified_unique_authors": 1,
+    "reviewed_unique_urls": 14,
+    "actually_opened_unique_originals": 8,
+    "verified_parent_thread_count": 0,
+    "verified_unique_authors": 0,
     "per_platform_eligible": {
-      "note": 1,
+      "note": 0,
       "bluesky": 0,
       "youtube": 0,
       "pocketmads": 0,
@@ -68,7 +66,7 @@
     "slices": {
       "0-24h": 0,
       "24-48h": 0,
-      "48-72h": 1
+      "48-72h": 0
     },
     "qualified_count": 0,
     "watchlist_count": 2,
@@ -78,14 +76,12 @@
     "coverage_goal": 100,
     "source_diversity_goal": 10,
     "source_diversity_insufficient": true,
-    "verified_source_ids": [
-      "note:nbf565ff32d30"
-    ],
-    "eligible_sources": 1,
-    "history_path": "history/2026-11-24-095559-daily.json",
-    "evidence_path": "evidence/2026-11-24-095559-daily.json"
+    "verified_source_ids": [],
+    "eligible_sources": 0,
+    "history_path": "history/2026-11-25-100108-daily.json",
+    "evidence_path": "evidence/2026-11-25-100108-daily.json"
   },
-  "summary": "百源1/100，实际打开22/26，独立讨论1，候选0/5。新证据来自note一篇Drampa与Mega Rayquaza ex公开原创构筑。其他渠道首发时间或内容受限；目录两排序各2页共45入口。",
+  "summary": "百源0/100，实际打开8/14，独立讨论0，候选0/5。PocketMads新20卡Dustox/Malamar原帖仅日期，note胖丁仅构筑设想；均不计入。目录两排序各2页46入口。",
   "site_audit": {
     "checked_in_current_task": true,
     "confirmed_directory_page_count": 2,
@@ -97,86 +93,78 @@
       "name": 2,
       "popular": 2
     },
-    "observed_species_count": 45,
+    "observed_species_count": 46,
     "per_page_counts": [
       40,
-      5
+      6
     ],
     "failed_directory_pages": [],
     "checks": [
       {
-        "url": "https://www.pokemontcgpocket.app/en/deck/pokemon?sort=name",
-        "page": 1,
-        "state": "opened"
-      },
-      {
-        "url": "https://www.pokemontcgpocket.app/en/deck/pokemon?page=2&sort=name",
-        "page": 2,
-        "state": "opened_via_next_link",
-        "last_page": true
-      },
-      {
         "url": "https://www.pokemontcgpocket.app/en/deck/pokemon",
-        "page": 1,
         "state": "opened"
       },
       {
         "url": "https://www.pokemontcgpocket.app/en/deck/pokemon?page=2",
-        "page": 2,
-        "state": "opened",
-        "last_page": true
+        "state": "opened"
+      },
+      {
+        "url": "https://www.pokemontcgpocket.app/en/deck/pokemon?sort=name",
+        "state": "opened"
+      },
+      {
+        "url": "https://www.pokemontcgpocket.app/en/deck/pokemon?page=2&sort=name",
+        "state": "opened"
       }
     ],
-    "additional_sort": "newest 两页亦查阅",
-    "excluded_existing_base_species": [
-      "Entei",
-      "Charizard",
-      "Venusaur",
-      "Dragonair",
-      "Sceptile",
-      "Azumarill",
-      "Rayquaza (forced)"
-    ],
     "confirmed_hub_absence": false,
+    "excluded_existing_base_species": [
+      "Rayquaza (forced)",
+      "Mewtwo",
+      "Entei",
+      "Darkrai",
+      "Diancie",
+      "Greninja"
+    ],
     "sitemap": {
       "url": "https://www.pokemontcgpocket.app/sitemap.xml",
       "status": "unreadable"
     },
     "hub_probes": {
-      "drampa": "inaccessible; NOT verified 404",
-      "mimikyu": "inaccessible; NOT verified 404"
+      "jigglypuff": "inaccessible, not verified 404",
+      "dustox": "inaccessible, not verified 404",
+      "malamar": "inaccessible, not verified 404"
     },
     "archive_overlap": [
       {
-        "species": "Drampa",
-        "url": "https://pokemontcgpocket.app/en/deck/dragonair-mega-rayquaza-ex-b4",
-        "card_url": "https://www.pokemontcgpocket.app/en/card/B4-124"
+        "species": "Jigglypuff",
+        "url": "https://www.pokemontcgpocket.app/en/deck/pokemon/igglybuff",
+        "card_url": "https://www.pokemontcgpocket.app/en/card/C1-051"
       },
       {
-        "species": "Mimikyu",
-        "url": "https://www.pokemontcgpocket.app/en/deck/mimikyu-ex-b2-mega-diancie-ex-b3b",
-        "card_url": "https://www.pokemontcgpocket.app/en/card/B2-073"
+        "species": "Dustox",
+        "url": "https://pokemontcgpocket.app/en/deck/beautifly-b1-dustox-b4",
+        "card_url": "https://pokemontcgpocket.app/en/card/P-C-005"
       }
     ],
-    "notes": "45个目录入口非45个已证明独立物种；目录未列不等于缺hub。"
+    "notes": "两种排序各40+6，46目录入口；没有核实独立hub缺失。"
   },
   "source_coverage": {
     "note": {
       "state": "attempted",
-      "original_urls_attempted": 8,
-      "directly_opened_first_party": 8,
-      "time_verified": 8,
-      "within_window": 7,
-      "discovered_unique_lower_bound": 3,
+      "original_urls_attempted": 5,
+      "directly_opened_first_party": 5,
+      "time_verified": 0,
+      "within_window": 2,
+      "eligible": 0,
+      "distinct_authors_eligible": 0,
+      "distinct_parents_eligible": 0,
       "discovered_unique": null,
-      "eligible": 1,
-      "distinct_authors_eligible": 1,
-      "distinct_parents_eligible": 1,
-      "obstacles": "标签和作者检索；新文章多非实质构筑；作者RSS读取失败。原发现程序未运行，直接网络DNS不可用。"
+      "obstacles": "标签两页无法读；作者页读到日记，RSS XML不支持；五篇原文中无严格合格。日语三日分段搜索大量纸牌或旧稿，另有中文B站发现尝试未得可核原文。"
     },
     "bluesky": {
       "state": "failed",
-      "original_urls_attempted": 1,
+      "original_urls_attempted": 0,
       "directly_opened_first_party": 0,
       "time_verified": 0,
       "within_window": 0,
@@ -184,11 +172,11 @@
       "distinct_authors_eligible": 0,
       "distinct_parents_eligible": 0,
       "discovered_unique": null,
-      "obstacles": "公开Feed目录、话题聚合、作者feed和原帖不能取得有效原文；3个种子主页试查，未读到可核帖子。"
+      "obstacles": "官方公开Feed目录、两话题聚合、种子作者主页均无法读取；直接DNS失败。"
     },
     "youtube": {
       "state": "failed",
-      "original_urls_attempted": 3,
+      "original_urls_attempted": 5,
       "directly_opened_first_party": 0,
       "time_verified": 0,
       "within_window": 0,
@@ -196,16 +184,26 @@
       "distinct_authors_eligible": 0,
       "distinct_parents_eligible": 0,
       "discovered_unique": null,
-      "creator_directory_checked": 1,
-      "creator_channels_discovered": 3,
+      "obstacles": "日语目录三个时间段均有线索；4个作者5条watch并发首批全部throttled；官方频道RSS一条不可用。未继续重复。",
+      "creator_channels_discovered": 4,
       "creator_rss_attempted": 1,
-      "creator_rss_readable": 0,
-      "watch_readable": 0,
-      "obstacles": "公开日语目录发现三频道视频；第一方watch受限，UCt73ukfEGoNM4DwQzyQ0org官方RSS不可读。"
+      "creator_rss_readable": 0
     },
     "pocketmads": {
       "state": "attempted",
-      "original_urls_attempted": 2,
+      "original_urls_attempted": 1,
+      "directly_opened_first_party": 1,
+      "time_verified": 0,
+      "within_window": 0,
+      "eligible": 0,
+      "distinct_authors_eligible": 0,
+      "distinct_parents_eligible": 0,
+      "discovered_unique": null,
+      "obstacles": "公开feed有新快照；一条独立牌表可读，原发日期无时间或时区；不请求/api/。"
+    },
+    "reddit": {
+      "state": "attempted",
+      "original_urls_attempted": 3,
       "directly_opened_first_party": 2,
       "time_verified": 0,
       "within_window": 0,
@@ -213,20 +211,8 @@
       "distinct_authors_eligible": 0,
       "distinct_parents_eligible": 0,
       "discovered_unique": null,
-      "obstacles": "公开feed最新可见日期11月20日，读两份完整牌表但不能证明在冻结窗内。"
-    },
-    "reddit": {
-      "state": "attempted",
-      "original_urls_attempted": 12,
-      "directly_opened_first_party": 12,
-      "time_verified": 0,
-      "within_window": 0,
-      "eligible": 0,
-      "distinct_authors_eligible": 0,
-      "distinct_parents_eligible": 0,
-      "discovered_unique": null,
-      "community_new_lists_attempted": 3,
-      "obstacles": "公开列表缓存滞后；同一评论父帖和永久链接的相对时间不一致；JSON读取被禁，未绕过。"
+      "obstacles": "三社区new页缓存4天、2周、4周；3条原帖尝试，2条可读但非构筑/旧文；未获得合格评论永久链接。",
+      "community_new_lists_attempted": 3
     },
     "x": {
       "state": "failed",
@@ -238,65 +224,31 @@
       "distinct_authors_eligible": 0,
       "distinct_parents_eligible": 0,
       "discovered_unique": null,
-      "obstacles": "公开搜索不可读取；没有第一方原帖可核。"
+      "obstacles": "公开英文检索无可回原文；没有原帖可核。"
     }
   },
   "collection_funnel": {
     "discovered_unique_total": null,
-    "discovered_original_lower_bound": 3,
-    "reason_unset": "外部索引不计；未完整核实各平台全部近期原始内容",
-    "reviewed_unique_original_urls": 26,
-    "original_first_party_open_success": 22,
-    "original_articles_with_minute_published_time": 8,
-    "original_articles_with_time_in_window": 7,
-    "pocket_game_original_and_substantive_in_window": 1,
-    "strict_after_duplicates": 1,
+    "discovered_original_lower_bound": 1,
+    "reason_unset": "无全面近期原文可读；note一条当期原创Pocket日记可核保守时间；其他发现入口不计。",
+    "reviewed_unique_original_urls": 14,
+    "original_first_party_open_success": 8,
+    "original_articles_with_exact_published_time": 0,
+    "original_articles_with_time_in_window": 2,
+    "pocket_game_original_and_substantive_in_window": 0,
+    "strict_after_duplicates": 0,
     "cross_platform_proven_duplicates": 0
   },
   "candidates": [],
   "watchlist": [
     {
-      "species": "Drampa",
-      "species_zh": "老翁龙",
-      "species_ja": "ジジーロン",
-      "forms": null,
-      "classification": "B有限证据；更新现有攻略优先",
-      "verified_author_accounts": 1,
-      "distinct_parents": 1,
-      "substantive_comments": 0,
-      "slices": {
-        "0-24h": 0,
-        "24-48h": 0,
-        "48-72h": 1
-      },
-      "evidence": [
-        {
-          "url": "https://note.com/ample_oxalis5534/n/nbf565ff32d30",
-          "author": "ample_oxalis5534",
-          "published_at_bjt": "2026-11-21 20:51 (+08:00)",
-          "intent": "前场施压，Mega Rayquaza ex后排输出"
-        }
+      "species": "Jigglypuff",
+      "species_zh": "胖丁",
+      "species_ja": "プリン",
+      "classification": "C 待核；未实测构筑设想",
+      "forms": [
+        "普通；C1-051机制匹配，实际卡号/异图未证"
       ],
-      "role": "前期搭档，独立主轴未证明",
-      "seo_value": "可补充能量管理和前场打法；已有搭档攻略，独立hub价值未证",
-      "keywords": [
-        "Drampa deck",
-        "Drampa Mega Rayquaza ex deck",
-        "ジジーロン デッキ"
-      ],
-      "next_needed": "第二独立作者/根帖的Drampa主轴与具体卡号；核验hub实际HTTP及canonical",
-      "hub_missing_verified": false,
-      "existing_species_directory_listed": false,
-      "existing_strategy_url": "https://pokemontcgpocket.app/en/deck/dragonair-mega-rayquaza-ex-b4",
-      "related_card_url": "https://www.pokemontcgpocket.app/en/card/B4-124",
-      "card_overlap": "本站已有B4-124搭档使用记录，不表示原帖卡号已确认"
-    },
-    {
-      "species": "Mimikyu",
-      "species_zh": "谜拟丘",
-      "species_ja": "ミミッキュ",
-      "forms": null,
-      "classification": "C时间待核；非ex不可仅从未写ex推断",
       "verified_author_accounts": 0,
       "distinct_parents": 0,
       "substantive_comments": 0,
@@ -307,24 +259,64 @@
       },
       "evidence": [
         {
-          "url": "https://www.reddit.com/r/PTCGP/comments/1y1i9ao/what_cards_do_you_think_people_are_sleeping_on/",
-          "author": "FatherofGray",
-          "published_at_bjt": null,
-          "intent": "单能50伤与Eviolite前场墙；时间不计"
+          "url": "https://note.com/bambee_san/n/n061adda6392a",
+          "author": "bambee_san",
+          "published_text": "2026年11月24日 01:05",
+          "eligible": false,
+          "intent": "作者计划组胖丁睡眠＋Darkrai，考虑Mega Mewtwo X或Diancie收尾及两能量负担；还没有组成或实测该路线。"
         }
       ],
-      "role": "技术位",
-      "seo_value": "若独立原创证明早期防守路线可区分已有ex搭配；当前不推荐",
-      "keywords": [
-        "Mimikyu deck",
-        "ミミッキュ デッキ"
-      ],
-      "next_needed": "原发时间明确的两位独立作者、实际卡型及hub核验",
+      "role": "拟前场睡眠控制，终结位未确定",
       "hub_missing_verified": false,
       "existing_species_directory_listed": false,
-      "existing_strategy_url": "https://www.pokemontcgpocket.app/en/deck/mimikyu-ex-b2-mega-diancie-ex-b3b",
-      "other_strategy_url": "https://pokemontcgpocket.app/en/deck/mimikyu-ex-b2-team-rockets-weezing-ex-b4a",
-      "related_card_url": "https://www.pokemontcgpocket.app/en/card/B2-073"
+      "related_card_url": "https://www.pokemontcgpocket.app/en/card/C1-051",
+      "existing_strategy_url": "https://www.pokemontcgpocket.app/en/deck/pokemon/igglybuff",
+      "seo_value": "区分已有Igglybuff/Darkrai睡眠策略的胖丁双硬币机制、能量成本和后排终结位；现有卡页已覆盖部分用途。",
+      "keywords": [
+        "jigglypuff sleep deck",
+        "jigglypuff darkrai deck",
+        "プリン デッキ"
+      ],
+      "next_needed": "真实20卡及实战、另一作者、hub状态。"
+    },
+    {
+      "species": "Dustox",
+      "species_zh": "毒粉蛾",
+      "species_ja": "ドクケイル",
+      "classification": "C 原发时间待核；与Malamar合为同一策略线索",
+      "forms": [
+        "普通；卡号未知"
+      ],
+      "verified_author_accounts": 0,
+      "distinct_parents": 0,
+      "substantive_comments": 0,
+      "slices": {
+        "0-24h": 0,
+        "24-48h": 0,
+        "48-72h": 0
+      },
+      "evidence": [
+        {
+          "url": "https://app.pocketmads.com/feed/1ed9d52d-8db4-4b7a-857a-62ad12499d2d",
+          "author": "Infamous_D",
+          "published_text": "Published Nov 24, 2026",
+          "eligible": false,
+          "intent": "20张非ex牌表：Inkay制造混乱、Malamar输出，后排两只Dustox，Team Rocket’s Magmar收尾；Cyrus可换Sabrina，怕状态免疫。"
+        }
+      ],
+      "role": "后排状态辅助，Malamar主输出；独立主轴未证",
+      "hub_missing_verified": false,
+      "existing_species_directory_listed": false,
+      "existing_strategy_url": "https://pokemontcgpocket.app/en/deck/beautifly-b1-dustox-b4",
+      "related_strategy_url": "https://www.pokemontcgpocket.app/en/deck/malamar-b3-mega-sableye-ex-b3b",
+      "related_card_url": "https://pokemontcgpocket.app/en/card/P-C-005",
+      "seo_value": "不同于Beautifly/Dustox归档的混乱路线；需确认Dustox独立主轴与具体印刷。",
+      "keywords": [
+        "dustox malamar deck",
+        "malamar confusion deck",
+        "ドクケイル デッキ"
+      ],
+      "next_needed": "原发ISO时间、第二独立作者、具体Dustox和Malamar卡号；不要拆成两个成熟机会。"
     }
   ],
   "publication": {

@@ -1,0 +1,162 @@
+{
+  "run_id": "2026-11-26-100545-daily",
+  "window": {
+    "start": "2026-11-23T10:05:45+08:00",
+    "end": "2026-11-26T10:05:45+08:00",
+    "hours": 72,
+    "timezone": "Asia/Shanghai"
+  },
+  "coverage": {
+    "state": "attempted",
+    "original_urls_attempted": 4,
+    "directly_opened_first_party": 4,
+    "time_verified": 3,
+    "within_window": 3,
+    "substantive_content_read": 1,
+    "eligible": 1,
+    "distinct_authors_eligible": 1,
+    "distinct_parents_eligible": 1,
+    "discovered_unique_lower_bound": 3,
+    "obstacles": "两标签页不可访问；作者RSS XML不支持；日期/英日检索及作者档案仅找到少量原文，最新日记未取到永久链接。"
+  },
+  "records": [
+    {
+      "platform": "note",
+      "source_id": "n593df28527e5",
+      "kind": "article",
+      "parent_thread_id": "n593df28527e5",
+      "canonical_url": "https://note.com/bambee_san/n/n593df28527e5",
+      "permalink": "https://note.com/bambee_san/n/n593df28527e5",
+      "community": "note",
+      "author": "bambee_san",
+      "created_utc": null,
+      "published_at_bjt": null,
+      "published_text": "2026年11月24日 22:15",
+      "time_interval_utc": {
+        "earliest": "2026-11-24T08:15:00Z",
+        "latest_exclusive": "2026-11-25T10:16:00Z",
+        "basis": "First-party publication label, unknown display offset conservatively bounded UTC−12 through UTC+14; exclusive upper bound."
+      },
+      "evidence": "已组好前日计划的胖丁睡眠牌组，讨论两能量启动、Hope Trainer换位与双Mewtwo卡位是否换治疗，尚未实战。未读原图。",
+      "deck_intent": "实际组牌和卡位优化",
+      "species": [
+        "Jigglypuff",
+        "Mewtwo"
+      ],
+      "form": "Jigglypuff普通，C1-051机制相符但印刷未核；Mewtwo形态未知",
+      "is_pocket": true,
+      "verification_method": "First-party rendered original; visible publication label and body only",
+      "verified_at": "2026-11-26T10:07:16+08:00",
+      "directly_opened": true,
+      "duplicate_of": null,
+      "exclusion_reason": null,
+      "review_state": "first_party_original_substantive",
+      "strict_eligible": true,
+      "within_window": true,
+      "newly_discovered": false
+    },
+    {
+      "platform": "note",
+      "source_id": "n061adda6392a",
+      "kind": "article",
+      "parent_thread_id": "n061adda6392a",
+      "canonical_url": "https://note.com/bambee_san/n/n061adda6392a",
+      "permalink": "https://note.com/bambee_san/n/n061adda6392a",
+      "community": "note",
+      "author": "bambee_san",
+      "created_utc": null,
+      "published_at_bjt": null,
+      "published_text": "2026年11月24日 01:05",
+      "time_interval_utc": {
+        "earliest": "2026-11-23T11:05:00Z",
+        "latest_exclusive": "2026-11-24T13:06:00Z",
+        "basis": "First-party publication label, unknown display offset conservatively bounded UTC−12 through UTC+14; exclusive upper bound."
+      },
+      "evidence": "提出胖丁睡眠、Darkrai和Mewtwo或Diancie的设想，明确尚未组牌。",
+      "deck_intent": "未组牌设想",
+      "species": [
+        "Jigglypuff",
+        "Darkrai",
+        "Mewtwo"
+      ],
+      "form": null,
+      "is_pocket": true,
+      "verification_method": "First-party rendered original; visible publication label and body only",
+      "verified_at": "2026-11-26T10:07:16+08:00",
+      "directly_opened": true,
+      "duplicate_of": null,
+      "exclusion_reason": "尚未完成且非实战；后续实际组牌另计",
+      "review_state": "excluded_or_unverified",
+      "strict_eligible": false,
+      "within_window": true,
+      "newly_discovered": false
+    },
+    {
+      "platform": "note",
+      "source_id": "n4bbc87375e93",
+      "kind": "article",
+      "parent_thread_id": "n4bbc87375e93",
+      "canonical_url": "https://note.com/time_memory/n/n4bbc87375e93",
+      "permalink": "https://note.com/time_memory/n/n4bbc87375e93",
+      "community": "note",
+      "author": "time_memory",
+      "created_utc": null,
+      "published_at_bjt": null,
+      "published_text": "2026年11月23日 18:59",
+      "time_interval_utc": {
+        "earliest": "2026-11-23T04:59:00Z",
+        "latest_exclusive": "2026-11-24T06:00:00Z",
+        "basis": "First-party publication label, unknown display offset conservatively bounded UTC−12 through UTC+14; exclusive upper bound."
+      },
+      "evidence": "讨论限定活动规则导致Rabbit Jump与Pikachu/Pawmot高度集中，但没有自己的具体牌表或搭档调整。",
+      "deck_intent": null,
+      "species": [
+        "Pikachu",
+        "Pawmot"
+      ],
+      "form": null,
+      "is_pocket": true,
+      "verification_method": "First-party rendered original; visible publication label and body only",
+      "verified_at": "2026-11-26T10:07:16+08:00",
+      "directly_opened": true,
+      "duplicate_of": null,
+      "exclusion_reason": "活动评论，不是实质构筑",
+      "review_state": "excluded_or_unverified",
+      "strict_eligible": false,
+      "within_window": true,
+      "newly_discovered": true
+    },
+    {
+      "platform": "note",
+      "source_id": "n2c96aae481d8",
+      "kind": "article",
+      "parent_thread_id": "n2c96aae481d8",
+      "canonical_url": "https://note.com/alert_eagle8895/n/n2c96aae481d8",
+      "permalink": "https://note.com/alert_eagle8895/n/n2c96aae481d8",
+      "community": "note",
+      "author": "alert_eagle8895",
+      "created_utc": null,
+      "published_at_bjt": null,
+      "published_text": "2026年11月23日 00:45",
+      "time_interval_utc": {
+        "earliest": "2026-11-22T10:45:00Z",
+        "latest_exclusive": "2026-11-23T12:46:00Z",
+        "basis": "First-party publication label, unknown display offset conservatively bounded UTC−12 through UTC+14; exclusive upper bound."
+      },
+      "evidence": "泛化的十局测试建议，无具名卡牌和可核第一手实战。",
+      "deck_intent": null,
+      "species": [],
+      "form": null,
+      "is_pocket": true,
+      "verification_method": "First-party rendered original; visible publication label and body only",
+      "verified_at": "2026-11-26T10:07:16+08:00",
+      "directly_opened": true,
+      "duplicate_of": null,
+      "exclusion_reason": "时间区间跨窗，泛化指南且玩家原创实战无法证实",
+      "review_state": "excluded_or_unverified",
+      "strict_eligible": false,
+      "within_window": false,
+      "newly_discovered": true
+    }
+  ]
+}

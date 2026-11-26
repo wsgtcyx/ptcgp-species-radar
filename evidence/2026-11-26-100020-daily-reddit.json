@@ -1,0 +1,80 @@
+{
+  "run_id": "2026-11-26-100020-daily",
+  "window": {
+    "start": "2026-11-23T10:00:20+08:00",
+    "end": "2026-11-26T10:00:20+08:00",
+    "hours": 72,
+    "timezone": "Asia/Shanghai"
+  },
+  "coverage": {
+    "state": "attempted",
+    "original_urls_attempted": 2,
+    "directly_opened_first_party": 2,
+    "time_verified": 0,
+    "within_window": 0,
+    "substantive_content_read": 0,
+    "eligible": 0,
+    "distinct_authors_eligible": 0,
+    "distinct_parents_eligible": 0,
+    "discovered_unique_lower_bound": 0,
+    "obstacles": "三社区new列表均检查：PTCGP两周缓存、PokemonPocket五天缓存、PokemonTCGP仅导流置顶；父帖及评论均明显旧。"
+  },
+  "records": [
+    {
+      "platform": "reddit",
+      "source_id": "1xp9bqo",
+      "kind": "post",
+      "parent_thread_id": "1xp9bqo",
+      "canonical_url": "https://www.reddit.com/r/PTCGP/comments/1xp9bqo/got_thru_the_event_with_this_pile_of_junk/",
+      "permalink": "https://www.reddit.com/r/PTCGP/comments/1xp9bqo/got_thru_the_event_with_this_pile_of_junk/",
+      "community": "r/PTCGP",
+      "author": "PACMANCP",
+      "created_utc": null,
+      "published_at_bjt": null,
+      "time_interval_utc": null,
+      "published_text": "16d ago (cached 3 days ago)",
+      "evidence": "作者提到新Pachirisu与Rotom Dex，原文显示16d ago且抓取缓存3天。",
+      "deck_intent": null,
+      "species": [
+        "Pachirisu"
+      ],
+      "form": null,
+      "is_pocket": true,
+      "verification_method": "First-party original page text; no exact metadata available",
+      "verified_at": "2026-11-26T10:01:43+08:00",
+      "directly_opened": true,
+      "duplicate_of": null,
+      "exclusion_reason": "明显旧帖",
+      "review_state": "excluded",
+      "reddit_id": "1xp9bqo",
+      "strict_eligible": false
+    },
+    {
+      "platform": "reddit",
+      "source_id": "19s82s4iw3ap0",
+      "kind": "comment",
+      "parent_thread_id": "1xp9bqo",
+      "canonical_url": "https://www.reddit.com/r/PTCGP/comments/1xp9bqo/comment/19s82s4iw3ap0/",
+      "permalink": "https://www.reddit.com/r/PTCGP/comments/1xp9bqo/comment/19s82s4iw3ap0/",
+      "community": "r/PTCGP",
+      "author": "PACMANCP",
+      "created_utc": null,
+      "published_at_bjt": null,
+      "time_interval_utc": null,
+      "published_text": "20d ago (direct comment)",
+      "evidence": "同作者补充对局结果；父帖显示16d，独立评论显示20d。",
+      "deck_intent": null,
+      "species": [],
+      "form": null,
+      "is_pocket": true,
+      "verification_method": "First-party original page text; no exact metadata available",
+      "verified_at": "2026-11-26T10:01:43+08:00",
+      "directly_opened": true,
+      "duplicate_of": null,
+      "exclusion_reason": "旧评论；不使用父帖时间",
+      "review_state": "excluded",
+      "reddit_id": "19s82s4iw3ap0",
+      "strict_eligible": false
+    }
+  ]
+}

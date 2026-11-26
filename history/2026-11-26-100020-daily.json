@@ -1,0 +1,366 @@
+{
+  "schema_version": "2.0",
+  "report_date": "2026-11-26",
+  "run_id": "2026-11-26-100020-daily",
+  "generated_at": "2026-11-26T10:00:20+08:00",
+  "window": {
+    "start": "2026-11-23T10:00:20+08:00",
+    "end": "2026-11-26T10:00:20+08:00",
+    "hours": 72,
+    "timezone": "Asia/Shanghai"
+  },
+  "reporting": {
+    "strict_eligible_count": 2,
+    "source_goal": 100,
+    "shortfall": 98,
+    "coverage_met": false,
+    "quality_gate": "failed",
+    "reviewed_unique_urls": 14,
+    "actually_opened_unique_originals": 10,
+    "verified_parent_thread_count": 2,
+    "verified_unique_authors": 2,
+    "per_platform_eligible": {
+      "note": 1,
+      "bluesky": 0,
+      "youtube": 0,
+      "pocketmads": 1,
+      "reddit": 0,
+      "x": 0,
+      "smogon": 0
+    },
+    "slices": {
+      "0-24h": 0,
+      "24-48h": 0,
+      "48-72h": 0,
+      "unresolved": 2
+    },
+    "qualified_count": 0,
+    "watchlist_count": 3,
+    "target_count": 5,
+    "shortfall_count": 5,
+    "growth_rate": null,
+    "coverage_goal": 100,
+    "source_diversity_goal": 10,
+    "source_diversity_insufficient": true,
+    "verified_source_ids": [
+      "note:n593df28527e5",
+      "pocketmads:1ed9d52d-8db4-4b7a-857a-62ad12499d2d"
+    ],
+    "eligible_sources": 2,
+    "history_path": "history/2026-11-26-100020-daily.json",
+    "evidence_path": "evidence/2026-11-26-100020-daily.json"
+  },
+  "audit": {
+    "strict_eligible_count": 2,
+    "source_goal": 100,
+    "shortfall": 98,
+    "coverage_met": false,
+    "quality_gate": "failed",
+    "reviewed_unique_urls": 14,
+    "actually_opened_unique_originals": 10,
+    "verified_parent_thread_count": 2,
+    "verified_unique_authors": 2,
+    "per_platform_eligible": {
+      "note": 1,
+      "bluesky": 0,
+      "youtube": 0,
+      "pocketmads": 1,
+      "reddit": 0,
+      "x": 0,
+      "smogon": 0
+    },
+    "slices": {
+      "0-24h": 0,
+      "24-48h": 0,
+      "48-72h": 0,
+      "unresolved": 2
+    },
+    "qualified_count": 0,
+    "watchlist_count": 3,
+    "target_count": 5,
+    "shortfall_count": 5,
+    "growth_rate": null,
+    "coverage_goal": 100,
+    "source_diversity_goal": 10,
+    "source_diversity_insufficient": true,
+    "verified_source_ids": [
+      "note:n593df28527e5",
+      "pocketmads:1ed9d52d-8db4-4b7a-857a-62ad12499d2d"
+    ],
+    "eligible_sources": 2,
+    "history_path": "history/2026-11-26-100020-daily.json",
+    "evidence_path": "evidence/2026-11-26-100020-daily.json"
+  },
+  "summary": "百源2/100，实际打开10/14，独立讨论2，候选0/5。新增胖丁实际组牌；重读Dustox/Malamar 20卡，Nov24保守日期区间本轮完整落窗；MegaSwamp两个同源快照待时间。目录47入口。",
+  "site_audit": {
+    "checked_in_current_task": true,
+    "confirmed_directory_page_count": 2,
+    "checked_sortings": [
+      "all/name",
+      "all/popular"
+    ],
+    "page_counts": {
+      "name": 2,
+      "popular": 2
+    },
+    "observed_species_count": 47,
+    "per_page_counts": [
+      40,
+      7
+    ],
+    "failed_directory_pages": [],
+    "checks": [
+      {
+        "url": "https://www.pokemontcgpocket.app/en/deck/pokemon",
+        "state": "opened"
+      },
+      {
+        "url": "https://www.pokemontcgpocket.app/en/deck/pokemon?page=2",
+        "state": "opened"
+      },
+      {
+        "url": "https://www.pokemontcgpocket.app/en/deck/pokemon?sort=name",
+        "state": "opened"
+      },
+      {
+        "url": "https://www.pokemontcgpocket.app/en/deck/pokemon?page=2&sort=name",
+        "state": "opened"
+      }
+    ],
+    "confirmed_hub_absence": false,
+    "excluded_existing_base_species": [
+      "Rayquaza (forced)",
+      "Mewtwo",
+      "Suicune",
+      "Greninja",
+      "Darkrai"
+    ],
+    "sitemap": {
+      "url": "https://www.pokemontcgpocket.app/sitemap.xml",
+      "status": "unreadable"
+    },
+    "hub_probes": {
+      "jigglypuff": "unreadable; not verified 404",
+      "dustox": "unreadable; not verified 404",
+      "malamar": "unreadable; not verified 404",
+      "swampert": "unreadable; not verified 404"
+    },
+    "notes": "两种排序各40+7，明确Page 2 of 2。非www根地址不可读，www目录可读。实际hub状态不明。"
+  },
+  "source_coverage": {
+    "note": {
+      "state": "attempted",
+      "original_urls_attempted": 6,
+      "directly_opened_first_party": 5,
+      "time_verified": 3,
+      "within_window": 3,
+      "substantive_content_read": 2,
+      "eligible": 1,
+      "distinct_authors_eligible": 1,
+      "distinct_parents_eligible": 1,
+      "discovered_unique_lower_bound": 3,
+      "obstacles": "两个新标签页不可访问；作者RSS XML不支持；搜索按11/23、24、25、26日期及构筑词，最新段无可核新作者；5原文可读1失败。"
+    },
+    "bluesky": {
+      "state": "failed",
+      "original_urls_attempted": 0,
+      "directly_opened_first_party": 0,
+      "time_verified": 0,
+      "within_window": 0,
+      "substantive_content_read": 0,
+      "eligible": 0,
+      "distinct_authors_eligible": 0,
+      "distinct_parents_eligible": 0,
+      "discovered_unique_lower_bound": 0,
+      "obstacles": "官方公开Feed目录、两个话题聚合和作者主页不可访问；直连DNS失败；无独立原帖。"
+    },
+    "youtube": {
+      "state": "failed",
+      "original_urls_attempted": 2,
+      "directly_opened_first_party": 0,
+      "time_verified": 0,
+      "within_window": 0,
+      "substantive_content_read": 0,
+      "eligible": 0,
+      "distinct_authors_eligible": 0,
+      "distinct_parents_eligible": 0,
+      "discovered_unique_lower_bound": 0,
+      "obstacles": "日语视频目录超时；外部发现两个同频道切片，watch均DisabledError；未取得channel ID或RSS原文。"
+    },
+    "pocketmads": {
+      "state": "attempted",
+      "original_urls_attempted": 3,
+      "directly_opened_first_party": 3,
+      "time_verified": 1,
+      "within_window": 1,
+      "substantive_content_read": 2,
+      "eligible": 1,
+      "distinct_authors_eligible": 1,
+      "distinct_parents_eligible": 1,
+      "discovered_unique_lower_bound": 1,
+      "obstacles": "公开feed及3条牌表可读；Nov24完整民用时区边界在窗内；Nov25两帖边界不在窗内；直接DNS失败。"
+    },
+    "reddit": {
+      "state": "attempted",
+      "original_urls_attempted": 2,
+      "directly_opened_first_party": 2,
+      "time_verified": 0,
+      "within_window": 0,
+      "substantive_content_read": 0,
+      "eligible": 0,
+      "distinct_authors_eligible": 0,
+      "distinct_parents_eligible": 0,
+      "discovered_unique_lower_bound": 0,
+      "obstacles": "三社区new列表均检查：PTCGP两周缓存、PokemonPocket五天缓存、PokemonTCGP仅导流置顶；父帖及评论均明显旧。"
+    },
+    "x": {
+      "state": "failed",
+      "original_urls_attempted": 0,
+      "directly_opened_first_party": 0,
+      "time_verified": 0,
+      "within_window": 0,
+      "substantive_content_read": 0,
+      "eligible": 0,
+      "distinct_authors_eligible": 0,
+      "distinct_parents_eligible": 0,
+      "discovered_unique_lower_bound": 0,
+      "obstacles": "英日关键词公开检索无可核原帖。"
+    },
+    "smogon": {
+      "state": "failed",
+      "original_urls_attempted": 1,
+      "directly_opened_first_party": 0,
+      "time_verified": 0,
+      "within_window": 0,
+      "substantive_content_read": 0,
+      "eligible": 0,
+      "distinct_authors_eligible": 0,
+      "distinct_parents_eligible": 0,
+      "discovered_unique_lower_bound": 0,
+      "obstacles": "新发现社区原文HTTP403，未继续请求。"
+    }
+  },
+  "collection_funnel": {
+    "discovered_unique_total": null,
+    "discovered_original_lower_bound": 4,
+    "reviewed_unique_original_urls": 14,
+    "original_first_party_open_success": 10,
+    "original_articles_with_exact_published_time": 0,
+    "original_articles_with_time_in_window": 4,
+    "pocket_game_original_and_substantive_in_window": 2,
+    "strict_after_duplicates": 2,
+    "cross_platform_proven_duplicates": 0,
+    "within_platform_proven_duplicates": 1,
+    "notes": "UTC−12至UTC+14范围完整落窗方可纳入；没有虚构created_utc。两个严格证据均跨24h切片，不能强行定位。仓库merge程序只接受精确时间，故本次使用独立区间检查和同一明细汇总；没有运行原Python发现/合并程序，DNS不可用。"
+  },
+  "candidates": [],
+  "watchlist": [
+    {
+      "species": "Malamar",
+      "species_zh": "乌贼王",
+      "species_ja": "カラマネロ",
+      "classification": "B 单作者，已有归档但新混乱变体待补证",
+      "verified_author_accounts": 1,
+      "distinct_parents": 1,
+      "substantive_comments": 0,
+      "evidence": [
+        "https://app.pocketmads.com/feed/1ed9d52d-8db4-4b7a-857a-62ad12499d2d"
+      ],
+      "role": "主轴输出；Dustox为辅助，同一来源不可拆成两成熟机会",
+      "forms": [
+        "普通，印刷未证"
+      ],
+      "hub_missing_verified": false,
+      "existing_species_directory_listed": false,
+      "existing_strategy_url": "https://www.pokemontcgpocket.app/en/deck/malamar-b3-mega-sableye-ex-b3b",
+      "related_card_url": "https://www.pokemontcgpocket.app/en/card/P-C-005",
+      "related_strategy_url": "https://www.pokemontcgpocket.app/en/deck/beautifly-b1-dustox-b4",
+      "related_dustox_card": "https://www.pokemontcgpocket.app/en/card/B4-005",
+      "keywords": [
+        "malamar confusion deck",
+        "dustox malamar deck",
+        "カラマネロ デッキ"
+      ],
+      "next_needed": "第二独立玩家和父帖、卡号及独立hub HTTP；核Dustox B4-005后排机制与具体Malamar印刷。",
+      "slices": {
+        "0-24h": 0,
+        "24-48h": 0,
+        "48-72h": 0,
+        "unresolved": 1
+      }
+    },
+    {
+      "species": "Jigglypuff",
+      "species_zh": "胖丁",
+      "species_ja": "プリン",
+      "classification": "B 单作者实际组牌，未实战",
+      "verified_author_accounts": 1,
+      "distinct_parents": 1,
+      "substantive_comments": 0,
+      "evidence": [
+        "https://note.com/bambee_san/n/n593df28527e5"
+      ],
+      "role": "前场两能量睡眠，后排Mewtwo终结；与已收录Igglybuff机制重叠",
+      "forms": [
+        "普通；C1-051机制相符但原图未核"
+      ],
+      "hub_missing_verified": false,
+      "existing_species_directory_listed": false,
+      "existing_strategy_url": "https://www.pokemontcgpocket.app/en/deck/pokemon/igglybuff",
+      "related_card_url": "https://www.pokemontcgpocket.app/en/card/C1-051",
+      "keywords": [
+        "jigglypuff sleep deck",
+        "jigglypuff mewtwo deck",
+        "プリン デッキ"
+      ],
+      "next_needed": "完整20卡、实战及第二独立作者；验证hub。",
+      "slices": {
+        "0-24h": 0,
+        "24-48h": 0,
+        "48-72h": 0,
+        "unresolved": 1
+      }
+    },
+    {
+      "species": "Swampert",
+      "species_zh": "巨沼怪",
+      "species_ja": "ラグラージ",
+      "classification": "C 原发时间待核，两个同源快照",
+      "verified_author_accounts": 0,
+      "distinct_parents": 0,
+      "substantive_comments": 0,
+      "evidence": [
+        "https://app.pocketmads.com/feed/d5905afa-c03b-4aba-ab4e-29972f28e1fe",
+        "https://app.pocketmads.com/feed/39083235-3b31-4c69-897a-10dbba1ae77d"
+      ],
+      "role": "Mega Swampert ex主轴，Suicune ex支援，Sabrina换Lucky Ice Pop",
+      "forms": [
+        "Mega Swampert ex，印刷未知"
+      ],
+      "hub_missing_verified": false,
+      "existing_species_directory_listed": false,
+      "existing_strategy_url": "https://www.pokemontcgpocket.app/en/deck/mega-swampert-ex-swampert-b2",
+      "related_card_url": "https://www.pokemontcgpocket.app/en/card/B2-036",
+      "keywords": [
+        "mega swampert ex suicune deck",
+        "mega swampert ex deck",
+        "メガラグラージex デッキ"
+      ],
+      "next_needed": "原发带时区时间、第二独立作者；区别已有Swampert/Baxcalibur归档。",
+      "slices": {
+        "0-24h": 0,
+        "24-48h": 0,
+        "48-72h": 0,
+        "unresolved": 0
+      }
+    }
+  ],
+  "publication": {
+    "status": "pending_deploy_verification",
+    "repository": "wsgtcyx/ptcgp-species-radar",
+    "branch": "main",
+    "homepage": "https://wsgtcyx.github.io/ptcgp-species-radar/",
+    "json_url": "https://wsgtcyx.github.io/ptcgp-species-radar/latest.json",
+    "raw_fallback": "https://raw.githubusercontent.com/wsgtcyx/ptcgp-species-radar/main/latest.json"
+  }
+}

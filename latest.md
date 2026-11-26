@@ -1,36 +1,38 @@
-# PTCGP 新物种 Deck SEO 雷达｜2026-11-25
+# PTCGP 新物种 Deck SEO 选题雷达 2026-11-26
 
-**合格信源 0/100｜实际打开 8｜独立讨论 0｜合格候选 0/5**
+百源2/100，实际打开10/14，独立讨论2，候选0/5。新增胖丁实际组牌；重读Dustox/Malamar 20卡，Nov24保守日期区间本轮完整落窗；MegaSwamp两个同源快照待时间。目录47入口。
 
-窗口：2026-11-22T10:01:08+08:00 — 2026-11-25T10:01:08+08:00。run_id: 2026-11-25-100108-daily。
+窗口：2026-11-23T10:00:20+08:00 — 2026-11-26T10:00:20+08:00。
 
-百源缺口100，正式候选缺口5，quality_gate=failed，coverage_met=false，source_diversity_insufficient=true。不能作为全面选题结论。增长率null。
+百源缺口98，候选缺口5。quality_gate=failed；coverage_met=false；独立讨论不足10；不建议自动建页。
 
-## 采集审计
+## 渠道
 
-- note：原帖尝试5，实际打开5，合格0。标签两页无法读；作者页读到日记，RSS XML不支持；五篇原文中无严格合格。日语三日分段搜索大量纸牌或旧稿，另有中文B站发现尝试未得可核原文。
-- bluesky：原帖尝试0，实际打开0，合格0。官方公开Feed目录、两话题聚合、种子作者主页均无法读取；直接DNS失败。
-- youtube：原帖尝试5，实际打开0，合格0。日语目录三个时间段均有线索；4个作者5条watch并发首批全部throttled；官方频道RSS一条不可用。未继续重复。
-- pocketmads：原帖尝试1，实际打开1，合格0。公开feed有新快照；一条独立牌表可读，原发日期无时间或时区；不请求/api/。
-- reddit：原帖尝试3，实际打开2，合格0。三社区new页缓存4天、2周、4周；3条原帖尝试，2条可读但非构筑/旧文；未获得合格评论永久链接。
-- x：原帖尝试0，实际打开0，合格0。公开英文检索无可回原文；没有原帖可核。
+- note: 尝试6，直读5，合格1。两个新标签页不可访问；作者RSS XML不支持；搜索按11/23、24、25、26日期及构筑词，最新段无可核新作者；5原文可读1失败。
+- bluesky: 尝试0，直读0，合格0。官方公开Feed目录、两个话题聚合和作者主页不可访问；直连DNS失败；无独立原帖。
+- youtube: 尝试2，直读0，合格0。日语视频目录超时；外部发现两个同频道切片，watch均DisabledError；未取得channel ID或RSS原文。
+- pocketmads: 尝试3，直读3，合格1。公开feed及3条牌表可读；Nov24完整民用时区边界在窗内；Nov25两帖边界不在窗内；直接DNS失败。
+- reddit: 尝试2，直读2，合格0。三社区new列表均检查：PTCGP两周缓存、PokemonPocket五天缓存、PokemonTCGP仅导流置顶；父帖及评论均明显旧。
+- x: 尝试0，直读0，合格0。英日关键词公开检索无可核原帖。
+- smogon: 尝试1，直读0，合格0。新发现社区原文HTTP403，未继续请求。
 
-三切片合格均0。未独立打开评论永久链接；广泛发现总数未知。四路清单采用README字段；直接网络DNS失败，仓库Python发现及合并程序未实际运行，以本轮明细JS计算。未复制上轮计数。
+## 严格原文
 
-## 观察（不建议建页）
+- [bambee_san](https://note.com/bambee_san/n/n593df28527e5)，2026年11月24日 22:15。作者明确说昨天计划的牌组已组好；两能量睡眠、Hope Trainer换位保留能量、双Mewtwo卡位可能换治疗；明确尚未实战。未读到完整图，不宣称完整20张或战绩。 UTC保守范围 2026-11-24T08:15:00.000Z—2026-11-25T10:16:00.000Z（结束不含）。
+- [Infamous_D](https://app.pocketmads.com/feed/1ed9d52d-8db4-4b7a-857a-62ad12499d2d)，Published Nov 24, 2026。公开原始20卡：Dustox×2, Inkay×2, Malamar×2, Wurmple×2, Team Rocket’s Magmar×1, Poké Ball×2, Professor’s Research×2, Rare Candy×2, Copycat×1, Cyrus×1, Serena’s Choice×1, Team Rocket’s Master Plan×2。作者实测单超能、Inkay混乱、Malamar输出、Dustox后排状态辅助；Cyrus可换Sabrina，Magmar收尾，怕状态免疫。 UTC保守范围 2026-11-23T10:00:00.000Z—2026-11-25T12:00:00.000Z（结束不含）。
 
-### 胖丁 Jigglypuff / プリン
+时间切片：两条均跨切片，未分配2；无精确UTC。不是两条新发现：Dustox是本轮重读旧链接，胖丁是本轮发现新帖。
 
-C 待核；未实测构筑设想。原帖：[bambee_san](https://note.com/bambee_san/n/n061adda6392a)；显示时间 2026年11月24日 01:05。作者计划组胖丁睡眠＋Darkrai，考虑Mega Mewtwo X或Diancie收尾及两能量负担；还没有组成或实测该路线。。严格合格作者/父帖/评论均0。拟前场睡眠控制，终结位未确定。区分已有Igglybuff/Darkrai睡眠策略的胖丁双硬币机制、能量成本和后排终结位；现有卡页已覆盖部分用途。 [已有内容](https://www.pokemontcgpocket.app/en/deck/pokemon/igglybuff)；[卡面](https://www.pokemontcgpocket.app/en/card/C1-051)。下一步：真实20卡及实战、另一作者、hub状态。
+## 观察
 
-### 毒粉蛾 Dustox / ドクケイル
+- **乌贼王 Malamar / カラマネロ**：B 单作者，已有归档但新混乱变体待补证。主轴输出；Dustox为辅助，同一来源不可拆成两成熟机会。原文 https://app.pocketmads.com/feed/1ed9d52d-8db4-4b7a-857a-62ad12499d2d。已有 [策略](https://www.pokemontcgpocket.app/en/deck/malamar-b3-mega-sableye-ex-b3b)、[卡页](https://www.pokemontcgpocket.app/en/card/P-C-005)。关键词：malamar confusion deck / dustox malamar deck / カラマネロ デッキ。补证：第二独立玩家和父帖、卡号及独立hub HTTP；核Dustox B4-005后排机制与具体Malamar印刷。
+- **胖丁 Jigglypuff / プリン**：B 单作者实际组牌，未实战。前场两能量睡眠，后排Mewtwo终结；与已收录Igglybuff机制重叠。原文 https://note.com/bambee_san/n/n593df28527e5。已有 [策略](https://www.pokemontcgpocket.app/en/deck/pokemon/igglybuff)、[卡页](https://www.pokemontcgpocket.app/en/card/C1-051)。关键词：jigglypuff sleep deck / jigglypuff mewtwo deck / プリン デッキ。补证：完整20卡、实战及第二独立作者；验证hub。
+- **巨沼怪 Swampert / ラグラージ**：C 原发时间待核，两个同源快照。Mega Swampert ex主轴，Suicune ex支援，Sabrina换Lucky Ice Pop。原文 https://app.pocketmads.com/feed/d5905afa-c03b-4aba-ab4e-29972f28e1fe；https://app.pocketmads.com/feed/39083235-3b31-4c69-897a-10dbba1ae77d。已有 [策略](https://www.pokemontcgpocket.app/en/deck/mega-swampert-ex-swampert-b2)、[卡页](https://www.pokemontcgpocket.app/en/card/B2-036)。关键词：mega swampert ex suicune deck / mega swampert ex deck / メガラグラージex デッキ。补证：原发带时区时间、第二独立作者；区别已有Swampert/Baxcalibur归档。
 
-C 原发时间待核；与Malamar合为同一策略线索。原帖：[Infamous_D](https://app.pocketmads.com/feed/1ed9d52d-8db4-4b7a-857a-62ad12499d2d)；显示时间 Published Nov 24, 2026。20张非ex牌表：Inkay制造混乱、Malamar输出，后排两只Dustox，Team Rocket’s Magmar收尾；Cyrus可换Sabrina，怕状态免疫。。严格合格作者/父帖/评论均0。后排状态辅助，Malamar主输出；独立主轴未证。不同于Beautifly/Dustox归档的混乱路线；需确认Dustox独立主轴与具体印刷。 [已有内容](https://pokemontcgpocket.app/en/deck/beautifly-b1-dustox-b4)；[卡面](https://pokemontcgpocket.app/en/card/P-C-005)。下一步：原发ISO时间、第二独立作者、具体Dustox和Malamar卡号；不要拆成两个成熟机会。
+## 站内及发布
 
-## 站内核验
+Name、Popular各2页共47入口，sitemap及独立hub不可读，不宣称确认缺页。Rayquaza强制排除。
 
-Popular与Name分别完整2页，40+6=46入口。三条hub探针及sitemap不可读，不等于404，全部待核。Rayquaza强制排除。
+[证据](evidence/2026-11-26-100020-daily.json)（仓库根目录相对路径） / [历史](history/2026-11-26-100020-daily.json) / [最新JSON](latest.json)。
 
-## 资产
-
-[完整证据](evidence/2026-11-25-100108-daily.json) · [历史JSON](history/2026-11-25-100108-daily.json)。发布验证待完成。
+UTC−12至UTC+14范围完整落窗方可纳入；没有虚构created_utc。两个严格证据均跨24h切片，不能强行定位。仓库merge程序只接受精确时间，故本次使用独立区间检查和同一明细汇总；没有运行原Python发现/合并程序，DNS不可用。 发布状态 pending；公网以实际回读为准。

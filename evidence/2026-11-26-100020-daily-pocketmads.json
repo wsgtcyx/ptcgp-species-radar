@@ -1,0 +1,128 @@
+{
+  "run_id": "2026-11-26-100020-daily",
+  "window": {
+    "start": "2026-11-23T10:00:20+08:00",
+    "end": "2026-11-26T10:00:20+08:00",
+    "hours": 72,
+    "timezone": "Asia/Shanghai"
+  },
+  "coverage": {
+    "state": "attempted",
+    "original_urls_attempted": 3,
+    "directly_opened_first_party": 3,
+    "time_verified": 1,
+    "within_window": 1,
+    "substantive_content_read": 2,
+    "eligible": 1,
+    "distinct_authors_eligible": 1,
+    "distinct_parents_eligible": 1,
+    "discovered_unique_lower_bound": 1,
+    "obstacles": "公开feed及3条牌表可读；Nov24完整民用时区边界在窗内；Nov25两帖边界不在窗内；直接DNS失败。"
+  },
+  "records": [
+    {
+      "platform": "pocketmads",
+      "source_id": "1ed9d52d-8db4-4b7a-857a-62ad12499d2d",
+      "kind": "post",
+      "parent_thread_id": "1ed9d52d-8db4-4b7a-857a-62ad12499d2d",
+      "canonical_url": "https://app.pocketmads.com/feed/1ed9d52d-8db4-4b7a-857a-62ad12499d2d",
+      "permalink": "https://app.pocketmads.com/feed/1ed9d52d-8db4-4b7a-857a-62ad12499d2d",
+      "community": "pocketmads",
+      "author": "Infamous_D",
+      "created_utc": null,
+      "published_at_bjt": null,
+      "time_interval_utc": {
+        "earliest": "2026-11-23T10:00:00.000Z",
+        "latest_exclusive": "2026-11-25T12:00:00.000Z",
+        "basis": "Visible first-party publication date/minute; unknown display offset conservatively bounded UTC−12 to UTC+14, end exclusive."
+      },
+      "published_text": "Published Nov 24, 2026",
+      "evidence": "公开原始20卡：Dustox×2, Inkay×2, Malamar×2, Wurmple×2, Team Rocket’s Magmar×1, Poké Ball×2, Professor’s Research×2, Rare Candy×2, Copycat×1, Cyrus×1, Serena’s Choice×1, Team Rocket’s Master Plan×2。作者实测单超能、Inkay混乱、Malamar输出、Dustox后排状态辅助；Cyrus可换Sabrina，Magmar收尾，怕状态免疫。",
+      "deck_intent": "20-card original deck and play experience",
+      "species": [
+        "Dustox",
+        "Malamar",
+        "Inkay",
+        "Wurmple",
+        "Magmar"
+      ],
+      "form": "明确非ex；Dustox B4-005机制相符，具体印刷未核；Malamar版本未知",
+      "is_pocket": true,
+      "verification_method": "First-party original page text; no exact metadata available",
+      "verified_at": "2026-11-26T10:01:43+08:00",
+      "directly_opened": true,
+      "duplicate_of": null,
+      "exclusion_reason": null,
+      "review_state": "first_party_original_substantive",
+      "time_method": "first-party Published date; conservative full civil day across UTC offsets",
+      "newly_discovered": false,
+      "strict_eligible": true
+    },
+    {
+      "platform": "pocketmads",
+      "source_id": "d5905afa-c03b-4aba-ab4e-29972f28e1fe",
+      "kind": "post",
+      "parent_thread_id": "d5905afa-c03b-4aba-ab4e-29972f28e1fe",
+      "canonical_url": "https://app.pocketmads.com/feed/d5905afa-c03b-4aba-ab4e-29972f28e1fe",
+      "permalink": "https://app.pocketmads.com/feed/d5905afa-c03b-4aba-ab4e-29972f28e1fe",
+      "community": "pocketmads",
+      "author": "tb_12thegoat",
+      "created_utc": null,
+      "published_at_bjt": null,
+      "time_interval_utc": {
+        "earliest": "2026-11-24T10:00:00.000Z",
+        "latest_exclusive": "2026-11-26T12:00:00.000Z",
+        "basis": "Visible first-party publication date/minute; unknown display offset conservatively bounded UTC−12 to UTC+14, end exclusive."
+      },
+      "published_text": "Published Nov 25, 2026",
+      "evidence": "原始20卡Mega Swampert ex / Suicune ex，作者说已实测；两张各主卡、两Mudkip、Rare Candy、Heavy Helmet、Lucky Ice Pop等。",
+      "deck_intent": "20-card deck and player test",
+      "species": [
+        "Swampert",
+        "Suicune"
+      ],
+      "form": "Mega Swampert ex / Suicune ex, printing unknown",
+      "is_pocket": true,
+      "verification_method": "First-party original page text; no exact metadata available",
+      "verified_at": "2026-11-26T10:01:43+08:00",
+      "directly_opened": true,
+      "duplicate_of": null,
+      "exclusion_reason": "保守日期区间超过冻结截止，不能确认首发在窗内",
+      "review_state": "excluded",
+      "strict_eligible": false
+    },
+    {
+      "platform": "pocketmads",
+      "source_id": "39083235-3b31-4c69-897a-10dbba1ae77d",
+      "kind": "post",
+      "parent_thread_id": "39083235-3b31-4c69-897a-10dbba1ae77d",
+      "canonical_url": "https://app.pocketmads.com/feed/39083235-3b31-4c69-897a-10dbba1ae77d",
+      "permalink": "https://app.pocketmads.com/feed/39083235-3b31-4c69-897a-10dbba1ae77d",
+      "community": "pocketmads",
+      "author": "tb_12thegoat",
+      "created_utc": null,
+      "published_at_bjt": null,
+      "time_interval_utc": {
+        "earliest": "2026-11-24T10:00:00.000Z",
+        "latest_exclusive": "2026-11-26T12:00:00.000Z",
+        "basis": "Visible first-party publication date/minute; unknown display offset conservatively bounded UTC−12 to UTC+14, end exclusive."
+      },
+      "published_text": "Published Nov 25, 2026",
+      "evidence": "同作者同名20卡牌组，仅将Lucky Ice Pop换成Sabrina，其他牌相同。",
+      "deck_intent": null,
+      "species": [
+        "Swampert",
+        "Suicune"
+      ],
+      "form": "Mega Swampert ex / Suicune ex",
+      "is_pocket": true,
+      "verification_method": "First-party original page text; no exact metadata available",
+      "verified_at": "2026-11-26T10:01:43+08:00",
+      "directly_opened": true,
+      "duplicate_of": "d5905afa-c03b-4aba-ab4e-29972f28e1fe",
+      "exclusion_reason": "同源微调不重复计，且时间区间超窗",
+      "review_state": "excluded",
+      "strict_eligible": false
+    }
+  ]
+}

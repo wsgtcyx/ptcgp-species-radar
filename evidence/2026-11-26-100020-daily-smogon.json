@@ -1,0 +1,50 @@
+{
+  "run_id": "2026-11-26-100020-daily",
+  "window": {
+    "start": "2026-11-23T10:00:20+08:00",
+    "end": "2026-11-26T10:00:20+08:00",
+    "hours": 72,
+    "timezone": "Asia/Shanghai"
+  },
+  "coverage": {
+    "state": "failed",
+    "original_urls_attempted": 1,
+    "directly_opened_first_party": 0,
+    "time_verified": 0,
+    "within_window": 0,
+    "substantive_content_read": 0,
+    "eligible": 0,
+    "distinct_authors_eligible": 0,
+    "distinct_parents_eligible": 0,
+    "discovered_unique_lower_bound": 0,
+    "obstacles": "新发现社区原文HTTP403，未继续请求。"
+  },
+  "records": [
+    {
+      "platform": "smogon",
+      "source_id": "3790459",
+      "kind": "post",
+      "parent_thread_id": "3790459",
+      "canonical_url": "https://www.smogon.com/forums/threads/tcg-pocket-metagame-discussion.3790459/",
+      "permalink": "https://www.smogon.com/forums/threads/tcg-pocket-metagame-discussion.3790459/",
+      "community": "smogon",
+      "author": null,
+      "created_utc": null,
+      "published_at_bjt": null,
+      "time_interval_utc": null,
+      "published_text": null,
+      "evidence": null,
+      "deck_intent": null,
+      "species": [],
+      "form": null,
+      "is_pocket": null,
+      "verification_method": "HTTP 403",
+      "verified_at": "2026-11-26T10:01:43+08:00",
+      "directly_opened": false,
+      "duplicate_of": null,
+      "exclusion_reason": "原文403；停止此路径",
+      "review_state": "excluded",
+      "strict_eligible": false
+    }
+  ]
+}

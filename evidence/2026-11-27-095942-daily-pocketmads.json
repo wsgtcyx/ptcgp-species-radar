@@ -1,0 +1,136 @@
+{
+  "run_id": "2026-11-27-095942-daily",
+  "window": {
+    "start": "2026-11-24T09:59:42+08:00",
+    "end": "2026-11-27T09:59:42+08:00",
+    "hours": 72,
+    "timezone": "Asia/Shanghai"
+  },
+  "platform": "pocketmads",
+  "coverage": {
+    "state": "attempted",
+    "original_urls_attempted": 3,
+    "directly_opened_first_party": 3,
+    "time_verified": 2,
+    "within_window": 2,
+    "substantive_content_read": 3,
+    "eligible": 1,
+    "distinct_authors_eligible": 1,
+    "distinct_parents_eligible": 1,
+    "discovered_unique_lower_bound": 1,
+    "obstacles": "公开Feed及三原帖可读；两份同源迭代去重；日期无时区；Malamar的可能时间跨窗口起点。",
+    "directly_opened": 3,
+    "first_party_timed": 2
+  },
+  "records": [
+    {
+      "platform": "pocketmads",
+      "source_id": "39083235-3b31-4c69-897a-10dbba1ae77d",
+      "kind": "post",
+      "parent_thread_id": "d5905afa-c03b-4aba-ab4e-29972f28e1fe",
+      "canonical_url": "https://app.pocketmads.com/feed/39083235-3b31-4c69-897a-10dbba1ae77d",
+      "permalink": "https://app.pocketmads.com/feed/39083235-3b31-4c69-897a-10dbba1ae77d",
+      "community": "pocketmads",
+      "author": "tb_12thegoat",
+      "created_utc": null,
+      "published_at_bjt": null,
+      "published_text": "Published 2026-11-25",
+      "time_interval_utc": {
+        "earliest": "2026-11-24T10:00:00.000Z",
+        "latest_exclusive": "2026-11-26T12:00:00.000Z",
+        "basis": "First-party published label; unknown display offset bounded UTC−12 through UTC+14; exclusive upper bound."
+      },
+      "evidence": "20卡：2 Mega Swampert ex、2 Suicune ex、2 Mudkip、2 Heavy Helmet、2 Poké Ball、2 Professor's Research、2 Rare Candy，Copycat、Irida、Lillie、Misty、Sabrina、Soothing Shore各1。实测后Lucky Ice Pop换Sabrina，治疗已足。",
+      "deck_intent": "实战牌表与单卡优化",
+      "species": [
+        "Swampert",
+        "Suicune",
+        "Mudkip"
+      ],
+      "form": "Mega Swampert ex / Suicune ex; print unknown",
+      "is_pocket": true,
+      "verification_method": "First-party rendered page review",
+      "verified_at": "2026-11-27T10:01:56+08:00",
+      "directly_opened": true,
+      "duplicate_of": null,
+      "exclusion_reason": null,
+      "review_state": "first_party_original_substantive",
+      "newly_discovered": false,
+      "within_window": true,
+      "strict_eligible": true
+    },
+    {
+      "platform": "pocketmads",
+      "source_id": "d5905afa-c03b-4aba-ab4e-29972f28e1fe",
+      "kind": "post",
+      "parent_thread_id": "d5905afa-c03b-4aba-ab4e-29972f28e1fe",
+      "canonical_url": "https://app.pocketmads.com/feed/d5905afa-c03b-4aba-ab4e-29972f28e1fe",
+      "permalink": "https://app.pocketmads.com/feed/d5905afa-c03b-4aba-ab4e-29972f28e1fe",
+      "community": "pocketmads",
+      "author": "tb_12thegoat",
+      "created_utc": null,
+      "published_at_bjt": null,
+      "published_text": "Published 2026-11-25",
+      "time_interval_utc": {
+        "earliest": "2026-11-24T10:00:00.000Z",
+        "latest_exclusive": "2026-11-26T12:00:00.000Z",
+        "basis": "First-party published label; unknown display offset bounded UTC−12 through UTC+14; exclusive upper bound."
+      },
+      "evidence": "同作者同一Mega Swampert ex/Suicune ex构筑的初始版本，Lucky Ice Pop替代Sabrina。",
+      "deck_intent": "实战牌表",
+      "species": [
+        "Swampert",
+        "Suicune",
+        "Mudkip"
+      ],
+      "form": "Mega Swampert ex / Suicune ex",
+      "is_pocket": true,
+      "verification_method": "First-party rendered page review",
+      "verified_at": "2026-11-27T10:01:56+08:00",
+      "directly_opened": true,
+      "duplicate_of": "pocketmads:39083235-3b31-4c69-897a-10dbba1ae77d",
+      "exclusion_reason": "same_author_same_strategy_revision",
+      "review_state": "excluded",
+      "newly_discovered": false,
+      "within_window": true,
+      "strict_eligible": false
+    },
+    {
+      "platform": "pocketmads",
+      "source_id": "1ed9d52d-8db4-4b7a-857a-62ad12499d2d",
+      "kind": "post",
+      "parent_thread_id": "1ed9d52d-8db4-4b7a-857a-62ad12499d2d",
+      "canonical_url": "https://app.pocketmads.com/feed/1ed9d52d-8db4-4b7a-857a-62ad12499d2d",
+      "permalink": "https://app.pocketmads.com/feed/1ed9d52d-8db4-4b7a-857a-62ad12499d2d",
+      "community": "pocketmads",
+      "author": "Infamous_D",
+      "created_utc": null,
+      "published_at_bjt": null,
+      "published_text": "Published 2026-11-24",
+      "time_interval_utc": {
+        "earliest": "2026-11-23T10:00:00.000Z",
+        "latest_exclusive": "2026-11-25T12:00:00.000Z",
+        "basis": "First-party published label; unknown display offset bounded UTC−12 through UTC+14; exclusive upper bound."
+      },
+      "evidence": "20卡，Inkay混乱、Malamar主攻、Dustox后排辅助、Rocket Magmar收尾，单超能量。",
+      "deck_intent": "牌表与搭档",
+      "species": [
+        "Malamar",
+        "Dustox",
+        "Inkay",
+        "Magmar"
+      ],
+      "form": "普通，印刷未知",
+      "is_pocket": true,
+      "verification_method": "First-party rendered page review",
+      "verified_at": "2026-11-27T10:01:56+08:00",
+      "directly_opened": true,
+      "duplicate_of": null,
+      "exclusion_reason": "publication_interval_overlaps_window_start",
+      "review_state": "excluded",
+      "newly_discovered": false,
+      "within_window": false,
+      "strict_eligible": false
+    }
+  ]
+}

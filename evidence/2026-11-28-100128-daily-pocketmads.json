@@ -1,0 +1,141 @@
+{
+  "run_id": "2026-11-28-100128-daily",
+  "window": {
+    "start": "2026-11-25T10:01:28+08:00",
+    "end": "2026-11-28T10:01:28+08:00",
+    "hours": 72,
+    "timezone": "Asia/Shanghai"
+  },
+  "platform": "pocketmads",
+  "coverage": {
+    "state": "attempted",
+    "attempted": true,
+    "reviewed_unique_urls": 3,
+    "directly_opened": 3,
+    "first_party_timed": 0,
+    "in_window": 0,
+    "discovered": 0,
+    "substantive_original_in_window": 0,
+    "eligible": 0,
+    "independent_authors": 0,
+    "parent_threads": 0,
+    "reason": "公开feed与三条独立牌表可读；精确首发时区缺失；两条旧链接时间区间跨起点，新条目作者归属不明且日期区间跨截止。"
+  },
+  "records": [],
+  "excluded_records": [
+    {
+      "platform": "pocketmads",
+      "source_id": "39083235-3b31-4c69-897a-10dbba1ae77d",
+      "kind": "post",
+      "parent_thread_id": "39083235-3b31-4c69-897a-10dbba1ae77d",
+      "canonical_url": "https://app.pocketmads.com/feed/39083235-3b31-4c69-897a-10dbba1ae77d",
+      "permalink": "https://app.pocketmads.com/feed/39083235-3b31-4c69-897a-10dbba1ae77d",
+      "community": "pocketmads",
+      "author": "tb_12thegoat",
+      "created_utc": null,
+      "time_interval": {
+        "earliest": "2026-11-24T18:00:00+08:00",
+        "latest": "2026-11-26T19:59:59.999+08:00"
+      },
+      "published_at_bjt": null,
+      "displayed_published": "2026-11-25",
+      "evidence": "完整20卡，测试后用Sabrina替换Lucky Ice Pop，Mega Swampert ex/Suicune ex。",
+      "deck_intent": "optimization",
+      "species": [
+        "Swampert",
+        "Suicune"
+      ],
+      "form": [
+        "Mega Swampert ex",
+        "Suicune ex"
+      ],
+      "is_pocket": true,
+      "verification_method": "第一方原文网页文本；无原始 HTML 时间字段",
+      "verified_at": "2026-11-28T10:02:54+08:00",
+      "verified_at_precision": "batch_checkpoint_not_individual_request_time",
+      "directly_opened": true,
+      "duplicate_of": null,
+      "exclusion_reason": "time_interval_crosses_start",
+      "review_state": "excluded",
+      "reviewed_old_link": true,
+      "in_window": null
+    },
+    {
+      "platform": "pocketmads",
+      "source_id": "d5905afa-c03b-4aba-ab4e-29972f28e1fe",
+      "kind": "post",
+      "parent_thread_id": "d5905afa-c03b-4aba-ab4e-29972f28e1fe",
+      "canonical_url": "https://app.pocketmads.com/feed/d5905afa-c03b-4aba-ab4e-29972f28e1fe",
+      "permalink": "https://app.pocketmads.com/feed/d5905afa-c03b-4aba-ab4e-29972f28e1fe",
+      "community": "pocketmads",
+      "author": "tb_12thegoat",
+      "created_utc": null,
+      "time_interval": {
+        "earliest": "2026-11-24T18:00:00+08:00",
+        "latest": "2026-11-26T19:59:59.999+08:00"
+      },
+      "published_at_bjt": null,
+      "displayed_published": "2026-11-25",
+      "evidence": "同一作者的原始20卡实战分享，后续仅一张训练家更换。",
+      "deck_intent": "playtest",
+      "species": [
+        "Swampert",
+        "Suicune"
+      ],
+      "form": [
+        "Mega Swampert ex",
+        "Suicune ex"
+      ],
+      "is_pocket": true,
+      "verification_method": "第一方原文网页文本；无原始 HTML 时间字段",
+      "verified_at": "2026-11-28T10:02:54+08:00",
+      "verified_at_precision": "batch_checkpoint_not_individual_request_time",
+      "directly_opened": true,
+      "duplicate_of": "39083235-3b31-4c69-897a-10dbba1ae77d",
+      "exclusion_reason": "time_interval_crosses_start_and_same_strategy_revision",
+      "review_state": "excluded",
+      "reviewed_old_link": true,
+      "in_window": null
+    },
+    {
+      "platform": "pocketmads",
+      "source_id": "35117e40-fd5a-4635-b338-245cef1736dc",
+      "kind": "post",
+      "parent_thread_id": "35117e40-fd5a-4635-b338-245cef1736dc",
+      "canonical_url": "https://app.pocketmads.com/feed/35117e40-fd5a-4635-b338-245cef1736dc",
+      "permalink": "https://app.pocketmads.com/feed/35117e40-fd5a-4635-b338-245cef1736dc",
+      "community": "pocketmads",
+      "author": "marbeta18",
+      "created_utc": null,
+      "time_interval": {
+        "earliest": "2026-11-26T18:00:00+08:00",
+        "latest": "2026-11-28T19:59:59.999+08:00"
+      },
+      "published_at_bjt": null,
+      "displayed_published": "2026-11-27",
+      "evidence": "Skyfire Ascension 4.0，Ho-Oh加速Mega Rayquaza，Entei早期施压，训练家更换；正文标记编辑并归属PKMN_Sensei，账号对应关系未核。",
+      "deck_intent": "optimization",
+      "species": [
+        "Rayquaza",
+        "Charizard",
+        "Ho-Oh",
+        "Entei"
+      ],
+      "form": [
+        "Mega Rayquaza ex",
+        "Charizard",
+        "Ho-Oh ex",
+        "Entei ex"
+      ],
+      "is_pocket": true,
+      "verification_method": "第一方原文网页文本；无原始 HTML 时间字段",
+      "verified_at": "2026-11-28T10:02:54+08:00",
+      "verified_at_precision": "batch_checkpoint_not_individual_request_time",
+      "directly_opened": true,
+      "duplicate_of": null,
+      "exclusion_reason": "originality_unconfirmed_and_date_interval_crosses_cutoff",
+      "review_state": "excluded",
+      "in_window": null
+    }
+  ]
+}

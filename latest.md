@@ -1,37 +1,36 @@
-# PTCGP 新物种 Deck SEO 雷达 · 2026-11-27
+# 2026-11-28 PTCGP 新物种 Deck SEO 选题雷达
 
-run_id: 2026-11-27-095942-daily
+合格信源 0/100｜实际打开 10｜独立讨论 0｜合格候选 0/5。
 
-**合格信源 2/100｜实际打开 29｜独立讨论 2｜合格候选 0/5**
+窗口：2026-11-25T10:01:28+08:00 — 2026-11-28T10:01:28+08:00。百源缺口100，候选缺口5。quality_gate=failed；coverage_met=false；source_diversity_insufficient=true。不得自动建页。
 
-窗口 2026-11-24T09:59:42+08:00 — 2026-11-27T09:59:42+08:00。百源缺口98，候选缺口5。未达门槛，不建页。两条证据为本轮复核旧链接，新增合格作者0；精确时间未知，保守区间完整在窗内，两条切片均未能精确归属。
+## 渠道审计
 
-- note: 尝试7，打开7，合格1。两公开标签不可读；作者档案可读但最新文章未取到永久链接；RSS XML不支持；英日日期搜索混有实体TCG和旧结果。
-- bluesky: 尝试0，打开0，合格0。官方公开Feed目录和两个英日话题入口均失败，外部搜索未获得可核原文；直接DNS失败。
-- youtube: 尝试2，打开0，合格0。日语目录可读，两独立频道watch均限流；无可靠频道ID/RSS正文，不重复请求。
-- pocketmads: 尝试3，打开3，合格1。公开Feed及三原帖可读；两份同源迭代去重；日期无时区；Malamar的可能时间跨窗口起点。
-- reddit: 尝试22，打开19，合格0。三个社区new及部分search/top；多日缓存、部分原帖禁读、独立评论时间标签不一致；JSON路径不可读。
-- x: 尝试0，打开0，合格0。公开搜索无可核原帖。
-- threads: 尝试0，打开0，合格0。公开搜索无可核原帖。
-- bilibili: 尝试0，打开0，合格0。中文检索未取得可核Pocket构筑原帖。
+- note：尝试原文 4，打开 4，合格0。新着两个URL不可读；普通标签缓存5天；作者RSS XML不支持；三日期检索及作者页发现后打开4篇，均非构筑。
+- bluesky：尝试原文 0，打开 0，合格0。英日话题索引、官方公开Feed目录、作者页及getAuthorFeed不可访问；直连DNS失败。
+- youtube：尝试原文 3，打开 0，合格0。目录可读（标题/目录不计）；三位创作者watch限流，频道RSS未取得canonical channel ID，未运行；英语检索未找到可验新视频。
+- pocketmads：尝试原文 3，打开 3，合格0。公开feed与三条独立牌表可读；精确首发时区缺失；两条旧链接时间区间跨起点，新条目作者归属不明且日期区间跨截止。
+- reddit：尝试原文 3，打开 3，合格0。三个new列表分别缓存3周、1周、3天；周搜索disabled；原文3条，时间或意图不合格；评论未独立直读。
+- x：尝试原文 0，打开 0，合格0。公开检索只见第三方聚合；第一方作者页403，不绕过。
+- threads：尝试原文 0，打开 0，合格0。公开搜索无可核原帖。
+- bilibili：尝试原文 0，打开 0，合格0。公开搜索无可核原帖。
 
-## 观察
+合计原文13，打开10。3条窗口内Pocket原创非构筑文章；精确首发时间0；三切片合格均0。四路合并程序实际运行，0合格；直接网络DNS不可用。目录与搜索摘要不计。
 
-### 巨沼怪 / Swampert / ラグラージ
-B 单作者实战，新变体待补证；作者1，根帖1，评论0。Mega Swampert ex主攻，Suicune ex辅助，实测卡位调整。证据：https://app.pocketmads.com/feed/39083235-3b31-4c69-897a-10dbba1ae77d；https://app.pocketmads.com/feed/d5905afa-c03b-4aba-ab4e-29972f28e1fe。已有内容：https://www.pokemontcgpocket.app/en/deck/mega-swampert-ex-swampert-b2；卡牌：https://www.pokemontcgpocket.app/en/card/B2-036。关键词：mega swampert ex suicune deck、メガラグラージex デッキ。第二位独立作者及根帖、印刷卡号、hub状态及与现有攻略的独立价值。
+## 观察（C档）
 
-### 胖丁 / Jigglypuff / プリン
-B 实际组牌尚未实战；作者1，根帖1，评论0。睡眠前场、Mewtwo后场，Hope Trainer节能。证据：https://note.com/bambee_san/n/n593df28527e5。已有内容：https://www.pokemontcgpocket.app/en/deck/pokemon/igglybuff；卡牌：https://www.pokemontcgpocket.app/en/card/C1-051。关键词：jigglypuff sleep deck、jigglypuff mewtwo deck、プリン デッキ。第二位独立作者、实战和原图20卡，hub状态，与Igglybuff意图区分。
+巨沼怪：https://app.pocketmads.com/feed/39083235-3b31-4c69-897a-10dbba1ae77d 与 https://app.pocketmads.com/feed/d5905afa-c03b-4aba-ab4e-29972f28e1fe 是同作者策略迭代，11月25日显示日期的保守时间区间跨窗口起点，本轮两条均排除。已有归档 https://www.pokemontcgpocket.app/en/deck/mega-swampert-ex-swampert-b2，卡面 https://www.pokemontcgpocket.app/en/card/B2-036，hub未核实，不能建页。
 
-### 乌贼王 / Malamar / カラマネロ
-C 首发时间跨窗口起点；作者0，根帖0，评论0。Malamar主攻，Dustox辅助，不拆成两个机会。证据：https://app.pocketmads.com/feed/1ed9d52d-8db4-4b7a-857a-62ad12499d2d。已有内容：https://www.pokemontcgpocket.app/en/deck/malamar-b3-mega-sableye-ex-b3b；卡牌：https://www.pokemontcgpocket.app/en/card/P-C-005。关键词：malamar confusion deck、dustox malamar deck、カラマネロ デッキ。首发精确时间、第二位独立作者、hub状态。
+新发现Skyfire Ascension： https://app.pocketmads.com/feed/35117e40-fd5a-4635-b338-245cef1736dc ，11月27日，作者归属与时间未核，Rayquaza强制排除。
 
 ## 站内核查
 
-Name、Popular各2页，40+8，共48。独立hub和sitemap不可读，不认定缺页。Rayquaza强制排除。
+Popular/Name各2页，40+8=48，目录页均可读，sitemap与独立hub未核实；网页缓存不等于当前线上状态。
 
-## 审计
+## 资产
 
-本轮重新读原文。DNS失败，未运行Python发现脚本；merge只接受精确created_utc，当前合格均为保守区间，采用独立区间校验与ID/URL去重。搜索、两个日语标签、三Reddit社区与两批原帖/评论核查后仍未满足目标；本轮采集预算及可达性限制，不能声称穷尽平台。
+- [完整证据](evidence/2026-11-28-100128-daily.json)
+- [历史快照](history/2026-11-28-100128-daily.json)
+- [latest.json](latest.json)
 
-证据 [JSON](https://wsgtcyx.github.io/ptcgp-species-radar/evidence/2026-11-27-095942-daily.json)，历史 [JSON](https://wsgtcyx.github.io/ptcgp-species-radar/history/2026-11-27-095942-daily.json)。发布状态待部署及独立公网核验。
+发布待部署及公网独立核验。
